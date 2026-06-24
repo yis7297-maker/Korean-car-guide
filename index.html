@@ -1,0 +1,152 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Korean CAR GUIDE</title>
+  <meta name="title" content="Korean CAR GUIDE">
+  <meta name="description" content="현대자동차, 기아, 제네시스 차량 기능과 사용법을 쉽게 검색할 수 있는 자동차 기능 가이드 베타 서비스입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Korean CAR GUIDE">
+  <meta property="og:title" content="Korean CAR GUIDE | 복잡한 자동차 기능 사용법, 한 눈에!">
+  <meta property="og:description" content="현대자동차, 기아, 제네시스 차량 기능과 사용법을 쉽게 검색할 수 있는 자동차 기능 가이드 베타 서비스입니다.">
+  <meta property="og:image" content="https://YOUR-DOMAIN.example/assets/hero-original-mobility-v2.png">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <img class="hero__image" src="assets/hero-original-mobility-v2.png" alt="미래형 전기 SUV와 세단이 있는 자체 제작 모빌리티 이미지">
+      <div class="hero__shade"></div>
+      <nav class="topbar" aria-label="사이트 홈">
+        <a class="brand-mark" href="#">Korean CAR GUIDE</a>
+      </nav>
+      <section class="hero__content" aria-labelledby="page-title">
+        <h1 id="page-title">복잡한 자동차 기능 사용법, 한 눈에!</h1>
+        <p class="hero-copy">가지고 계신 차량을 선택하고 궁금한 기능을 찾아보세요.</p>
+        <div class="hero-search-mount" id="heroSearchMount"></div>
+      </section>
+    </header>
+
+    <aside class="ad-slot hero-ad-slot" aria-label="히어로 하단 광고 영역">AD Responsive / 728×90 / 970×250</aside>
+
+    <main class="workspace">
+      <aside class="filters" aria-label="검색 필터">
+        <div class="search-box">
+          <label for="searchInput">검색어</label>
+          <div class="search-control">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="예: 원격 시동, HDA, 블루투스, 충전" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <p class="filter-title">카테고리</p>
+          <div class="chip-grid" id="categoryFilters"></div>
+        </div>
+
+        <div id="typeFilters" hidden aria-hidden="true"></div>
+
+        <div class="quick-card">
+          <strong>빠른 진단</strong>
+          <p>증상이나 버튼 이름만 떠올라도 검색창에 입력하면 관련 기능과 점검 순서를 함께 보여줍니다.</p>
+        </div>
+      </aside>
+
+      <section class="results-area" aria-live="polite">
+        <div class="summary-row">
+          <div>
+            <p class="result-count" id="resultCount">0개 결과</p>
+            <h2 id="sectionTitle">추천 기능</h2>
+          </div>
+          <div class="sort-control">
+            <label for="sortSelect">정렬</label>
+            <select id="sortSelect">
+              <option value="recommended">추천순</option>
+              <option value="difficulty">쉬운 사용법순</option>
+              <option value="brand">브랜드순</option>
+            </select>
+          </div>
+        </div>
+        <div class="cards" id="cards"></div>
+      </section>
+
+      <aside class="detail-panel" aria-label="선택한 기능 상세" hidden>
+        <div class="detail-panel__inner" id="detailPanel"></div>
+      </aside>
+    </main>
+  </div>
+
+  <section class="update-preview" aria-labelledby="recentUpdateTitle">
+    <div>
+      <p class="update-preview__eyebrow">최근 업데이트</p>
+      <h2 id="recentUpdateTitle">새로 반영된 기능</h2>
+    </div>
+    <ul>
+      <li><span class="update-type update-type--new">신규 기능</span>TMED-2 스테이 모드 추가</li>
+      <li><span class="update-type update-type--modify">기능 수정</span>EV 기능 및 차량 매핑 검수</li>
+      <li><span class="update-type update-type--new">신규 기능</span>Memory Reverse Assist 추가</li>
+    </ul>
+    <button class="update-open-button" type="button" data-open-update-log>전체 보기</button>
+  </section>
+
+  <section class="beta-open" aria-label="베타 서비스 안내">
+    <span aria-hidden="true">🚧</span>
+    <div>
+      <strong>Beta Open</strong>
+      <p>지속적으로 기능 데이터와 적용 차량 정보를 검수 및 업데이트하고 있습니다.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <h2>Korean CAR GUIDE Beta</h2>
+      <p>본 서비스는 현대자동차, 기아, 제네시스 차량 기능 정보를 보다 쉽게 검색할 수 있도록 제공하는 비공식 정보 플랫폼입니다.</p>
+      <p>현재 베타(Beta) 서비스 단계로 운영되고 있으며, 기능 정보 및 적용 차량 데이터는 지속적으로 업데이트되고 있습니다.</p>
+      <p>모든 정보는 현대자동차, 기아, 제네시스의 공식 카탈로그, 가격표, 웹 매뉴얼, 오너스 매뉴얼 및 공식 홈페이지를 기반으로 작성되었으나, 차량 연식, 트림, 옵션, 국가별 사양 및 소프트웨어 버전에 따라 실제 적용 여부가 달라질 수 있습니다.</p>
+      <p>본 사이트의 정보는 참고용으로 제공되며, 차량 구매 판단이나 정비, 안전 운행을 위한 최종 기준으로 사용되어서는 안 됩니다. 실제 기능 사용 전에는 반드시 해당 차량의 공식 매뉴얼과 제조사 안내 사항을 확인하시기 바랍니다.</p>
+      <p>본 사이트는 현대자동차, 기아, 제네시스 또는 현대자동차그룹이 운영하거나 공식 인증한 서비스가 아닙니다.</p>
+      <div class="site-footer__meta">
+        <span>Beta Version</span>
+        <span>Last Updated: 2026.06</span>
+      </div>
+      <button class="footer-update-button" type="button" data-open-update-log>📋 업데이트 내역</button>
+      <button id="trafficAdminToggle" type="button" aria-pressed="true">방문자 위젯 ON</button>
+    </div>
+  </footer>
+
+  <aside class="traffic-widget" id="trafficWidget" aria-label="방문자 통계">
+    <span>오늘 방문자 <strong id="todayVisitors">0</strong></span>
+    <span>누적 방문자 <strong id="totalVisitors">0</strong></span>
+  </aside>
+
+  <template id="cardTemplate">
+    <article class="feature-card" tabindex="0">
+      <div class="card-topline">
+        <span class="badge"></span>
+        <button class="bookmark" type="button" aria-label="즐겨찾기">☆</button>
+      </div>
+      <h3></h3>
+      <p class="description"></p>
+      <div class="meta-row"></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+  <script src="patch.js"></script>
+  <script src="data-expansion.js"></script>
+  <script src="hero-enhancement.js"></script>
+  <script src="feature-improvements.js"></script>
+  <script src="hybrid-tmed2.js"></script>
+  <script src="update-log.js"></script>
+</body>
+</html>
+
+
+
+
+
