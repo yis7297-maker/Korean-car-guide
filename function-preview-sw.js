@@ -8,6 +8,10 @@ self.addEventListener('fetch', event => {
     url.origin === self.location.origin &&
     /^\/function\/[^/]+\/$/.test(url.pathname)
   ) {
-    event.respondWith(fetch(`${url.pathname}index.html`, { redirect: 'follow' }));
+    event.respondWith(
+      fetch(`${url.pathname}index.html`, { redirect: 'follow' })
+        .then(response => response.ok ? response : fetch('/404.html'))
+        .catch(() => fetch('/404.html'))
+    );
   }
 });

@@ -1,0 +1,677 @@
+{
+  "matchingOrder": [
+    "slug",
+    "slugAliases",
+    "englishNameSlug",
+    "koreanFeatureName"
+  ],
+  "entries": [
+    {
+      "id": "fca-suite",
+      "name": "전방 충돌방지 보조",
+      "slug": "fca-suite",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/fca-suite/"
+    },
+    {
+      "id": "nscc-hda2",
+      "name": "NSCC / HDA 2",
+      "slug": "nscc-hda2",
+      "aliases": [
+        "nscc-hda-2"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/nscc-hda2/"
+    },
+    {
+      "id": "rspa2",
+      "name": "원격 스마트 주차 보조 2 / RSPA 2",
+      "slug": "rspa2",
+      "aliases": [
+        "rspa-2",
+        "remote-smart-parking-assist-2",
+        "remote-smart-parking-assist",
+        "2-rspa-2"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/rspa2/"
+    },
+    {
+      "id": "dual-auto-ac",
+      "name": "듀얼 풀오토 에어컨",
+      "slug": "dual-auto-ac",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/dual-auto-ac/"
+    },
+    {
+      "id": "air-purification",
+      "name": "공기청정 모드",
+      "slug": "air-purification",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/air-purification/"
+    },
+    {
+      "id": "after-blow",
+      "name": "애프터 블로우",
+      "slug": "after-blow",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/after-blow/"
+    },
+    {
+      "id": "remote-climate",
+      "name": "원격 공조",
+      "slug": "remote-climate",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/remote-climate/"
+    },
+    {
+      "id": "heated-ventilated-seats",
+      "name": "열선 시트 / 통풍 시트",
+      "slug": "heated-ventilated-seats",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/heated-ventilated-seats/"
+    },
+    {
+      "id": "ergo-motion-seat",
+      "name": "운전석 에르고 모션 시트",
+      "slug": "ergo-motion-seat",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ergo-motion-seat/"
+    },
+    {
+      "id": "relaxation-comfort-seat",
+      "name": "릴렉션 컴포트 시트",
+      "slug": "relaxation-comfort-seat",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/relaxation-comfort-seat/"
+    },
+    {
+      "id": "memory-seat",
+      "name": "메모리 시트",
+      "slug": "memory-seat",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/memory-seat/"
+    },
+    {
+      "id": "smart-power-tailgate",
+      "name": "스마트 파워 테일게이트",
+      "slug": "smart-power-tailgate",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/smart-power-tailgate/"
+    },
+    {
+      "id": "hud",
+      "name": "헤드업 디스플레이",
+      "slug": "hud",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hud/"
+    },
+    {
+      "id": "panoramic-curved-display",
+      "name": "파노라믹 커브드 디스플레이",
+      "slug": "panoramic-curved-display",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/panoramic-curved-display/"
+    },
+    {
+      "id": "apple-carplay-wired",
+      "name": "Apple CarPlay",
+      "slug": "apple-carplay-wired",
+      "aliases": [
+        "apple-carplay"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/apple-carplay-wired/"
+    },
+    {
+      "id": "apple-carplay-wireless",
+      "name": "Apple CarPlay 무선 연결",
+      "slug": "apple-carplay",
+      "aliases": [
+        "carplay",
+        "wireless-apple-carplay",
+        "apple-carplay-wireless"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/apple-carplay/"
+    },
+    {
+      "id": "android-auto-wired",
+      "name": "Android Auto",
+      "slug": "android-auto-wired",
+      "aliases": [
+        "android-auto"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/android-auto-wired/"
+    },
+    {
+      "id": "android-auto-wireless",
+      "name": "Android Auto 무선 연결",
+      "slug": "android-auto",
+      "aliases": [
+        "androidauto",
+        "wireless-android-auto",
+        "android-auto-wireless"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/android-auto/"
+    },
+    {
+      "id": "ccnc-ota",
+      "name": "ccNC OTA 업데이트",
+      "slug": "ccnc-ota",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ccnc-ota/"
+    },
+    {
+      "id": "fingerprint-auth",
+      "name": "지문 인증",
+      "slug": "fingerprint-auth",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/fingerprint-auth/"
+    },
+    {
+      "id": "ev-charge-v2l",
+      "name": "EV 충전 예약 / 배터리 컨디셔닝 / V2L",
+      "slug": "ev-charge-v2l",
+      "aliases": [
+        "ev-v2l"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-charge-v2l/"
+    },
+    {
+      "id": "nexo-h2-refuel",
+      "name": "수소 충전 / 충전구 개폐",
+      "slug": "nexo-h2-refuel",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/nexo-h2-refuel/"
+    },
+    {
+      "id": "nexo-fcev-info",
+      "name": "FCEV 정보 화면 / 에너지 모니터",
+      "slug": "nexo-fcev-info",
+      "aliases": [
+        "fcev"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/nexo-fcev-info/"
+    },
+    {
+      "id": "nexo-smart-regen",
+      "name": "스마트 회생제동 / 회생제동 조절",
+      "slug": "nexo-smart-regen",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/nexo-smart-regen/"
+    },
+    {
+      "id": "nexo-eco-coaching",
+      "name": "에코 코칭 / 주행 효율 안내",
+      "slug": "nexo-eco-coaching",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/nexo-eco-coaching/"
+    },
+    {
+      "id": "n-performance",
+      "name": "N 전용 주행/성능 기능",
+      "slug": "n-performance",
+      "aliases": [
+        "n"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/n-performance/"
+    },
+    {
+      "id": "memory-reverse-assist",
+      "name": "메모리 리버스 어시스트 / MRA",
+      "slug": "mra",
+      "aliases": [
+        "memory-reverse-assist",
+        "memory-reverse-assist-mra"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/mra/"
+    },
+    {
+      "id": "plug-and-charge",
+      "name": "Plug & Charge",
+      "slug": "plug-and-charge",
+      "aliases": [
+        "plug-charge"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/plug-and-charge/"
+    },
+    {
+      "id": "iccu-energy-control",
+      "name": "ICCU 에너지 변환 / 충전 제어",
+      "slug": "iccu-energy-control",
+      "aliases": [
+        "iccu"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/iccu-energy-control/"
+    },
+    {
+      "id": "ev-route-planner",
+      "name": "EV Route Planner",
+      "slug": "ev-route-planner",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-route-planner/"
+    },
+    {
+      "id": "battery-conditioning",
+      "name": "Battery Conditioning",
+      "slug": "battery-conditioning",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/battery-conditioning/"
+    },
+    {
+      "id": "scheduled-charging",
+      "name": "충전 예약",
+      "slug": "scheduled-charging",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/scheduled-charging/"
+    },
+    {
+      "id": "charge-limit",
+      "name": "충전 한도 설정",
+      "slug": "charge-limit",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/charge-limit/"
+    },
+    {
+      "id": "v2l-parent",
+      "name": "V2L",
+      "slug": "v2l",
+      "aliases": [
+        "vehicle-to-load",
+        "vehicle-2-load",
+        "v2l-parent"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/v2l/"
+    },
+    {
+      "id": "v2l-indoor",
+      "name": "실내 V2L",
+      "slug": "v2l-indoor",
+      "aliases": [
+        "v2l"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/v2l-indoor/"
+    },
+    {
+      "id": "v2l-outdoor",
+      "name": "실외 V2L",
+      "slug": "v2l-outdoor",
+      "aliases": [
+        "v2l"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/v2l-outdoor/"
+    },
+    {
+      "id": "camping-mode",
+      "name": "캠핑 모드",
+      "slug": "camping-mode",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/camping-mode/"
+    },
+    {
+      "id": "utility-mode",
+      "name": "유틸리티 모드",
+      "slug": "utility-mode",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/utility-mode/"
+    },
+    {
+      "id": "v2h-roadmap",
+      "name": "V2H (향후)",
+      "slug": "v2h-roadmap",
+      "aliases": [
+        "v2h"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/v2h-roadmap/"
+    },
+    {
+      "id": "v2g-roadmap",
+      "name": "V2G (향후)",
+      "slug": "v2g-roadmap",
+      "aliases": [
+        "v2g"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/v2g-roadmap/"
+    },
+    {
+      "id": "side-pdw",
+      "name": "측방 주차 거리 경고",
+      "slug": "side-pdw",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/side-pdw/"
+    },
+    {
+      "id": "pca-parking",
+      "name": "주차 충돌방지 보조",
+      "slug": "pca-parking",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/pca-parking/"
+    },
+    {
+      "id": "remote-smart-exit",
+      "name": "원격 스마트 출차 보조",
+      "slug": "remote-smart-exit",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/remote-smart-exit/"
+    },
+    {
+      "id": "e-hi-pass",
+      "name": "e-Hi Pass",
+      "slug": "e-hi-pass",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/e-hi-pass/"
+    },
+    {
+      "id": "face-connect",
+      "name": "Face Connect",
+      "slug": "face-connect",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/face-connect/"
+    },
+    {
+      "id": "genesis-dk2",
+      "name": "Genesis Digital Key 2",
+      "slug": "genesis-dk2",
+      "aliases": [
+        "genesis-digital-key-2"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/genesis-dk2/"
+    },
+    {
+      "id": "genesis-dk2-touch",
+      "name": "Genesis Digital Key 2 Touch",
+      "slug": "genesis-dk2-touch",
+      "aliases": [
+        "genesis-digital-key-2-touch"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/genesis-dk2-touch/"
+    },
+    {
+      "id": "hyundai-dk2",
+      "name": "Hyundai Digital Key 2",
+      "slug": "digital-key-2",
+      "aliases": [
+        "hyundai-digital-key-2",
+        "digital-key2",
+        "hyundai-dk2"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/digital-key-2/"
+    },
+    {
+      "id": "hyundai-dk2-touch",
+      "name": "Hyundai Digital Key 2 Touch",
+      "slug": "hyundai-dk2-touch",
+      "aliases": [
+        "hyundai-digital-key-2-touch"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/hyundai-dk2-touch/"
+    },
+    {
+      "id": "digital-center-mirror",
+      "name": "디지털 센터 미러",
+      "slug": "digital-center-mirror",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/digital-center-mirror/"
+    },
+    {
+      "id": "built-in-cam",
+      "name": "빌트인 캠",
+      "slug": "built-in-cam",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/built-in-cam/"
+    },
+    {
+      "id": "built-in-cam2",
+      "name": "빌트인 캠 2",
+      "slug": "built-in-cam2",
+      "aliases": [
+        "2"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/built-in-cam2/"
+    },
+    {
+      "id": "built-in-cam2-plus",
+      "name": "빌트인 캠 2 Plus",
+      "slug": "built-in-cam-2-plus",
+      "aliases": [
+        "built-in-cam2-plus",
+        "builtincam-2-plus",
+        "2-plus"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/built-in-cam-2-plus/"
+    },
+    {
+      "id": "dynamic-body-care-seat",
+      "name": "다이내믹 바디 케어 시트",
+      "slug": "dynamic-body-care-seat",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/dynamic-body-care-seat/"
+    },
+    {
+      "id": "swiveling-seat",
+      "name": "스위블링 시트",
+      "slug": "swiveling-seat",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/swiveling-seat/"
+    },
+    {
+      "id": "walk-in-device",
+      "name": "워크인 디바이스",
+      "slug": "walk-in-device",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/walk-in-device/"
+    },
+    {
+      "id": "smart-posture-assist",
+      "name": "스마트 자세 보조",
+      "slug": "smart-posture-assist",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/smart-posture-assist/"
+    },
+    {
+      "id": "passenger-talk",
+      "name": "Passenger Talk",
+      "slug": "passenger-talk",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/passenger-talk/"
+    },
+    {
+      "id": "passenger-view",
+      "name": "Passenger View",
+      "slug": "passenger-view",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/passenger-view/"
+    },
+    {
+      "id": "rear-voice-recognition",
+      "name": "후석 음성 인식",
+      "slug": "rear-voice-recognition",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/rear-voice-recognition/"
+    },
+    {
+      "id": "rear-climate-control",
+      "name": "후석 공조 제어",
+      "slug": "rear-climate-control",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/rear-climate-control/"
+    },
+    {
+      "id": "pleos-connect",
+      "name": "Pleos Connect",
+      "slug": "pleos-connect",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/pleos-connect/"
+    },
+    {
+      "id": "ccnc-system",
+      "name": "ccNC",
+      "slug": "ccnc-system",
+      "aliases": [
+        "ccnc"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/ccnc-system/"
+    },
+    {
+      "id": "hyundai-ai",
+      "name": "Hyundai AI Assistant",
+      "slug": "hyundai-ai",
+      "aliases": [
+        "hyundai-ai-assistant"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/hyundai-ai/"
+    },
+    {
+      "id": "kia-ai",
+      "name": "Kia AI Assistant",
+      "slug": "kia-ai",
+      "aliases": [
+        "kia-ai-assistant"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/kia-ai/"
+    },
+    {
+      "id": "feature-on-demand",
+      "name": "Feature on Demand",
+      "slug": "feature-on-demand",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/feature-on-demand/"
+    },
+    {
+      "id": "fcev-energy-flow",
+      "name": "FCEV 에너지 흐름도",
+      "slug": "fcev-energy-flow",
+      "aliases": [
+        "fcev"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/fcev-energy-flow/"
+    },
+    {
+      "id": "fcev-dedicated-system",
+      "name": "수소차 전용 시스템 정보",
+      "slug": "fcev-dedicated-system",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/fcev-dedicated-system/"
+    },
+    {
+      "id": "ev-charge-status",
+      "name": "충전 상태 확인",
+      "slug": "ev-charge-status",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-charge-status/"
+    },
+    {
+      "id": "ev-energy-usage",
+      "name": "에너지 사용량",
+      "slug": "ev-energy-usage",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-energy-usage/"
+    },
+    {
+      "id": "ev-battery-health",
+      "name": "배터리 상태 확인",
+      "slug": "ev-battery-health",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-battery-health/"
+    },
+    {
+      "id": "i-pedal",
+      "name": "i-Pedal",
+      "slug": "i-pedal",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/i-pedal/"
+    },
+    {
+      "id": "ev-smart-regeneration",
+      "name": "EV 스마트 회생제동",
+      "slug": "ev-smart-regeneration",
+      "aliases": [
+        "ev"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-smart-regeneration/"
+    },
+    {
+      "id": "ev-regen-level",
+      "name": "회생제동 단계 조절",
+      "slug": "ev-regen-level",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/ev-regen-level/"
+    },
+    {
+      "id": "tmed2-hybrid-system",
+      "name": "TMED-2 하이브리드 시스템",
+      "slug": "tmed2-hybrid-system",
+      "aliases": [
+        "tmed-2"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/tmed2-hybrid-system/"
+    },
+    {
+      "id": "hybrid-stay-mode",
+      "name": "스테이 모드",
+      "slug": "stay-mode",
+      "aliases": [
+        "staymode",
+        "tmed2-stay-mode",
+        "hev-stay-mode",
+        "hybrid-stay-mode"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/stay-mode/"
+    },
+    {
+      "id": "hybrid-stay-reservation",
+      "name": "스테이 모드 사용 예약",
+      "slug": "hybrid-stay-reservation",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-stay-reservation/"
+    },
+    {
+      "id": "hybrid-v2l",
+      "name": "하이브리드 V2L",
+      "slug": "hybrid-v2l",
+      "aliases": [
+        "v2l"
+      ],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-v2l/"
+    },
+    {
+      "id": "hybrid-smart-regen",
+      "name": "하이브리드 스마트 회생제동",
+      "slug": "hybrid-smart-regen",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-smart-regen/"
+    },
+    {
+      "id": "hybrid-regen-level",
+      "name": "하이브리드 회생제동 단계 조절",
+      "slug": "hybrid-regen-level",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-regen-level/"
+    },
+    {
+      "id": "hybrid-energy-flow",
+      "name": "하이브리드 에너지 흐름도",
+      "slug": "hybrid-energy-flow",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-energy-flow/"
+    },
+    {
+      "id": "hybrid-battery-status",
+      "name": "하이브리드 배터리 충전 상태",
+      "slug": "hybrid-battery-status",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-battery-status/"
+    },
+    {
+      "id": "hybrid-driving-info",
+      "name": "하이브리드 전용 주행 정보",
+      "slug": "hybrid-driving-info",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-driving-info/"
+    },
+    {
+      "id": "hybrid-stationary-climate",
+      "name": "하이브리드 정차 공조",
+      "slug": "hybrid-stationary-climate",
+      "aliases": [],
+      "canonical": "https://korean-car-guide.vercel.app/function/hybrid-stationary-climate/"
+    }
+  ]
+}

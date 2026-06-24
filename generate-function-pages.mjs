@@ -7,16 +7,16 @@ const data = JSON.parse(await fs.readFile(path.join(root, 'function-data.json'),
 const config = JSON.parse(await fs.readFile(path.join(root, 'seo-config.json'), 'utf8'));
 const baseUrl = config.baseUrl.replace(/\/+$/, '');
 const functionRoot = path.join(root, 'function');
-const publicSlugs = {
-  'rspa2': 'rspa2',
-  'memory-reverse-assist': 'mra',
-  'hybrid-stay-mode': 'stay-mode',
-  'hyundai-dk2': 'digital-key-2',
-  'apple-carplay-wireless': 'apple-carplay',
-  'android-auto-wireless': 'android-auto',
-  'v2l-parent': 'v2l'
+const slugDefinitions = {
+  'rspa2': { slug: 'rspa2', aliases: ['rspa-2', 'remote-smart-parking-assist-2', 'remote-smart-parking-assist'] },
+  'memory-reverse-assist': { slug: 'mra', aliases: ['memory-reverse-assist', 'memory-reverse-assist-mra'] },
+  'hybrid-stay-mode': { slug: 'stay-mode', aliases: ['staymode', 'tmed2-stay-mode', 'hev-stay-mode'] },
+  'hyundai-dk2': { slug: 'digital-key-2', aliases: ['hyundai-digital-key-2', 'digital-key2'] },
+  'apple-carplay-wireless': { slug: 'apple-carplay', aliases: ['carplay', 'wireless-apple-carplay'] },
+  'android-auto-wireless': { slug: 'android-auto', aliases: ['androidauto', 'wireless-android-auto'] },
+  'v2l-parent': { slug: 'v2l', aliases: ['vehicle-to-load', 'vehicle-2-load'] },
+  'built-in-cam2-plus': { slug: 'built-in-cam-2-plus', aliases: ['built-in-cam2-plus', 'builtincam-2-plus'] }
 };
-const slugFor = feature => publicSlugs[feature.id] || feature.id;
 
 const escapeHtml = value => String(value ?? '')
   .replaceAll('&', '&amp;')
@@ -26,6 +26,28 @@ const escapeHtml = value => String(value ?? '')
   .replaceAll("'", '&#039;');
 
 const toArray = value => Array.isArray(value) ? value : value ? [value] : [];
+const cleanSlug = value => String(value || '')
+  .trim()
+  .toLowerCase()
+  .replace(/[^a-z0-9가-힣]+/g, '-')
+  .replace(/^-+|-+$/g, '');
+const englishNameSlug = feature => cleanSlug(String(feature.name || '').replace(/[^\x00-\x7F]+/g, ' '));
+
+data.features.forEach(feature => {
+  const definition = slugDefinitions[feature.id] || {};
+  feature.slug = cleanSlug(feature.slug || definition.slug || feature.id);
+  const generatedAliases = [
+    ...toArray(definition.aliases),
+    ...toArray(feature.slugAliases),
+    feature.id !== feature.slug ? feature.id : '',
+    englishNameSlug(feature)
+  ].map(cleanSlug).filter(Boolean);
+  feature.slugAliases = [...new Set(generatedAliases)].filter(alias => alias !== feature.slug);
+  feature.aliases = [...new Set([...toArray(feature.aliases), ...feature.slugAliases])];
+});
+
+const slugFor = feature => feature.slug;
+const allSlugsFor = feature => [feature.slug, ...toArray(feature.slugAliases)];
 const compactDescription = feature => {
   const text = `${feature.name}의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. ${feature.summary || feature.overview || ''}`;
   return text.replace(/\s+/g, ' ').trim().slice(0, 155);
@@ -139,11 +161,38 @@ function pageHtml(feature, features) {
 await fs.rm(functionRoot, { recursive: true, force: true });
 await fs.mkdir(functionRoot, { recursive: true });
 
+const claimedSlugs = new Map();
 for (const feature of data.features) {
-  const directory = path.join(functionRoot, slugFor(feature));
+  claimedSlugs.set(feature.slug, feature.id);
+  const directory = path.join(functionRoot, feature.slug);
   await fs.mkdir(directory, { recursive: true });
   await fs.writeFile(path.join(directory, 'index.html'), pageHtml(feature, data.features), 'utf8');
 }
+for (const feature of data.features) {
+  for (const slug of feature.slugAliases) {
+    if (claimedSlugs.has(slug) && claimedSlugs.get(slug) !== feature.id) continue;
+    claimedSlugs.set(slug, feature.id);
+    const directory = path.join(functionRoot, slug);
+    await fs.mkdir(directory, { recursive: true });
+    await fs.writeFile(path.join(directory, 'index.html'), pageHtml(feature, data.features), 'utf8');
+  }
+}
+
+await fs.writeFile(path.join(root, 'function-data.json'), `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+await fs.writeFile(
+  path.join(root, 'function-slug-map.json'),
+  `${JSON.stringify({
+    matchingOrder: ['slug', 'slugAliases', 'englishNameSlug', 'koreanFeatureName'],
+    entries: data.features.map(feature => ({
+      id: feature.id,
+      name: feature.name,
+      slug: feature.slug,
+      aliases: feature.slugAliases,
+      canonical: functionUrl(feature)
+    }))
+  }, null, 2)}\n`,
+  'utf8'
+);
 
 const directoryDescription = '현대자동차, 기아, 제네시스의 자동차 기능별 사용법과 적용 차량을 확인하세요.';
 const directoryHtml = `<!doctype html>
@@ -207,7 +256,7 @@ const notFoundHtml = `<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>기능을 찾을 수 없습니다 | ${escapeHtml(config.siteName)}</title>
-  <meta name="description" content="요청한 자동차 기능 페이지를 찾을 수 없습니다. 전체 기능 검색에서 원하는 기능을 확인하세요.">
+  <meta name="description" content="해당 기능 정보를 찾을 수 없습니다. 기능명이 변경되었거나 아직 준비 중일 수 있습니다.">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/function-pages.css">
 </head>
@@ -217,12 +266,19 @@ const notFoundHtml = `<!doctype html>
     <section class="function-hero">
       <p class="eyebrow">404</p>
       <h1>기능을 찾을 수 없습니다</h1>
-      <p class="lead">주소가 변경되었거나 아직 등록되지 않은 기능입니다.</p>
-      <p><a class="related-link" href="/">메인 기능 검색으로 이동</a></p>
+      <p class="lead">해당 기능 정보를 찾을 수 없습니다. 기능명이 변경되었거나 아직 준비 중일 수 있습니다.</p>
+      <form class="not-found-search" action="/" method="get">
+        <label for="missingFeatureSearch">기능 검색</label>
+        <div>
+          <input id="missingFeatureSearch" name="search" type="search" placeholder="예: RSPA 2, 디지털 키, V2L">
+          <button type="submit">검색</button>
+        </div>
+      </form>
+      <p><a class="related-link" href="/">메인으로 돌아가기</a></p>
     </section>
   </main>
 </body>
 </html>`;
 await fs.writeFile(path.join(root, '404.html'), notFoundHtml, 'utf8');
 
-console.log(`Generated ${data.features.length} function pages, ${sitemapEntries.length} sitemap URLs, robots.txt, and 404.html.`);
+console.log(`Generated ${data.features.length} canonical function pages, ${claimedSlugs.size} matched slug pages, ${sitemapEntries.length} sitemap URLs, robots.txt, and 404.html.`);

@@ -361,7 +361,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "fca-suite",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -377,7 +379,8 @@
         "고속도로 주행 보조",
         "핸들 자동",
         "차선 가운데로 가는 기능",
-        "크루즈"
+        "크루즈",
+        "nscc-hda-2"
       ],
       "summary": "고속도로에서 속도, 차간 거리, 차로 중앙 주행을 보조합니다.",
       "preconditions": [
@@ -625,6 +628,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "nscc-hda2",
+      "slugAliases": [
+        "nscc-hda-2"
       ]
     },
     {
@@ -641,7 +648,11 @@
         "차가 혼자 주차",
         "원격 주차",
         "자동 주차",
-        "차 빼기"
+        "차 빼기",
+        "rspa-2",
+        "remote-smart-parking-assist-2",
+        "remote-smart-parking-assist",
+        "2-rspa-2"
       ],
       "summary": "스마트키 또는 차량 안내에 따라 저속 주차와 출차를 보조합니다.",
       "preconditions": [
@@ -777,6 +788,13 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "rspa2",
+      "slugAliases": [
+        "rspa-2",
+        "remote-smart-parking-assist-2",
+        "remote-smart-parking-assist",
+        "2-rspa-2"
       ]
     },
     {
@@ -1140,7 +1158,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "dual-auto-ac",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -1366,7 +1386,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "air-purification",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -1615,7 +1637,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "after-blow",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -1978,7 +2002,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "remote-climate",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -2341,7 +2367,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "heated-ventilated-seats",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -2457,7 +2485,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ergo-motion-seat",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -2576,7 +2606,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "relaxation-comfort-seat",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -2800,7 +2832,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "memory-seat",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -2946,7 +2980,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "smart-power-tailgate",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -3169,7 +3205,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "hud",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -3311,7 +3349,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "panoramic-curved-display",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -3325,7 +3365,8 @@
       "aliases": [
         "카플레이",
         "유선 카플레이",
-        "아이폰 연결"
+        "아이폰 연결",
+        "apple-carplay"
       ],
       "summary": "iPhone을 USB로 연결해 지도, 통화, 음악, 메시지 앱을 차량 화면에서 사용합니다.",
       "preconditions": [
@@ -3682,6 +3723,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "apple-carplay-wired",
+      "slugAliases": [
+        "apple-carplay"
       ]
     },
     {
@@ -3695,7 +3740,10 @@
       "officialCategory": "인포테인먼트 / 무선 폰 프로젝션",
       "aliases": [
         "무선 카플레이",
-        "아이폰 무선 연결"
+        "아이폰 무선 연결",
+        "carplay",
+        "wireless-apple-carplay",
+        "apple-carplay-wireless"
       ],
       "summary": "지원 차량에서 Wi-Fi와 Bluetooth로 iPhone CarPlay를 연결합니다.",
       "preconditions": [
@@ -3948,6 +3996,12 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "apple-carplay",
+      "slugAliases": [
+        "carplay",
+        "wireless-apple-carplay",
+        "apple-carplay-wireless"
       ]
     },
     {
@@ -3962,7 +4016,8 @@
       "aliases": [
         "안드로이드 오토",
         "갤럭시 연결",
-        "유선 안드로이드 오토"
+        "유선 안드로이드 오토",
+        "android-auto"
       ],
       "summary": "Android 휴대폰을 USB로 연결해 지도, 통화, 음악, 메시지 앱을 차량 화면에서 사용합니다.",
       "preconditions": [
@@ -4318,6 +4373,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "android-auto-wired",
+      "slugAliases": [
+        "android-auto"
       ]
     },
     {
@@ -4331,7 +4390,10 @@
       "officialCategory": "인포테인먼트 / 무선 폰 프로젝션",
       "aliases": [
         "무선 안드로이드 오토",
-        "갤럭시 무선 연결"
+        "갤럭시 무선 연결",
+        "androidauto",
+        "wireless-android-auto",
+        "android-auto-wireless"
       ],
       "summary": "지원 차량에서 Wi-Fi와 Bluetooth로 Android Auto를 연결합니다.",
       "preconditions": [
@@ -4584,6 +4646,12 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "android-auto",
+      "slugAliases": [
+        "androidauto",
+        "wireless-android-auto",
+        "android-auto-wireless"
       ]
     },
     {
@@ -4842,7 +4910,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ccnc-ota",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -4947,7 +5017,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "fingerprint-auth",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -4963,7 +5035,8 @@
         "배터리 예열",
         "V2L",
         "급속 충전",
-        "전기차 전기 쓰기"
+        "전기차 전기 쓰기",
+        "ev-v2l"
       ],
       "summary": "전기차 충전 시간과 목표량을 관리하고 급속 충전 준비 및 외부 전원 공급을 지원합니다.",
       "preconditions": [
@@ -5123,6 +5196,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "ev-charge-v2l",
+      "slugAliases": [
+        "ev-v2l"
       ]
     },
     {
@@ -5201,7 +5278,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "nexo-h2-refuel",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -5217,7 +5296,8 @@
         "에너지 흐름도",
         "에너지 모니터",
         "수소 잔량",
-        "주행 가능 거리"
+        "주행 가능 거리",
+        "fcev"
       ],
       "summary": "수소 잔량, 주행 가능 거리, 전력 흐름, 연료전지 작동 상태를 차량 화면에서 확인합니다.",
       "preconditions": [
@@ -5283,6 +5363,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "nexo-fcev-info",
+      "slugAliases": [
+        "fcev"
       ]
     },
     {
@@ -5366,7 +5450,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "nexo-smart-regen",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -5445,7 +5531,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "nexo-eco-coaching",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -5462,7 +5550,8 @@
         "N 그린 쉬프트",
         "N 드리프트",
         "아이오닉 5 N",
-        "아반떼 N"
+        "아반떼 N",
+        "n"
       ],
       "summary": "현대 N 차량에서 성능 주행 모드, 표시, 전동화 성능 설정을 제공하는 전용 기능군입니다.",
       "preconditions": [
@@ -5532,6 +5621,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "n-performance",
+      "slugAliases": [
+        "n"
       ]
     },
     {
@@ -5547,7 +5640,9 @@
         "MRA",
         "Memory Reverse Assist",
         "메모리 후진",
-        "후진 경로 재생"
+        "후진 경로 재생",
+        "memory-reverse-assist",
+        "memory-reverse-assist-mra"
       ],
       "summary": "저속 전진 시 지나온 경로를 저장하고, 필요할 때 해당 경로를 따라 후진하도록 조향을 보조합니다.",
       "preconditions": [
@@ -5612,6 +5707,11 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "mra",
+      "slugAliases": [
+        "memory-reverse-assist",
+        "memory-reverse-assist-mra"
       ]
     },
     {
@@ -5619,7 +5719,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "지원 급속 충전기에서 차량 인증과 결제를 자동으로 연계합니다.",
-      "aliases": [],
+      "aliases": [
+        "plug-charge"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -5769,6 +5871,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "plug-and-charge",
+      "slugAliases": [
+        "plug-charge"
       ]
     },
     {
@@ -5776,7 +5882,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "고전압 배터리 충전과 12V 보조 배터리 충전, 외부 전력 공급에 필요한 전력 변환을 관리합니다.",
-      "aliases": [],
+      "aliases": [
+        "iccu"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -5926,6 +6034,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "iccu-energy-control",
+      "slugAliases": [
+        "iccu"
       ]
     },
     {
@@ -6086,7 +6198,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ev-route-planner",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -6245,7 +6359,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "battery-conditioning",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -6402,7 +6518,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "scheduled-charging",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -6558,14 +6676,20 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "charge-limit",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "고전압 배터리 전력을 외부 전기기기에 공급하는 기능군입니다.",
-      "aliases": [],
+      "aliases": [
+        "vehicle-to-load",
+        "vehicle-2-load",
+        "v2l-parent"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -6715,6 +6839,12 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "v2l",
+      "slugAliases": [
+        "vehicle-to-load",
+        "vehicle-2-load",
+        "v2l-parent"
       ]
     },
     {
@@ -6722,7 +6852,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "차량 실내 콘센트로 전기기기에 전력을 공급합니다.",
-      "aliases": [],
+      "aliases": [
+        "v2l"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -6840,6 +6972,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "v2l-indoor",
+      "slugAliases": [
+        "v2l"
       ]
     },
     {
@@ -6847,7 +6983,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "충전구와 V2L 커넥터를 이용해 외부 전기기기에 전력을 공급합니다.",
-      "aliases": [],
+      "aliases": [
+        "v2l"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -6997,6 +7135,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "v2l-outdoor",
+      "slugAliases": [
+        "v2l"
       ]
     },
     {
@@ -7090,7 +7232,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "camping-mode",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -7247,14 +7391,18 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "utility-mode",
+      "slugAliases": []
     },
     {
       "status": "검증 미완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "차량 배터리 전력을 가정에 공급하는 향후 연계 기능입니다.",
-      "aliases": [],
+      "aliases": [
+        "v2h"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -7323,6 +7471,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "v2h-roadmap",
+      "slugAliases": [
+        "v2h"
       ]
     },
     {
@@ -7330,7 +7482,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "차량 배터리를 전력망과 양방향 연계하는 향후 기능입니다.",
-      "aliases": [],
+      "aliases": [
+        "v2g"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -7399,6 +7553,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "v2g-roadmap",
+      "slugAliases": [
+        "v2g"
       ]
     },
     {
@@ -7692,7 +7850,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "side-pdw",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -7914,7 +8074,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "pca-parking",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -8047,7 +8209,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "remote-smart-exit",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -8169,7 +8333,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "e-hi-pass",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -8248,14 +8414,18 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "face-connect",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "스마트폰 기반 차량 접근, 시동, 키 공유를 지원합니다.",
-      "aliases": [],
+      "aliases": [
+        "genesis-digital-key-2"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -8359,6 +8529,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "genesis-dk2",
+      "slugAliases": [
+        "genesis-digital-key-2"
       ]
     },
     {
@@ -8366,7 +8540,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "스마트폰을 도어 핸들에 접촉해 잠금 해제하고 무선 충전 패드 인증으로 시동을 지원합니다.",
-      "aliases": [],
+      "aliases": [
+        "genesis-digital-key-2-touch"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -8469,6 +8645,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "genesis-dk2-touch",
+      "slugAliases": [
+        "genesis-digital-key-2-touch"
       ]
     },
     {
@@ -8476,7 +8656,11 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "지원 스마트폰을 이용한 차량 접근, 시동과 키 공유를 지원합니다.",
-      "aliases": [],
+      "aliases": [
+        "hyundai-digital-key-2",
+        "digital-key2",
+        "hyundai-dk2"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -8581,6 +8765,12 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "digital-key-2",
+      "slugAliases": [
+        "hyundai-digital-key-2",
+        "digital-key2",
+        "hyundai-dk2"
       ]
     },
     {
@@ -8588,7 +8778,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "스마트폰 접촉 방식으로 도어 잠금 해제와 차량 시동 인증을 지원합니다.",
-      "aliases": [],
+      "aliases": [
+        "hyundai-digital-key-2-touch"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -8708,6 +8900,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "hyundai-dk2-touch",
+      "slugAliases": [
+        "hyundai-digital-key-2-touch"
       ]
     },
     {
@@ -8832,7 +9028,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "digital-center-mirror",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -9050,14 +9248,18 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "built-in-cam",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "고화질 전후방 녹화와 차량 화면·앱 연계를 지원하는 내장 카메라입니다.",
-      "aliases": [],
+      "aliases": [
+        "2"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -9189,6 +9391,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "built-in-cam2",
+      "slugAliases": [
+        "2"
       ]
     },
     {
@@ -9196,7 +9402,11 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "확장된 카메라·녹화·연결 기능을 제공하는 상위 빌트인 캠 사양입니다.",
-      "aliases": [],
+      "aliases": [
+        "built-in-cam2-plus",
+        "builtincam-2-plus",
+        "2-plus"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -9281,6 +9491,12 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "built-in-cam-2-plus",
+      "slugAliases": [
+        "built-in-cam2-plus",
+        "builtincam-2-plus",
+        "2-plus"
       ]
     },
     {
@@ -9362,7 +9578,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "dynamic-body-care-seat",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -9454,7 +9672,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "swiveling-seat",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -9586,7 +9806,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "walk-in-device",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -9695,7 +9917,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "smart-posture-assist",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -9828,7 +10052,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "passenger-talk",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -9936,7 +10162,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "passenger-view",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -10027,7 +10255,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "rear-voice-recognition",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -10158,7 +10388,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "rear-climate-control",
+      "slugAliases": []
     },
     {
       "status": "검증 미완료",
@@ -10231,14 +10463,18 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "pleos-connect",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "내비게이션, 차량 설정, 커넥티드 서비스와 OTA를 통합하는 인포테인먼트 플랫폼입니다.",
-      "aliases": [],
+      "aliases": [
+        "ccnc"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -10449,6 +10685,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "ccnc-system",
+      "slugAliases": [
+        "ccnc"
       ]
     },
     {
@@ -10456,7 +10696,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "자연어 기반 차량 기능 검색과 음성 제어를 지원하는 현대 AI 서비스입니다.",
-      "aliases": [],
+      "aliases": [
+        "hyundai-ai-assistant"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -10521,6 +10763,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "hyundai-ai",
+      "slugAliases": [
+        "hyundai-ai-assistant"
       ]
     },
     {
@@ -10528,7 +10774,9 @@
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "자연어로 차량 기능과 정보를 이용하도록 돕는 기아 AI 음성 서비스입니다.",
-      "aliases": [],
+      "aliases": [
+        "kia-ai-assistant"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -10614,6 +10862,10 @@
           "url": "https://www.kia.com/kr/customer-service/download/manual.html",
           "rank": "3순위/4순위"
         }
+      ],
+      "slug": "kia-ai",
+      "slugAliases": [
+        "kia-ai-assistant"
       ]
     },
     {
@@ -10835,14 +11087,18 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "feature-on-demand",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "연료전지, 고전압 배터리와 구동 모터 사이의 에너지 흐름을 표시합니다.",
-      "aliases": [],
+      "aliases": [
+        "fcev"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -10907,6 +11163,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "fcev-energy-flow",
+      "slugAliases": [
+        "fcev"
       ]
     },
     {
@@ -10979,7 +11239,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "fcev-dedicated-system",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -11142,7 +11404,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ev-charge-status",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -11305,7 +11569,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ev-energy-usage",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -11468,7 +11734,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ev-battery-health",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -11631,14 +11899,18 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "i-pedal",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "앞차 거리와 도로 상황을 고려해 회생제동 수준을 자동으로 조절합니다.",
-      "aliases": [],
+      "aliases": [
+        "ev"
+      ],
       "preconditions": [
         "해당 기능이 적용된 차종과 트림이어야 합니다."
       ],
@@ -11794,6 +12066,10 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
+      ],
+      "slug": "ev-smart-regeneration",
+      "slugAliases": [
+        "ev"
       ]
     },
     {
@@ -11957,7 +12233,9 @@
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
         }
-      ]
+      ],
+      "slug": "ev-regen-level",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -11969,7 +12247,8 @@
         "TMED-2",
         "TMED II",
         "차세대 하이브리드",
-        "하이브리드 시스템"
+        "하이브리드 시스템",
+        "tmed-2"
       ],
       "preconditions": [
         "TMED-2 또는 해당 하이브리드 전용 기능이 적용된 차량이어야 합니다."
@@ -12046,6 +12325,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "tmed2-hybrid-system",
+      "slugAliases": [
+        "tmed-2"
       ]
     },
     {
@@ -12070,7 +12353,11 @@
         "캠핑할 때 에어컨",
         "하이브리드 유틸리티",
         "TMED2",
-        "목적지 도착 스테이"
+        "목적지 도착 스테이",
+        "staymode",
+        "tmed2-stay-mode",
+        "hev-stay-mode",
+        "hybrid-stay-mode"
       ],
       "preconditions": [
         "TMED-2 하이브리드 시스템과 스테이 모드가 적용된 차량이어야 합니다.",
@@ -12168,6 +12455,13 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "stay-mode",
+      "slugAliases": [
+        "staymode",
+        "tmed2-stay-mode",
+        "hev-stay-mode",
+        "hybrid-stay-mode"
       ]
     },
     {
@@ -12255,7 +12549,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-stay-reservation",
+      "slugAliases": []
     },
     {
       "status": "검증 미완료",
@@ -12264,7 +12560,8 @@
       "overview": "하이브리드 고전압 배터리와 구동 시스템을 이용해 외부 전기기기에 전력을 공급하는 기능 후보입니다.",
       "aliases": [
         "HEV V2L",
-        "하이브리드 외부 전력 공급"
+        "하이브리드 외부 전력 공급",
+        "v2l"
       ],
       "preconditions": [
         "TMED-2 또는 해당 하이브리드 전용 기능이 적용된 차량이어야 합니다."
@@ -12333,6 +12630,10 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
+      ],
+      "slug": "hybrid-v2l",
+      "slugAliases": [
+        "v2l"
       ]
     },
     {
@@ -12418,7 +12719,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-smart-regen",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -12503,7 +12806,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-regen-level",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -12589,7 +12894,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-energy-flow",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -12675,7 +12982,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-battery-status",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -12760,7 +13069,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-driving-info",
+      "slugAliases": []
     },
     {
       "status": "검증 완료",
@@ -12846,7 +13157,9 @@
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "1순위/2순위"
         }
-      ]
+      ],
+      "slug": "hybrid-stationary-climate",
+      "slugAliases": []
     }
   ],
   "vehicles": [

@@ -1,15 +1,22 @@
 /* SEO bridge: exposes the final merged database and links modal content to crawlable pages. */
 (function installFunctionPageLinks() {
-  const publicSlugs = {
-    'rspa2': 'rspa2',
-    'memory-reverse-assist': 'mra',
-    'hybrid-stay-mode': 'stay-mode',
-    'hyundai-dk2': 'digital-key-2',
-    'apple-carplay-wireless': 'apple-carplay',
-    'android-auto-wireless': 'android-auto',
-    'v2l-parent': 'v2l'
+  const slugDefinitions = {
+    'rspa2': ['rspa2', ['rspa-2', 'remote-smart-parking-assist-2', 'remote-smart-parking-assist']],
+    'memory-reverse-assist': ['mra', ['memory-reverse-assist', 'memory-reverse-assist-mra']],
+    'hybrid-stay-mode': ['stay-mode', ['staymode', 'tmed2-stay-mode', 'hev-stay-mode']],
+    'hyundai-dk2': ['digital-key-2', ['hyundai-digital-key-2', 'digital-key2']],
+    'apple-carplay-wireless': ['apple-carplay', ['carplay', 'wireless-apple-carplay']],
+    'android-auto-wireless': ['android-auto', ['androidauto', 'wireless-android-auto']],
+    'v2l-parent': ['v2l', ['vehicle-to-load', 'vehicle-2-load']],
+    'built-in-cam2-plus': ['built-in-cam-2-plus', ['built-in-cam2-plus', 'builtincam-2-plus']]
   };
-  const functionPath = feature => `/function/${encodeURIComponent(publicSlugs[feature.id] || feature.id)}/`;
+  features.forEach(feature => {
+    const [slug = feature.id, aliases = []] = slugDefinitions[feature.id] || [];
+    feature.slug = feature.slug || slug;
+    feature.slugAliases = [...new Set([...(feature.slugAliases || []), ...aliases, ...(feature.id !== feature.slug ? [feature.id] : [])])];
+    feature.aliases = [...new Set([...(feature.aliases || []), ...feature.slugAliases])];
+  });
+  const functionPath = feature => `/function/${encodeURIComponent(feature.slug || feature.id)}/`;
 
   const seoData = {
     generatedAt: new Date().toISOString(),
@@ -54,6 +61,13 @@
   }
 
   if ('serviceWorker' in navigator && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
-    navigator.serviceWorker.register('/function-preview-sw.js').catch(() => {});
+    navigator.serviceWorker.register('/function-preview-sw.js?v=20260624-2').catch(() => {});
+  }
+
+  const requestedSearch = new URLSearchParams(location.search).get('search');
+  const searchInput = document.querySelector('#searchInput');
+  if (requestedSearch && searchInput) {
+    searchInput.value = requestedSearch;
+    searchInput.dispatchEvent(new Event('input', { bubbles: true }));
   }
 })();
