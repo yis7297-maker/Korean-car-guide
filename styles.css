@@ -1005,6 +1005,33 @@ body.modal-open {
   color: #fff;
   font-weight: 800;
 }
+
+.feature-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.function-detail-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 11px 18px;
+  border-radius: 12px;
+  background: #14213d;
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.function-directory-link {
+  color: inherit;
+  font-weight: 700;
+}
 @media (max-width: 760px) {
   .beta-open { align-items: flex-start; }
   .site-footer { padding-block: 28px; font-size: 12px; }

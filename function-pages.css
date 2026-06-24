@@ -1,0 +1,175 @@
+:root {
+  color-scheme: light;
+  --ink: #14213d;
+  --muted: #5c667a;
+  --line: #dfe5ee;
+  --surface: #f5f7fa;
+  --accent: #174ea6;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--surface);
+  font-family: Pretendard, "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+a { color: var(--accent); }
+.function-header,
+.function-footer {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+.function-header__inner,
+.function-footer__inner,
+.function-main {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto;
+}
+.function-header__inner {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.site-name {
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+.back-link { font-size: 14px; text-decoration: none; }
+.function-main { padding: 48px 0 72px; }
+.breadcrumb {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.function-hero,
+.content-section {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+.function-hero { padding: clamp(24px, 5vw, 48px); }
+.function-hero__top {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+.feature-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: #e9f0fb;
+  color: var(--accent);
+}
+.feature-icon svg {
+  width: 30px;
+  height: 30px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.eyebrow {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(30px, 5vw, 48px);
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+.lead {
+  margin: 24px 0 0;
+  color: #354057;
+  font-size: 18px;
+}
+.status {
+  display: inline-flex;
+  margin-top: 20px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eaf6ee;
+  color: #17643a;
+  font-size: 12px;
+  font-weight: 800;
+}
+.status.pending { background: #fff4dc; color: #835c00; }
+.function-content {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+.content-section { padding: 24px 28px; }
+.content-section h2 { margin: 0 0 12px; font-size: 21px; }
+.content-section p { margin: 0; }
+.content-section ol,
+.content-section ul { margin: 0; padding-left: 22px; }
+.content-section li + li { margin-top: 8px; }
+.related-grid,
+.vehicle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.related-link,
+.vehicle-card {
+  display: block;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fafbfd;
+  text-decoration: none;
+}
+.vehicle-card strong,
+.vehicle-card span { display: block; }
+.vehicle-card span { margin-top: 4px; color: var(--muted); font-size: 13px; }
+.source-list { display: grid; gap: 10px; }
+.source-list a {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.updated-at { color: var(--muted); font-size: 14px; }
+.function-footer { border-top: 1px solid var(--line); border-bottom: 0; }
+.function-footer__inner { padding: 28px 0 40px; color: var(--muted); font-size: 13px; }
+.function-directory {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+.directory-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+}
+.directory-card strong,
+.directory-card span { display: block; }
+.directory-card span { margin-top: 6px; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 640px) {
+  .function-main { padding-top: 28px; }
+  .function-header__inner { min-height: 56px; }
+  .function-hero__top { align-items: center; }
+  .lead { font-size: 16px; }
+  .content-section { padding: 21px 20px; }
+  .related-grid,
+  .vehicle-grid,
+  .function-directory { grid-template-columns: 1fr; }
+}

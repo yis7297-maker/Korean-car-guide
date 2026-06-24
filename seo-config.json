@@ -1,0 +1,6 @@
+{
+  "siteName": "Korean CAR GUIDE",
+  "baseUrl": "https://YOUR-DOMAIN.example",
+  "defaultDescription": "현대자동차, 기아, 제네시스 차량 기능과 사용법을 쉽게 검색할 수 있는 자동차 기능 가이드 베타 서비스입니다.",
+  "ogImage": "/assets/hero-original-mobility-v2.png"
+}
