@@ -64,6 +64,14 @@ const rows = (items, ordered = true) => {
   return `<${tag}>${values.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</${tag}>`;
 };
 const section = (title, content) => `<section class="content-section"><h2>${title}</h2>${content}</section>`;
+const googleTag = `  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSG1T3HMRY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TSG1T3HMRY');
+  </script>`;
 
 function pageHtml(feature, features) {
   const title = `${feature.name} 사용법 및 적용 차량 | ${config.siteName}`;
@@ -89,6 +97,7 @@ function pageHtml(feature, features) {
   return `<!doctype html>
 <html lang="ko">
 <head>
+${googleTag}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
@@ -211,6 +220,7 @@ const directoryDescription = '현대자동차, 기아, 제네시스의 자동차
 const directoryHtml = `<!doctype html>
 <html lang="ko">
 <head>
+${googleTag}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>전체 자동차 기능 | ${escapeHtml(config.siteName)}</title>
@@ -265,6 +275,7 @@ await fs.writeFile(path.join(root, 'robots.txt'), robots, 'utf8');
 const notFoundHtml = `<!doctype html>
 <html lang="ko">
 <head>
+${googleTag}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
