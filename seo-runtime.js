@@ -61,7 +61,7 @@
   }
 
   if ('serviceWorker' in navigator && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
-    navigator.serviceWorker.register('/function-preview-sw.js?v=20260624-2').catch(() => {});
+    navigator.serviceWorker.register('/function-preview-sw.js?v=20260624-3').catch(() => {});
   }
 
   const requestedSearch = new URLSearchParams(location.search).get('search');

@@ -1,4 +1,4 @@
-/* Local preview compatibility: resolves folder URLs when the preview server lacks directory indexes. */
+/* Local preview only: the desktop preview server does not resolve directory index files. */
 self.addEventListener('install', event => event.waitUntil(self.skipWaiting()));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', event => {
@@ -9,9 +9,11 @@ self.addEventListener('fetch', event => {
     /^\/function\/[^/]+\/$/.test(url.pathname)
   ) {
     event.respondWith(
-      fetch(`${url.pathname}index.html`, { redirect: 'follow' })
-        .then(response => response.ok ? response : fetch('/404.html'))
-        .catch(() => fetch('/404.html'))
+      fetch(`${url.pathname}index.html`, { cache: 'no-store' })
+        .then(response => {
+          if (response.ok) return response;
+          return fetch('/404.html', { cache: 'no-store' });
+        })
     );
   }
 });

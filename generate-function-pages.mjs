@@ -100,13 +100,16 @@ function pageHtml(feature, features) {
   <meta property="og:url" content="${escapeHtml(canonical)}">
   <meta property="og:image" content="${escapeHtml(absoluteUrl(config.ogImage))}">
   <meta property="article:modified_time" content="${escapeHtml(updatedAt)}">
+  <meta name="kcg-render-mode" content="static-generated">
+  <meta name="kcg-feature-id" content="${escapeHtml(feature.id)}">
+  <meta name="kcg-feature-slug" content="${escapeHtml(feature.slug)}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="${escapeHtml(canonical)}">
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../../function-pages.css">
   <script type="application/ld+json">${JSON.stringify(schema).replaceAll('<', '\\u003c')}</script>
 </head>
-<body>
+<body data-feature-id="${escapeHtml(feature.id)}" data-feature-slug="${escapeHtml(feature.slug)}">
   <header class="function-header">
     <div class="function-header__inner">
       <a class="site-name" href="../../">${escapeHtml(config.siteName)}</a>
@@ -179,15 +182,25 @@ for (const feature of data.features) {
 }
 
 await fs.writeFile(path.join(root, 'function-data.json'), `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+const canonicalSlugIndex = Object.fromEntries(data.features.map(feature => [feature.slug, feature.id]));
+const aliasSlugIndex = {};
+for (const feature of data.features) {
+  for (const alias of feature.slugAliases) {
+    if (canonicalSlugIndex[alias] || aliasSlugIndex[alias]) continue;
+    aliasSlugIndex[alias] = feature.id;
+  }
+}
 await fs.writeFile(
   path.join(root, 'function-slug-map.json'),
   `${JSON.stringify({
-    matchingOrder: ['slug', 'slugAliases', 'englishNameSlug', 'koreanFeatureName'],
+    matchingOrder: ['canonicalSlugIndex', 'aliasSlugIndex', 'englishNameSlug', 'koreanFeatureName'],
+    canonicalSlugIndex,
+    aliasSlugIndex,
     entries: data.features.map(feature => ({
       id: feature.id,
       name: feature.name,
       slug: feature.slug,
-      aliases: feature.slugAliases,
+      aliases: feature.slugAliases.filter(alias => !canonicalSlugIndex[alias]),
       canonical: functionUrl(feature)
     }))
   }, null, 2)}\n`,
