@@ -7,6 +7,16 @@ const data = JSON.parse(await fs.readFile(path.join(root, 'function-data.json'),
 const config = JSON.parse(await fs.readFile(path.join(root, 'seo-config.json'), 'utf8'));
 const baseUrl = config.baseUrl.replace(/\/+$/, '');
 const functionRoot = path.join(root, 'function');
+const publicSlugs = {
+  'rspa2': 'rspa2',
+  'memory-reverse-assist': 'mra',
+  'hybrid-stay-mode': 'stay-mode',
+  'hyundai-dk2': 'digital-key-2',
+  'apple-carplay-wireless': 'apple-carplay',
+  'android-auto-wireless': 'android-auto',
+  'v2l-parent': 'v2l'
+};
+const slugFor = feature => publicSlugs[feature.id] || feature.id;
 
 const escapeHtml = value => String(value ?? '')
   .replaceAll('&', '&amp;')
@@ -21,7 +31,7 @@ const compactDescription = feature => {
   return text.replace(/\s+/g, ' ').trim().slice(0, 155);
 };
 const absoluteUrl = pathname => `${baseUrl}/${String(pathname).replace(/^\/+/, '')}`;
-const functionUrl = feature => absoluteUrl(`function/${encodeURIComponent(feature.id)}/`);
+const functionUrl = feature => absoluteUrl(`function/${encodeURIComponent(slugFor(feature))}/`);
 const relatedFeature = (name, features) => features.find(candidate =>
   candidate.name === name || toArray(candidate.aliases).includes(name)
 );
@@ -104,7 +114,7 @@ function pageHtml(feature, features) {
         ${section('제한 사항', rows(feature.limitations, false))}
         ${section('주의 사항', rows(feature.warnings, false))}
         ${section('관련 기능', related.length
-          ? `<div class="related-grid">${related.map(item => `<a class="related-link" href="../${encodeURIComponent(item.id)}/index.html">${escapeHtml(item.name)}</a>`).join('')}</div>`
+          ? `<div class="related-grid">${related.map(item => `<a class="related-link" href="../${encodeURIComponent(slugFor(item))}/">${escapeHtml(item.name)}</a>`).join('')}</div>`
           : '<p>연결된 관련 기능이 없습니다.</p>')}
         ${section('적용 차량', applications.length
           ? `<div class="vehicle-grid">${applications.map(item => `<div class="vehicle-card"><strong>${escapeHtml(item.brand)} ${escapeHtml(item.model)}</strong><span>연식 ${escapeHtml(item.years)}</span><span>트림 ${escapeHtml(item.trim)}</span><span>${escapeHtml(item.option)}</span></div>`).join('')}</div>`
@@ -130,7 +140,7 @@ await fs.rm(functionRoot, { recursive: true, force: true });
 await fs.mkdir(functionRoot, { recursive: true });
 
 for (const feature of data.features) {
-  const directory = path.join(functionRoot, feature.id);
+  const directory = path.join(functionRoot, slugFor(feature));
   await fs.mkdir(directory, { recursive: true });
   await fs.writeFile(path.join(directory, 'index.html'), pageHtml(feature, data.features), 'utf8');
 }
@@ -159,7 +169,7 @@ const directoryHtml = `<!doctype html>
     <h1>전체 자동차 기능</h1>
     <p class="lead">${directoryDescription}</p>
     <nav class="function-directory" aria-label="전체 기능">
-      ${data.features.map(feature => `<a class="directory-card" href="${encodeURIComponent(feature.id)}/index.html"><strong>${escapeHtml(feature.name)}</strong><span>${escapeHtml(feature.category)}</span></a>`).join('')}
+      ${data.features.map(feature => `<a class="directory-card" href="${encodeURIComponent(slugFor(feature))}/"><strong>${escapeHtml(feature.name)}</strong><span>${escapeHtml(feature.category)}</span></a>`).join('')}
     </nav>
   </main>
 </body>
@@ -190,4 +200,29 @@ Sitemap: ${baseUrl}/sitemap.xml
 `;
 await fs.writeFile(path.join(root, 'robots.txt'), robots, 'utf8');
 
-console.log(`Generated ${data.features.length} function pages, ${sitemapEntries.length} sitemap URLs, and robots.txt.`);
+const notFoundHtml = `<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>기능을 찾을 수 없습니다 | ${escapeHtml(config.siteName)}</title>
+  <meta name="description" content="요청한 자동차 기능 페이지를 찾을 수 없습니다. 전체 기능 검색에서 원하는 기능을 확인하세요.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/function-pages.css">
+</head>
+<body>
+  <header class="function-header"><div class="function-header__inner"><a class="site-name" href="/">${escapeHtml(config.siteName)}</a></div></header>
+  <main class="function-main">
+    <section class="function-hero">
+      <p class="eyebrow">404</p>
+      <h1>기능을 찾을 수 없습니다</h1>
+      <p class="lead">주소가 변경되었거나 아직 등록되지 않은 기능입니다.</p>
+      <p><a class="related-link" href="/">메인 기능 검색으로 이동</a></p>
+    </section>
+  </main>
+</body>
+</html>`;
+await fs.writeFile(path.join(root, '404.html'), notFoundHtml, 'utf8');
+
+console.log(`Generated ${data.features.length} function pages, ${sitemapEntries.length} sitemap URLs, robots.txt, and 404.html.`);

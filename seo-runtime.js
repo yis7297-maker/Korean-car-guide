@@ -1,6 +1,15 @@
 /* SEO bridge: exposes the final merged database and links modal content to crawlable pages. */
 (function installFunctionPageLinks() {
-  const functionPath = feature => `function/${encodeURIComponent(feature.id)}/index.html`;
+  const publicSlugs = {
+    'rspa2': 'rspa2',
+    'memory-reverse-assist': 'mra',
+    'hybrid-stay-mode': 'stay-mode',
+    'hyundai-dk2': 'digital-key-2',
+    'apple-carplay-wireless': 'apple-carplay',
+    'android-auto-wireless': 'android-auto',
+    'v2l-parent': 'v2l'
+  };
+  const functionPath = feature => `/function/${encodeURIComponent(publicSlugs[feature.id] || feature.id)}/`;
 
   const seoData = {
     generatedAt: new Date().toISOString(),
@@ -39,8 +48,12 @@
   if (footerMeta && !document.querySelector('.function-directory-link')) {
     const directoryLink = document.createElement('a');
     directoryLink.className = 'function-directory-link';
-    directoryLink.href = 'function/';
+    directoryLink.href = '/function/';
     directoryLink.textContent = '전체 기능 페이지';
     footerMeta.appendChild(directoryLink);
+  }
+
+  if ('serviceWorker' in navigator && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
+    navigator.serviceWorker.register('/function-preview-sw.js').catch(() => {});
   }
 })();

@@ -18,7 +18,7 @@
 
 ## 배포 전 필수 설정
 
-`seo-config.json`의 `baseUrl`을 실제 운영 도메인으로 변경한 뒤 페이지를 다시 생성해야 합니다.
+운영 기본 URL은 `https://korean-car-guide.vercel.app`으로 설정되어 있습니다. 다른 도메인을 연결할 경우 `seo-config.json`의 `baseUrl`을 변경한 뒤 페이지를 다시 생성해야 합니다.
 
 예:
 
@@ -28,4 +28,12 @@
 }
 ```
 
-현재 `YOUR-DOMAIN.example` 값은 배포용 임시값입니다.
+주요 공개 URL은 데이터 ID와 별도로 고정 관리합니다.
+
+- RSPA 2: `/function/rspa2/`
+- MRA: `/function/mra/`
+- 스테이 모드: `/function/stay-mode/`
+- 디지털 키 2: `/function/digital-key-2/`
+- Apple CarPlay: `/function/apple-carplay/`
+- Android Auto: `/function/android-auto/`
+- V2L: `/function/v2l/`

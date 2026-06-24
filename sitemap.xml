@@ -1,517 +1,517 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-DOMAIN.example/</loc>
+    <loc>https://korean-car-guide.vercel.app/</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/fca-suite/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/fca-suite/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/nscc-hda2/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/nscc-hda2/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/rspa2/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/rspa2/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/dual-auto-ac/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/dual-auto-ac/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/air-purification/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/air-purification/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/after-blow/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/after-blow/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/remote-climate/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/remote-climate/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/heated-ventilated-seats/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/heated-ventilated-seats/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ergo-motion-seat/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ergo-motion-seat/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/relaxation-comfort-seat/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/relaxation-comfort-seat/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/memory-seat/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/memory-seat/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/smart-power-tailgate/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/smart-power-tailgate/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hud/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hud/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/panoramic-curved-display/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/panoramic-curved-display/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/apple-carplay-wired/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/apple-carplay-wired/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/apple-carplay-wireless/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/apple-carplay/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/android-auto-wired/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/android-auto-wired/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/android-auto-wireless/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/android-auto/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ccnc-ota/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ccnc-ota/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/fingerprint-auth/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/fingerprint-auth/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-charge-v2l/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-charge-v2l/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/nexo-h2-refuel/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/nexo-h2-refuel/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/nexo-fcev-info/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/nexo-fcev-info/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/nexo-smart-regen/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/nexo-smart-regen/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/nexo-eco-coaching/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/nexo-eco-coaching/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/n-performance/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/n-performance/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/memory-reverse-assist/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/mra/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/plug-and-charge/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/plug-and-charge/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/iccu-energy-control/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/iccu-energy-control/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-route-planner/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-route-planner/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/battery-conditioning/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/battery-conditioning/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/scheduled-charging/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/scheduled-charging/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/charge-limit/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/charge-limit/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/v2l-parent/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/v2l/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/v2l-indoor/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/v2l-indoor/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/v2l-outdoor/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/v2l-outdoor/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/camping-mode/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/camping-mode/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/utility-mode/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/utility-mode/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/v2h-roadmap/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/v2h-roadmap/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/v2g-roadmap/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/v2g-roadmap/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/side-pdw/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/side-pdw/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/pca-parking/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/pca-parking/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/remote-smart-exit/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/remote-smart-exit/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/e-hi-pass/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/e-hi-pass/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/face-connect/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/face-connect/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/genesis-dk2/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/genesis-dk2/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/genesis-dk2-touch/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/genesis-dk2-touch/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hyundai-dk2/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/digital-key-2/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hyundai-dk2-touch/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hyundai-dk2-touch/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/digital-center-mirror/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/digital-center-mirror/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/built-in-cam/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/built-in-cam/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/built-in-cam2/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/built-in-cam2/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/built-in-cam2-plus/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/built-in-cam2-plus/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/dynamic-body-care-seat/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/dynamic-body-care-seat/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/swiveling-seat/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/swiveling-seat/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/walk-in-device/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/walk-in-device/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/smart-posture-assist/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/smart-posture-assist/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/passenger-talk/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/passenger-talk/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/passenger-view/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/passenger-view/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/rear-voice-recognition/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/rear-voice-recognition/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/rear-climate-control/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/rear-climate-control/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/pleos-connect/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/pleos-connect/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ccnc-system/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ccnc-system/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hyundai-ai/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hyundai-ai/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/kia-ai/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/kia-ai/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/feature-on-demand/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/feature-on-demand/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/fcev-energy-flow/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/fcev-energy-flow/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/fcev-dedicated-system/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/fcev-dedicated-system/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-charge-status/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-charge-status/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-energy-usage/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-energy-usage/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-battery-health/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-battery-health/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/i-pedal/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/i-pedal/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-smart-regeneration/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-smart-regeneration/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/ev-regen-level/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/ev-regen-level/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/tmed2-hybrid-system/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/tmed2-hybrid-system/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-stay-mode/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/stay-mode/</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-stay-reservation/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-stay-reservation/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-v2l/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-v2l/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-smart-regen/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-smart-regen/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-regen-level/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-regen-level/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-energy-flow/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-energy-flow/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-battery-status/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-battery-status/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-driving-info/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-driving-info/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/function/hybrid-stationary-climate/</loc>
+    <loc>https://korean-car-guide.vercel.app/function/hybrid-stationary-climate/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
