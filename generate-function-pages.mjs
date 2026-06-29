@@ -98,6 +98,8 @@ function pageHtml(feature, features) {
 <html lang="ko">
 <head>
 ${googleTag}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2514787280647570"
+     crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
