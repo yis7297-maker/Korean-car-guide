@@ -1,0 +1,14 @@
+{
+  "feature": "ev-route-planner",
+  "featureName": "EV Route Planner",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "PDF txt에서 독립 EV Route Planner 절차 본문을 확인하지 못함"
+}

@@ -1,0 +1,14 @@
+{
+  "feature": "apple-carplay",
+  "featureName": "Apple CarPlay",
+  "reason": "PDF txt에서는 Android Auto/Apple CarPlay 존재 언급만 확인. 연결/등록 절차는 인포테인먼트 웹 매뉴얼 참조로 PDF 본문 절차 미확인",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

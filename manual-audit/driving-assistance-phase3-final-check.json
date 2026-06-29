@@ -1,0 +1,137 @@
+{
+  "totalFeatures": 107,
+  "verifiedTrueInAdas": 11,
+  "levels": {
+    "official_manual_verified": 11
+  },
+  "changed": [
+    {
+      "id": "fca-suite",
+      "slug": "fca-suite",
+      "name": "전방 충돌방지 보조 / FCA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "전방 충돌방지 보조 (FCA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "nscc-hda2",
+      "slug": "nscc-hda2",
+      "name": "내비게이션 기반 스마트 크루즈 컨트롤 / NSCC",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "scc",
+      "slug": "scc",
+      "name": "스마트 크루즈 컨트롤 / SCC",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "스마트 크루즈 컨트롤 (SCC)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "hda",
+      "slug": "hda",
+      "name": "고속도로 주행 보조 / HDA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "고속도로 주행 보조 (HDA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "lfa",
+      "slug": "lfa",
+      "name": "차로 유지 보조 / LFA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "차로 유지 보조 (LFA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "lka",
+      "slug": "lka",
+      "name": "차로 이탈방지 보조 / LKA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "차로 이탈방지 보조 (LKA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "bca",
+      "slug": "bca",
+      "name": "후측방 충돌방지 보조 / BCA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "후측방 충돌방지 보조 (BCA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "safe-exit-assist",
+      "slug": "safe-exit-assist",
+      "name": "안전 하차 보조 / SEA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "안전 하차 보조 (SEA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "driver-attention-warning",
+      "slug": "driver-attention-warning",
+      "name": "운전자 주의 경고 / DAW",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "운전자 주의 경고 (DAW)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "intelligent-speed-limit-assist",
+      "slug": "isla",
+      "name": "지능형 속도 제한 보조 / ISLA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "지능형 속도 제한 보조 (ISLA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    },
+    {
+      "id": "high-beam-assist",
+      "slug": "hba",
+      "name": "하이빔 보조 / HBA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "section": "하이빔 보조 (HBA)",
+      "manual": "GN7_2026_ko_KR.pdf"
+    }
+  ],
+  "auditExisting": [
+    "fca-suite.json",
+    "scc.json",
+    "nscc-hda2.json",
+    "hda.json",
+    "lfa.json",
+    "lka.json",
+    "bca.json",
+    "safe-exit-assist.json",
+    "driver-attention-warning.json",
+    "isla.json",
+    "hba.json",
+    "hda2.json",
+    "bcw.json",
+    "driving-assistance-phase3-report.json"
+  ],
+  "functionPageChecks": {
+    "fca-suite": true,
+    "scc": true,
+    "nscc-hda2": true,
+    "hda": true,
+    "lfa": true,
+    "lka": true,
+    "bca": true,
+    "safe-exit-assist": true,
+    "driver-attention-warning": true,
+    "isla": true,
+    "hba": true
+  }
+}

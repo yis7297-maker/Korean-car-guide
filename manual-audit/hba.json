@@ -1,0 +1,15 @@
+{
+  "feature": "hba",
+  "featureId": "high-beam-assist",
+  "featureName": "하이빔 보조 / HBA",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "GN7_2026_ko_KR.pdf",
+  "txtFile": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "하이빔 보조 (HBA)",
+  "section": "하이빔 보조 (HBA)",
+  "pageRange": "확인 필요",
+  "updatedDate": "2026-06-29",
+  "scope": "driving-assistance-adas",
+  "note": "pdftotext 변환 txt 본문에서 기능 섹션과 절차를 확인함"
+}

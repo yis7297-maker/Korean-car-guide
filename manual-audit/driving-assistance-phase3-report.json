@@ -1,0 +1,78 @@
+{
+  "updated": "2026-06-29",
+  "modified": [
+    {
+      "id": "fca-suite",
+      "action": "updated"
+    },
+    {
+      "id": "scc",
+      "action": "added"
+    },
+    {
+      "id": "nscc-hda2",
+      "action": "updated"
+    },
+    {
+      "id": "hda",
+      "action": "added"
+    },
+    {
+      "id": "lfa",
+      "action": "added"
+    },
+    {
+      "id": "lka",
+      "action": "added"
+    },
+    {
+      "id": "bca",
+      "action": "added"
+    },
+    {
+      "id": "safe-exit-assist",
+      "action": "added"
+    },
+    {
+      "id": "driver-attention-warning",
+      "action": "added"
+    },
+    {
+      "id": "intelligent-speed-limit-assist",
+      "action": "added"
+    },
+    {
+      "id": "high-beam-assist",
+      "action": "added"
+    }
+  ],
+  "failures": [
+    {
+      "feature": "hda2",
+      "featureName": "고속도로 주행 보조 2 / HDA2",
+      "verified": false,
+      "verificationLevel": "pending_verification",
+      "manualFile": null,
+      "txtFile": null,
+      "matchedKeyword": "고속도로 주행 보조 2 / HDA2 / Highway Driving Assist 2",
+      "section": null,
+      "pageRange": null,
+      "updatedDate": "2026-06-29",
+      "reason": "변환된 현대/제네시스 txt 36개에서 별도 HDA2 공식 섹션을 확인하지 못함"
+    },
+    {
+      "feature": "bcw",
+      "featureName": "후측방 충돌 경고 / BCW",
+      "verified": false,
+      "verificationLevel": "pending_verification",
+      "manualFile": "GN7_2026_ko_KR.pdf",
+      "txtFile": "GN7_2026_ko_KR.txt",
+      "matchedKeyword": "후측방 충돌 경고",
+      "section": "후측방 충돌방지 보조 (BCA)",
+      "pageRange": "확인 필요",
+      "updatedDate": "2026-06-29",
+      "reason": "별도 기능 섹션이 아니라 BCA 작동 항목 내 경고 동작으로 확인되어 별도 기능 DB 항목으로 검증하지 않음"
+    }
+  ],
+  "source": "GN7_2026_ko_KR.txt"
+}

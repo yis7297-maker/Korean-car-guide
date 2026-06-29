@@ -1,0 +1,14 @@
+{
+  "feature": "wireless-charging",
+  "featureName": "무선 충전",
+  "reason": "디지털 키 인증 패드/무선 충전 문맥은 확인됐으나 독립 스마트폰 무선 충전 절차 본문 미확인",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

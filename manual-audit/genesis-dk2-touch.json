@@ -1,0 +1,14 @@
+{
+  "feature": "genesis-dk2-touch",
+  "featureName": "Genesis Digital Key 2 Touch",
+  "reason": "이번 PDF txt 기준으로 Touch 절차 본문을 충분히 분리 확인하지 못함",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

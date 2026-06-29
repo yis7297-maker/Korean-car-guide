@@ -1,0 +1,14 @@
+{
+  "feature": "memory-seat",
+  "featureName": "메모리 시트",
+  "reason": "추출 본문이 차종별로 상이하고 기존 DB의 일반 메모리 시트 항목과 공식 명칭 매핑을 추가 확인해야 하므로 미검증",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

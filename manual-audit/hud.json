@@ -1,0 +1,14 @@
+{
+  "feature": "hud",
+  "featureName": "HUD",
+  "reason": "설정 경로 일부는 확인됐으나 기능 절차 본문을 충분히 확보하지 못해 미검증",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

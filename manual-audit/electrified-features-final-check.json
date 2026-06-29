@@ -1,0 +1,395 @@
+{
+  "verifiedCompleteCount": 21,
+  "verifiedTrueCount": 21,
+  "levels": {
+    "official_manual_verified": 21
+  },
+  "modified": [
+    {
+      "id": "nexo-h2-refuel",
+      "slug": "nexo-h2-refuel",
+      "name": "수소 충전 / 충전구 개폐",
+      "manual": "NH2_2026_ko_KR.pdf",
+      "section": "연료 충전구 여는 방법 / 닫는 방법",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "nexo-fcev-info",
+      "slug": "nexo-fcev-info",
+      "name": "FCEV 정보 화면 / 에너지 모니터",
+      "manual": "NH2_2026_ko_KR.pdf",
+      "section": "FCEV 시스템 에너지 흐름도 확인하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "nexo-smart-regen",
+      "slug": "nexo-smart-regen",
+      "name": "스마트 회생제동 / 회생제동 조절",
+      "manual": "NH2_2026_ko_KR.pdf",
+      "section": "수소 전기차 특징 살펴보기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "plug-and-charge",
+      "slug": "plug-and-charge",
+      "name": "Plug & Charge",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "Plug & Charge 설정",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "battery-conditioning",
+      "slug": "battery-conditioning",
+      "name": "Battery Conditioning",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "배터리 컨디셔닝 사용하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "scheduled-charging",
+      "slug": "scheduled-charging",
+      "name": "충전 예약",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "예약 충전",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "charge-limit",
+      "slug": "charge-limit",
+      "name": "충전 한도 설정",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "목표 배터리량 설정",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "v2l-parent",
+      "slug": "v2l",
+      "name": "V2L",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "전기 사용(V2L)",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "v2l-indoor",
+      "slug": "v2l-indoor",
+      "name": "실내 V2L",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "유틸리티 모드와 전기 사용(V2L)",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "v2l-outdoor",
+      "slug": "v2l-outdoor",
+      "name": "실외 V2L",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "V2L 커넥터 취급 및 사용",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "utility-mode",
+      "slug": "utility-mode",
+      "name": "유틸리티 모드",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "유틸리티 모드",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "fcev-energy-flow",
+      "slug": "fcev-energy-flow",
+      "name": "FCEV 에너지 흐름도",
+      "manual": "NH2_2026_ko_KR.pdf",
+      "section": "FCEV 시스템 에너지 흐름도 확인하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "fcev-dedicated-system",
+      "slug": "fcev-dedicated-system",
+      "name": "수소차 전용 시스템 정보",
+      "manual": "NH2_2026_ko_KR.pdf",
+      "section": "수소 전기차 주요 장치 살펴보기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "ev-charge-status",
+      "slug": "ev-charge-status",
+      "name": "충전 상태 확인",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "고전압 배터리 충전 상태",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "ev-energy-usage",
+      "slug": "ev-energy-usage",
+      "name": "에너지 사용량",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "에너지 정보 확인하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "ev-battery-health",
+      "slug": "ev-battery-health",
+      "name": "배터리 상태 확인",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "에너지 정보 확인하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "i-pedal",
+      "slug": "i-pedal",
+      "name": "i-Pedal",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "i-PEDAL 설정",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "ev-smart-regeneration",
+      "slug": "ev-smart-regeneration",
+      "name": "EV 스마트 회생제동",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "스마트 회생 제동 기능 사용하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "ev-regen-level",
+      "slug": "ev-regen-level",
+      "name": "회생제동 단계 조절",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "회생 제동 기능 사용하기",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "hybrid-energy-flow",
+      "slug": "hybrid-energy-flow",
+      "name": "하이브리드 에너지 흐름도",
+      "manual": "GN7HEV_2026_ko_KR.pdf",
+      "section": "하이브리드 에너지 흐름도",
+      "level": "official_manual_verified"
+    },
+    {
+      "id": "hybrid-battery-status",
+      "slug": "hybrid-battery-status",
+      "name": "하이브리드 배터리 충전 상태",
+      "manual": "GN7HEV_2026_ko_KR.pdf",
+      "section": "고전압 배터리 충전량 (SOC) 표시계",
+      "level": "official_manual_verified"
+    }
+  ],
+  "auditExisting": [
+    "regenerative-braking.json",
+    "smart-regenerative-braking.json",
+    "i-pedal.json",
+    "battery-conditioning.json",
+    "scheduled-charging.json",
+    "charge-limit.json",
+    "charging-status.json",
+    "energy-information.json",
+    "battery-state.json",
+    "v2l.json",
+    "v2l-indoor.json",
+    "v2l-outdoor.json",
+    "utility-mode.json",
+    "plug-and-charge.json",
+    "fcev.json",
+    "fcev-energy-flow.json",
+    "fcev-dedicated-system.json",
+    "hydrogen-refueling.json",
+    "fcev-regenerative-braking.json",
+    "hybrid-energy-flow.json",
+    "hybrid-battery-status.json",
+    "electrified-features-audit-report.json"
+  ],
+  "pageChecks": {
+    "nexo-h2-refuel": true,
+    "nexo-fcev-info": true,
+    "nexo-smart-regen": true,
+    "plug-and-charge": true,
+    "battery-conditioning": true,
+    "scheduled-charging": true,
+    "charge-limit": true,
+    "v2l": true,
+    "v2l-indoor": true,
+    "v2l-outdoor": true,
+    "utility-mode": true,
+    "fcev-energy-flow": true,
+    "fcev-dedicated-system": true,
+    "ev-charge-status": true,
+    "ev-energy-usage": true,
+    "ev-battery-health": true,
+    "i-pedal": true,
+    "ev-smart-regeneration": true,
+    "ev-regen-level": true,
+    "hybrid-energy-flow": true,
+    "hybrid-battery-status": true
+  },
+  "modelGuides": [
+    {
+      "id": "nexo-h2-refuel",
+      "slug": "nexo-h2-refuel",
+      "name": "수소 충전 / 충전구 개폐",
+      "guides": [
+        "Hyundai 넥쏘 2026 연료 충전구 여는 방법 / 닫는 방법"
+      ]
+    },
+    {
+      "id": "nexo-fcev-info",
+      "slug": "nexo-fcev-info",
+      "name": "FCEV 정보 화면 / 에너지 모니터",
+      "guides": [
+        "Hyundai 넥쏘 2026 FCEV 시스템 에너지 흐름도 확인하기"
+      ]
+    },
+    {
+      "id": "nexo-smart-regen",
+      "slug": "nexo-smart-regen",
+      "name": "스마트 회생제동 / 회생제동 조절",
+      "guides": [
+        "Hyundai 넥쏘 2026 수소 전기차 특징 살펴보기"
+      ]
+    },
+    {
+      "id": "plug-and-charge",
+      "slug": "plug-and-charge",
+      "name": "Plug & Charge",
+      "guides": [
+        "Genesis GV60 2027 Plug & Charge 설정"
+      ]
+    },
+    {
+      "id": "battery-conditioning",
+      "slug": "battery-conditioning",
+      "name": "Battery Conditioning",
+      "guides": [
+        "Genesis GV60 2027 배터리 컨디셔닝 사용하기"
+      ]
+    },
+    {
+      "id": "scheduled-charging",
+      "slug": "scheduled-charging",
+      "name": "충전 예약",
+      "guides": [
+        "Genesis GV60 2027 예약 충전"
+      ]
+    },
+    {
+      "id": "charge-limit",
+      "slug": "charge-limit",
+      "name": "충전 한도 설정",
+      "guides": [
+        "Genesis GV60 2027 목표 배터리량 설정"
+      ]
+    },
+    {
+      "id": "v2l-parent",
+      "slug": "v2l",
+      "name": "V2L",
+      "guides": [
+        "Genesis GV60 2027 전기 사용(V2L)"
+      ]
+    },
+    {
+      "id": "v2l-indoor",
+      "slug": "v2l-indoor",
+      "name": "실내 V2L",
+      "guides": [
+        "Genesis GV60 2027 유틸리티 모드와 전기 사용(V2L)"
+      ]
+    },
+    {
+      "id": "v2l-outdoor",
+      "slug": "v2l-outdoor",
+      "name": "실외 V2L",
+      "guides": [
+        "Genesis GV60 2027 V2L 커넥터 취급 및 사용"
+      ]
+    },
+    {
+      "id": "utility-mode",
+      "slug": "utility-mode",
+      "name": "유틸리티 모드",
+      "guides": [
+        "Genesis GV60 2027 유틸리티 모드"
+      ]
+    },
+    {
+      "id": "fcev-energy-flow",
+      "slug": "fcev-energy-flow",
+      "name": "FCEV 에너지 흐름도",
+      "guides": [
+        "Hyundai 넥쏘 2026 FCEV 시스템 에너지 흐름도 확인하기"
+      ]
+    },
+    {
+      "id": "fcev-dedicated-system",
+      "slug": "fcev-dedicated-system",
+      "name": "수소차 전용 시스템 정보",
+      "guides": [
+        "Hyundai 넥쏘 2026 수소 전기차 주요 장치 살펴보기"
+      ]
+    },
+    {
+      "id": "ev-charge-status",
+      "slug": "ev-charge-status",
+      "name": "충전 상태 확인",
+      "guides": [
+        "Genesis GV60 2027 고전압 배터리 충전 상태"
+      ]
+    },
+    {
+      "id": "ev-energy-usage",
+      "slug": "ev-energy-usage",
+      "name": "에너지 사용량",
+      "guides": [
+        "Genesis GV60 2027 에너지 정보 확인하기"
+      ]
+    },
+    {
+      "id": "ev-battery-health",
+      "slug": "ev-battery-health",
+      "name": "배터리 상태 확인",
+      "guides": [
+        "Genesis GV60 2027 에너지 정보 확인하기"
+      ]
+    },
+    {
+      "id": "i-pedal",
+      "slug": "i-pedal",
+      "name": "i-Pedal",
+      "guides": [
+        "Genesis GV60 2027 i-PEDAL 설정"
+      ]
+    },
+    {
+      "id": "ev-smart-regeneration",
+      "slug": "ev-smart-regeneration",
+      "name": "EV 스마트 회생제동",
+      "guides": [
+        "Genesis GV60 2027 스마트 회생 제동 기능 사용하기"
+      ]
+    },
+    {
+      "id": "ev-regen-level",
+      "slug": "ev-regen-level",
+      "name": "회생제동 단계 조절",
+      "guides": [
+        "Genesis GV60 2027 회생 제동 기능 사용하기"
+      ]
+    },
+    {
+      "id": "hybrid-energy-flow",
+      "slug": "hybrid-energy-flow",
+      "name": "하이브리드 에너지 흐름도",
+      "guides": [
+        "Hyundai 그랜저 하이브리드 2026 하이브리드 에너지 흐름도"
+      ]
+    },
+    {
+      "id": "hybrid-battery-status",
+      "slug": "hybrid-battery-status",
+      "name": "하이브리드 배터리 충전 상태",
+      "guides": [
+        "Hyundai 그랜저 하이브리드 2026 고전압 배터리 충전량 (SOC) 표시계"
+      ]
+    }
+  ],
+  "totalFeatures": 107
+}

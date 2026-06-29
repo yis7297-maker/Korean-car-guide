@@ -1,0 +1,14 @@
+{
+  "feature": "camping-mode",
+  "featureName": "캠핑 모드",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "전기차 캠핑 모드 공식 절차 본문 미확인"
+}

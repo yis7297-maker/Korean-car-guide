@@ -1,0 +1,14 @@
+{
+  "feature": "hybrid-stay-mode",
+  "featureName": "스테이 모드",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "LX3HEV에서 관련 문구는 확인됐으나 이번 전동화 범위에서 절차 전체 재검증 미완료"
+}

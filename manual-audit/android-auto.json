@@ -1,0 +1,14 @@
+{
+  "feature": "android-auto",
+  "featureName": "Android Auto",
+  "reason": "PDF txt에서는 존재 언급만 확인. 연결/등록 절차는 PDF 본문에서 확인하지 못함",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

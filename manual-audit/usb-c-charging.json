@@ -1,0 +1,14 @@
+{
+  "feature": "usb-c-charging",
+  "featureName": "USB-C 충전",
+  "reason": "USB 충전 단자 설명은 확인됐으나 현재 DB에 독립 USB-C 충전 기능 항목 없음",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

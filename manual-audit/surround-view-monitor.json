@@ -1,0 +1,11 @@
+{
+  "feature": "surround-view-monitor",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manual": "GN7_2026_ko_KR.pdf",
+  "txt": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "서라운드 뷰 모니터",
+  "section": "서라운드 뷰 모니터 (SVM)",
+  "pageRange": "550-556",
+  "updated": "2026-06-29"
+}

@@ -1,0 +1,14 @@
+{
+  "feature": "voice-recognition",
+  "featureName": "음성인식",
+  "reason": "기능 존재 문구는 확인됐으나 현재 DB에 일반 음성인식 기능 항목이 없음. 후석 음성 인식과 혼합하지 않기 위해 미수정",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

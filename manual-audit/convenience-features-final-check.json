@@ -1,0 +1,125 @@
+{
+  "verifiedCompleteCount": 10,
+  "verifiedTrueCount": 10,
+  "levels": {
+    "official_manual_verified": 10
+  },
+  "modified": [
+    {
+      "id": "ccnc-ota",
+      "slug": "ccnc-ota",
+      "name": "무선 소프트웨어 업데이트 / OTA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "무선 소프트웨어 업데이트"
+    },
+    {
+      "id": "fingerprint-auth",
+      "slug": "fingerprint-auth",
+      "name": "지문 인증",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "DN8_2026_ko_KR.pdf",
+      "section": "지문 인증 시스템"
+    },
+    {
+      "id": "v2l-parent",
+      "slug": "v2l",
+      "name": "V2L",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "전기 사용(V2L)"
+    },
+    {
+      "id": "face-connect",
+      "slug": "face-connect",
+      "name": "Face Connect",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "JW_2027_ko_KR.pdf",
+      "section": "페이스 커넥트 사용하기 (GV60)"
+    },
+    {
+      "id": "hyundai-dk2",
+      "slug": "digital-key-2",
+      "name": "Hyundai Digital Key 2",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "현대 디지털 키"
+    },
+    {
+      "id": "hyundai-dk2-touch",
+      "slug": "hyundai-dk2-touch",
+      "name": "Hyundai Digital Key 2 Touch",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "현대 디지털 키"
+    },
+    {
+      "id": "built-in-cam",
+      "slug": "built-in-cam",
+      "name": "빌트인 캠",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "빌트인 캠 (Built-in Cam)"
+    },
+    {
+      "id": "smart-key",
+      "slug": "smart-key",
+      "name": "스마트 키",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "스마트 키 사용 시 주의 사항"
+    },
+    {
+      "id": "emergency-key",
+      "slug": "emergency-key",
+      "name": "비상 키",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "스마트 키 사용 시 주의 사항"
+    },
+    {
+      "id": "remote-engine-start",
+      "slug": "remote-engine-start",
+      "name": "원격 시동",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "section": "원격 시동 버튼"
+    }
+  ],
+  "auditExisting": [
+    "smart-key.json",
+    "emergency-key.json",
+    "remote-engine-start.json",
+    "digital-key2.json",
+    "digital-key2-touch.json",
+    "fingerprint.json",
+    "face-connect.json",
+    "built-in-cam.json",
+    "ota.json",
+    "v2l.json",
+    "convenience-features-audit-report.json"
+  ],
+  "pageChecks": {
+    "smart-key": true,
+    "emergency-key": true,
+    "remote-engine-start": true,
+    "digital-key-2": true,
+    "hyundai-dk2-touch": true,
+    "fingerprint-auth": true,
+    "face-connect": true,
+    "built-in-cam": true,
+    "ccnc-ota": true,
+    "v2l": true
+  },
+  "totalFeatures": 107
+}

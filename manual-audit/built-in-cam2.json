@@ -1,0 +1,14 @@
+{
+  "feature": "built-in-cam2",
+  "featureName": "빌트인 캠 2",
+  "reason": "txt 36개에서 “빌트인 캠 2” 공식 명칭/절차 본문 미확인. “빌트인 캠 (Built-in Cam)”만 확인",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

@@ -1,0 +1,15 @@
+{
+  "feature": "nscc-hda2",
+  "featureId": "nscc-hda2",
+  "featureName": "내비게이션 기반 스마트 크루즈 컨트롤 / NSCC",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "GN7_2026_ko_KR.pdf",
+  "txtFile": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+  "section": "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+  "pageRange": "확인 필요",
+  "updatedDate": "2026-06-29",
+  "scope": "driving-assistance-adas",
+  "note": "pdftotext 변환 txt 본문에서 기능 섹션과 절차를 확인함"
+}

@@ -1,0 +1,14 @@
+{
+  "feature": "pleos-connect",
+  "featureName": "Pleos Connect",
+  "reason": "txt 36개에서 Pleos/플레오스 본문 미확인",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

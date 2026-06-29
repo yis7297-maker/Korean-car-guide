@@ -1,0 +1,14 @@
+{
+  "feature": "built-in-navigation",
+  "featureName": "빌트인 내비게이션",
+  "reason": "내비게이션 언급은 다수 있으나 독립 기능 절차는 인포테인먼트 웹 매뉴얼 참조로 PDF 본문에서 미확인",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

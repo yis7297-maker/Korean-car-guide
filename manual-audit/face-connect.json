@@ -1,0 +1,15 @@
+{
+  "feature": "face-connect",
+  "featureId": "face-connect",
+  "featureName": "Face Connect",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "JW_2027_ko_KR.pdf",
+  "txtFile": "JW_2027_ko_KR.txt",
+  "matchedKeyword": "페이스 커넥트 사용하기 (GV60)",
+  "pageRange": "확인 필요",
+  "section": "페이스 커넥트 사용하기 (GV60)",
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features",
+  "note": "pdftotext 변환 txt 본문에서 기능 존재와 절차를 확인함"
+}

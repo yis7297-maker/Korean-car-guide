@@ -1,0 +1,11 @@
+{
+  "feature": "rear-cross-traffic-collision-avoidance",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manual": "GN7_2026_ko_KR.pdf",
+  "txt": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "후방 교차 충돌방지 보조",
+  "section": "후방 교차 충돌방지 보조 (RCCA)",
+  "pageRange": "558-563",
+  "updated": "2026-06-29"
+}

@@ -1,0 +1,15 @@
+{
+  "feature": "nexo-h2-refuel",
+  "featureId": "nexo-h2-refuel",
+  "featureName": "수소 충전 / 충전구 개폐",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "NH2_2026_ko_KR.pdf",
+  "txtFile": "NH2_2026_ko_KR.txt",
+  "matchedKeyword": "연료 충전구 여는 방법 / 닫는 방법",
+  "pageRange": "확인 필요",
+  "section": "연료 충전구 여는 방법 / 닫는 방법",
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "note": "pdftotext 변환 txt 본문에서 기능 존재와 절차/확인 방법을 확인함"
+}

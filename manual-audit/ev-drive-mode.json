@@ -1,0 +1,14 @@
+{
+  "feature": "ev-drive-mode",
+  "featureName": "EV Drive Mode / Eco Normal Sport",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "DB 독립 항목 없음 및 전동화 전용 절차로 분리하지 않음"
+}

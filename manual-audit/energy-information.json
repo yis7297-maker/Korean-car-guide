@@ -1,0 +1,15 @@
+{
+  "feature": "ev-energy-usage",
+  "featureId": "ev-energy-usage",
+  "featureName": "에너지 사용량",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "JW_2027_ko_KR.pdf",
+  "txtFile": "JW_2027_ko_KR.txt",
+  "matchedKeyword": "에너지 정보 확인하기",
+  "pageRange": "확인 필요",
+  "section": "에너지 정보 확인하기",
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "note": "pdftotext 변환 txt 본문에서 기능 존재와 절차/확인 방법을 확인함"
+}

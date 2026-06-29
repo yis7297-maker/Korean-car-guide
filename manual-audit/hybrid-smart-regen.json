@@ -1,0 +1,14 @@
+{
+  "feature": "hybrid-smart-regen",
+  "featureName": "하이브리드 스마트 회생제동",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "하이브리드 전용 조작 절차 본문 미확인"
+}

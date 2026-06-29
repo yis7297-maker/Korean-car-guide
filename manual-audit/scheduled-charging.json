@@ -1,0 +1,15 @@
+{
+  "feature": "scheduled-charging",
+  "featureId": "scheduled-charging",
+  "featureName": "충전 예약",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "JW_2027_ko_KR.pdf",
+  "txtFile": "JW_2027_ko_KR.txt",
+  "matchedKeyword": "예약 충전",
+  "pageRange": "확인 필요",
+  "section": "예약 충전",
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "note": "pdftotext 변환 txt 본문에서 기능 존재와 절차/확인 방법을 확인함"
+}

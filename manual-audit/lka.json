@@ -1,0 +1,15 @@
+{
+  "feature": "lka",
+  "featureId": "lka",
+  "featureName": "차로 이탈방지 보조 / LKA",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "GN7_2026_ko_KR.pdf",
+  "txtFile": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "차로 이탈방지 보조 (LKA)",
+  "section": "차로 이탈방지 보조 (LKA)",
+  "pageRange": "확인 필요",
+  "updatedDate": "2026-06-29",
+  "scope": "driving-assistance-adas",
+  "note": "pdftotext 변환 txt 본문에서 기능 섹션과 절차를 확인함"
+}

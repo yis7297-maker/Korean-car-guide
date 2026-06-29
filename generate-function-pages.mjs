@@ -64,6 +64,20 @@ const rows = (items, ordered = true) => {
   return `<${tag}>${values.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</${tag}>`;
 };
 const section = (title, content) => `<section class="content-section"><h2>${title}</h2>${content}</section>`;
+const verificationLevels = {
+  official_manual_verified: '공식 매뉴얼 검증',
+  official_source_verified: '공식 자료 검증',
+  pending_verification: '검증 진행 중'
+};
+const isOfficialVerified = feature => {
+  if (feature.verified === true) return true;
+  return Boolean(feature.verified && typeof feature.verified === 'object' && feature.verified.complete === true);
+};
+const verificationValue = (feature, flatKey, objectKey = flatKey) => {
+  if (feature[flatKey]) return feature[flatKey];
+  if (feature.verified && typeof feature.verified === 'object') return feature.verified[objectKey] || '';
+  return '';
+};
 const googleTag = `  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSG1T3HMRY"></script>
   <script>
@@ -80,8 +94,36 @@ function pageHtml(feature, features) {
   const related = toArray(feature.related)
     .map(name => relatedFeature(name, features))
     .filter(Boolean);
+  const faq = toArray(feature.faq);
+  const keywords = toArray(feature.keywords).join(', ');
+  const isVerified = isOfficialVerified(feature);
+  const verificationLevel = isVerified
+    ? (feature.verificationLevel === 'pending_verification' ? 'official_source_verified' : (feature.verificationLevel || 'official_source_verified'))
+    : 'pending_verification';
   const applications = toArray(feature.applies);
   const sources = toArray(feature.sourceDetails);
+  const verificationRows = isVerified ? [
+    ['출처', feature.verifiedSource],
+    ['브랜드', feature.verifiedBrand],
+    ['차량', feature.verifiedModel],
+    ['연식', feature.verifiedModelYear],
+    ['매뉴얼', feature.verifiedManual],
+    ['섹션', feature.verifiedSection],
+    ['검증일', feature.verifiedDate],
+    ['검증자', feature.verifiedBy]
+  ].filter(([, value]) => value) : [];
+  const officialVerificationRows = isVerified ? [
+    ['검증 수준', verificationLevels[verificationLevel] || verificationLevel],
+    ['출처', verificationValue(feature, 'verifiedSource', 'basis')],
+    ['브랜드', verificationValue(feature, 'verifiedBrand', 'brand')],
+    ['차량', verificationValue(feature, 'verifiedModel', 'modelName')],
+    ['연식', verificationValue(feature, 'verifiedModelYear', 'modelYear')],
+    ['매뉴얼', verificationValue(feature, 'verifiedManual', 'manualFile')],
+    ['페이지 범위', verificationValue(feature, 'verifiedPageRange', 'pageRange') || '확인 필요'],
+    ['섹션', verificationValue(feature, 'verifiedSection', 'section') || '확인 필요'],
+    ['검증일', verificationValue(feature, 'verifiedDate', 'date')],
+    ['검증자', verificationValue(feature, 'verifiedBy', 'verifiedBy')]
+  ].filter(([, value]) => value) : [];
   const updatedAt = feature.updatedAt || data.generatedAt.slice(0, 10);
   const schema = {
     '@context': 'https://schema.org',
@@ -98,12 +140,11 @@ function pageHtml(feature, features) {
 <html lang="ko">
 <head>
 ${googleTag}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2514787280647570"
-     crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
+  <meta name="keywords" content="${escapeHtml(keywords)}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="${escapeHtml(config.siteName)}">
   <meta property="og:title" content="${escapeHtml(title)}">
@@ -139,7 +180,7 @@ ${googleTag}
           </div>
         </div>
         <p class="lead">${escapeHtml(feature.overview || feature.summary || '')}</p>
-        <span class="status ${feature.verify?.complete ? '' : 'pending'}">${feature.verify?.complete ? '공식 자료 검증 완료' : '추가 검증 진행 중'}</span>
+        <span class="status ${isVerified ? '' : 'pending'}">${isVerified ? '공식 검증 완료' : '검증 진행 중'}</span>
       </header>
       <div class="function-content">
         ${section('기능 설명', `<p>${escapeHtml(feature.overview || feature.summary || '')}</p>`)}
@@ -149,10 +190,16 @@ ${googleTag}
         ${section('해제 방법', rows(feature.disable))}
         ${section('제한 사항', rows(feature.limitations, false))}
         ${section('주의 사항', rows(feature.warnings, false))}
+        ${section('FAQ', faq.length
+          ? `<div class="faq-list">${faq.map(item => `<details><summary>${escapeHtml(item.question)}</summary><p>${escapeHtml(item.answer)}</p></details>`).join('')}</div>`
+          : '<p>등록된 FAQ가 없습니다.</p>')}
+        ${section('공식 검증 기록', isVerified
+          ? `<dl class="verification-record">${officialVerificationRows.map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd>`).join('')}</dl>`
+          : '<p>공식 홈페이지, 웹 매뉴얼, 오너스 매뉴얼과 카탈로그 순서로 검증 중입니다.</p>')}
         ${section('관련 기능', related.length
           ? `<div class="related-grid">${related.map(item => `<a class="related-link" href="../${encodeURIComponent(slugFor(item))}/">${escapeHtml(item.name)}</a>`).join('')}</div>`
           : '<p>연결된 관련 기능이 없습니다.</p>')}
-        ${section('적용 차량', applications.length
+        ${section('지원 차량', applications.length
           ? `<div class="vehicle-grid">${applications.map(item => `<div class="vehicle-card"><strong>${escapeHtml(item.brand)} ${escapeHtml(item.model)}</strong><span>연식 ${escapeHtml(item.years)}</span><span>트림 ${escapeHtml(item.trim)}</span><span>${escapeHtml(item.option)}</span></div>`).join('')}</div>`
           : '<p>현재 확정된 적용 차량 정보가 없습니다.</p>')}
         ${section('공식 출처', sources.length

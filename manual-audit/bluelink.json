@@ -1,0 +1,14 @@
+{
+  "feature": "bluelink",
+  "featureName": "블루링크 원격 서비스",
+  "reason": "PDF txt에서는 블루링크 가입 필요 및 원격 시동 참조만 확인. 원격 공조/잠금/상태조회 절차는 별도 설명서 또는 웹 매뉴얼 참조로 표시됨",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

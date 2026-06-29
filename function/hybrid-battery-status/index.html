@@ -12,14 +12,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>하이브리드 배터리 충전 상태 사용법 및 적용 차량 | Korean CAR GUIDE</title>
-  <meta name="description" content="하이브리드 배터리 충전 상태의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. 하이브리드 고전압 배터리의 충전 상태와 에너지 사용 가능 수준을 표시합니다.">
+  <meta name="description" content="하이브리드 배터리 충전 상태의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. 고전압 배터리 충전량(SOC)을 확인합니다.">
+  <meta name="keywords" content="하이브리드 배터리 충전 상태, hybrid-battery-status, HEV 배터리 잔량, 하이브리드 SOC">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Korean CAR GUIDE">
   <meta property="og:title" content="하이브리드 배터리 충전 상태 사용법 및 적용 차량 | Korean CAR GUIDE">
-  <meta property="og:description" content="하이브리드 배터리 충전 상태의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. 하이브리드 고전압 배터리의 충전 상태와 에너지 사용 가능 수준을 표시합니다.">
+  <meta property="og:description" content="하이브리드 배터리 충전 상태의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. 고전압 배터리 충전량(SOC)을 확인합니다.">
   <meta property="og:url" content="https://korean-car-guide.vercel.app/function/hybrid-battery-status/">
   <meta property="og:image" content="https://korean-car-guide.vercel.app/assets/hero-original-mobility-v2.png">
-  <meta property="article:modified_time" content="2026-06-17">
+  <meta property="article:modified_time" content="2026-06-29">
   <meta name="kcg-render-mode" content="static-generated">
   <meta name="kcg-feature-id" content="hybrid-battery-status">
   <meta name="kcg-feature-slug" content="hybrid-battery-status">
@@ -27,7 +28,7 @@
   <link rel="canonical" href="https://korean-car-guide.vercel.app/function/hybrid-battery-status/">
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../../function-pages.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"하이브리드 배터리 충전 상태","description":"하이브리드 배터리 충전 상태의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. 하이브리드 고전압 배터리의 충전 상태와 에너지 사용 가능 수준을 표시합니다.","dateModified":"2026-06-17","inLanguage":"ko-KR","mainEntityOfPage":"https://korean-car-guide.vercel.app/function/hybrid-battery-status/","publisher":{"@type":"Organization","name":"Korean CAR GUIDE"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"하이브리드 배터리 충전 상태","description":"하이브리드 배터리 충전 상태의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. 고전압 배터리 충전량(SOC)을 확인합니다.","dateModified":"2026-06-29","inLanguage":"ko-KR","mainEntityOfPage":"https://korean-car-guide.vercel.app/function/hybrid-battery-status/","publisher":{"@type":"Organization","name":"Korean CAR GUIDE"}}</script>
 </head>
 <body data-feature-id="hybrid-battery-status" data-feature-slug="hybrid-battery-status">
   <header class="function-header">
@@ -43,25 +44,27 @@
         <div class="function-hero__top">
           <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 17c2-7 5-10 8-10s6 3 8 10"></path><path d="M7 14h10"></path><path d="M12 3v5"></path><path d="M9 5h6"></path><path d="M8 20h8"></path></svg></span>
           <div>
-            <p class="eyebrow">하이브리드 / 에너지 관리</p>
+            <p class="eyebrow">전동화</p>
             <h1>하이브리드 배터리 충전 상태</h1>
           </div>
         </div>
-        <p class="lead">하이브리드 고전압 배터리의 충전 상태와 에너지 사용 가능 수준을 표시합니다.</p>
-        <span class="status ">공식 자료 검증 완료</span>
+        <p class="lead">하이브리드 차량의 고전압 배터리 충전량(SOC)을 표시하는 기능입니다.</p>
+        <span class="status ">공식 검증 완료</span>
       </header>
       <div class="function-content">
-        <section class="content-section"><h2>기능 설명</h2><p>하이브리드 고전압 배터리의 충전 상태와 에너지 사용 가능 수준을 표시합니다.</p></section>
-        <section class="content-section"><h2>사용 전 조건</h2><ul><li>TMED-2 또는 해당 하이브리드 전용 기능이 적용된 차량이어야 합니다.</li></ul></section>
+        <section class="content-section"><h2>기능 설명</h2><p>하이브리드 차량의 고전압 배터리 충전량(SOC)을 표시하는 기능입니다.</p></section>
+        <section class="content-section"><h2>사용 전 조건</h2><ul><li>하이브리드 차량입니다.</li></ul></section>
         <section class="content-section"><h2>설정 방법</h2><p>해당 차량의 공식 자료에서 별도 안내를 확인하세요.</p></section>
-        <section class="content-section"><h2>사용 방법</h2><ol><li>차량 화면에서 하이브리드 또는 해당 기능 메뉴를 선택합니다.</li><li>차량 상태와 화면 안내를 확인한 뒤 기능을 사용합니다.</li></ol></section>
-        <section class="content-section"><h2>해제 방법</h2><ol><li>기능 화면에서 종료를 선택하거나 차량 전원 상태를 변경합니다.</li></ol></section>
-        <section class="content-section"><h2>제한 사항</h2><ul><li>고전압 배터리 충전량, 전력 사용량, 외기 온도와 차량 상태에 따라 작동 범위가 달라질 수 있습니다.</li></ul></section>
-        <section class="content-section"><h2>주의 사항</h2><ul><li>밀폐된 공간에서는 엔진이 자동으로 작동할 가능성에 대비해 환기와 안전을 확인하세요.</li></ul></section>
-        <section class="content-section"><h2>관련 기능</h2><div class="related-grid"><a class="related-link" href="../hybrid-energy-flow/">하이브리드 에너지 흐름도</a><a class="related-link" href="../stay-mode/">스테이 모드</a><a class="related-link" href="../hybrid-stay-reservation/">스테이 모드 사용 예약</a></div></section>
-        <section class="content-section"><h2>적용 차량</h2><div class="vehicle-grid"><div class="vehicle-card"><strong>현대 팰리세이드 하이브리드</strong><span>연식 2026/2027 현재 판매 기준</span><span>트림 TMED-2 하이브리드 적용 트림 · 세부 트림은 최신 가격표 확인</span><span>차종/트림 및 소프트웨어 조건별 상이</span></div></div></section>
-        <section class="content-section"><h2>공식 출처</h2><div class="source-list"><a href="https://www.hyundai.com/worldwide/en/newsroom" target="_blank" rel="noopener noreferrer">현대자동차그룹 차세대 하이브리드 시스템 공식 발표</a><a href="https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro" target="_blank" rel="noopener noreferrer">현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터</a><a href="https://www.hyundai.com/kr/ko/e/customer/center/download-center" target="_blank" rel="noopener noreferrer">현대자동차 공식 카탈로그/가격표 다운로드 센터</a></div></section>
-        <section class="content-section"><h2>업데이트 날짜</h2><p class="updated-at">2026-06-17</p></section>
+        <section class="content-section"><h2>사용 방법</h2><ol><li>클러스터에서 고전압 배터리 충전량(SOC) 표시계를 확인합니다.</li></ol></section>
+        <section class="content-section"><h2>해제 방법</h2><p>해당 차량의 공식 자료에서 별도 안내를 확인하세요.</p></section>
+        <section class="content-section"><h2>제한 사항</h2><ul><li>충전량 표시는 주행 상태와 회생제동/엔진 구동 상태에 따라 변동됩니다.</li></ul></section>
+        <section class="content-section"><h2>주의 사항</h2><ul><li>경고등 또는 이상 표시가 있으면 점검을 받으십시오.</li></ul></section>
+        <section class="content-section"><h2>FAQ</h2><div class="faq-list"><details><summary>하이브리드 배터리 충전 상태 기능의 적용 여부는 어떻게 확인하나요?</summary><p>현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요.</p></details></div></section>
+        <section class="content-section"><h2>공식 검증 기록</h2><dl class="verification-record"><dt>검증 수준</dt><dd>공식 매뉴얼 검증</dd><dt>출처</dt><dd>Hyundai Owners Manual</dd><dt>브랜드</dt><dd>Hyundai</dd><dt>차량</dt><dd>그랜저 하이브리드</dd><dt>연식</dt><dd>2026</dd><dt>매뉴얼</dt><dd>GN7HEV_2026_ko_KR.pdf</dd><dt>페이지 범위</dt><dd>확인 필요</dd><dt>섹션</dt><dd>고전압 배터리 충전량 (SOC) 표시계</dd><dt>검증일</dt><dd>2026-06-29</dd><dt>검증자</dt><dd>official-manual-audit</dd></dl></section>
+        <section class="content-section"><h2>관련 기능</h2><div class="related-grid"><a class="related-link" href="../hybrid-energy-flow/">하이브리드 에너지 흐름도</a></div></section>
+        <section class="content-section"><h2>지원 차량</h2><p>현재 확정된 적용 차량 정보가 없습니다.</p></section>
+        <section class="content-section"><h2>공식 출처</h2><div class="source-list"><a href="https://www.hyundai.com/kr/ko/e/customer/center/download-center" target="_blank" rel="noopener noreferrer">GN7HEV_2026_ko_KR.pdf — 고전압 배터리 충전량 (SOC) 표시계</a></div></section>
+        <section class="content-section"><h2>업데이트 날짜</h2><p class="updated-at">2026-06-29</p></section>
       </div>
     </article>
   </main>

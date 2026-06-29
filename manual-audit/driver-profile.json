@@ -1,0 +1,14 @@
+{
+  "feature": "driver-profile",
+  "featureName": "운전자 프로필",
+  "reason": "현재 DB에 일반 운전자 프로필 기능 항목이 없어 미수정",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features"
+}

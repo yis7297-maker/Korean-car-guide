@@ -1,0 +1,7 @@
+{
+  "feature": "remote-smart-exit",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "reason": "첨부 PDF txt에서 독립 기능명 \"원격 스마트 출차 보조\" 또는 \"Remote Smart Exit Assist\" 본문을 확인하지 못함. RSPA 2 본문에는 스마트 출차 작동 표현만 확인됨.",
+  "updated": "2026-06-29"
+}

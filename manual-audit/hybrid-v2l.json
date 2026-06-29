@@ -1,0 +1,14 @@
+{
+  "feature": "hybrid-v2l",
+  "featureName": "하이브리드 V2L",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "LX3HEV 전원 패널(V2L) 본문은 확인됐으나 HEV 전용 사용 절차 전체 추출 미완료"
+}

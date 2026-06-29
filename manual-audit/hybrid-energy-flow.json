@@ -1,0 +1,15 @@
+{
+  "feature": "hybrid-energy-flow",
+  "featureId": "hybrid-energy-flow",
+  "featureName": "하이브리드 에너지 흐름도",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "GN7HEV_2026_ko_KR.pdf",
+  "txtFile": "GN7HEV_2026_ko_KR.txt",
+  "matchedKeyword": "하이브리드 에너지 흐름도",
+  "pageRange": "확인 필요",
+  "section": "하이브리드 에너지 흐름도",
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "note": "pdftotext 변환 txt 본문에서 기능 존재와 절차/확인 방법을 확인함"
+}

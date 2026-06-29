@@ -1,0 +1,11 @@
+{
+  "feature": "rear-view-monitor",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manual": "GN7_2026_ko_KR.pdf",
+  "txt": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "후방 모니터",
+  "section": "후방 모니터 (RVM)",
+  "pageRange": "545-549",
+  "updated": "2026-06-29"
+}

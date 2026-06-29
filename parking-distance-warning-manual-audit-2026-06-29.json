@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-29",
+  "scope": "parking-distance-warning-only",
+  "searchedPdfCount": 36,
+  "matchedPdfCount": 36,
+  "matchedPdfFiles": [
+    "AXEV_2026_ko_KR.pdf",
+    "AX_2026_ko_KR.pdf",
+    "CE1N_2025_ko_KR.pdf",
+    "CE1_2025_ko_KR.pdf",
+    "CN7HEV_2026_ko_KR.pdf",
+    "CN7N_2026_ko_KR.pdf",
+    "CN7_2026_ko_KR.pdf",
+    "DN8HEV_2026_ko_KR.pdf",
+    "DN8_2026_ko_KR.pdf",
+    "GN7HEV_2026_ko_KR.pdf",
+    "GN7_2026_ko_KR.pdf",
+    "IK_2026_ko_KR.pdf",
+    "JKEV_2027_ko_KR.pdf",
+    "JK_2026_ko_KR.pdf",
+    "JW_2027_ko_KR.pdf",
+    "JX_2026_ko_KR.pdf",
+    "LX3HEV_2026_ko_KR.pdf",
+    "LX3_2026_ko_KR.pdf",
+    "ME_2027_ko_KR.pdf",
+    "MX5HEV_2026_ko_KR.pdf",
+    "MX5_2026_ko_KR.pdf",
+    "NE1N_2026_ko_KR.pdf",
+    "NE1_2026_ko_KR.pdf",
+    "NH2_2026_ko_KR.pdf",
+    "NX4HEV_2026_ko_KR.pdf",
+    "NX4_2026_ko_KR.pdf",
+    "QX_2026_ko_KR.pdf",
+    "RG3EV_2027_ko_KR.pdf",
+    "RG3_2027_ko_KR.pdf",
+    "RS4_2027_ko_KR.pdf",
+    "SX2EV_2025_ko_KR.pdf",
+    "SX2HEV_2027_ko_KR.pdf",
+    "SX2_2027_ko_KR.pdf",
+    "US4EV_2027_ko_KR.pdf",
+    "US4HEV_2026_ko_KR.pdf",
+    "US4_2026_ko_KR.pdf"
+  ],
+  "confirmedBody": {
+    "pdf": "GN7_2026_ko_KR.pdf",
+    "model": "그랜저",
+    "modelYear": "2026",
+    "pageRange": "569-581",
+    "sections": [
+      "전방/후방 주차 거리 경고 (PDW)",
+      "전방/측방/후방 주차 거리 경고 (PDW)"
+    ]
+  },
+  "updatedFeatureSlug": "parking-distance-warning",
+  "notUpdated": [
+    "side-pdw: 이번 요청은 주차 거리 경고 기능 하나만 수정하는 작업이므로 별도 기능 데이터는 변경하지 않음"
+  ]
+}

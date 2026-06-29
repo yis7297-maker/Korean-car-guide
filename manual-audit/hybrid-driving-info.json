@@ -1,0 +1,14 @@
+{
+  "feature": "hybrid-driving-info",
+  "featureName": "하이브리드 전용 주행 정보",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "독립 기능 절차로 분리 가능한 본문 미확인"
+}

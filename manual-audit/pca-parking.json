@@ -1,0 +1,11 @@
+{
+  "feature": "pca-parking",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manual": "GN7_2026_ko_KR.pdf",
+  "txt": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "주차 충돌방지 보조",
+  "section": "후방 주차 충돌방지 보조 (PCA)",
+  "pageRange": "583-587",
+  "updated": "2026-06-29"
+}

@@ -1,0 +1,14 @@
+{
+  "feature": "dc-fast-charging",
+  "featureName": "DC 급속/초급속 충전",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "충전 주의사항은 확인했으나 별도 DB 항목 없음"
+}

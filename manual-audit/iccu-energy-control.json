@@ -1,0 +1,14 @@
+{
+  "feature": "iccu-energy-control",
+  "featureName": "ICCU 에너지 변환 / 충전 제어",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "PDF txt에서 사용자 조작 절차를 확인하지 못함"
+}

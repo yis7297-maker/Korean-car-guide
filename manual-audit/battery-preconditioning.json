@@ -1,0 +1,14 @@
+{
+  "feature": "battery-preconditioning",
+  "featureName": "Battery Preconditioning",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "배터리 컨디셔닝으로 공식 명칭 확인, 별도 preconditioning 항목은 DB 없음"
+}

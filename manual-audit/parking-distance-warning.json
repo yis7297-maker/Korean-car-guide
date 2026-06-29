@@ -1,0 +1,11 @@
+{
+  "feature": "parking-distance-warning",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manual": "GN7_2026_ko_KR.pdf",
+  "txt": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "주차 거리 경고",
+  "section": "전방/후방 주차 거리 경고 (PDW), 전방/측방/후방 주차 거리 경고 (PDW)",
+  "pageRange": "569-581",
+  "updated": "2026-06-29"
+}

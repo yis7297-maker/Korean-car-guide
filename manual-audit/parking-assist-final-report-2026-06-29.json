@@ -1,0 +1,204 @@
+{
+  "targetCount": 14,
+  "verifiedCompleted": 9,
+  "allVerifiedCount": 9,
+  "allVerified": [
+    "rspa2",
+    "side-pdw",
+    "pca-parking",
+    "rspa",
+    "rear-view-monitor",
+    "surround-view-monitor",
+    "blind-spot-view-monitor",
+    "rear-cross-traffic-collision-avoidance",
+    "parking-distance-warning"
+  ],
+  "levelCounts": {
+    "pending_verification": 89,
+    "official_manual_verified": 9
+  },
+  "targetRows": [
+    {
+      "slug": "rspa",
+      "name": "원격 스마트 주차 보조 / RSPA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "592-599",
+      "section": "원격 스마트 주차 보조 (RSPA)",
+      "steps": 5,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '원격 스마트 주차 보조' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "rspa2",
+      "name": "원격 스마트 주차 보조 2 / RSPA 2",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "CE1_2025_ko_KR.pdf",
+      "pageRange": "469-477",
+      "section": "원격 스마트 주차 보조 2",
+      "steps": 6,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '원격 스마트 주차 보조 2' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "spa",
+      "name": "스마트 주차 보조 / SPA",
+      "verified": false,
+      "level": "pending_verification",
+      "manual": "",
+      "pageRange": "확인 필요",
+      "section": "확인 필요",
+      "steps": 0,
+      "notes": "공식 PDF에서 독립 기능명 \"스마트 주차 보조 (SPA)\" 및 SPA 절차를 확인하지 못함. 확인된 본문은 RSPA/RSPA 2 문맥의 Smart Parking Assist 약어 설명임."
+    },
+    {
+      "slug": "memory-parking",
+      "name": "메모리 주차 / Memory Parking",
+      "verified": false,
+      "level": "pending_verification",
+      "manual": "",
+      "pageRange": "확인 필요",
+      "section": "확인 필요",
+      "steps": 0,
+      "notes": "첨부 PDF txt에서 \"메모리 주차\" 또는 \"Memory Parking\" 본문을 확인하지 못함."
+    },
+    {
+      "slug": "mra",
+      "name": "메모리 리버스 어시스트 / MRA",
+      "verified": false,
+      "level": "pending_verification",
+      "manual": "",
+      "pageRange": "확인 필요",
+      "section": "확인 필요",
+      "steps": 0,
+      "notes": "첨부 PDF txt에서 \"메모리 리버스 어시스트\", \"Memory Reverse Assist\", \"MRA\" 본문을 확인하지 못함."
+    },
+    {
+      "slug": "parking-distance-warning",
+      "name": "주차 거리 경고 / PDW",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "569-581",
+      "section": "전방/후방 주차 거리 경고 (PDW), 전방/측방/후방 주차 거리 경고 (PDW)",
+      "steps": 9,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '주차 거리 경고' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "side-pdw",
+      "name": "측방 주차 거리 경고",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "576-581",
+      "section": "전방/측방/후방 주차 거리 경고 (PDW)",
+      "steps": 5,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '측방 주차 거리 경고' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "rear-view-monitor",
+      "name": "후방 모니터 / RVM",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "545-549",
+      "section": "후방 모니터 (RVM)",
+      "steps": 4,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '후방 모니터' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "surround-view-monitor",
+      "name": "서라운드 뷰 모니터 / SVM",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "550-556",
+      "section": "서라운드 뷰 모니터 (SVM)",
+      "steps": 4,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '서라운드 뷰 모니터' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "blind-spot-view-monitor",
+      "name": "후측방 모니터 / BVM",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "492-494",
+      "section": "후측방 모니터 (BVM)",
+      "steps": 3,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '후측방 모니터' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "rear-cross-traffic-collision-avoidance",
+      "name": "후방 교차 충돌방지 보조 / RCCA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "558-563",
+      "section": "후방 교차 충돌방지 보조 (RCCA)",
+      "steps": 4,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '후방 교차 충돌방지 보조' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "pca-parking",
+      "name": "후방 주차 충돌방지 보조 / PCA",
+      "verified": true,
+      "level": "official_manual_verified",
+      "manual": "GN7_2026_ko_KR.pdf",
+      "pageRange": "583-587",
+      "section": "후방 주차 충돌방지 보조 (PCA)",
+      "steps": 5,
+      "notes": "pdftotext로 변환한 공식 취급설명서 txt에서 '주차 충돌방지 보조' 본문과 절차를 확인함."
+    },
+    {
+      "slug": "reverse-tilt-mirror",
+      "name": "후진 연동 사이드 미러",
+      "verified": false,
+      "level": "pending_verification",
+      "manual": "",
+      "pageRange": "확인 필요",
+      "section": "확인 필요",
+      "steps": 0,
+      "notes": "첨부 PDF txt에서 \"후진 연동 사이드 미러\" 또는 \"후진 연동 아웃사이드 미러\" 본문을 확인하지 못함."
+    },
+    {
+      "slug": "remote-smart-exit",
+      "name": "원격 스마트 출차 보조",
+      "verified": false,
+      "level": "pending_verification",
+      "manual": "",
+      "pageRange": "",
+      "section": "",
+      "steps": 0,
+      "notes": "첨부 PDF txt에서 독립 기능명 \"원격 스마트 출차 보조\" 또는 \"Remote Smart Exit Assist\" 본문을 확인하지 못함. RSPA 2 본문에는 스마트 출차 작동 표현만 확인됨."
+    }
+  ],
+  "auditList": [
+    "blind-spot-view-monitor.json",
+    "memory-parking.json",
+    "mra.json",
+    "parking-assist-search-summary.json",
+    "parking-distance-warning.json",
+    "pca-parking.json",
+    "rear-cross-traffic-collision-avoidance.json",
+    "rear-view-monitor.json",
+    "remote-smart-exit-assist.json",
+    "remote-smart-exit.json",
+    "reverse-tilt-mirror.json",
+    "rspa.json",
+    "rspa2.json",
+    "side-pdw.json",
+    "spa.json",
+    "surround-view-monitor.json"
+  ],
+  "pageChecks": {
+    "rspa": true,
+    "rspa2": true,
+    "parking-distance-warning": true,
+    "rear-view-monitor": true,
+    "surround-view-monitor": true,
+    "blind-spot-view-monitor": true,
+    "rear-cross-traffic-collision-avoidance": true,
+    "pca-parking": true
+  }
+}

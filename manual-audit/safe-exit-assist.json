@@ -1,0 +1,15 @@
+{
+  "feature": "safe-exit-assist",
+  "featureId": "safe-exit-assist",
+  "featureName": "안전 하차 보조 / SEA",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "GN7_2026_ko_KR.pdf",
+  "txtFile": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "안전 하차 보조 (SEA)",
+  "section": "안전 하차 보조 (SEA)",
+  "pageRange": "확인 필요",
+  "updatedDate": "2026-06-29",
+  "scope": "driving-assistance-adas",
+  "note": "pdftotext 변환 txt 본문에서 기능 섹션과 절차를 확인함"
+}

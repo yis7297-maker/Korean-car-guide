@@ -1,0 +1,13 @@
+{
+  "feature": "bcw",
+  "featureName": "후측방 충돌 경고 / BCW",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": "GN7_2026_ko_KR.pdf",
+  "txtFile": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "후측방 충돌 경고",
+  "section": "후측방 충돌방지 보조 (BCA)",
+  "pageRange": "확인 필요",
+  "updatedDate": "2026-06-29",
+  "reason": "별도 기능 섹션이 아니라 BCA 작동 항목 내 경고 동작으로 확인되어 별도 기능 DB 항목으로 검증하지 않음"
+}

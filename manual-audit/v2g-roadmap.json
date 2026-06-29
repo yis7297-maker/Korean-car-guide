@@ -1,0 +1,14 @@
+{
+  "feature": "v2g-roadmap",
+  "featureName": "V2G",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": null,
+  "pageRange": null,
+  "section": null,
+  "updatedDate": "2026-06-29",
+  "scope": "electrified-features",
+  "reason": "향후 기능으로 공식 사용 절차 본문 미확인"
+}

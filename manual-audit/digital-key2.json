@@ -1,0 +1,15 @@
+{
+  "feature": "digital-key-2",
+  "featureId": "hyundai-dk2",
+  "featureName": "Hyundai Digital Key 2",
+  "verified": true,
+  "verificationLevel": "official_manual_verified",
+  "manualFile": "GN7_2026_ko_KR.pdf",
+  "txtFile": "GN7_2026_ko_KR.txt",
+  "matchedKeyword": "현대 디지털 키",
+  "pageRange": "확인 필요",
+  "section": "현대 디지털 키",
+  "updatedDate": "2026-06-29",
+  "scope": "convenience-features",
+  "note": "pdftotext 변환 txt 본문에서 기능 존재와 절차를 확인함"
+}

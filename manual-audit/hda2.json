@@ -1,0 +1,13 @@
+{
+  "feature": "hda2",
+  "featureName": "고속도로 주행 보조 2 / HDA2",
+  "verified": false,
+  "verificationLevel": "pending_verification",
+  "manualFile": null,
+  "txtFile": null,
+  "matchedKeyword": "고속도로 주행 보조 2 / HDA2 / Highway Driving Assist 2",
+  "section": null,
+  "pageRange": null,
+  "updatedDate": "2026-06-29",
+  "reason": "변환된 현대/제네시스 txt 36개에서 별도 HDA2 공식 섹션을 확인하지 못함"
+}

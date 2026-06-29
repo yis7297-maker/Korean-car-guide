@@ -1,0 +1,2863 @@
+{
+  "rspa": {
+    "pdfCount": 29,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 2,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 142,
+          "line": 5126,
+          "index": 159533
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 142,
+            "line": 5126
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 382,
+            "line": 14705
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 1,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 300,
+          "line": 11625,
+          "index": 302286
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 300,
+            "line": 11625
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 101,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 148,
+          "line": 5473,
+          "index": 158709
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "RSPA",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 148,
+            "line": 5473
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 161,
+            "line": 6030
+          },
+          {
+            "term": "RSPA",
+            "page": 161,
+            "line": 6030
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 101,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 152,
+          "line": 5732,
+          "index": 164644
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 7,
+            "line": 194
+          },
+          {
+            "term": "RSPA",
+            "page": 7,
+            "line": 194
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 152,
+            "line": 5732
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 165,
+            "line": 6268
+          },
+          {
+            "term": "RSPA",
+            "page": 165,
+            "line": 6268
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 57,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 142,
+          "line": 5430,
+          "index": 199745
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 142,
+            "line": 5430
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 142,
+            "line": 5432
+          },
+          {
+            "term": "RSPA",
+            "page": 142,
+            "line": 5433
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 317,
+            "line": 13130
+          },
+          {
+            "term": "RSPA",
+            "page": 317,
+            "line": 13130
+          }
+        ]
+      },
+      {
+        "file": "DN8_2026_ko_KR.pdf",
+        "hitCount": 57,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 117,
+          "line": 4663,
+          "index": 182247
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 117,
+            "line": 4663
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 117,
+            "line": 4666
+          },
+          {
+            "term": "RSPA",
+            "page": 117,
+            "line": 4667
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 303,
+            "line": 13127
+          },
+          {
+            "term": "RSPA",
+            "page": 303,
+            "line": 13127
+          }
+        ]
+      },
+      {
+        "file": "GN7HEV_2026_ko_KR.pdf",
+        "hitCount": 60,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 175,
+          "line": 5792,
+          "index": 167106
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 175,
+            "line": 5792
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 175,
+            "line": 5793
+          },
+          {
+            "term": "RSPA",
+            "page": 175,
+            "line": 5793
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 417,
+            "line": 14491
+          },
+          {
+            "term": "RSPA",
+            "page": 417,
+            "line": 14491
+          }
+        ]
+      },
+      {
+        "file": "GN7_2026_ko_KR.pdf",
+        "hitCount": 60,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조",
+          "page": 161,
+          "line": 5208,
+          "index": 153806
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 161,
+            "line": 5208
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 161,
+            "line": 5209
+          },
+          {
+            "term": "RSPA",
+            "page": 161,
+            "line": 5209
+          },
+          {
+            "term": "원격 스마트 주차 보조",
+            "page": 419,
+            "line": 14556
+          },
+          {
+            "term": "RSPA",
+            "page": 419,
+            "line": 14556
+          }
+        ]
+      }
+    ]
+  },
+  "rspa2": {
+    "pdfCount": 13,
+    "samples": [
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 8,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 161,
+          "line": 6030,
+          "index": 172603
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "RSPA 2",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 161,
+            "line": 6030
+          },
+          {
+            "term": "RSPA 2",
+            "page": 161,
+            "line": 6030
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 167,
+            "line": 6272
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 10,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 165,
+          "line": 6268,
+          "index": 178081
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 7,
+            "line": 194
+          },
+          {
+            "term": "RSPA 2",
+            "page": 7,
+            "line": 194
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 165,
+            "line": 6268
+          },
+          {
+            "term": "RSPA 2",
+            "page": 165,
+            "line": 6268
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 171,
+            "line": 6511
+          }
+        ]
+      },
+      {
+        "file": "JKEV_2027_ko_KR.pdf",
+        "hitCount": 6,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 169,
+          "line": 6507,
+          "index": 195307
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 7,
+            "line": 198
+          },
+          {
+            "term": "RSPA 2",
+            "page": 7,
+            "line": 198
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 169,
+            "line": 6507
+          },
+          {
+            "term": "RSPA 2",
+            "page": 169,
+            "line": 6507
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 498,
+            "line": 19380
+          }
+        ]
+      },
+      {
+        "file": "JK_2026_ko_KR.pdf",
+        "hitCount": 8,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 162,
+          "line": 5319,
+          "index": 154044
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 162,
+            "line": 5319
+          },
+          {
+            "term": "RSPA 2",
+            "page": 162,
+            "line": 5319
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 431,
+            "line": 15207
+          },
+          {
+            "term": "RSPA 2",
+            "page": 431,
+            "line": 15207
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 607,
+            "line": 21326
+          }
+        ]
+      },
+      {
+        "file": "JW_2027_ko_KR.pdf",
+        "hitCount": 10,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 195,
+          "line": 7365,
+          "index": 220931
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 8,
+            "line": 202
+          },
+          {
+            "term": "RSPA 2",
+            "page": 8,
+            "line": 202
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 195,
+            "line": 7365
+          },
+          {
+            "term": "RSPA 2",
+            "page": 195,
+            "line": 7365
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 428,
+            "line": 16564
+          }
+        ]
+      },
+      {
+        "file": "JX_2026_ko_KR.pdf",
+        "hitCount": 7,
+        "firstBody": {
+          "term": "RSPA 2",
+          "page": 135,
+          "line": 5309,
+          "index": 202303
+        },
+        "firstHits": [
+          {
+            "term": "RSPA 2",
+            "page": 135,
+            "line": 5309
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 335,
+            "line": 14872
+          },
+          {
+            "term": "RSPA 2",
+            "page": 335,
+            "line": 14872
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 448,
+            "line": 20141
+          },
+          {
+            "term": "RSPA 2",
+            "page": 448,
+            "line": 20142
+          }
+        ]
+      },
+      {
+        "file": "ME_2027_ko_KR.pdf",
+        "hitCount": 10,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 191,
+          "line": 7463,
+          "index": 215914
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 7,
+            "line": 199
+          },
+          {
+            "term": "RSPA 2",
+            "page": 7,
+            "line": 199
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 191,
+            "line": 7463
+          },
+          {
+            "term": "RSPA 2",
+            "page": 191,
+            "line": 7463
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 416,
+            "line": 16481
+          }
+        ]
+      },
+      {
+        "file": "NE1N_2026_ko_KR.pdf",
+        "hitCount": 8,
+        "firstBody": {
+          "term": "원격 스마트 주차 보조 2",
+          "page": 210,
+          "line": 6985,
+          "index": 196575
+        },
+        "firstHits": [
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 210,
+            "line": 6985
+          },
+          {
+            "term": "RSPA 2",
+            "page": 210,
+            "line": 6985
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 467,
+            "line": 16376
+          },
+          {
+            "term": "RSPA 2",
+            "page": 467,
+            "line": 16376
+          },
+          {
+            "term": "원격 스마트 주차 보조 2",
+            "page": 660,
+            "line": 22981
+          }
+        ]
+      }
+    ]
+  },
+  "spa": {
+    "pdfCount": 29,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 2,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 142,
+          "line": 5126,
+          "index": 159536
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 142,
+            "line": 5126
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 382,
+            "line": 14705
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 1,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 300,
+          "line": 11625,
+          "index": 302289
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 300,
+            "line": 11625
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 103,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 148,
+          "line": 5473,
+          "index": 158712
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "SPA",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 148,
+            "line": 5473
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 161,
+            "line": 6029
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 161,
+            "line": 6030
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 103,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 152,
+          "line": 5732,
+          "index": 164647
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 7,
+            "line": 194
+          },
+          {
+            "term": "SPA",
+            "page": 7,
+            "line": 194
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 152,
+            "line": 5732
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 165,
+            "line": 6267
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 165,
+            "line": 6268
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 58,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 142,
+          "line": 5430,
+          "index": 199748
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 142,
+            "line": 5430
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 142,
+            "line": 5432
+          },
+          {
+            "term": "SPA",
+            "page": 142,
+            "line": 5433
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 317,
+            "line": 13130
+          },
+          {
+            "term": "SPA",
+            "page": 317,
+            "line": 13130
+          }
+        ]
+      },
+      {
+        "file": "DN8_2026_ko_KR.pdf",
+        "hitCount": 58,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 117,
+          "line": 4663,
+          "index": 182250
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 117,
+            "line": 4663
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 117,
+            "line": 4666
+          },
+          {
+            "term": "SPA",
+            "page": 117,
+            "line": 4667
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 303,
+            "line": 13127
+          },
+          {
+            "term": "SPA",
+            "page": 303,
+            "line": 13127
+          }
+        ]
+      },
+      {
+        "file": "GN7HEV_2026_ko_KR.pdf",
+        "hitCount": 61,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 175,
+          "line": 5792,
+          "index": 167109
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 175,
+            "line": 5792
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 175,
+            "line": 5793
+          },
+          {
+            "term": "SPA",
+            "page": 175,
+            "line": 5793
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 417,
+            "line": 14491
+          },
+          {
+            "term": "SPA",
+            "page": 417,
+            "line": 14491
+          }
+        ]
+      },
+      {
+        "file": "GN7_2026_ko_KR.pdf",
+        "hitCount": 61,
+        "firstBody": {
+          "term": "스마트 주차 보조",
+          "page": 161,
+          "line": 5208,
+          "index": 153809
+        },
+        "firstHits": [
+          {
+            "term": "스마트 주차 보조",
+            "page": 161,
+            "line": 5208
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 161,
+            "line": 5209
+          },
+          {
+            "term": "SPA",
+            "page": 161,
+            "line": 5209
+          },
+          {
+            "term": "스마트 주차 보조",
+            "page": 419,
+            "line": 14556
+          },
+          {
+            "term": "SPA",
+            "page": 419,
+            "line": 14556
+          }
+        ]
+      }
+    ]
+  },
+  "memory-parking": {
+    "pdfCount": 0,
+    "samples": []
+  },
+  "mra": {
+    "pdfCount": 0,
+    "samples": []
+  },
+  "parking-distance-warning": {
+    "pdfCount": 36,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 44,
+        "firstBody": {
+          "term": "PDW",
+          "page": 304,
+          "line": 11506,
+          "index": 313204
+        },
+        "firstHits": [
+          {
+            "term": "전방/후방 주차 거리 경고",
+            "page": 7,
+            "line": 182
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 7,
+            "line": 182
+          },
+          {
+            "term": "PDW",
+            "page": 7,
+            "line": 182
+          },
+          {
+            "term": "PDW",
+            "page": 304,
+            "line": 11506
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 304,
+            "line": 11510
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 24,
+        "firstBody": {
+          "term": "PDW",
+          "page": 226,
+          "line": 8666,
+          "index": 232515
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 7,
+            "line": 168
+          },
+          {
+            "term": "PDW",
+            "page": 7,
+            "line": 168
+          },
+          {
+            "term": "PDW",
+            "page": 226,
+            "line": 8666
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 226,
+            "line": 8670
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 304,
+            "line": 11732
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 51,
+        "firstBody": {
+          "term": "주차 거리 경고",
+          "page": 370,
+          "line": 14406,
+          "index": 381028
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 7,
+            "line": 188
+          },
+          {
+            "term": "PDW",
+            "page": 7,
+            "line": 188
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 370,
+            "line": 14406
+          },
+          {
+            "term": "PDW",
+            "page": 370,
+            "line": 14411
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 370,
+            "line": 14415
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 50,
+        "firstBody": {
+          "term": "주차 거리 경고",
+          "page": 370,
+          "line": 14502,
+          "index": 385175
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 7,
+            "line": 192
+          },
+          {
+            "term": "PDW",
+            "page": 7,
+            "line": 192
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 370,
+            "line": 14502
+          },
+          {
+            "term": "PDW",
+            "page": 370,
+            "line": 14507
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 370,
+            "line": 14511
+          }
+        ]
+      },
+      {
+        "file": "CN7HEV_2026_ko_KR.pdf",
+        "hitCount": 38,
+        "firstBody": {
+          "term": "주차 거리 경고",
+          "page": 123,
+          "line": 4602,
+          "index": 170514
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 123,
+            "line": 4602
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 123,
+            "line": 4602
+          },
+          {
+            "term": "전방/후방 주차 거리 경고",
+            "page": 267,
+            "line": 10671
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 267,
+            "line": 10671
+          },
+          {
+            "term": "PDW",
+            "page": 267,
+            "line": 10671
+          }
+        ]
+      },
+      {
+        "file": "CN7N_2026_ko_KR.pdf",
+        "hitCount": 38,
+        "firstBody": {
+          "term": "주차 거리 경고",
+          "page": 90,
+          "line": 3464,
+          "index": 134452
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 90,
+            "line": 3464
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 90,
+            "line": 3471
+          },
+          {
+            "term": "전방/후방 주차 거리 경고",
+            "page": 251,
+            "line": 10394
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 251,
+            "line": 10394
+          },
+          {
+            "term": "PDW",
+            "page": 251,
+            "line": 10394
+          }
+        ]
+      },
+      {
+        "file": "CN7_2026_ko_KR.pdf",
+        "hitCount": 41,
+        "firstBody": {
+          "term": "주차 거리 경고",
+          "page": 104,
+          "line": 3946,
+          "index": 146650
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 104,
+            "line": 3946
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 104,
+            "line": 3946
+          },
+          {
+            "term": "전방/후방 주차 거리 경고",
+            "page": 259,
+            "line": 10622
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 259,
+            "line": 10622
+          },
+          {
+            "term": "PDW",
+            "page": 259,
+            "line": 10622
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 108,
+        "firstBody": {
+          "term": "주차 거리 경고",
+          "page": 120,
+          "line": 4522,
+          "index": 157431
+        },
+        "firstHits": [
+          {
+            "term": "주차 거리 경고",
+            "page": 120,
+            "line": 4522
+          },
+          {
+            "term": "전방/후방 주차 거리 경고",
+            "page": 317,
+            "line": 13118
+          },
+          {
+            "term": "주차 거리 경고",
+            "page": 317,
+            "line": 13118
+          },
+          {
+            "term": "PDW",
+            "page": 317,
+            "line": 13118
+          },
+          {
+            "term": "전방/후방 주차 거리 경고",
+            "page": 317,
+            "line": 13119
+          }
+        ]
+      }
+    ]
+  },
+  "side-pdw": {
+    "pdfCount": 29,
+    "samples": [
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 2,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 453,
+          "line": 17686,
+          "index": 459121
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 453,
+            "line": 17686
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 463,
+            "line": 18035
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 2,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 459,
+          "line": 18055,
+          "index": 469236
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 459,
+            "line": 18055
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 469,
+            "line": 18408
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 4,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 428,
+          "line": 17986,
+          "index": 645773
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 428,
+            "line": 17986
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 428,
+            "line": 17987
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 428,
+            "line": 18004
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 428,
+            "line": 18007
+          }
+        ]
+      },
+      {
+        "file": "DN8_2026_ko_KR.pdf",
+        "hitCount": 4,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 406,
+          "line": 17891,
+          "index": 655641
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 406,
+            "line": 17891
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 406,
+            "line": 17895
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 406,
+            "line": 17926
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 406,
+            "line": 17927
+          }
+        ]
+      },
+      {
+        "file": "GN7HEV_2026_ko_KR.pdf",
+        "hitCount": 5,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 587,
+          "line": 20401,
+          "index": 510461
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 587,
+            "line": 20401
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 588,
+            "line": 20431
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 588,
+            "line": 20432
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 588,
+            "line": 20441
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 588,
+            "line": 20442
+          }
+        ]
+      },
+      {
+        "file": "GN7_2026_ko_KR.pdf",
+        "hitCount": 5,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 591,
+          "line": 20496,
+          "index": 512957
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 591,
+            "line": 20496
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 591,
+            "line": 20519
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 591,
+            "line": 20520
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 592,
+            "line": 20537
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 592,
+            "line": 20538
+          }
+        ]
+      },
+      {
+        "file": "JKEV_2027_ko_KR.pdf",
+        "hitCount": 5,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 480,
+          "line": 18678,
+          "index": 492391
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 480,
+            "line": 18678
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 490,
+            "line": 19045
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 490,
+            "line": 19048
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 490,
+            "line": 19054
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 490,
+            "line": 19055
+          }
+        ]
+      },
+      {
+        "file": "JK_2026_ko_KR.pdf",
+        "hitCount": 4,
+        "firstBody": {
+          "term": "측방 주차 거리 경고",
+          "page": 593,
+          "line": 20848,
+          "index": 511628
+        },
+        "firstHits": [
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 593,
+            "line": 20848
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 593,
+            "line": 20850
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 593,
+            "line": 20858
+          },
+          {
+            "term": "측방 주차 거리 경고",
+            "page": 593,
+            "line": 20859
+          }
+        ]
+      }
+    ]
+  },
+  "rear-view-monitor": {
+    "pdfCount": 36,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 31,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 73,
+          "line": 2576,
+          "index": 93334
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 7,
+            "line": 179
+          },
+          {
+            "term": "후방 모니터",
+            "page": 73,
+            "line": 2576
+          },
+          {
+            "term": "후방 모니터",
+            "page": 372,
+            "line": 14233
+          },
+          {
+            "term": "후방 모니터",
+            "page": 372,
+            "line": 14234
+          },
+          {
+            "term": "Rear View Monitor",
+            "page": 372,
+            "line": 14236
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 30,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 294,
+          "line": 11356,
+          "index": 295753
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 7,
+            "line": 166
+          },
+          {
+            "term": "후방 모니터",
+            "page": 27,
+            "line": 855
+          },
+          {
+            "term": "후방 모니터",
+            "page": 294,
+            "line": 11356
+          },
+          {
+            "term": "후방 모니터",
+            "page": 294,
+            "line": 11357
+          },
+          {
+            "term": "Rear View Monitor",
+            "page": 294,
+            "line": 11359
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 3,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 73,
+          "line": 2593,
+          "index": 90078
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 73,
+            "line": 2593
+          },
+          {
+            "term": "후방 모니터",
+            "page": 462,
+            "line": 18020
+          },
+          {
+            "term": "후방 모니터",
+            "page": 472,
+            "line": 18403
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 35,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 73,
+          "line": 2640,
+          "index": 91467
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 7,
+            "line": 189
+          },
+          {
+            "term": "후방 모니터",
+            "page": 73,
+            "line": 2640
+          },
+          {
+            "term": "후방 모니터",
+            "page": 453,
+            "line": 17772
+          },
+          {
+            "term": "후방 모니터",
+            "page": 453,
+            "line": 17774
+          },
+          {
+            "term": "Rear View Monitor",
+            "page": 453,
+            "line": 17776
+          }
+        ]
+      },
+      {
+        "file": "CN7HEV_2026_ko_KR.pdf",
+        "hitCount": 24,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 267,
+          "line": 10665,
+          "index": 419523
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 267,
+            "line": 10665
+          },
+          {
+            "term": "후방 모니터",
+            "page": 338,
+            "line": 13679
+          },
+          {
+            "term": "후방 모니터",
+            "page": 338,
+            "line": 13679
+          },
+          {
+            "term": "후방 모니터",
+            "page": 338,
+            "line": 13681
+          },
+          {
+            "term": "Rear View Monitor",
+            "page": 338,
+            "line": 13686
+          }
+        ]
+      },
+      {
+        "file": "CN7N_2026_ko_KR.pdf",
+        "hitCount": 24,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 251,
+          "line": 10391,
+          "index": 421476
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 251,
+            "line": 10391
+          },
+          {
+            "term": "후방 모니터",
+            "page": 333,
+            "line": 13851
+          },
+          {
+            "term": "후방 모니터",
+            "page": 333,
+            "line": 13853
+          },
+          {
+            "term": "Rear View Monitor",
+            "page": 333,
+            "line": 13858
+          },
+          {
+            "term": "후방 모니터",
+            "page": 334,
+            "line": 13895
+          }
+        ]
+      },
+      {
+        "file": "CN7_2026_ko_KR.pdf",
+        "hitCount": 28,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 259,
+          "line": 10619,
+          "index": 413507
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 259,
+            "line": 10619
+          },
+          {
+            "term": "후방 모니터",
+            "page": 332,
+            "line": 13723
+          },
+          {
+            "term": "후방 모니터",
+            "page": 332,
+            "line": 13725
+          },
+          {
+            "term": "Rear View Monitor",
+            "page": 332,
+            "line": 13730
+          },
+          {
+            "term": "후방 모니터",
+            "page": 333,
+            "line": 13765
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 32,
+        "firstBody": {
+          "term": "후방 모니터",
+          "page": 316,
+          "line": 13106,
+          "index": 479524
+        },
+        "firstHits": [
+          {
+            "term": "후방 모니터",
+            "page": 316,
+            "line": 13106
+          },
+          {
+            "term": "후방 모니터",
+            "page": 316,
+            "line": 13107
+          },
+          {
+            "term": "후방 모니터",
+            "page": 316,
+            "line": 13108
+          },
+          {
+            "term": "후방 모니터",
+            "page": 316,
+            "line": 13109
+          },
+          {
+            "term": "후방 모니터",
+            "page": 405,
+            "line": 16950
+          }
+        ]
+      }
+    ]
+  },
+  "surround-view-monitor": {
+    "pdfCount": 35,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 41,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 375,
+          "line": 14363,
+          "index": 379779
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 7,
+            "line": 180
+          },
+          {
+            "term": "SVM",
+            "page": 7,
+            "line": 180
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 375,
+            "line": 14363
+          },
+          {
+            "term": "SVM",
+            "page": 375,
+            "line": 14363
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 375,
+            "line": 14365
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 1,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 307,
+          "line": 11896,
+          "index": 308316
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 307,
+            "line": 11896
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 54,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 450,
+          "line": 17539,
+          "index": 455728
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 7,
+            "line": 186
+          },
+          {
+            "term": "SVM",
+            "page": 7,
+            "line": 186
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 450,
+            "line": 17539
+          },
+          {
+            "term": "SVM",
+            "page": 450,
+            "line": 17539
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 450,
+            "line": 17540
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 54,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 456,
+          "line": 17904,
+          "index": 465829
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "SVM",
+            "page": 7,
+            "line": 190
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 456,
+            "line": 17904
+          },
+          {
+            "term": "SVM",
+            "page": 456,
+            "line": 17904
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 456,
+            "line": 17906
+          }
+        ]
+      },
+      {
+        "file": "CN7HEV_2026_ko_KR.pdf",
+        "hitCount": 51,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 267,
+          "line": 10667,
+          "index": 419679
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 267,
+            "line": 10667
+          },
+          {
+            "term": "SVM",
+            "page": 267,
+            "line": 10667
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 342,
+            "line": 13851
+          },
+          {
+            "term": "SVM",
+            "page": 342,
+            "line": 13851
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 342,
+            "line": 13851
+          }
+        ]
+      },
+      {
+        "file": "CN7N_2026_ko_KR.pdf",
+        "hitCount": 49,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 251,
+          "line": 10392,
+          "index": 421591
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 251,
+            "line": 10392
+          },
+          {
+            "term": "SVM",
+            "page": 251,
+            "line": 10392
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 338,
+            "line": 14050
+          },
+          {
+            "term": "SVM",
+            "page": 338,
+            "line": 14050
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 338,
+            "line": 14050
+          }
+        ]
+      },
+      {
+        "file": "CN7_2026_ko_KR.pdf",
+        "hitCount": 53,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 259,
+          "line": 10620,
+          "index": 413623
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 259,
+            "line": 10620
+          },
+          {
+            "term": "SVM",
+            "page": 259,
+            "line": 10620
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 337,
+            "line": 13929
+          },
+          {
+            "term": "SVM",
+            "page": 337,
+            "line": 13929
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 337,
+            "line": 13929
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 61,
+        "firstBody": {
+          "term": "서라운드 뷰 모니터",
+          "page": 317,
+          "line": 13110,
+          "index": 480015
+        },
+        "firstHits": [
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 317,
+            "line": 13110
+          },
+          {
+            "term": "SVM",
+            "page": 317,
+            "line": 13110
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 317,
+            "line": 13111
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 317,
+            "line": 13112
+          },
+          {
+            "term": "서라운드 뷰 모니터",
+            "page": 317,
+            "line": 13113
+          }
+        ]
+      }
+    ]
+  },
+  "blind-spot-view-monitor": {
+    "pdfCount": 34,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 17,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 346,
+          "line": 13165,
+          "index": 352583
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 7,
+            "line": 174
+          },
+          {
+            "term": "BVM",
+            "page": 7,
+            "line": 174
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 346,
+            "line": 13165
+          },
+          {
+            "term": "BVM",
+            "page": 346,
+            "line": 13165
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 346,
+            "line": 13167
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 19,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 417,
+          "line": 16240,
+          "index": 424677
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 7,
+            "line": 181
+          },
+          {
+            "term": "BVM",
+            "page": 7,
+            "line": 181
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 417,
+            "line": 16240
+          },
+          {
+            "term": "BVM",
+            "page": 417,
+            "line": 16240
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 417,
+            "line": 16241
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 19,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 420,
+          "line": 16462,
+          "index": 431502
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 7,
+            "line": 184
+          },
+          {
+            "term": "BVM",
+            "page": 7,
+            "line": 184
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 420,
+            "line": 16462
+          },
+          {
+            "term": "BVM",
+            "page": 420,
+            "line": 16462
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 420,
+            "line": 16464
+          }
+        ]
+      },
+      {
+        "file": "CN7HEV_2026_ko_KR.pdf",
+        "hitCount": 20,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 267,
+          "line": 10678,
+          "index": 420463
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 267,
+            "line": 10678
+          },
+          {
+            "term": "BVM",
+            "page": 267,
+            "line": 10678
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 309,
+            "line": 12458
+          },
+          {
+            "term": "BVM",
+            "page": 309,
+            "line": 12458
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 309,
+            "line": 12476
+          }
+        ]
+      },
+      {
+        "file": "CN7N_2026_ko_KR.pdf",
+        "hitCount": 20,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 251,
+          "line": 10399,
+          "index": 422174
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 251,
+            "line": 10399
+          },
+          {
+            "term": "BVM",
+            "page": 251,
+            "line": 10399
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 303,
+            "line": 12590
+          },
+          {
+            "term": "BVM",
+            "page": 303,
+            "line": 12590
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 303,
+            "line": 12601
+          }
+        ]
+      },
+      {
+        "file": "CN7_2026_ko_KR.pdf",
+        "hitCount": 23,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 259,
+          "line": 10626,
+          "index": 414156
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 259,
+            "line": 10626
+          },
+          {
+            "term": "BVM",
+            "page": 259,
+            "line": 10626
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 301,
+            "line": 12414
+          },
+          {
+            "term": "BVM",
+            "page": 301,
+            "line": 12414
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 301,
+            "line": 12432
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 27,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 316,
+          "line": 13078,
+          "index": 476162
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 316,
+            "line": 13078
+          },
+          {
+            "term": "BVM",
+            "page": 316,
+            "line": 13078
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 316,
+            "line": 13079
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 316,
+            "line": 13080
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 316,
+            "line": 13081
+          }
+        ]
+      },
+      {
+        "file": "DN8_2026_ko_KR.pdf",
+        "hitCount": 27,
+        "firstBody": {
+          "term": "후측방 모니터",
+          "page": 302,
+          "line": 13075,
+          "index": 485608
+        },
+        "firstHits": [
+          {
+            "term": "후측방 모니터",
+            "page": 302,
+            "line": 13075
+          },
+          {
+            "term": "BVM",
+            "page": 302,
+            "line": 13075
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 302,
+            "line": 13076
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 302,
+            "line": 13077
+          },
+          {
+            "term": "후측방 모니터",
+            "page": 302,
+            "line": 13078
+          }
+        ]
+      }
+    ]
+  },
+  "rear-cross-traffic-collision-avoidance": {
+    "pdfCount": 36,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 44,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 379,
+          "line": 14553,
+          "index": 384309
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 7,
+            "line": 181
+          },
+          {
+            "term": "RCCA",
+            "page": 7,
+            "line": 181
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 379,
+            "line": 14553
+          },
+          {
+            "term": "RCCA",
+            "page": 379,
+            "line": 14553
+          },
+          {
+            "term": "RCCA",
+            "page": 379,
+            "line": 14561
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 42,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 297,
+          "line": 11473,
+          "index": 298489
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 7,
+            "line": 167
+          },
+          {
+            "term": "RCCA",
+            "page": 7,
+            "line": 167
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 297,
+            "line": 11473
+          },
+          {
+            "term": "RCCA",
+            "page": 297,
+            "line": 11473
+          },
+          {
+            "term": "RCCA",
+            "page": 297,
+            "line": 11481
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 46,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 370,
+          "line": 14415,
+          "index": 381114
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 7,
+            "line": 187
+          },
+          {
+            "term": "RCCA",
+            "page": 7,
+            "line": 187
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 370,
+            "line": 14415
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 455,
+            "line": 17741
+          },
+          {
+            "term": "RCCA",
+            "page": 455,
+            "line": 17741
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 47,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 209,
+          "line": 8023,
+          "index": 223274
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 7,
+            "line": 191
+          },
+          {
+            "term": "RCCA",
+            "page": 7,
+            "line": 191
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 209,
+            "line": 8023
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 370,
+            "line": 14511
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 461,
+            "line": 18113
+          }
+        ]
+      },
+      {
+        "file": "CN7HEV_2026_ko_KR.pdf",
+        "hitCount": 29,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 267,
+          "line": 10669,
+          "index": 419840
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 267,
+            "line": 10669
+          },
+          {
+            "term": "RCCA",
+            "page": 267,
+            "line": 10669
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 347,
+            "line": 14080
+          },
+          {
+            "term": "RCCA",
+            "page": 347,
+            "line": 14080
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 347,
+            "line": 14092
+          }
+        ]
+      },
+      {
+        "file": "CN7N_2026_ko_KR.pdf",
+        "hitCount": 30,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 251,
+          "line": 10393,
+          "index": 421699
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 251,
+            "line": 10393
+          },
+          {
+            "term": "RCCA",
+            "page": 251,
+            "line": 10393
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 343,
+            "line": 14275
+          },
+          {
+            "term": "RCCA",
+            "page": 343,
+            "line": 14275
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 343,
+            "line": 14292
+          }
+        ]
+      },
+      {
+        "file": "CN7_2026_ko_KR.pdf",
+        "hitCount": 31,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 259,
+          "line": 10621,
+          "index": 413732
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 259,
+            "line": 10621
+          },
+          {
+            "term": "RCCA",
+            "page": 259,
+            "line": 10621
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 342,
+            "line": 14161
+          },
+          {
+            "term": "RCCA",
+            "page": 342,
+            "line": 14161
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 342,
+            "line": 14173
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 51,
+        "firstBody": {
+          "term": "후방 교차 충돌방지 보조",
+          "page": 317,
+          "line": 13114,
+          "index": 480466
+        },
+        "firstHits": [
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 317,
+            "line": 13114
+          },
+          {
+            "term": "RCCA",
+            "page": 317,
+            "line": 13114
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 317,
+            "line": 13115
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 317,
+            "line": 13116
+          },
+          {
+            "term": "후방 교차 충돌방지 보조",
+            "page": 317,
+            "line": 13117
+          }
+        ]
+      }
+    ]
+  },
+  "pca-parking": {
+    "pdfCount": 33,
+    "samples": [
+      {
+        "file": "AXEV_2026_ko_KR.pdf",
+        "hitCount": 30,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 304,
+          "line": 11510,
+          "index": 313231
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 7,
+            "line": 183
+          },
+          {
+            "term": "PCA",
+            "page": 7,
+            "line": 183
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 304,
+            "line": 11510
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 390,
+            "line": 14970
+          },
+          {
+            "term": "PCA",
+            "page": 390,
+            "line": 14970
+          }
+        ]
+      },
+      {
+        "file": "AX_2026_ko_KR.pdf",
+        "hitCount": 1,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 226,
+          "line": 8670,
+          "index": 232542
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 226,
+            "line": 8670
+          }
+        ]
+      },
+      {
+        "file": "CE1N_2025_ko_KR.pdf",
+        "hitCount": 32,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 370,
+          "line": 14415,
+          "index": 381139
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 7,
+            "line": 189
+          },
+          {
+            "term": "PCA",
+            "page": 7,
+            "line": 189
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 370,
+            "line": 14415
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 465,
+            "line": 18109
+          },
+          {
+            "term": "PCA",
+            "page": 465,
+            "line": 18109
+          }
+        ]
+      },
+      {
+        "file": "CE1_2025_ko_KR.pdf",
+        "hitCount": 33,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 370,
+          "line": 14511,
+          "index": 385286
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 7,
+            "line": 193
+          },
+          {
+            "term": "PCA",
+            "page": 7,
+            "line": 193
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 370,
+            "line": 14511
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 471,
+            "line": 18482
+          },
+          {
+            "term": "PCA",
+            "page": 471,
+            "line": 18482
+          }
+        ]
+      },
+      {
+        "file": "CN7HEV_2026_ko_KR.pdf",
+        "hitCount": 27,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 267,
+          "line": 10673,
+          "index": 420148
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 267,
+            "line": 10673
+          },
+          {
+            "term": "PCA",
+            "page": 267,
+            "line": 10673
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 358,
+            "line": 14558
+          },
+          {
+            "term": "PCA",
+            "page": 358,
+            "line": 14558
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 358,
+            "line": 14560
+          }
+        ]
+      },
+      {
+        "file": "CN7N_2026_ko_KR.pdf",
+        "hitCount": 27,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 251,
+          "line": 10395,
+          "index": 421906
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 251,
+            "line": 10395
+          },
+          {
+            "term": "PCA",
+            "page": 251,
+            "line": 10395
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 354,
+            "line": 14749
+          },
+          {
+            "term": "PCA",
+            "page": 354,
+            "line": 14749
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 354,
+            "line": 14751
+          }
+        ]
+      },
+      {
+        "file": "CN7_2026_ko_KR.pdf",
+        "hitCount": 29,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 259,
+          "line": 10623,
+          "index": 413940
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 259,
+            "line": 10623
+          },
+          {
+            "term": "PCA",
+            "page": 259,
+            "line": 10623
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 353,
+            "line": 14642
+          },
+          {
+            "term": "PCA",
+            "page": 353,
+            "line": 14642
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 353,
+            "line": 14644
+          }
+        ]
+      },
+      {
+        "file": "DN8HEV_2026_ko_KR.pdf",
+        "hitCount": 36,
+        "firstBody": {
+          "term": "주차 충돌방지 보조",
+          "page": 120,
+          "line": 4521,
+          "index": 157382
+        },
+        "firstHits": [
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 120,
+            "line": 4521
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 317,
+            "line": 13126
+          },
+          {
+            "term": "PCA",
+            "page": 317,
+            "line": 13126
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 317,
+            "line": 13127
+          },
+          {
+            "term": "주차 충돌방지 보조",
+            "page": 317,
+            "line": 13128
+          }
+        ]
+      }
+    ]
+  },
+  "reverse-tilt-mirror": {
+    "pdfCount": 0,
+    "samples": []
+  },
+  "remote-smart-exit-assist": {
+    "pdfCount": 0,
+    "samples": []
+  }
+}
