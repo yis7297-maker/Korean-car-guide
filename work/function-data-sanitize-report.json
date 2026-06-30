@@ -1,0 +1,406 @@
+{
+  "sanitizedStrings": 0,
+  "hiddenDetailFeatures": 80,
+  "summaryOnlyFeatures": [
+    {
+      "id": "fca-suite",
+      "name": "전방 충돌방지 보조",
+      "category": "주행 보조"
+    },
+    {
+      "id": "nscc-hda2",
+      "name": "내비게이션 기반 스마트 크루즈 컨트롤 / 고속도로 주행 보조 2",
+      "category": "주행 보조"
+    },
+    {
+      "id": "rspa2",
+      "name": "원격 스마트 주차 보조 2 / RSPA 2",
+      "category": "주차 보조"
+    },
+    {
+      "id": "remote-climate",
+      "name": "원격 공조",
+      "category": "편의 기능"
+    },
+    {
+      "id": "panoramic-curved-display",
+      "name": "파노라믹 커브드 디스플레이",
+      "category": "편의 기능"
+    },
+    {
+      "id": "ccnc-ota",
+      "name": "무선 소프트웨어 업데이트 / OTA",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "fingerprint-auth",
+      "name": "지문 인증",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "ev-charge-v2l",
+      "name": "EV 충전 예약 / 배터리 컨디셔닝 / V2L",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "nexo-h2-refuel",
+      "name": "수소 충전 / 충전구 개폐",
+      "category": "FCEV 전용 기능"
+    },
+    {
+      "id": "nexo-fcev-info",
+      "name": "FCEV 정보 화면 / 에너지 모니터",
+      "category": "FCEV 전용 기능"
+    },
+    {
+      "id": "nexo-smart-regen",
+      "name": "스마트 회생제동 / 회생제동 조절",
+      "category": "FCEV 전용 기능"
+    },
+    {
+      "id": "nexo-eco-coaching",
+      "name": "에코 코칭 / 주행 효율 안내",
+      "category": "FCEV 전용 기능"
+    },
+    {
+      "id": "n-performance",
+      "name": "N 전용 주행/성능 기능",
+      "category": "편의 기능"
+    },
+    {
+      "id": "memory-reverse-assist",
+      "name": "메모리 리버스 어시스트 / MRA",
+      "category": "주차 보조"
+    },
+    {
+      "id": "plug-and-charge",
+      "name": "Plug & Charge",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "iccu-energy-control",
+      "name": "ICCU 에너지 변환 / 충전 제어",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "ev-route-planner",
+      "name": "EV Route Planner",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "battery-conditioning",
+      "name": "배터리 컨디셔닝",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "scheduled-charging",
+      "name": "충전 예약",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "charge-limit",
+      "name": "충전 한도 설정",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "camping-mode",
+      "name": "캠핑 모드",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "utility-mode",
+      "name": "유틸리티 모드",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "v2h-roadmap",
+      "name": "V2H",
+      "category": "로드맵/준비 중"
+    },
+    {
+      "id": "v2g-roadmap",
+      "name": "V2G",
+      "category": "로드맵/준비 중"
+    },
+    {
+      "id": "side-pdw",
+      "name": "측방 주차 거리 경고",
+      "category": "주차 보조"
+    },
+    {
+      "id": "pca-parking",
+      "name": "주차 충돌방지 보조",
+      "category": "주차 보조"
+    },
+    {
+      "id": "face-connect",
+      "name": "Face Connect",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "genesis-dk2",
+      "name": "Genesis Digital Key 2",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "genesis-dk2-touch",
+      "name": "Genesis Digital Key 2 Touch",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "hyundai-dk2",
+      "name": "Hyundai Digital Key 2",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "hyundai-dk2-touch",
+      "name": "Hyundai Digital Key 2 Touch",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "built-in-cam",
+      "name": "빌트인 캠",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "dynamic-body-care-seat",
+      "name": "다이내믹 바디케어 시트",
+      "category": "시트"
+    },
+    {
+      "id": "swiveling-seat",
+      "name": "스위블링 시트",
+      "category": "시트"
+    },
+    {
+      "id": "walk-in-device",
+      "name": "워크인 디바이스",
+      "category": "시트"
+    },
+    {
+      "id": "passenger-talk",
+      "name": "Passenger Talk",
+      "category": "편의 기능"
+    },
+    {
+      "id": "passenger-view",
+      "name": "Passenger View",
+      "category": "편의 기능"
+    },
+    {
+      "id": "rear-voice-recognition",
+      "name": "후석 음성 인식",
+      "category": "편의 기능"
+    },
+    {
+      "id": "rear-climate-control",
+      "name": "후석 공조 제어",
+      "category": "편의 기능"
+    },
+    {
+      "id": "pleos-connect",
+      "name": "Pleos Connect",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "ccnc-system",
+      "name": "ccNC",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "hyundai-ai",
+      "name": "Hyundai AI Assistant",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "kia-ai",
+      "name": "Kia AI Assistant",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "feature-on-demand",
+      "name": "Feature on Demand",
+      "category": "디지털/커넥티드"
+    },
+    {
+      "id": "fcev-energy-flow",
+      "name": "FCEV 에너지 흐름도",
+      "category": "FCEV 전용 기능"
+    },
+    {
+      "id": "fcev-dedicated-system",
+      "name": "수소차 전용 시스템 정보",
+      "category": "FCEV 전용 기능"
+    },
+    {
+      "id": "ev-charge-status",
+      "name": "충전 상태 확인",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "ev-energy-usage",
+      "name": "에너지 사용량",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "ev-battery-health",
+      "name": "배터리 상태 확인",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "i-pedal",
+      "name": "i-Pedal",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "ev-smart-regeneration",
+      "name": "스마트 회생제동",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "ev-regen-level",
+      "name": "회생제동 단계 조절",
+      "category": "EV 전용 기능"
+    },
+    {
+      "id": "tmed2-hybrid-system",
+      "name": "TMED-2 하이브리드 시스템",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-stay-mode",
+      "name": "스테이 모드",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-stay-reservation",
+      "name": "스테이 모드 사용 예약",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-v2l",
+      "name": "하이브리드 V2L",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-smart-regen",
+      "name": "하이브리드 스마트 회생제동",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-regen-level",
+      "name": "하이브리드 회생제동 단계 조절",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-energy-flow",
+      "name": "하이브리드 에너지 흐름도",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-battery-status",
+      "name": "하이브리드 배터리 충전 상태",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-driving-info",
+      "name": "하이브리드 전용 주행 정보",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "hybrid-stationary-climate",
+      "name": "하이브리드 정차 공조",
+      "category": "하이브리드 전용 기능"
+    },
+    {
+      "id": "rspa",
+      "name": "원격 스마트 주차 보조 / RSPA",
+      "category": "주차 보조"
+    },
+    {
+      "id": "spa",
+      "name": "스마트 주차 보조 / SPA",
+      "category": "주차 보조"
+    },
+    {
+      "id": "rear-view-monitor",
+      "name": "후방 모니터",
+      "category": "주차 보조"
+    },
+    {
+      "id": "surround-view-monitor",
+      "name": "서라운드 뷰 모니터 / SVM",
+      "category": "주차 보조"
+    },
+    {
+      "id": "blind-spot-view-monitor",
+      "name": "후측방 모니터 / BVM",
+      "category": "주차 보조"
+    },
+    {
+      "id": "rear-cross-traffic-collision-avoidance",
+      "name": "후방 교차 충돌방지 보조",
+      "category": "주차 보조"
+    },
+    {
+      "id": "parking-distance-warning",
+      "name": "주차 거리 경고",
+      "category": "주차 보조"
+    },
+    {
+      "id": "memory-parking",
+      "name": "메모리 주차",
+      "category": "주차 보조"
+    },
+    {
+      "id": "reverse-guide",
+      "name": "후진 가이드",
+      "category": "주차 보조"
+    },
+    {
+      "id": "scc",
+      "name": "스마트 크루즈 컨트롤 / SCC",
+      "category": "주행 보조"
+    },
+    {
+      "id": "hda",
+      "name": "고속도로 주행 보조 / HDA",
+      "category": "주행 보조"
+    },
+    {
+      "id": "lfa",
+      "name": "차로 유지 보조 / LFA",
+      "category": "주행 보조"
+    },
+    {
+      "id": "lka",
+      "name": "차로 이탈방지 보조 / LKA",
+      "category": "주행 보조"
+    },
+    {
+      "id": "bca",
+      "name": "후측방 충돌방지 보조 / BCA",
+      "category": "주행 보조"
+    },
+    {
+      "id": "safe-exit-assist",
+      "name": "안전 하차 보조 / SEA",
+      "category": "주행 보조"
+    },
+    {
+      "id": "driver-attention-warning",
+      "name": "운전자 주의 경고 / DAW",
+      "category": "주행 보조"
+    },
+    {
+      "id": "intelligent-speed-limit-assist",
+      "name": "지능형 속도 제한 보조 / ISLA",
+      "category": "주행 보조"
+    },
+    {
+      "id": "high-beam-assist",
+      "name": "하이빔 보조 / HBA",
+      "category": "주행 보조"
+    }
+  ]
+}

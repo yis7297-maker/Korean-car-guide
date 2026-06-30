@@ -1,0 +1,487 @@
+{
+  "updated": [
+    {
+      "id": "fingerprint-auth",
+      "name": "지문 인증",
+      "section": "지문 인증 시스템 사용하기",
+      "manualFile": "DN8HEV_2026_ko_KR.pdf",
+      "txtFile": "DN8HEV_2026_ko_KR.txt",
+      "matchedKeyword": "지문 인증"
+    },
+    {
+      "id": "hyundai-dk2",
+      "name": "Hyundai Digital Key 2",
+      "section": "디지털 키 사용하기",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "디지털 키 사용하기"
+    },
+    {
+      "id": "hyundai-dk2-touch",
+      "name": "Hyundai Digital Key 2 Touch",
+      "section": "디지털 키 사용하기",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "디지털 키 사용하기"
+    },
+    {
+      "id": "genesis-dk2",
+      "name": "Genesis Digital Key 2",
+      "section": "제네시스 디지털 키 사용하기",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "디지털 키 사용하기"
+    },
+    {
+      "id": "genesis-dk2-touch",
+      "name": "Genesis Digital Key 2 Touch",
+      "section": "제네시스 디지털 키 사용하기",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "디지털 키 사용하기"
+    },
+    {
+      "id": "built-in-cam",
+      "name": "빌트인 캠",
+      "section": "빌트인 캠(Built-in Cam)",
+      "manualFile": "CE1N_2025_ko_KR.pdf",
+      "txtFile": "CE1N_2025_ko_KR.txt",
+      "matchedKeyword": "빌트인 캠 (Built-in Cam)"
+    },
+    {
+      "id": "scheduled-charging",
+      "name": "충전 예약",
+      "section": "예약 충전 기능 활용하기",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "예약 충전 기능 활용하기"
+    },
+    {
+      "id": "ev-charge-v2l",
+      "name": "EV 충전 예약 / 배터리 컨디셔닝 / V2L",
+      "section": "전기 사용(V2L) 및 충전 기능",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "전기 사용(V2L) 기능 활용하기"
+    },
+    {
+      "id": "plug-and-charge",
+      "name": "Plug & Charge",
+      "section": "전기차 충전",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "Plug & Charge"
+    },
+    {
+      "id": "ev-smart-regeneration",
+      "name": "스마트 회생제동",
+      "section": "스마트 회생 제동 기능 사용하기",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "스마트 회생 제동 기능 사용하기"
+    },
+    {
+      "id": "ev-regen-level",
+      "name": "회생제동 단계 조절",
+      "section": "회생 제동 단계 표시등",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "회생 제동 단계 표시등"
+    },
+    {
+      "id": "hybrid-energy-flow",
+      "name": "하이브리드 에너지 흐름도",
+      "section": "하이브리드 에너지 흐름도",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "에너지 흐름"
+    },
+    {
+      "id": "hybrid-battery-status",
+      "name": "하이브리드 배터리 충전 상태",
+      "section": "하이브리드 에너지 흐름도",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "배터리 충전"
+    },
+    {
+      "id": "fca-suite",
+      "name": "전방 충돌방지 보조",
+      "section": "전방 충돌방지 보조 (FCA)",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "전방 충돌방지 보조 (FCA)"
+    },
+    {
+      "id": "lka",
+      "name": "차로 이탈방지 보조 / LKA",
+      "section": "차로 이탈방지 보조 (LKA)",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "차로 이탈방지 보조 (LKA)"
+    },
+    {
+      "id": "lfa",
+      "name": "차로 유지 보조 / LFA",
+      "section": "차로 유지 보조",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "차로 유지 보조"
+    },
+    {
+      "id": "bca",
+      "name": "후측방 충돌방지 보조 / BCA",
+      "section": "후측방 충돌방지 보조 (BCA)",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "후측방 충돌방지 보조 (BCA)"
+    },
+    {
+      "id": "safe-exit-assist",
+      "name": "안전 하차 보조 / SEA",
+      "section": "안전 하차 보조 (SEA)",
+      "manualFile": "CE1N_2025_ko_KR.pdf",
+      "txtFile": "CE1N_2025_ko_KR.txt",
+      "matchedKeyword": "안전 하차 보조 (SEA)"
+    },
+    {
+      "id": "driver-attention-warning",
+      "name": "운전자 주의 경고 / DAW",
+      "section": "운전자 주의 경고",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "운전자 주의 경고"
+    },
+    {
+      "id": "high-beam-assist",
+      "name": "하이빔 보조 / HBA",
+      "section": "하이빔 보조 (HBA)",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "하이빔 보조 (HBA)"
+    },
+    {
+      "id": "parking-distance-warning",
+      "name": "주차 거리 경고",
+      "section": "주차 거리 경고",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "주차 거리 경고"
+    },
+    {
+      "id": "rear-view-monitor",
+      "name": "후방 모니터",
+      "section": "후방 모니터",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "후방 모니터"
+    },
+    {
+      "id": "surround-view-monitor",
+      "name": "서라운드 뷰 모니터 / SVM",
+      "section": "서라운드 뷰 모니터",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "서라운드 뷰 모니터"
+    },
+    {
+      "id": "blind-spot-view-monitor",
+      "name": "후측방 모니터 / BVM",
+      "section": "후측방 모니터",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "후측방 모니터"
+    },
+    {
+      "id": "rear-cross-traffic-collision-avoidance",
+      "name": "후방 교차 충돌방지 보조",
+      "section": "후방 교차 충돌방지 보조",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "후방 교차 충돌방지 보조"
+    },
+    {
+      "id": "pca-parking",
+      "name": "주차 충돌방지 보조",
+      "section": "주차 충돌방지 보조",
+      "manualFile": "AXEV_2026_ko_KR.pdf",
+      "txtFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "주차 충돌방지 보조"
+    }
+  ],
+  "skipped": [],
+  "protectedFullFeatureCount": 27,
+  "protectedFullChanged": [],
+  "remainingSummaryOnly": [
+    {
+      "id": "nscc-hda2",
+      "name": "내비게이션 기반 스마트 크루즈 컨트롤 / 고속도로 주행 보조 2",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "rspa2",
+      "name": "원격 스마트 주차 보조 2 / RSPA 2",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "remote-climate",
+      "name": "원격 공조",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "panoramic-curved-display",
+      "name": "파노라믹 커브드 디스플레이",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "ccnc-ota",
+      "name": "무선 소프트웨어 업데이트 / OTA",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "nexo-h2-refuel",
+      "name": "수소 충전 / 충전구 개폐",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "nexo-fcev-info",
+      "name": "FCEV 정보 화면 / 에너지 모니터",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "nexo-smart-regen",
+      "name": "스마트 회생제동 / 회생제동 조절",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "nexo-eco-coaching",
+      "name": "에코 코칭 / 주행 효율 안내",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "n-performance",
+      "name": "N 전용 주행/성능 기능",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "memory-reverse-assist",
+      "name": "메모리 리버스 어시스트 / MRA",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "iccu-energy-control",
+      "name": "ICCU 에너지 변환 / 충전 제어",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "ev-route-planner",
+      "name": "EV Route Planner",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "battery-conditioning",
+      "name": "배터리 컨디셔닝",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "charge-limit",
+      "name": "충전 한도 설정",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "camping-mode",
+      "name": "캠핑 모드",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "utility-mode",
+      "name": "유틸리티 모드",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "v2h-roadmap",
+      "name": "V2H",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "v2g-roadmap",
+      "name": "V2G",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "side-pdw",
+      "name": "측방 주차 거리 경고",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "face-connect",
+      "name": "Face Connect",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "dynamic-body-care-seat",
+      "name": "다이내믹 바디케어 시트",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "swiveling-seat",
+      "name": "스위블링 시트",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "walk-in-device",
+      "name": "워크인 디바이스",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "passenger-talk",
+      "name": "Passenger Talk",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "passenger-view",
+      "name": "Passenger View",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "rear-voice-recognition",
+      "name": "후석 음성 인식",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "rear-climate-control",
+      "name": "후석 공조 제어",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "pleos-connect",
+      "name": "Pleos Connect",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "ccnc-system",
+      "name": "ccNC",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hyundai-ai",
+      "name": "Hyundai AI Assistant",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "kia-ai",
+      "name": "Kia AI Assistant",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "feature-on-demand",
+      "name": "Feature on Demand",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "fcev-energy-flow",
+      "name": "FCEV 에너지 흐름도",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "fcev-dedicated-system",
+      "name": "수소차 전용 시스템 정보",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "ev-charge-status",
+      "name": "충전 상태 확인",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "ev-energy-usage",
+      "name": "에너지 사용량",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "ev-battery-health",
+      "name": "배터리 상태 확인",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "i-pedal",
+      "name": "i-Pedal",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "tmed2-hybrid-system",
+      "name": "TMED-2 하이브리드 시스템",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-stay-mode",
+      "name": "스테이 모드",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-stay-reservation",
+      "name": "스테이 모드 사용 예약",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-v2l",
+      "name": "하이브리드 V2L",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-smart-regen",
+      "name": "하이브리드 스마트 회생제동",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-regen-level",
+      "name": "하이브리드 회생제동 단계 조절",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-driving-info",
+      "name": "하이브리드 전용 주행 정보",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hybrid-stationary-climate",
+      "name": "하이브리드 정차 공조",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "rspa",
+      "name": "원격 스마트 주차 보조 / RSPA",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "spa",
+      "name": "스마트 주차 보조 / SPA",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "memory-parking",
+      "name": "메모리 주차",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "reverse-guide",
+      "name": "후진 가이드",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "scc",
+      "name": "스마트 크루즈 컨트롤 / SCC",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "hda",
+      "name": "고속도로 주행 보조 / HDA",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    },
+    {
+      "id": "intelligent-speed-limit-assist",
+      "name": "지능형 속도 제한 보조 / ISLA",
+      "reason": "공식 txt에서 구체 절차 또는 제한/주의 본문 미확정"
+    }
+  ]
+}

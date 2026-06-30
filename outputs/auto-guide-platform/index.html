@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Korean CAR GUIDE</title>
+  <meta name="title" content="Korean CAR GUIDE">
+  <meta name="description" content="현대자동차, 기아, 제네시스 차량 기능과 사용법 안내">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <img class="hero__image" src="assets/hero-cockpit.png" alt="차량 인포테인먼트와 운전석 기술 이미지">
+      <div class="hero__shade"></div>
+      <nav class="topbar" aria-label="브랜드 탐색">
+        <a class="brand-mark" href="#">Korean CAR GUIDE</a>
+        <div class="brand-tabs" role="tablist" aria-label="브랜드 선택">
+          <button class="brand-tab is-active" type="button" data-brand="all">전체</button>
+          <button class="brand-tab" type="button" data-brand="현대">현대자동차</button>
+          <button class="brand-tab" type="button" data-brand="기아">기아</button>
+          <button class="brand-tab" type="button" data-brand="제네시스">제네시스</button>
+        </div>
+      </nav>
+      <section class="hero__content" aria-labelledby="page-title">
+        <p class="eyebrow">Hyundai · Kia · Genesis</p>
+        <h1 id="page-title">자동차 기능과 사용법을 한 번에 찾는 검색 플랫폼</h1>
+        <p class="hero-copy">차량을 먼저 선택하고, 해당 차량에 실제 매핑된 기능 데이터를 확인하는 차량 기능 데이터베이스 플랫폼입니다.</p>
+      </section>
+    </header>
+
+    <main class="workspace">
+      <aside class="filters" aria-label="검색 필터">
+        <div class="search-box">
+          <label for="searchInput">검색어</label>
+          <div class="search-control">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="예: 원격 시동, HDA, 블루투스, 충전" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <p class="filter-title">카테고리</p>
+          <div class="chip-grid" id="categoryFilters"></div>
+        </div>
+
+        <div id="typeFilters" hidden aria-hidden="true"></div>
+
+        <div class="quick-card">
+          <strong>빠른 진단</strong>
+          <p>증상이나 버튼 이름만 떠올라도 검색창에 입력하면 관련 기능과 점검 순서를 함께 보여줍니다.</p>
+        </div>
+      </aside>
+
+      <section class="results-area" aria-live="polite">
+        <div class="summary-row">
+          <div>
+            <p class="result-count" id="resultCount">0개 결과</p>
+            <h2 id="sectionTitle">추천 기능</h2>
+          </div>
+          <div class="sort-control">
+            <label for="sortSelect">정렬</label>
+            <select id="sortSelect">
+              <option value="recommended">추천순</option>
+              <option value="difficulty">쉬운 사용법순</option>
+              <option value="brand">브랜드순</option>
+            </select>
+          </div>
+        </div>
+        <div class="cards" id="cards"></div>
+      </section>
+
+      <aside class="detail-panel" aria-label="선택한 기능 상세" hidden>
+        <div class="detail-panel__inner" id="detailPanel"></div>
+      </aside>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>본 사이트의 기능 정보는 현대자동차, 기아, 제네시스의 공식 카탈로그, 가격표, 웹 매뉴얼, 오너스 매뉴얼 및 공식 홈페이지를 기반으로 작성되었습니다. 차량 연식, 트림, 옵션에 따라 실제 적용 여부가 다를 수 있습니다.</p>
+    <button id="trafficAdminToggle" type="button" aria-pressed="true">방문자 위젯 ON</button>
+  </footer>
+
+  <aside class="traffic-widget" id="trafficWidget" aria-label="방문자 통계">
+    <span>오늘 방문자 <strong id="todayVisitors">0</strong></span>
+    <span>누적 방문자 <strong id="totalVisitors">0</strong></span>
+  </aside>
+
+  <template id="cardTemplate">
+    <article class="feature-card" tabindex="0">
+      <div class="card-topline">
+        <span class="badge"></span>
+        <button class="bookmark" type="button" aria-label="즐겨찾기">☆</button>
+      </div>
+      <h3></h3>
+      <p class="description"></p>
+      <div class="meta-row"></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+  <script src="patch.js"></script>
+</body>
+</html>
+
+
+
+
+

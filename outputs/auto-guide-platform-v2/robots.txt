@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://korean-car-guide.vercel.app/sitemap.xml

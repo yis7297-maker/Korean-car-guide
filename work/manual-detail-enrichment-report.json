@@ -1,0 +1,290 @@
+{
+  "updated": 15,
+  "notFound": [
+    {
+      "id": "remote-climate",
+      "name": "?먭꺽 怨듭“",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ergo-motion-seat",
+      "name": "?댁쟾???먮Ⅴ怨?紐⑥뀡 ?쒗듃",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "relaxation-comfort-seat",
+      "name": "由대젆??而댄룷???쒗듃",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "panoramic-curved-display",
+      "name": "?뚮끂?쇰? 而ㅻ툕???붿뒪?뚮젅??",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ccnc-ota",
+      "name": "臾댁꽑 ?뚰봽?몄썾???낅뜲?댄듃 / OTA",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ev-charge-v2l",
+      "name": "EV 異⑹쟾 ?덉빟 / 諛고꽣由?而⑤뵒?붾떇 / V2L",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "nexo-h2-refuel",
+      "name": "?섏냼 異⑹쟾 / 異⑹쟾援?媛쒗룓",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "nexo-fcev-info",
+      "name": "FCEV ?뺣낫 ?붾㈃ / ?먮꼫吏 紐⑤땲??",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "nexo-smart-regen",
+      "name": "?ㅻ쭏???뚯깮?쒕룞 / ?뚯깮?쒕룞 議곗젅",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "nexo-eco-coaching",
+      "name": "?먯퐫 肄붿묶 / 二쇳뻾 ?⑥쑉 ?덈궡",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "n-performance",
+      "name": "N ?꾩슜 二쇳뻾/?깅뒫 湲곕뒫",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "memory-reverse-assist",
+      "name": "硫붾え由?由щ쾭???댁떆?ㅽ듃 / MRA",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "iccu-energy-control",
+      "name": "ICCU ?먮꼫吏 蹂??/ 異⑹쟾 ?쒖뼱",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ev-route-planner",
+      "name": "EV Route Planner",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "camping-mode",
+      "name": "罹좏븨 紐⑤뱶",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "v2h-roadmap",
+      "name": "V2H (?ν썑)",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "v2g-roadmap",
+      "name": "V2G (?ν썑)",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "remote-smart-exit",
+      "name": "?먭꺽 ?ㅻ쭏??異쒖감 蹂댁“",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "e-hi-pass",
+      "name": "e-Hi Pass",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "genesis-dk2",
+      "name": "Genesis Digital Key 2",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "genesis-dk2-touch",
+      "name": "Genesis Digital Key 2 Touch",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "built-in-cam2",
+      "name": "鍮뚰듃??罹?2",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "built-in-cam2-plus",
+      "name": "鍮뚰듃??罹?2 Plus",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "dynamic-body-care-seat",
+      "name": "?ㅼ씠?대? 諛붾뵒 耳???쒗듃",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "swiveling-seat",
+      "name": "?ㅼ쐞釉붾쭅 ?쒗듃",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "walk-in-device",
+      "name": "?뚰겕???붾컮?댁뒪",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "smart-posture-assist",
+      "name": "?ㅻ쭏???먯꽭 蹂댁“",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "passenger-talk",
+      "name": "Passenger Talk",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "passenger-view",
+      "name": "Passenger View",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "rear-voice-recognition",
+      "name": "?꾩꽍 ?뚯꽦 ?몄떇",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "rear-climate-control",
+      "name": "?꾩꽍 怨듭“ ?쒖뼱",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "pleos-connect",
+      "name": "Pleos Connect",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ccnc-system",
+      "name": "ccNC",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hyundai-ai",
+      "name": "Hyundai AI Assistant",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "kia-ai",
+      "name": "Kia AI Assistant",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "feature-on-demand",
+      "name": "Feature on Demand",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "fcev-energy-flow",
+      "name": "FCEV ?먮꼫吏 ?먮쫫??",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "fcev-dedicated-system",
+      "name": "?섏냼李??꾩슜 ?쒖뒪???뺣낫",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ev-charge-status",
+      "name": "異⑹쟾 ?곹깭 ?뺤씤",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ev-energy-usage",
+      "name": "?먮꼫吏 ?ъ슜??",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ev-battery-health",
+      "name": "諛고꽣由??곹깭 ?뺤씤",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "ev-regen-level",
+      "name": "?뚯깮?쒕룞 ?④퀎 議곗젅",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "tmed2-hybrid-system",
+      "name": "TMED-2 ?섏씠釉뚮━???쒖뒪??",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-stay-mode",
+      "name": "?ㅽ뀒??紐⑤뱶",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-stay-reservation",
+      "name": "?ㅽ뀒??紐⑤뱶 ?ъ슜 ?덉빟",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-v2l",
+      "name": "?섏씠釉뚮━??V2L",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-smart-regen",
+      "name": "?섏씠釉뚮━???ㅻ쭏???뚯깮?쒕룞",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-regen-level",
+      "name": "?섏씠釉뚮━???뚯깮?쒕룞 ?④퀎 議곗젅",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-energy-flow",
+      "name": "?섏씠釉뚮━???먮꼫吏 ?먮쫫??",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-battery-status",
+      "name": "?섏씠釉뚮━??諛고꽣由?異⑹쟾 ?곹깭",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-driving-info",
+      "name": "?섏씠釉뚮━???꾩슜 二쇳뻾 ?뺣낫",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "hybrid-stationary-climate",
+      "name": "?섏씠釉뚮━???뺤감 怨듭“",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "spa",
+      "name": "?ㅻ쭏??二쇱감 蹂댁“ / SPA",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "reverse-tilt-mirror",
+      "name": "?꾩쭊 ?곕룞 ?ъ씠??誘몃윭",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "memory-parking",
+      "name": "硫붾え由?二쇱감 / Memory Parking",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "reverse-guide",
+      "name": "?꾩쭊 媛?대뱶",
+      "reason": "보강 사전 미등록"
+    },
+    {
+      "id": "climate-control",
+      "name": "怨듭“",
+      "reason": "보강 사전 미등록"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "updated": [
+    {
+      "id": "e-hi-pass",
+      "name": "하이패스 시스템(ETCS)",
+      "manualFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "하이패스 시스템",
+      "section": "하이패스 시스템(ETCS)"
+    },
+    {
+      "id": "built-in-cam2",
+      "name": "빌트인 캠 2",
+      "manualFile": "CE1N_2025_ko_KR.txt",
+      "matchedKeyword": "빌트인 캠",
+      "section": "빌트인 캠(Built-in Cam)"
+    },
+    {
+      "id": "built-in-cam2-plus",
+      "name": "빌트인 캠 2 Plus",
+      "manualFile": "CE1N_2025_ko_KR.txt",
+      "matchedKeyword": "빌트인 캠",
+      "section": "빌트인 캠(Built-in Cam)"
+    },
+    {
+      "id": "smart-posture-assist",
+      "name": "스마트 자세 제어 시스템",
+      "manualFile": "GN7HEV_2026_ko_KR.txt",
+      "matchedKeyword": "스마트 자세 제어 시스템",
+      "section": "스마트 자세 제어 시스템 사용하기"
+    },
+    {
+      "id": "ergo-motion-seat",
+      "name": "에르고 모션 시트",
+      "manualFile": "GN7HEV_2026_ko_KR.txt",
+      "matchedKeyword": "에르고 모션 시트",
+      "section": "에르고 모션 시트"
+    },
+    {
+      "id": "relaxation-comfort-seat",
+      "name": "릴렉션 컴포트 시트",
+      "manualFile": "CE1_2025_ko_KR.txt",
+      "matchedKeyword": "릴렉션",
+      "section": "릴렉션 컴포트 시트"
+    },
+    {
+      "id": "climate-control",
+      "name": "공조",
+      "manualFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "공조",
+      "section": "히터 및 에어컨"
+    },
+    {
+      "id": "reverse-tilt-mirror",
+      "name": "후진 연동 사이드 미러",
+      "manualFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "미러",
+      "section": "아웃사이드 미러"
+    },
+    {
+      "id": "remote-smart-exit",
+      "name": "원격 스마트 출차 보조",
+      "manualFile": "AXEV_2026_ko_KR.txt",
+      "matchedKeyword": "원격 스마트 주차 보조",
+      "section": "원격 스마트 주차 보조"
+    }
+  ],
+  "skipped": []
+}
