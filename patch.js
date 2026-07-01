@@ -1,5 +1,5 @@
-/* 2026-06-22 requested content and UI revision */
-// Unverified Pleos candidates are not published. Only confirmed features may return later.
+﻿/* 2026-06-22 requested content and UI revision */
+// Pleos candidates without public confirmation are not published. Only confirmed features may return later.
 for (let i = features.length - 1; i >= 0; i -= 1) {
   if (features[i].category === '플레오스' || /pleos|gleo|hyundai-ai-assistant/i.test(features[i].id)) features.splice(i, 1);
 }

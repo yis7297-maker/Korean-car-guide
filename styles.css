@@ -326,16 +326,6 @@ h2 { margin: 0; font-size: 24px; letter-spacing: 0; }
   .topbar, .hero__content, .workspace { width: min(100% - 24px, 1180px); }
 }
 
-.status-pill {
-  display: inline-flex;
-  align-items: center;
-  min-height: 28px;
-  padding: 5px 9px;
-  border-radius: 7px;
-  font-size: 12px;
-  font-weight: 800;
-}
-
 .confirmation-note {
   margin-top: 10px;
   padding: 10px 12px;
@@ -590,15 +580,6 @@ h2 { margin: 0; font-size: 24px; letter-spacing: 0; }
   .hero-ad-slot { min-height: 74px; margin-top: 10px; }
 }
 
-.status-pill.ok, .meta.ok {
-  color: #15694f;
-  background: #e7f6f0;
-}
-
-.status-pill.pending, .meta.pending {
-  color: #8b5b13;
-  background: #fff2d8;
-}
 
 .detail-section ul {
   margin: 0;
@@ -665,10 +646,6 @@ h2 { margin: 0; font-size: 24px; letter-spacing: 0; }
   gap: 12px;
 }
 
-.status-pill.legacy, .meta.legacy {
-  color: #674b23;
-  background: #fff2d8;
-}
 
 .source-priority {
   display: inline-flex;
@@ -838,11 +815,6 @@ h2 { margin: 0; font-size: 24px; letter-spacing: 0; }
 .feature-icon.large svg {
   width: 28px;
   height: 28px;
-}
-
-.meta.pending, .status-pill.pending {
-  color: #8b5b13;
-  background: #fff2d8;
 }
 
 .feature-modal {
