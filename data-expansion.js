@@ -16,11 +16,11 @@ if (otaFeature && !otaFeature.aliases.includes('OTA Update')) otaFeature.aliases
 function addExpandedFeature(config) {
   if (features.some(item => item.id === config.id)) return;
   features.push(F({
-    aliases: [], preconditions: ['해당 기능이 적용된 차종과 트림이어야 합니다.'],
-    steps: ['차량 화면 또는 전용 버튼에서 기능을 선택합니다.', '화면 안내와 차량 상태를 확인한 뒤 사용합니다.'],
-    disable: ['기능 화면에서 종료하거나 차량 안내에 따라 해제합니다.'],
-    limitations: ['차종, 연식, 트림, 옵션과 차량 상태에 따라 지원 범위가 달라질 수 있습니다.'],
-    warnings: ['주행 중에는 안전을 우선하고 복잡한 화면 조작을 피하세요.'],
+    aliases: [], preconditions: [],
+    steps: [],
+    disable: [],
+    limitations: [],
+    warnings: [],
     related: [], sources: ['hyundaiCatalog', 'kiaCatalog', 'genesisCatalog'], verify: verify(config.verified !== false),
     generation: { family: config.parent || config.category, generation: config.name, previous: [], differences: config.summary },
     ...config

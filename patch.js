@@ -43,14 +43,44 @@ state.vehicleId = null;
 state.year = '전체';
 
 filteredFeatures = function () {
+  const isSearching = !!state.query.trim();
   return features.map(f => ({ f, score: scoreFeature(f) })).filter(({ f, score }) => {
-    const vehicleOk = !state.vehicleId || featureAppliesTo(f, state.vehicleId);
-    const brandOk = state.brand === '전체' || f.applies.some(a => a.brand === state.brand);
-    const yearOk = state.year === '전체' || f.applies.some(a => String(a.years).includes(state.year));
-    const categoryOk = state.category === '전체' || f.category === state.category;
-    const queryOk = !state.query.trim() || score > (f.verify.complete ? 10 : 2);
+    const vehicleOk = isSearching || !state.vehicleId || featureAppliesTo(f, state.vehicleId);
+    const brandOk = isSearching || state.brand === '전체' || f.applies.some(a => a.brand === state.brand);
+    const yearOk = isSearching || state.year === '전체' || f.applies.some(a => String(a.years).includes(state.year));
+    const categoryOk = isSearching || state.category === '전체' || f.category === state.category;
+    const queryOk = !isSearching || score > (f.verify.complete ? 10 : 2);
     return vehicleOk && brandOk && yearOk && categoryOk && queryOk;
   }).sort((a, b) => b.score - a.score || a.f.name.localeCompare(b.f.name, 'ko')).map(item => item.f);
+};
+
+scoreFeature = function (f) {
+  const q = normalized(state.query);
+  let score = f.verify?.complete ? 10 : 2;
+  if (!q) return score;
+  const values = [
+    f.id,
+    f.name,
+    f.category,
+    f.officialCategory,
+    f.parent,
+    f.summary,
+    f.overview,
+    ...(f.aliases || []),
+    ...(f.keywords || []),
+    ...(f.related || []),
+    ...(f.relatedFeatures || []),
+    ...(f.supportedModels || []),
+    ...(f.supportedVehicles || []),
+    ...(f.applies || []).flatMap(a => [a.brand, a.model, a.years, a.trim, a.option])
+  ];
+  values.forEach((value, index) => {
+    const text = normalized(value);
+    if (!text) return;
+    if (text.includes(q)) score += index <= 1 ? 80 : 20;
+    if (q.includes(text) && text.length > 1) score += 8;
+  });
+  return score;
 };
 
 ensureDatabaseView = function () {
@@ -105,6 +135,12 @@ renderCards = function (list) {
     n.onkeydown = event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openModal(f, !!match); } };
     cardsEl.appendChild(n);
   });
+};
+
+listHtml = function (title, rows) {
+  const safeRows = (rows || []).filter(Boolean);
+  if (!safeRows.length) return '';
+  return `<div class="detail-section"><h3>${title}</h3><ol>${safeRows.map(row => `<li>${row}</li>`).join('')}</ol></div>`;
 };
 
 openModal = function (f, hasVehicleContext = false) {

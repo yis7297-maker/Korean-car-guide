@@ -122,17 +122,17 @@ function defaultSettingsFor(feature) {
     'EV 전용 기능': `EV → ${feature.subcategory || '전기차 설정'}`,
     'FCEV': 'FCEV → 에너지 또는 수소전기차 설정'
   };
-  return [categoryPaths[feature.category] || '홈 → 설정 → 차량 → 해당 기능 메뉴'];
+  return categoryPaths[feature.category] ? [categoryPaths[feature.category]] : [];
 }
 
 features.forEach(feature => {
   feature.overview = feature.overview || feature.summary;
-  feature.preconditions = feature.preconditions?.length ? feature.preconditions : ['차량 전원 또는 시동이 켜져 있어야 합니다.', '해당 차종과 트림에 기능이 적용되어야 합니다.'];
-  feature.settings = defaultSettingsFor(feature);
-  feature.steps = feature.steps?.length ? feature.steps : ['차량 화면이나 전용 버튼에서 기능을 선택합니다.', '화면 안내에 따라 기능을 실행하고 작동 상태를 확인합니다.'];
-  feature.disable = feature.disable?.length ? feature.disable : ['같은 버튼을 다시 누르거나 기능 화면에서 종료를 선택합니다.'];
-  feature.limitations = feature.limitations?.length ? feature.limitations : ['차량 상태, 센서, 통신, 배터리와 주변 환경에 따라 작동이 제한될 수 있습니다.'];
-  feature.warnings = feature.warnings?.length ? feature.warnings : ['기능 작동 중에도 주변 안전 확인과 차량 제어 책임은 운전자에게 있습니다.'];
+  feature.settings = feature.settings?.length ? feature.settings : [];
+  feature.preconditions = feature.preconditions?.length ? feature.preconditions : [];
+  feature.steps = feature.steps?.length ? feature.steps : [];
+  feature.disable = feature.disable?.length ? feature.disable : [];
+  feature.limitations = feature.limitations?.length ? feature.limitations : [];
+  feature.warnings = feature.warnings?.length ? feature.warnings : [];
   feature.related = feature.related || [];
 });
 
@@ -141,7 +141,7 @@ function officialSourcesHtml(feature) {
   return `<div class="detail-section"><h3>공식 출처</h3><div class="official-source-list">${
     rows.length
       ? rows.map(source => `<a href="${source.url}" target="_blank" rel="noreferrer"><span>${source.label}</span><small>${source.rank}</small></a>`).join('')
-      : '<p class="muted">공식 자료 재확인 필요</p>'
+      : ''
   }</div></div>`;
 }
 
