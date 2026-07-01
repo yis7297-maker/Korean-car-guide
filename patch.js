@@ -149,26 +149,4 @@ render = function () {
   renderStats();
 };
 
-function initTrafficWidget() {
-  const todayKey = `kcg-visits-${new Date().toISOString().slice(0, 10)}`;
-  if (!sessionStorage.getItem('kcg-counted')) {
-    localStorage.setItem(todayKey, String(Number(localStorage.getItem(todayKey) || 0) + 1));
-    localStorage.setItem('kcg-total-visits', String(Number(localStorage.getItem('kcg-total-visits') || 0) + 1));
-    sessionStorage.setItem('kcg-counted', '1');
-  }
-  document.querySelector('#todayVisitors').textContent = Number(localStorage.getItem(todayKey) || 0).toLocaleString('ko-KR');
-  document.querySelector('#totalVisitors').textContent = Number(localStorage.getItem('kcg-total-visits') || 0).toLocaleString('ko-KR');
-  const widget = document.querySelector('#trafficWidget');
-  const toggle = document.querySelector('#trafficAdminToggle');
-  const sync = () => {
-    const enabled = localStorage.getItem('kcg-traffic-enabled') !== 'false';
-    widget.hidden = !enabled;
-    toggle.textContent = `방문자 위젯 ${enabled ? 'ON' : 'OFF'}`;
-    toggle.setAttribute('aria-pressed', String(enabled));
-  };
-  toggle.onclick = () => { localStorage.setItem('kcg-traffic-enabled', String(localStorage.getItem('kcg-traffic-enabled') === 'false')); sync(); };
-  sync();
-}
-
-initTrafficWidget();
 render();

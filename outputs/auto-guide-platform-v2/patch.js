@@ -53,54 +53,6 @@ filteredFeatures = function () {
   }).sort((a, b) => b.score - a.score || a.f.name.localeCompare(b.f.name, 'ko')).map(item => item.f);
 };
 
-const isAllFilter = (value, allValue) => !value || value === allValue || value === '전체' || value === '?꾩껜';
-scoreFeature = function (f) {
-  const q = normalized(state.query);
-  if (!q) return f.verify.complete ? 10 : 2;
-  const supportedModels = (f.applies || []).flatMap(item => [
-    item.brand,
-    item.model,
-    item.years,
-    item.year,
-    item.trim,
-    item.option,
-    item.vehicleId
-  ]);
-  const searchable = [
-    f.name,
-    f.category,
-    f.officialCategory,
-    f.summary,
-    f.overview,
-    f.description,
-    ...(f.aliases || []),
-    ...(f.keywords || []),
-    ...(f.related || []),
-    ...(f.relatedFeatures || []),
-    ...supportedModels
-  ];
-  return searchable.reduce((score, value, index) => {
-    const text = normalized(value);
-    if (!text) return score;
-    if (text.includes(q)) return score + (index === 0 ? 80 : 24);
-    if (q.includes(text) && text.length > 1) return score + 8;
-    return score;
-  }, 0);
-};
-
-filteredFeatures = function () {
-  const hasQuery = Boolean(state.query.trim());
-  return features.map(f => ({ f, score: scoreFeature(f) })).filter(({ f, score }) => {
-    if (hasQuery) return score > 0;
-    const vehicleOk = !state.vehicleId || featureAppliesTo(f, state.vehicleId);
-    const brandOk = isAllFilter(state.brand, '?꾩껜') || f.applies.some(a => a.brand === state.brand);
-    const yearOk = isAllFilter(state.year, '?꾩껜') || f.applies.some(a => String(a.years).includes(state.year));
-    const categoryOk = isAllFilter(state.category, categories[0]) || f.category === state.category;
-    const verificationOk = state.verification === '전체' || (state.verification === '검증 완료' ? f.verify.complete : !f.verify.complete);
-    return vehicleOk && brandOk && yearOk && categoryOk && verificationOk;
-  }).sort((a, b) => b.score - a.score || a.f.name.localeCompare(b.f.name, 'ko')).map(item => item.f);
-};
-
 ensureDatabaseView = function () {
   document.querySelector('#databaseView')?.remove();
   if (document.querySelector('#compactVehiclePicker')) return;

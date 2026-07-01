@@ -958,7 +958,7 @@ body.modal-open {
   font-weight: 500;
 }
 
-/* 2026-06-22 compact selection, related links, footer and traffic widget */
+/* 2026-06-22 compact selection, related links and footer */
 .compact-picker { display: grid; gap: 10px; margin-bottom: 18px; }
 .compact-picker label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; font-weight: 700; }
 .compact-picker select { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fff; color: var(--ink); }
@@ -972,11 +972,20 @@ body.modal-open {
 .future-vehicle-card p { margin: 5px 0 0; color: var(--muted); }
 .site-footer { padding: 22px max(16px, calc((100% - 1180px) / 2)); background: #111a23; color: rgba(255,255,255,.78); font-size: 13px; line-height: 1.65; }
 .site-footer p { margin: 0; max-width: 1000px; }
-#trafficAdminToggle { margin-top: 10px; border: 1px solid rgba(255,255,255,.25); border-radius: 7px; padding: 6px 9px; background: transparent; color: rgba(255,255,255,.72); font-size: 11px; }
-.traffic-widget { position: fixed; right: 14px; bottom: 14px; z-index: 20; display: grid; gap: 4px; padding: 9px 11px; border: 1px solid rgba(255,255,255,.2); border-radius: 8px; background: rgba(17,26,35,.9); color: rgba(255,255,255,.78); box-shadow: 0 8px 22px rgba(0,0,0,.16); font-size: 11px; backdrop-filter: blur(8px); }
-.traffic-widget span { display: flex; justify-content: space-between; gap: 14px; }
-.traffic-widget strong { color: #fff; }
-@media (max-width: 760px) { .traffic-widget { right: 8px; bottom: 8px; padding: 7px 9px; font-size: 10px; } }
+
+.faq-list { display: grid; gap: 10px; }
+.faq-list details, [data-audit-faq] details {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+}
+.faq-list summary, [data-audit-faq] summary { cursor: pointer; font-weight: 700; }
+.faq-list p, [data-audit-faq] p { margin: 8px 0 0; color: var(--muted); line-height: 1.6; }
+
+@media (max-width: 760px) {
+  button, select, input { min-height: 44px; }
+}
 
 .beta-open {
   width: min(760px, calc(100% - 24px));
