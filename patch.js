@@ -42,14 +42,19 @@ state.brand = '전체';
 state.vehicleId = null;
 state.year = '전체';
 
+featureAppliesTo = function (f, id) {
+  return (f.applies || []).some(a => a.vehicleId === id);
+};
+
 filteredFeatures = function () {
   const isSearching = !!state.query.trim();
   return features.map(f => ({ f, score: scoreFeature(f) })).filter(({ f, score }) => {
-    const vehicleOk = isSearching || !state.vehicleId || featureAppliesTo(f, state.vehicleId);
-    const brandOk = isSearching || state.brand === '전체' || f.applies.some(a => a.brand === state.brand);
-    const yearOk = isSearching || state.year === '전체' || f.applies.some(a => String(a.years).includes(state.year));
+    const applies = f.applies || [];
+    const vehicleOk = isSearching || !state.vehicleId || applies.some(a => a.vehicleId === state.vehicleId);
+    const brandOk = isSearching || state.brand === '전체' || applies.some(a => a.brand === state.brand);
+    const yearOk = isSearching || state.year === '전체' || applies.some(a => String(a.years).includes(state.year));
     const categoryOk = isSearching || state.category === '전체' || f.category === state.category;
-    const queryOk = !isSearching || score > (f.verify.complete ? 10 : 2);
+    const queryOk = !isSearching || score > (f.verify?.complete ? 10 : 2);
     return vehicleOk && brandOk && yearOk && categoryOk && queryOk;
   }).sort((a, b) => b.score - a.score || a.f.name.localeCompare(b.f.name, 'ko')).map(item => item.f);
 };
@@ -124,12 +129,13 @@ renderCards = function (list) {
   if (!list.length) { cardsEl.innerHTML = '<div class="no-results">선택한 차량/조건에 연결된 기능이 없습니다.</div>'; return; }
   list.forEach(f => {
     const n = cardTemplate.content.firstElementChild.cloneNode(true);
-    const match = vehicle ? f.applies.find(a => a.vehicleId === vehicle.id) : null;
-    n.querySelector('.badge').className = `badge ${brandClass(f.applies[0]?.brand || '현대')}`;
+    const applies = f.applies || [];
+    const match = vehicle ? applies.find(a => a.vehicleId === vehicle.id) : null;
+    n.querySelector('.badge').className = `badge ${brandClass(applies[0]?.brand || '현대')}`;
     n.querySelector('.badge').textContent = f.category;
     n.querySelector('h3').innerHTML = `<span class="feature-icon">${iconFor(f)}</span><span>${f.name}</span>`;
-    n.querySelector('.description').textContent = f.summary;
-    n.querySelector('.meta-row').innerHTML = `${f.parent ? `<span class="meta hierarchy">${f.parent} › ${f.name}</span>` : ''}<span class="meta">${f.officialCategory}</span><span class="meta">${match ? match.trim : '차량 선택 후 적용 여부 확인'}</span>`;
+    n.querySelector('.description').textContent = f.summary || f.overview || '';
+    n.querySelector('.meta-row').innerHTML = `${f.parent ? `<span class="meta hierarchy">${f.parent} › ${f.name}</span>` : ''}<span class="meta">${f.officialCategory || f.category}</span><span class="meta">${match ? match.trim : '차량 선택 후 적용 여부 확인'}</span>`;
     n.querySelector('.bookmark').style.display = 'none';
     n.onclick = () => openModal(f, !!match);
     n.onkeydown = event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openModal(f, !!match); } };
