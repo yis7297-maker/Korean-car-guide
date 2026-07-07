@@ -991,9 +991,34 @@ body.modal-open {
   color: inherit;
   font-weight: 700;
 }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 18px 0;
+}
+.footer-links a {
+  color: inherit;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.info-page .function-article {
+  max-width: 920px;
+}
+.info-page .function-section p,
+.function-page .section-note {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.info-footer {
+  margin-top: 40px;
+}
 @media (max-width: 760px) {
   .beta-open { align-items: flex-start; }
   .site-footer { padding-block: 28px; font-size: 12px; }
+  .footer-links { gap: 8px 10px; }
 }
 
 /* Final consumer-search UI simplification */
