@@ -1,78 +1,45 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSG1T3HMRY"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TSG1T3HMRY');
-  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FCEV 정보 화면 / 에너지 모니터 사용법 및 적용 차량 | Korean CAR GUIDE</title>
-  <meta name="description" content="FCEV 정보 화면 / 에너지 모니터의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. FCEV 시스템 에너지 흐름도를 클러스터에서 확인합니다.">
-  <meta name="keywords" content="FCEV 정보 화면 / 에너지 모니터, nexo-fcev-info, FCEV 정보, 에너지 흐름도, 에너지 모니터, 수소 잔량, 주행 가능 거리, fcev">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Korean CAR GUIDE">
-  <meta property="og:title" content="FCEV 정보 화면 / 에너지 모니터 사용법 및 적용 차량 | Korean CAR GUIDE">
-  <meta property="og:description" content="FCEV 정보 화면 / 에너지 모니터의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. FCEV 시스템 에너지 흐름도를 클러스터에서 확인합니다.">
-  <meta property="og:url" content="https://korean-car-guide.vercel.app/function/nexo-fcev-info/">
-  <meta property="og:image" content="https://korean-car-guide.vercel.app/assets/hero-original-mobility-v2.png">
-  <meta property="article:modified_time" content="2026-06-29">
-  <meta name="kcg-render-mode" content="static-generated">
-  <meta name="kcg-feature-id" content="nexo-fcev-info">
-  <meta name="kcg-feature-slug" content="nexo-fcev-info">
-  <meta name="twitter:card" content="summary_large_image">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSG1T3HMRY"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-TSG1T3HMRY');</script>
+  <title>FCEV 정보 화면 / 에너지 모니터 사용법 | Korean CAR GUIDE</title>
+  <meta name="description" content="수소 잔량, 주행 가능 거리, 전력 흐름, 연료전지 작동 상태를 차량 화면에서 확인합니다.">
   <link rel="canonical" href="https://korean-car-guide.vercel.app/function/nexo-fcev-info/">
-  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="FCEV 정보 화면 / 에너지 모니터 사용법 | Korean CAR GUIDE">
+  <meta property="og:description" content="수소 잔량, 주행 가능 거리, 전력 흐름, 연료전지 작동 상태를 차량 화면에서 확인합니다.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://korean-car-guide.vercel.app/function/nexo-fcev-info/">
+  <meta property="og:site_name" content="Korean CAR GUIDE">
+  <link rel="stylesheet" href="../../styles.css">
   <link rel="stylesheet" href="../../function-pages.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"FCEV 정보 화면 / 에너지 모니터","description":"FCEV 정보 화면 / 에너지 모니터의 기능 개요, 설정 방법, 사용 방법, 제한 사항과 적용 차량을 확인하세요. FCEV 시스템 에너지 흐름도를 클러스터에서 확인합니다.","dateModified":"2026-06-29","inLanguage":"ko-KR","mainEntityOfPage":"https://korean-car-guide.vercel.app/function/nexo-fcev-info/","publisher":{"@type":"Organization","name":"Korean CAR GUIDE"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"FCEV 정보 화면 / 에너지 모니터","description":"수소 잔량, 주행 가능 거리, 전력 흐름, 연료전지 작동 상태를 차량 화면에서 확인합니다.","url":"https://korean-car-guide.vercel.app/function/nexo-fcev-info/","dateModified":"2026-06-25","isPartOf":{"@type":"WebSite","name":"Korean CAR GUIDE","url":"https://korean-car-guide.vercel.app/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Korean CAR GUIDE","item":"https://korean-car-guide.vercel.app/"},{"@type":"ListItem","position":2,"name":"FCEV 정보 화면 / 에너지 모니터","item":"https://korean-car-guide.vercel.app/function/nexo-fcev-info/"}]}}</script>
 </head>
-<body data-feature-id="nexo-fcev-info" data-feature-slug="nexo-fcev-info">
-  <header class="function-header">
-    <div class="function-header__inner">
-      <a class="site-name" href="../../">Korean CAR GUIDE</a>
-      <a class="back-link" href="../../">기능 검색으로 돌아가기</a>
-    </div>
-  </header>
-  <main class="function-main">
-    <p class="breadcrumb"><a href="../">전체 기능</a> › FCEV</p>
-    <article>
+<body class="function-page">
+  <main class="function-page-shell">
+    <nav class="function-breadcrumb" aria-label="breadcrumb"><a href="/">Korean CAR GUIDE</a> / <span>FCEV 정보 화면 / 에너지 모니터</span></nav>
+    <article class="function-article">
       <header class="function-hero">
-        <div class="function-hero__top">
-          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 18c2-6 5-10 7-10s5 4 7 10"></path><path d="M8 14h8M12 4v4M9 4h6"></path></svg></span>
-          <div>
-            <p class="eyebrow">전동화</p>
-            <h1>FCEV 정보 화면 / 에너지 모니터</h1>
-          </div>
-        </div>
-        <p class="lead">수소 전기차의 배터리 정보와 구성품 간 동력 전달 흐름을 클러스터에서 확인하는 기능입니다.</p>
-        <span class="status ">공식 검증 완료</span>
+        <span class="feature-icon large"><svg viewBox="0 0 24 24"><path d="M5 18c2-6 5-10 7-10s5 4 7 10"></path><path d="M8 14h8M12 4v4M9 4h6"></path></svg></span>
+        <p class="muted">FCEV / 에너지 정보</p>
+        <h1>FCEV 정보 화면 / 에너지 모니터</h1>
+        <p class="function-lead">수소 잔량, 주행 가능 거리, 전력 흐름, 연료전지 작동 상태를 차량 화면에서 확인합니다.</p>
       </header>
-      <div class="function-content">
-        <section class="content-section"><h2>기능 설명</h2><p>수소 전기차의 배터리 정보와 구성품 간 동력 전달 흐름을 클러스터에서 확인하는 기능입니다.</p></section>
-        <section class="content-section"><h2>사용 전 조건</h2><ul><li>넥쏘 수소 전기차입니다.</li></ul></section>
-        <section class="content-section"><h2>설정 방법</h2><p>해당 차량의 공식 자료에서 별도 안내를 확인하세요.</p></section>
-        <section class="content-section"><h2>사용 방법</h2><ol><li>클러스터에서 FCEV 시스템 에너지 흐름도를 확인합니다.</li><li>주행 상태에 따른 배터리 정보와 동력 전달 흐름을 확인합니다.</li></ol></section>
-        <section class="content-section"><h2>해제 방법</h2><p>해당 차량의 공식 자료에서 별도 안내를 확인하세요.</p></section>
-        <section class="content-section"><h2>제한 사항</h2><ul><li>표시 정보는 차량 주행 상태에 따라 달라집니다.</li></ul></section>
-        <section class="content-section"><h2>주의 사항</h2><ul><li>표시 정보는 참고용이며 실제 차량 상태는 경고등과 안내문을 함께 확인하십시오.</li></ul></section>
-        <section class="content-section"><h2>FAQ</h2><div class="faq-list"><details><summary>FCEV 정보 화면 / 에너지 모니터 기능의 적용 여부는 어떻게 확인하나요?</summary><p>현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요.</p></details></div></section>
-        <section class="content-section"><h2>공식 검증 기록</h2><dl class="verification-record"><dt>검증 수준</dt><dd>공식 매뉴얼 검증</dd><dt>출처</dt><dd>Hyundai Owners Manual</dd><dt>브랜드</dt><dd>Hyundai</dd><dt>차량</dt><dd>넥쏘</dd><dt>연식</dt><dd>2026</dd><dt>매뉴얼</dt><dd>NH2_2026_ko_KR.pdf</dd><dt>페이지 범위</dt><dd>확인 필요</dd><dt>섹션</dt><dd>FCEV 시스템 에너지 흐름도 확인하기</dd><dt>검증일</dt><dd>2026-06-29</dd><dt>검증자</dt><dd>official-manual-audit</dd></dl></section>
-        <section class="content-section"><h2>관련 기능</h2><div class="related-grid"><a class="related-link" href="../fcev-energy-flow/">FCEV 에너지 흐름도</a><a class="related-link" href="../nexo-h2-refuel/">수소 충전 / 충전구 개폐</a></div></section>
-        <section class="content-section"><h2>지원 차량</h2><p>현재 확정된 적용 차량 정보가 없습니다.</p></section>
-        <section class="content-section"><h2>공식 출처</h2><div class="source-list"><a href="https://www.hyundai.com/kr/ko/e/customer/center/download-center" target="_blank" rel="noopener noreferrer">NH2_2026_ko_KR.pdf — 수소 전기차 시작하기</a></div></section>
-        <section class="content-section"><h2>업데이트 날짜</h2><p class="updated-at">2026-06-29</p></section>
-      </div>
+      <section class="function-section"><h2>기능 개요</h2><ol><li>수소 잔량, 주행 가능 거리, 전력 흐름, 연료전지 작동 상태를 차량 화면에서 확인합니다.</li></ol></section>
+      
+      
+      
+      
+      
+      
+      <section class="function-section"><h2>관련 기능</h2><div class="related-links"><a href="/function/nexo-h2-refuel/">수소 충전 / 충전구 개폐</a><a href="/function/nexo-eco-coaching/">에코 코칭 / 주행 효율 안내</a></div></section>
+      
+      <section class="function-section"><h2>출처</h2><ol><li>현대자동차 공식 카탈로그/가격표 다운로드 센터 1순위/2순위</li></ol></section>
+      <section class="function-section"><h2>마지막 업데이트일</h2><p>2026-06-25</p></section>
     </article>
   </main>
-  <footer class="function-footer">
-    <div class="function-footer__inner">
-      <strong>Korean CAR GUIDE Beta</strong>
-      <p>본 서비스는 비공식 정보 플랫폼이며 실제 적용 여부는 연식, 트림, 옵션 및 소프트웨어 버전에 따라 달라질 수 있습니다.</p>
-    </div>
-  </footer>
 </body>
 </html>

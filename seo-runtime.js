@@ -307,5 +307,21 @@ const footerMeta = document.querySelector('.site-footer__meta');
     renderStats();
   };
 
+  const syncSeoDataSnapshot = () => {
+    const snapshot = {
+      generatedAt: new Date().toISOString(),
+      features: features.map(feature => ({
+        ...feature,
+        icon: iconFor(feature),
+        sourceDetails: sourceList(feature)
+      })),
+      vehicles: [...vehicles]
+    };
+    window.KCG_SEO_DATA = snapshot;
+    const dataNode = document.querySelector('#kcgSeoData');
+    if (dataNode) dataNode.textContent = JSON.stringify(snapshot).replaceAll('<', '\\u003c');
+  };
+
+  syncSeoDataSnapshot();
   render();
 })();

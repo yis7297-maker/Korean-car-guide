@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T07:57:23.019Z",
+  "generatedAt": "2026-07-07T02:59:54.802Z",
   "sourceScripts": [
     "app.js",
     "patch.js",
@@ -5511,7 +5511,8 @@
         "주차 중 녹화",
         "이벤트 녹화",
         "타임랩스",
-        "SD 메모리"
+        "SD 메모리",
+        "built-in-cam-2"
       ],
       "preconditions": [
         "빌트인 캠 사양이 적용된 차량이어야 합니다.",
@@ -5663,7 +5664,9 @@
         }
       ],
       "slug": "built-in-cam2",
-      "slugAliases": [],
+      "slugAliases": [
+        "built-in-cam-2"
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
     },
     {
@@ -9572,6 +9575,278 @@
       ],
       "slugAliases": [],
       "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "hy-avante",
+      "brand": "현대",
+      "name": "아반떼",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "hy-sonata",
+      "brand": "현대",
+      "name": "쏘나타",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "hy-grandeur",
+      "brand": "현대",
+      "name": "그랜저",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "hy-kona",
+      "brand": "현대",
+      "name": "코나",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-tucson",
+      "brand": "현대",
+      "name": "투싼",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-santafe",
+      "brand": "현대",
+      "name": "싼타페",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-palisade",
+      "brand": "현대",
+      "name": "팰리세이드",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-staria",
+      "brand": "현대",
+      "name": "스타리아",
+      "group": "MPV",
+      "performance": false
+    },
+    {
+      "id": "hy-ioniq5",
+      "brand": "현대",
+      "name": "아이오닉 5",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "hy-ioniq6",
+      "brand": "현대",
+      "name": "아이오닉 6",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "hy-ioniq9",
+      "brand": "현대",
+      "name": "아이오닉 9",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "hy-nexo",
+      "brand": "현대",
+      "name": "디 올 뉴 넥쏘",
+      "group": "수소전기차",
+      "performance": false
+    },
+    {
+      "id": "hy-avante-n",
+      "brand": "현대",
+      "name": "아반떼 N",
+      "group": "고성능/N",
+      "performance": true
+    },
+    {
+      "id": "hy-ioniq5-n",
+      "brand": "현대",
+      "name": "아이오닉 5 N",
+      "group": "고성능/N",
+      "performance": true
+    },
+    {
+      "id": "hy-venue",
+      "brand": "현대",
+      "name": "베뉴",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-casper",
+      "brand": "현대",
+      "name": "캐스퍼",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-casper-ev",
+      "brand": "현대",
+      "name": "캐스퍼 일렉트릭",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "kia-k5",
+      "brand": "기아",
+      "name": "K5",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "kia-k8",
+      "brand": "기아",
+      "name": "K8",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "kia-k9",
+      "brand": "기아",
+      "name": "K9",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "kia-sportage",
+      "brand": "기아",
+      "name": "스포티지",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "kia-sorento",
+      "brand": "기아",
+      "name": "쏘렌토",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "kia-carnival",
+      "brand": "기아",
+      "name": "카니발",
+      "group": "MPV",
+      "performance": false
+    },
+    {
+      "id": "kia-ev3",
+      "brand": "기아",
+      "name": "EV3",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "kia-ev4",
+      "brand": "기아",
+      "name": "EV4",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "kia-ev5",
+      "brand": "기아",
+      "name": "EV5",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "kia-ev6",
+      "brand": "기아",
+      "name": "EV6",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "kia-ev9",
+      "brand": "기아",
+      "name": "EV9",
+      "group": "전기차",
+      "performance": false
+    },
+    {
+      "id": "kia-tasman",
+      "brand": "기아",
+      "name": "타스만",
+      "group": "픽업",
+      "performance": false
+    },
+    {
+      "id": "genesis-g70",
+      "brand": "제네시스",
+      "name": "G70",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "genesis-g80",
+      "brand": "제네시스",
+      "name": "G80",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "genesis-g90",
+      "brand": "제네시스",
+      "name": "G90",
+      "group": "세단",
+      "performance": false
+    },
+    {
+      "id": "genesis-gv60",
+      "brand": "제네시스",
+      "name": "GV60",
+      "group": "전기 SUV",
+      "performance": false
+    },
+    {
+      "id": "genesis-gv70",
+      "brand": "제네시스",
+      "name": "GV70",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "genesis-gv80",
+      "brand": "제네시스",
+      "name": "GV80",
+      "group": "SUV",
+      "performance": false
+    },
+    {
+      "id": "hy-avante-cn8-next",
+      "brand": "현대",
+      "name": "아반떼(CN8 후속)",
+      "group": "차세대 FMC",
+      "future": true,
+      "performance": false
+    },
+    {
+      "id": "hy-tucson-nx5-next",
+      "brand": "현대",
+      "name": "투싼(NX5 후속)",
+      "group": "차세대 FMC",
+      "future": true,
+      "performance": false
+    },
+    {
+      "id": "hy-palisade-hev",
+      "brand": "현대",
+      "name": "팰리세이드 하이브리드",
+      "group": "SUV · 하이브리드",
+      "hybrid": true,
+      "system": "TMED-2",
+      "performance": false
     }
   ]
 }
