@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-07-07T02:59:54.802Z",
+  "generatedAt": "2026-07-07T06:57:12.713Z",
   "sourceScripts": [
     "app.js",
     "patch.js",
     "data-expansion.js",
+    "hero-enhancement.js",
     "feature-improvements.js",
     "hybrid-tmed2.js",
     "parking-manual-audit.js",
@@ -11,6 +12,7 @@
     "electrification-manual-audit.js",
     "convenience-manual-audit.js",
     "final-release-audit.js",
+    "gn7-2026-vehicle-audit.js",
     "seo-runtime.js"
   ],
   "features": [
@@ -26,7 +28,8 @@
         "FCA",
         "자동 브레이크",
         "앞차 경고",
-        "보행자 경고"
+        "보행자 경고",
+        "전방 충돌방지 보조"
       ],
       "summary": "전방 차량, 보행자, 자전거와의 충돌 위험을 감지해 경고하고 일부 상황에서 제동을 보조합니다.",
       "preconditions": [
@@ -71,9 +74,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-kona",
@@ -335,7 +338,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": true,
@@ -386,9 +390,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "전방 충돌방지 보조(FCA)",
+        "matchedKeywords": [
+          "전방 충돌방지 보조",
+          "FCA"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "전방 충돌방지 보조",
+              "count": 60
+            },
+            {
+              "term": "FCA",
+              "count": 56
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "fca-suite",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\">\u003c/path>\u003cpath d=\"M8 12h8M12 8v8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -403,7 +438,12 @@
         "고속도로 주행 보조",
         "핸들 자동",
         "차선 가운데로 가는 기능",
-        "크루즈"
+        "크루즈",
+        "스마트 크루즈 컨트롤",
+        "SCC",
+        "내비게이션 기반 스마트 크루즈 컨트롤",
+        "NSCC",
+        "HDA"
       ],
       "summary": "고속도로에서 속도, 차간 거리, 차로 중앙 주행을 보조합니다.",
       "preconditions": [
@@ -436,9 +476,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지 중심",
-          "option": "선택 또는 기본 사양"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe",
@@ -612,7 +652,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": true,
@@ -665,9 +706,50 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "스마트 크루즈 컨트롤 / 내비게이션 기반 스마트 크루즈 컨트롤 / 고속도로 주행 보조",
+        "matchedKeywords": [
+          "스마트 크루즈 컨트롤",
+          "고속도로 주행 보조",
+          "내비게이션 기반 스마트 크루즈 컨트롤",
+          "HDA"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "스마트 크루즈 컨트롤",
+              "count": 122
+            },
+            {
+              "term": "고속도로 주행 보조",
+              "count": 42
+            },
+            {
+              "term": "내비게이션 기반 스마트 크루즈 컨트롤",
+              "count": 28
+            },
+            {
+              "term": "HDA",
+              "count": 15
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "nscc-hda2",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8\"></circle><circle cx=\"12\" cy=\"12\" r=\"2\"></circle><path d=\"M5 12h4M15 12h4M12 14l-3 5M12 14l3 5\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"8\">\u003c/circle>\u003ccircle cx=\"12\" cy=\"12\" r=\"2\">\u003c/circle>\u003cpath d=\"M5 12h4M15 12h4M12 14l-3 5M12 14l3 5\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -683,6 +765,8 @@
         "원격 주차",
         "자동 주차",
         "차 빼기",
+        "원격 스마트 주차 보조",
+        "RSPA",
         "rspa-2",
         "remote-smart-parking-assist-2",
         "remote-smart-parking-assist"
@@ -719,9 +803,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지",
-          "option": "선택 또는 상위 사양"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe",
@@ -845,13 +929,44 @@
           "rank": "3순위/4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "원격 스마트 주차 보조(RSPA)",
+        "matchedKeywords": [
+          "원격 스마트 주차 보조",
+          "RSPA"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "원격 스마트 주차 보조",
+              "count": 41
+            },
+            {
+              "term": "RSPA",
+              "count": 18
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "rspa2",
       "slugAliases": [
         "rspa-2",
         "remote-smart-parking-assist-2",
         "remote-smart-parking-assist"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -864,7 +979,8 @@
       "aliases": [
         "오토 에어컨",
         "듀얼 에어컨",
-        "좌우 온도"
+        "좌우 온도",
+        "공조"
       ],
       "summary": "운전석과 동승석 온도를 따로 맞추고 풍량과 송풍 방향을 자동 제어합니다.",
       "preconditions": [],
@@ -875,11 +991,21 @@
       "related": [
         "원격 공조"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -932,9 +1058,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "공조 시스템",
+        "matchedKeywords": [
+          "공조"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "공조",
+              "count": 44
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "dual-auto-ac",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -947,7 +1099,8 @@
       "aliases": [
         "공기청정",
         "실내 공기",
-        "미세먼지"
+        "미세먼지",
+        "공기 청정"
       ],
       "summary": "실내 공기질을 관리하기 위해 송풍과 필터링을 강화합니다.",
       "preconditions": [],
@@ -959,11 +1112,21 @@
         "듀얼 풀오토 에어컨",
         "애프터 블로우"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -1016,9 +1179,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "공기청정 모드",
+        "matchedKeywords": [
+          "공기청정",
+          "공기 청정"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "공기청정",
+              "count": 5
+            },
+            {
+              "term": "공기 청정",
+              "count": 5
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "air-purification",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1100,7 +1294,7 @@
       ],
       "slug": "after-blow",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1183,7 +1377,7 @@
       ],
       "slug": "remote-climate",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1197,7 +1391,9 @@
         "열선",
         "통풍",
         "엉뜨",
-        "시트 바람"
+        "시트 바람",
+        "열선/통풍",
+        "시트 열선"
       ],
       "summary": "시트 온열 또는 통풍을 단계별로 조절합니다.",
       "preconditions": [],
@@ -1209,11 +1405,21 @@
         "원격 공조",
         "듀얼 풀오토 에어컨"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -1267,9 +1473,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "시트 열선/통풍",
+        "matchedKeywords": [
+          "열선/통풍",
+          "시트 열선"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "열선/통풍",
+              "count": 17
+            },
+            {
+              "term": "시트 열선",
+              "count": 3
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "heated-ventilated-seats",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1283,7 +1520,11 @@
         "에르고 모션",
         "마사지 시트",
         "허리 지지",
-        "스트레칭"
+        "스트레칭",
+        "에르고 모션 시트",
+        "컴포트 스트레칭",
+        "자세 보조",
+        "주행 중 허리 보호 기능"
       ],
       "summary": "운전석 지지부를 움직여 장거리 운전 피로 완화를 돕습니다.",
       "preconditions": [],
@@ -1294,10 +1535,20 @@
       "related": [
         "메모리 시트"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -1346,9 +1597,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "에르고 모션 시트",
+        "matchedKeywords": [
+          "에르고 모션 시트"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "에르고 모션 시트",
+              "count": 8
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "ergo-motion-seat",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1361,7 +1638,8 @@
       "aliases": [
         "릴렉션 시트",
         "무중력 시트",
-        "휴식 자세"
+        "휴식 자세",
+        "릴렉션 컴포트 시트"
       ],
       "summary": "정차 중 휴식에 적합하도록 시트와 레그레스트를 자동 조절합니다.",
       "preconditions": [],
@@ -1372,11 +1650,21 @@
       "related": [
         "메모리 시트"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -1427,9 +1715,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "릴렉션 컴포트 시트",
+        "matchedKeywords": [
+          "릴렉션 컴포트 시트"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "릴렉션 컴포트 시트",
+              "count": 12
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "relaxation-comfort-seat",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1510,12 +1824,12 @@
       ],
       "slug": "memory-seat",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
       "updatedAt": "2026-07-06",
-      "overview": "파워 테일게이트 전동 개폐와 스마트 키 감지 기반 자동 열림을 제공하는 편의 기능입니다.",
+      "overview": "그랜저 GN7 매뉴얼 기준 파워 트렁크는 스마트 키 또는 차량 버튼으로 트렁크를 전동 개폐하고, 스마트 트렁크 설정 시 후방 감지 영역 접근으로 자동 열림을 지원합니다.",
       "id": "smart-power-tailgate",
       "name": "스마트 파워 테일게이트",
       "category": "도어/트렁크",
@@ -1525,36 +1839,39 @@
         "파워 테일게이트",
         "전동식 테일게이트",
         "Smart Power Tailgate",
-        "Power Tailgate"
+        "Power Tailgate",
+        "파워 트렁크",
+        "스마트 트렁크",
+        "트렁크 열림/닫힘 버튼"
       ],
       "summary": "스마트 키를 휴대하거나 차량 버튼을 이용해 테일게이트를 열고 닫으며, 설정에 따라 뒤쪽 감지 영역 접근 시 자동으로 열립니다.",
       "preconditions": [
-        "파워 테일게이트 또는 스마트 테일게이트 사양이 적용된 차량이어야 합니다.",
-        "파워 테일게이트는 변속 위치 P(주차) 또는 시동 OFF 조건에서 작동합니다.",
-        "스마트 테일게이트는 모든 도어가 닫히고 잠긴 뒤 일정 시간이 지나야 작동합니다.",
-        "테일게이트 주변에 충분한 공간이 있어야 합니다."
+        "3 km/h 이상의 속도로 이동 중에는 트렁크를 열 수 없습니다.",
+        "스마트 트렁크는 모든 도어가 닫히고 잠긴 상태에서 약 15초 이후 작동 조건을 만족해야 합니다.",
+        "스마트 키를 휴대하고 트렁크 뒤쪽 감지 영역 약 50~100 cm 이내에 접근해야 합니다."
       ],
       "steps": [
-        "스마트 키의 테일게이트 버튼을 길게 누르거나 운전석 테일게이트 버튼을 눌러 테일게이트를 엽니다.",
-        "번호판 상단의 외부 버튼을 누르면 경고음과 함께 테일게이트가 열립니다.",
-        "테일게이트 내부 열림/닫힘 버튼을 누르면 테일게이트가 열리거나 닫힙니다.",
-        "스마트 테일게이트가 설정된 경우 스마트 키를 휴대하고 뒤쪽 감지 영역에 머물면 경보 후 테일게이트가 자동으로 열립니다."
+        "스마트 키의 트렁크 열림/닫힘 버튼을 길게 누르면 경고음과 함께 트렁크가 열립니다.",
+        "스마트 키를 휴대하고 파워 트렁크 핸들 스위치를 눌러 트렁크를 열 수 있습니다.",
+        "열린 트렁크는 스마트 키의 트렁크 열림/닫힘 버튼을 길게 누르거나 파워 트렁크 닫힘 버튼으로 닫습니다.",
+        "스마트 트렁크 설정 후 스마트 키를 휴대하고 후방 감지 영역에 접근하면 비상 경고등과 경고음이 작동합니다.",
+        "열림 준비가 끝나면 트렁크가 자동으로 열립니다."
       ],
       "disable": [
-        "스마트 테일게이트 감지·경보 중 도어 잠금, 도어 잠금 해제, 테일게이트 작동 버튼을 짧게 누르면 기능이 중지됩니다.",
-        "인포테인먼트 시스템의 도어/테일게이트 설정에서 스마트 테일게이트를 해제합니다.",
-        "파워 테일게이트 작동 중 버튼을 다시 누르면 작동이 멈추거나 반전될 수 있습니다."
+        "스마트 트렁크 감지 및 경보 중 도어 잠금 버튼, 도어 잠금 해제 버튼, 트렁크 작동 버튼, 비상 경보 버튼을 짧게 누르면 기능이 즉시 중지됩니다.",
+        "인포테인먼트 시스템의 설정 > 차량 > 도어 > 스마트 트렁크에서 기능을 해제합니다."
       ],
       "limitations": [
-        "차량이 3 km/h 이상으로 이동 중이면 파워 테일게이트를 열 수 없습니다.",
-        "반복 작동 시 과열 방지 모드로 진입해 일정 시간 작동하지 않을 수 있습니다.",
-        "버튼 주변이 얼었거나 차량이 기울어진 상태, 경사지, 전파 혼선 지역에서는 작동이 지연되거나 제한될 수 있습니다."
+        "영하의 기온에서는 시스템 특성상 트렁크 자동 열림이 원활하지 않을 수 있습니다.",
+        "차량 안에 스마트 키가 있으면 스마트 트렁크가 작동하지 않습니다.",
+        "차량에 충전 케이블이 연결되어 있거나 충전 중일 경우 스마트 트렁크가 작동하지 않습니다.",
+        "주파수 혼선 환경에서는 스마트 트렁크 작동이 지연되거나 작동 거리가 달라질 수 있습니다."
       ],
       "warnings": [
-        "테일게이트 작동 전 주변에 사람이나 물체가 없는지 확인하십시오.",
-        "차 안에 어린이나 애완동물만 남겨 둔 상태로 차량을 떠나지 마십시오.",
-        "물체 끼임 인식 확인을 위해 신체나 물건을 작동 범위에 두지 마십시오.",
-        "세차 시 스마트 테일게이트 기능을 중지하십시오."
+        "차 안에 어린이나 애완동물만 남겨두고 차량을 떠나지 마십시오.",
+        "파워 트렁크 작동 중 물체 끼임 인식 기능을 확인하려고 신체나 물건을 작동 범위에 두지 마십시오.",
+        "세차 시 스마트 트렁크 기능을 중지한 후 세차하십시오.",
+        "어린이가 스마트 키를 휴대하면 스마트 트렁크를 작동시킬 수 있으므로 주의하십시오."
       ],
       "related": [],
       "applies": [
@@ -1597,6 +1914,14 @@
           "years": "2026/2027 현재 판매 기준",
           "trim": "파워/스마트 테일게이트 적용 트림",
           "option": "차종/트림별 상이"
+        },
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -1620,10 +1945,7 @@
         "differences": "키 감지와 전동 개폐를 결합합니다."
       },
       "settings": [
-        "인포테인먼트 시스템에서 설정 > 차량 > 도어/테일게이트로 이동합니다.",
-        "파워 테일게이트 열림 속도를 보통 또는 빠르게 선택합니다.",
-        "파워 테일게이트 열림 높이를 완전열림, 단계별 높이 또는 사용자 높이 설정으로 선택합니다.",
-        "스마트 테일게이트 사용 여부를 설정합니다."
+        "시동 ON 상태에서 인포테인먼트 시스템의 설정 > 차량 > 도어 > 스마트 트렁크를 선택하면 스마트 트렁크 기능이 켜집니다."
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -1655,16 +1977,42 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "파워 트렁크 / 스마트 트렁크",
+        "matchedKeywords": [
+          "파워 트렁크",
+          "스마트 트렁크"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "파워 트렁크",
+              "count": 49
+            },
+            {
+              "term": "스마트 트렁크",
+              "count": 22
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "smart-power-tailgate",
       "slugAliases": [],
       "parent": "편의",
-      "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt / JX_2026_ko_KR.txt",
-        "section": "파워 테일게이트 사용하기 / 스마트 테일게이트",
-        "pageRange": "LX3 편의 장치 205-213, JX 5-59~5-66"
-      },
       "verificationLevel": "official_manual_verified",
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 20V5l10-2 4 3v14H5z\"></path><path d=\"M15 3v17M9 12h1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 20V5l10-2 4 3v14H5z\">\u003c/path>\u003cpath d=\"M15 3v17M9 12h1\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1677,7 +2025,8 @@
       "aliases": [
         "HUD",
         "앞유리 속도",
-        "헤드업"
+        "헤드업",
+        "헤드업 디스플레이"
       ],
       "summary": "속도, 내비게이션, 주행 보조 정보를 앞유리 영역에 표시합니다.",
       "preconditions": [],
@@ -1686,11 +2035,21 @@
       "limitations": [],
       "warnings": [],
       "related": [],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -1743,9 +2102,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "헤드업 디스플레이(HUD)",
+        "matchedKeywords": [
+          "헤드업 디스플레이",
+          "HUD"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "헤드업 디스플레이",
+              "count": 8
+            },
+            {
+              "term": "HUD",
+              "count": 26
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "hud",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 16a8 8 0 0 1 16 0\"></path><path d=\"M12 14l4-4M7 17h10\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 16a8 8 0 0 1 16 0\">\u003c/path>\u003cpath d=\"M12 14l4-4M7 17h10\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1758,7 +2148,8 @@
       "aliases": [
         "커브드 디스플레이",
         "파노라믹 화면",
-        "ccNC 화면"
+        "ccNC 화면",
+        "인포테인먼트 시스템"
       ],
       "summary": "클러스터와 내비게이션 화면을 넓게 연결해 주행 정보와 인포테인먼트를 통합 표시합니다.",
       "preconditions": [
@@ -1784,9 +2175,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe",
@@ -1848,7 +2239,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": true,
@@ -1898,9 +2290,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "인포테인먼트 시스템",
+        "matchedKeywords": [
+          "인포테인먼트 시스템"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "인포테인먼트 시스템",
+              "count": 264
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "panoramic-curved-display",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 16a8 8 0 0 1 16 0\"></path><path d=\"M12 14l4-4M7 17h10\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 16a8 8 0 0 1 16 0\">\u003c/path>\u003cpath d=\"M12 14l4-4M7 17h10\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -1913,7 +2331,8 @@
       "aliases": [
         "카플레이",
         "유선 카플레이",
-        "아이폰 연결"
+        "아이폰 연결",
+        "Apple CarPlay"
       ],
       "summary": "iPhone을 USB로 연결해 지도, 통화, 음악, 메시지 앱을 차량 화면에서 사용합니다.",
       "preconditions": [],
@@ -1925,7 +2344,16 @@
         "Apple CarPlay 무선 연결",
         "Android Auto"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -1987,9 +2415,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "Apple CarPlay",
+        "matchedKeywords": [
+          "Apple CarPlay"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "Apple CarPlay",
+              "count": 1
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "apple-carplay-wired",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2084,7 +2538,7 @@
         "wireless-apple-carplay",
         "apple-carplay-wireless"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2097,7 +2551,8 @@
       "aliases": [
         "안드로이드 오토",
         "갤럭시 연결",
-        "유선 안드로이드 오토"
+        "유선 안드로이드 오토",
+        "Android Auto"
       ],
       "summary": "Android 휴대폰을 USB로 연결해 지도, 통화, 음악, 메시지 앱을 차량 화면에서 사용합니다.",
       "preconditions": [],
@@ -2109,7 +2564,16 @@
         "Android Auto 무선 연결",
         "Apple CarPlay"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -2170,9 +2634,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "Android Auto",
+        "matchedKeywords": [
+          "Android Auto",
+          "안드로이드 오토"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "Android Auto",
+              "count": 3
+            },
+            {
+              "term": "안드로이드 오토",
+              "count": 2
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "android-auto-wired",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2267,12 +2762,12 @@
         "wireless-android-auto",
         "android-auto-wireless"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "차량 소프트웨어와 인포테인먼트 기능을 무선으로 업데이트합니다.",
+      "overview": "무선 소프트웨어 업데이트는 하이테크센터 방문 없이 차량 내 제어기 소프트웨어를 최신 상태로 유지할 수 있도록 하는 기능입니다.",
       "id": "ccnc-ota",
       "name": "ccNC OTA 업데이트",
       "category": "커넥티드 서비스",
@@ -2282,20 +2777,50 @@
         "무선 업데이트",
         "소프트웨어 업데이트",
         "ccNC",
-        "OTA Update"
+        "OTA Update",
+        "무선 소프트웨어 업데이트",
+        "소프트웨어 자동 다운로드",
+        "소프트웨어 업데이트 승인"
       ],
       "summary": "차량 소프트웨어와 인포테인먼트 기능을 무선으로 업데이트합니다.",
-      "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "preconditions": [
+        "무선 소프트웨어 업데이트 기능은 블루링크에 가입한 경우 사용할 수 있습니다.",
+        "업데이트 시작 전 시동 OFF, 기어 P(주차), 전자식 파킹 브레이크 체결, 외장 램프 꺼짐, 후드 닫힘, 충분한 배터리 잔량 조건을 만족해야 합니다."
+      ],
+      "steps": [
+        "시동을 끄면 업데이트 시작 승인 화면을 확인할 수 있습니다.",
+        "업데이트를 시작하려면 지금 설치 또는 시작을 선택합니다.",
+        "업데이트를 미루려면 다음에 하기를 선택합니다.",
+        "업데이트 승인 후 차량은 업데이트 준비를 진행합니다.",
+        "조건을 만족하면 업데이트가 시작되고 완료 후 시스템이 꺼집니다."
+      ],
+      "disable": [
+        "승인 화면에서 다음에 하기를 선택해 업데이트를 연기합니다."
+      ],
+      "limitations": [
+        "차량에 설치된 소프트웨어 버전에 따라 업데이트 항목이 다를 수 있습니다.",
+        "조건을 만족하지 않으면 업데이트를 시작할 수 없습니다."
+      ],
+      "warnings": [
+        "업데이트 또는 복구가 실패하면 현대 고객센터, 직영 하이테크센터 또는 블루핸즈 점검이 필요합니다.",
+        "업데이트 후 기능의 작동 사양이 변경될 수 있습니다."
+      ],
       "related": [],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -2313,7 +2838,9 @@
         ],
         "differences": "USB 중심 업데이트에서 무선 업데이트로 확장되었습니다."
       },
-      "settings": [],
+      "settings": [
+        "소프트웨어가 자동 다운로드되면 차량 화면이나 휴대폰 안내로 업데이트 준비 완료를 확인합니다."
+      ],
       "status": "",
       "subcategory": "OTA",
       "keywords": [
@@ -2348,14 +2875,50 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "무선 소프트웨어 업데이트",
+        "matchedKeywords": [
+          "무선 소프트웨어 업데이트",
+          "소프트웨어 업데이트",
+          "OTA"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "무선 소프트웨어 업데이트",
+              "count": 4
+            },
+            {
+              "term": "소프트웨어 업데이트",
+              "count": 25
+            },
+            {
+              "term": "OTA",
+              "count": 5
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "ccnc-ota",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\"></path><path d=\"M9 14h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "등록된 지문으로 운전자 프로필 호출이나 시동 인증을 보조합니다.",
+      "overview": "지문 인증 시스템은 차량 내 지문 인증 센서로 시동, 프로필 잠금 해제, 발레 모드 해제, 인카페이먼트 등 일부 편의 기능을 사용할 수 있게 합니다.",
       "id": "fingerprint-auth",
       "name": "지문 인증",
       "category": "디지털 키/인증",
@@ -2363,19 +2926,50 @@
       "aliases": [
         "지문",
         "지문 시동",
-        "생체 인증"
+        "생체 인증",
+        "지문 인증 시스템",
+        "지문 등록",
+        "지문 인식 시동",
+        "지문 인증"
       ],
       "summary": "등록된 지문으로 운전자 프로필 호출이나 시동 인증을 보조합니다.",
-      "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "preconditions": [
+        "지문 등록 전 스마트 키 2개를 모두 차량 안에 두어야 합니다.",
+        "시동 ON 상태에서 인포테인먼트 시스템의 사용자 프로필 메뉴를 사용할 수 있어야 합니다."
+      ],
+      "steps": [
+        "인포테인먼트 시스템의 프로필 메뉴에서 지문 등록을 선택합니다.",
+        "안내에 따라 지문 인식 센서 위에 손가락을 올립니다.",
+        "진행률이 100%가 될 때까지 손가락의 여러 부위가 골고루 인식되도록 지문을 등록합니다.",
+        "지문 스캔 후 등록 진행 안내가 표시되면 시스템 등록이 완료될 때까지 기다립니다.",
+        "지문 인증이 필요한 화면에서 지문 인식 센서에 손가락을 올려 인증합니다."
+      ],
+      "disable": [
+        "인포테인먼트 시스템의 사용자 프로필 보안 메뉴에서 등록된 지문을 삭제하거나 지문 연동 편의 기능을 해제합니다."
+      ],
+      "limitations": [
+        "지문 등록 중 인포테인먼트 화면을 변경하거나 시동 버튼을 사용하거나 차량 기어를 변경하고 주행하면 등록이 취소됩니다.",
+        "지문 전자 결제 등 일부 기능은 블루링크 서비스 가입이 필요합니다.",
+        "지문 인증이 작동하지 않으면 손가락을 지문 인식 센서에서 뗀 후 다시 올려야 합니다."
+      ],
+      "warnings": [
+        "지문을 등록하기 전에 지문 센서 위 필름과 이물질을 제거하십시오."
+      ],
       "related": [],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -2393,7 +2987,9 @@
         ],
         "differences": "생체 인증으로 프로필과 시동 인증 편의를 제공합니다."
       },
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템의 설정 > 사용자 프로필 > 운전자 1 또는 운전자 2 > 보안 > 지문인식 메뉴에서 지문 연동 편의 기능을 설정하거나 해제합니다."
+      ],
       "status": "",
       "subcategory": "생체 인증",
       "keywords": [
@@ -2421,9 +3017,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "지문 인증 시스템",
+        "matchedKeywords": [
+          "지문 인증",
+          "지문 등록"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "지문 인증",
+              "count": 41
+            },
+            {
+              "term": "지문 등록",
+              "count": 3
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "fingerprint-auth",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2510,7 +3137,7 @@
       ],
       "slug": "ev-charge-v2l",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2580,7 +3207,7 @@
       ],
       "slug": "nexo-h2-refuel",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 18c2-6 5-10 7-10s5 4 7 10\"></path><path d=\"M8 14h8M12 4v4M9 4h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2655,7 +3282,7 @@
       ],
       "slug": "nexo-fcev-info",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 18c2-6 5-10 7-10s5 4 7 10\"></path><path d=\"M8 14h8M12 4v4M9 4h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2732,7 +3359,7 @@
       ],
       "slug": "nexo-smart-regen",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 18c2-6 5-10 7-10s5 4 7 10\"></path><path d=\"M8 14h8M12 4v4M9 4h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2825,7 +3452,7 @@
       ],
       "slug": "nexo-eco-coaching",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 18c2-6 5-10 7-10s5 4 7 10\"></path><path d=\"M8 14h8M12 4v4M9 4h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -2928,7 +3555,7 @@
       ],
       "slug": "n-performance",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17l4-10 4 10 4-10 4 10\"></path><path d=\"M8 17h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17l4-10 4 10 4-10 4 10\">\u003c/path>\u003cpath d=\"M8 17h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3039,7 +3666,7 @@
         "memory-reverse-assist",
         "memory-reverse-assist-mra"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3114,7 +3741,7 @@
       ],
       "slug": "plug-and-charge",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3189,7 +3816,7 @@
       ],
       "slug": "iccu-energy-control",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3269,7 +3896,7 @@
       ],
       "slug": "ev-route-planner",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3347,7 +3974,7 @@
       ],
       "slug": "battery-conditioning",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3422,7 +4049,7 @@
       ],
       "slug": "scheduled-charging",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3496,7 +4123,7 @@
       ],
       "slug": "charge-limit",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3579,7 +4206,7 @@
         "vehicle-2-load",
         "v2l-parent"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3654,7 +4281,7 @@
       ],
       "slug": "v2l-indoor",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3729,7 +4356,7 @@
       ],
       "slug": "v2l-outdoor",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3806,7 +4433,7 @@
       ],
       "slug": "camping-mode",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -3985,7 +4612,7 @@
         "pageRange": "전기차 시작하기 31"
       },
       "verificationLevel": "official_manual_verified",
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -4059,7 +4686,7 @@
       ],
       "slug": "v2h-roadmap",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -4133,7 +4760,7 @@
       ],
       "slug": "v2g-roadmap",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -4142,7 +4769,11 @@
       "aliases": [
         "Side Parking Distance Warning",
         "측방 PDW",
-        "전방/측방/후방 주차 거리 경고"
+        "전방/측방/후방 주차 거리 경고",
+        "주차 거리 경고",
+        "전방 주차 거리 경고",
+        "후방 주차 거리 경고",
+        "측방 주차 거리 경고"
       ],
       "preconditions": [
         "측방 주차 거리 경고 사양이 적용된 차량이어야 합니다.",
@@ -4320,9 +4951,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 패키지 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe",
@@ -4442,15 +5073,41 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "주차 거리 경고 / 측방 주차 거리 경고",
+        "matchedKeywords": [
+          "측방 주차 거리 경고",
+          "주차 거리 경고"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "측방 주차 거리 경고",
+              "count": 5
+            },
+            {
+              "term": "주차 거리 경고",
+              "count": 93
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "side-pdw",
       "slugAliases": [],
-      "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "section": "주차 거리 경고(PDW) / 측방 주차 거리 경고",
-        "pageRange": "운전자 보조 409-413"
-      },
       "verificationLevel": "official_manual_verified",
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -4459,7 +5116,8 @@
       "aliases": [
         "Parking Collision-Avoidance Assist",
         "PCA",
-        "후방 주차 충돌방지 보조"
+        "후방 주차 충돌방지 보조",
+        "주차 충돌방지 보조"
       ],
       "preconditions": [
         "주차 충돌방지 보조 사양이 적용되어야 합니다.",
@@ -4521,9 +5179,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 안전 사양 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe",
@@ -4692,15 +5350,41 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "주차 충돌방지 보조(PCA)",
+        "matchedKeywords": [
+          "주차 충돌방지 보조",
+          "PCA"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "주차 충돌방지 보조",
+              "count": 34
+            },
+            {
+              "term": "PCA",
+              "count": 5
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "pca-parking",
       "slugAliases": [],
-      "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "section": "후방 주차 충돌방지 보조(PCA)",
-        "pageRange": "564-568"
-      },
       "verificationLevel": "official_manual_verified",
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -4772,9 +5456,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "지원 주차 패키지",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-palisade",
@@ -4854,21 +5538,44 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "원격 스마트 주차 보조 / 원격 전·후진",
+        "matchedKeywords": [
+          "원격 전/후진"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "원격 전/후진",
+              "count": 36
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "remote-smart-exit",
       "slugAliases": [],
-      "manualEvidence": {
-        "manualFile": "JX_2026_ko_KR.txt",
-        "section": "원격 스마트 주차 보조 / 원격 전·후진",
-        "pageRange": "7장 원격 스마트 주차 보조"
-      },
       "verificationLevel": "official_manual_verified",
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
       "updatedAt": "2026-06-17",
       "overview": "차량 인포테인먼트와 연계해 하이패스 카드 관리와 결제 편의를 제공합니다.",
-      "aliases": [],
+      "aliases": [
+        "하이패스"
+      ],
       "preconditions": [],
       "steps": [],
       "disable": [],
@@ -4880,7 +5587,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": true,
@@ -4907,9 +5615,9 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "지원 인포테인먼트 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq9",
@@ -4981,9 +5689,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "하이패스 / e-Hi Pass",
+        "matchedKeywords": [
+          "하이패스"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "하이패스",
+              "count": 49
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "e-hi-pass",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5045,7 +5779,7 @@
       ],
       "slug": "face-connect",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5107,7 +5841,7 @@
       ],
       "slug": "genesis-dk2",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5168,22 +5902,49 @@
       ],
       "slug": "genesis-dk2-touch",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "지원 스마트폰을 이용한 차량 접근, 시동과 키 공유를 지원합니다.",
+      "overview": "현대 디지털 키는 스마트 키 없이 스마트폰 또는 카드 키로 도어와 트렁크를 잠그거나 열고, 차량 시동을 걸 수 있도록 하는 시스템입니다.",
       "aliases": [
+        "현대 디지털 키",
+        "디지털 키",
+        "디지털 키 스마트폰",
+        "UWB 디지털 키",
         "hyundai-digital-key-2",
         "digital-key2",
         "hyundai-dk2"
       ],
-      "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "preconditions": [
+        "디지털 키 기능을 지원하는 스마트폰이 필요합니다.",
+        "마이현대 앱 설치, 회원 가입 및 서비스 가입이 필요합니다.",
+        "스마트폰 등록 시 스마트 키를 이용해 차량 전원을 ON으로 하고 스마트 키를 차량 실내에 두어야 합니다."
+      ],
+      "steps": [
+        "스마트폰 화면 안내에 따라 디지털 키 등록을 진행합니다.",
+        "UWB 미지원 스마트폰은 실내 인증 패드(무선 충전 패드)에 스마트폰 뒷면을 아래로 향하게 올려놓습니다.",
+        "UWB 지원 스마트폰은 차량 실내에서 스마트폰을 휴대하고 있으면 무선 등록을 진행할 수 있습니다.",
+        "차량 화면에서 등록 버튼을 눌러 등록을 시작합니다.",
+        "등록이 완료되면 인포테인먼트 시스템 화면의 등록완료 상태를 확인합니다.",
+        "등록된 스마트폰의 NFC 안테나를 도어 핸들 인증 패드에 접촉하거나, UWB 지원 스마트폰은 도어 핸들 센서부를 터치해 도어를 잠그거나 잠금 해제합니다.",
+        "시동은 NFC 방식의 경우 실내 인증 패드 중앙에 스마트폰을 올리고 브레이크 페달을 밟은 상태에서 시동 버튼을 누릅니다.",
+        "UWB 지원 스마트폰은 차량 실내에 스마트폰을 휴대한 상태에서 브레이크 페달을 밟고 시동 버튼을 누릅니다."
+      ],
+      "disable": [
+        "인포테인먼트 시스템의 스마트폰 키 메뉴에서 등록된 디지털 키를 삭제할 수 있습니다."
+      ],
+      "limitations": [
+        "등록 중 실내 인증 패드에서 스마트폰을 떼거나, 인포테인먼트 화면을 변경하거나, 차량 전원을 끄거나, 기어를 변경하면 등록이 취소될 수 있습니다.",
+        "실내에 스마트 키가 없으면 등록이 시작되지 않습니다.",
+        "일부 스마트폰은 내부 구조에 따라 실내 인증 패드에서 인식이 원활하지 않을 수 있습니다.",
+        "디지털 키 제어기 업데이트 중에는 스마트 키와 지문 시동 기능이 일시적으로 동작하지 않을 수 있습니다."
+      ],
+      "warnings": [
+        "도어 잠금 후 반드시 잠금 상태를 확인하십시오.",
+        "트렁크를 닫을 때 실내에 스마트폰이 있는지 확인하십시오. 스마트폰을 차량 안에 둔 채 트렁크를 닫으면 외부에서 잠금 해제가 어려울 수 있습니다."
+      ],
       "related": [
         "Hyundai Digital Key 2 Touch",
         "지문 인증"
@@ -5212,8 +5973,20 @@
       "category": "디지털 키/인증",
       "officialCategory": "현대 디지털 키",
       "summary": "지원 스마트폰을 이용한 차량 접근, 시동과 키 공유를 지원합니다.",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "인포테인먼트 시스템에서 설정 > 차량 > 디지털 키 > 스마트폰 키 > 나의 스마트폰 키를 선택해 등록 화면으로 이동합니다.",
+        "스마트폰에서 마이현대 앱의 더보기 메뉴 > 차량 디지털 키 > 등록하기를 선택합니다."
+      ],
       "status": "",
       "subcategory": "현대 디지털 키",
       "keywords": [
@@ -5233,13 +6006,39 @@
           "rank": "1순위/2순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "현대 디지털 키 / 디지털 키(스마트폰)",
+        "matchedKeywords": [
+          "디지털 키"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "디지털 키",
+              "count": 143
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "digital-key-2",
       "slugAliases": [
         "hyundai-digital-key-2",
         "digital-key2",
         "hyundai-dk2"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5301,7 +6100,7 @@
       ],
       "slug": "hyundai-dk2-touch",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5379,7 +6178,7 @@
       ],
       "slug": "digital-center-mirror",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5392,7 +6191,8 @@
         "주차 중 녹화",
         "이벤트 녹화",
         "수동 녹화",
-        "SD 메모리"
+        "SD 메모리",
+        "빌트인 캠"
       ],
       "preconditions": [
         "빌트인 캠 사양이 적용된 차량이어야 합니다.",
@@ -5463,8 +6263,17 @@
       ],
       "manualEvidence": {
         "manualFile": "GN7_2026_ko_KR.txt",
-        "section": "빌트인 캠 (Built-in Cam) / 빌트인 캠 설정 / 빌트인 캠 작동 / 빌트인 캠 영상 확인",
-        "pageRange": "248-259"
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "빌트인 캠(Built-in Cam)",
+        "matchedKeywords": [
+          "빌트인 캠",
+          "Built-in Cam"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
       },
       "subcategory": "차량 녹화",
       "keywords": [
@@ -5496,9 +6305,36 @@
           "rank": "1순위-4순위"
         }
       ],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "빌트인 캠",
+              "count": 74
+            },
+            {
+              "term": "Built-in Cam",
+              "count": 3
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "built-in-cam",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5511,8 +6347,7 @@
         "주차 중 녹화",
         "이벤트 녹화",
         "타임랩스",
-        "SD 메모리",
-        "built-in-cam-2"
+        "SD 메모리"
       ],
       "preconditions": [
         "빌트인 캠 사양이 적용된 차량이어야 합니다.",
@@ -5664,10 +6499,8 @@
         }
       ],
       "slug": "built-in-cam2",
-      "slugAliases": [
-        "built-in-cam-2"
-      ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
+      "slugAliases": [],
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5785,7 +6618,7 @@
         "built-in-cam2-plus",
         "builtincam-2-plus"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5852,7 +6685,7 @@
       ],
       "slug": "dynamic-body-care-seat",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -5930,7 +6763,7 @@
       ],
       "slug": "swiveling-seat",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6008,14 +6841,16 @@
       ],
       "slug": "walk-in-device",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
       "overview": "운전자 신체 정보를 바탕으로 권장 시트·스티어링 휠·미러 위치 설정을 돕습니다.",
       "aliases": [
-        "Smart Posture Assist"
+        "Smart Posture Assist",
+        "스마트 자세",
+        "자세 보조"
       ],
       "preconditions": [],
       "steps": [],
@@ -6029,7 +6864,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6051,7 +6887,16 @@
       "category": "시트",
       "officialCategory": "시트 / 자세 설정",
       "summary": "운전자 신체 정보를 바탕으로 권장 시트·스티어링 휠·미러 위치 설정을 돕습니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "settings": [],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -6085,9 +6930,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "스마트 서포트 / 자세 보조",
+        "matchedKeywords": [
+          "스마트 자세",
+          "자세 보조"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "스마트 자세",
+              "count": 5
+            },
+            {
+              "term": "자세 보조",
+              "count": 4
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "smart-posture-assist",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6166,7 +7042,7 @@
       ],
       "slug": "passenger-talk",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6244,7 +7120,7 @@
       ],
       "slug": "passenger-view",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6318,7 +7194,7 @@
       ],
       "slug": "rear-voice-recognition",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6394,7 +7270,7 @@
       ],
       "slug": "rear-climate-control",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6458,7 +7334,7 @@
       ],
       "slug": "pleos-connect",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\"></path><path d=\"M9 14h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6531,7 +7407,7 @@
       ],
       "slug": "ccnc-system",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6594,7 +7470,7 @@
       ],
       "slug": "hyundai-ai",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\"></path><path d=\"M9 14h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6662,7 +7538,7 @@
       ],
       "slug": "kia-ai",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\"></path><path d=\"M9 14h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6883,7 +7759,7 @@
       ],
       "slug": "feature-on-demand",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\"></path><path d=\"M9 14h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -6946,7 +7822,7 @@
       ],
       "slug": "fcev-energy-flow",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 18c2-6 5-10 7-10s5 4 7 10\"></path><path d=\"M8 14h8M12 4v4M9 4h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7009,7 +7885,7 @@
       ],
       "slug": "fcev-dedicated-system",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 18c2-6 5-10 7-10s5 4 7 10\"></path><path d=\"M8 14h8M12 4v4M9 4h6\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7090,7 +7966,7 @@
       ],
       "slug": "ev-charge-status",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7171,7 +8047,7 @@
       ],
       "slug": "ev-energy-usage",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7252,7 +8128,7 @@
       ],
       "slug": "ev-battery-health",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7333,7 +8209,7 @@
       ],
       "slug": "i-pedal",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7414,7 +8290,7 @@
       ],
       "slug": "ev-smart-regeneration",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7495,7 +8371,7 @@
       ],
       "slug": "ev-regen-level",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7590,7 +8466,7 @@
       ],
       "slug": "tmed2-hybrid-system",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7749,7 +8625,7 @@
         "hev-stay-mode",
         "hybrid-stay-mode"
       ],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7840,7 +8716,7 @@
       ],
       "slug": "hybrid-stay-reservation",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -7922,7 +8798,7 @@
       ],
       "slug": "hybrid-v2l",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8002,7 +8878,7 @@
       ],
       "slug": "hybrid-smart-regen",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8082,7 +8958,7 @@
       ],
       "slug": "hybrid-regen-level",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8163,7 +9039,7 @@
       ],
       "slug": "hybrid-energy-flow",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8244,7 +9120,7 @@
       ],
       "slug": "hybrid-battery-status",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8324,7 +9200,7 @@
       ],
       "slug": "hybrid-driving-info",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8414,7 +9290,7 @@
       ],
       "slug": "hybrid-stationary-climate",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 17c2-7 5-10 8-10s6 3 8 10\"></path><path d=\"M7 14h10\"></path><path d=\"M12 3v5\"></path><path d=\"M9 5h6\"></path><path d=\"M8 20h8\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8509,7 +9385,7 @@
       ],
       "slug": "rspa",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8603,7 +9479,7 @@
       ],
       "slug": "spa",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8616,7 +9492,8 @@
       "aliases": [
         "Rear View Monitor",
         "RVM",
-        "후방 카메라"
+        "후방 카메라",
+        "후방 모니터"
       ],
       "summary": "후진 시 후방 카메라 영상을 화면에 표시해 차량 뒤쪽 확인을 돕습니다.",
       "preconditions": [
@@ -8643,7 +9520,16 @@
         "후진 가이드",
         "서라운드 뷰 모니터 / SVM"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -8694,9 +9580,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "후방 모니터",
+        "matchedKeywords": [
+          "후방 모니터"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "후방 모니터",
+              "count": 35
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "rear-view-monitor",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8709,7 +9621,8 @@
       "aliases": [
         "Surround View Monitor",
         "SVM",
-        "어라운드 뷰"
+        "어라운드 뷰",
+        "서라운드 뷰 모니터"
       ],
       "summary": "차량 주변 카메라 영상을 조합해 주차와 저속 이동 시 주변 확인을 돕습니다.",
       "preconditions": [
@@ -8737,7 +9650,16 @@
         "후방 모니터",
         "후측방 모니터 / BVM"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -8788,9 +9710,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "서라운드 뷰 모니터",
+        "matchedKeywords": [
+          "서라운드 뷰 모니터"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "서라운드 뷰 모니터",
+              "count": 57
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "surround-view-monitor",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8802,7 +9750,8 @@
       "officialCategory": "후측방 모니터",
       "aliases": [
         "Blind-Spot View Monitor",
-        "BVM"
+        "BVM",
+        "후측방 모니터"
       ],
       "summary": "방향지시등 작동 시 해당 방향의 후측방 영상을 클러스터에 표시합니다.",
       "preconditions": [
@@ -8829,7 +9778,16 @@
       "related": [
         "서라운드 뷰 모니터 / SVM"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -8879,9 +9837,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "후측방 모니터",
+        "matchedKeywords": [
+          "후측방 모니터"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "후측방 모니터",
+              "count": 20
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "blind-spot-view-monitor",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8893,7 +9877,9 @@
       "officialCategory": "주차 안전",
       "aliases": [
         "Rear Cross-Traffic Collision-Avoidance Assist",
-        "RCCA"
+        "RCCA",
+        "후방 교차 충돌방지 보조",
+        "후방 교차 안전"
       ],
       "summary": "후진 중 좌우에서 접근하는 차량과의 충돌 위험을 감지해 경고하고 조건에 따라 제동을 보조합니다.",
       "preconditions": [
@@ -8921,7 +9907,16 @@
         "주차 충돌방지 보조",
         "후방 모니터"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -8971,9 +9966,40 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "후방 교차 충돌방지 보조",
+        "matchedKeywords": [
+          "후방 교차 충돌방지 보조",
+          "후방 교차 안전"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "후방 교차 충돌방지 보조",
+              "count": 43
+            },
+            {
+              "term": "후방 교차 안전",
+              "count": 1
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "rear-cross-traffic-collision-avoidance",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -8987,7 +10013,8 @@
         "Parking Distance Warning",
         "PDW",
         "전방 주차 거리 경고",
-        "후방 주차 거리 경고"
+        "후방 주차 거리 경고",
+        "주차 거리 경고"
       ],
       "summary": "주차 또는 저속 이동 중 센서가 감지한 장애물과의 거리를 단계별 경고음과 화면으로 알립니다.",
       "preconditions": [
@@ -9014,7 +10041,16 @@
         "측방 주차 거리 경고",
         "후방 모니터"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -9066,9 +10102,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "주차 거리 경고",
+        "matchedKeywords": [
+          "주차 거리 경고"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "주차 거리 경고",
+              "count": 93
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "parking-distance-warning",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -9158,7 +10220,7 @@
       ],
       "slug": "reverse-tilt-mirror",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -9248,7 +10310,7 @@
       ],
       "slug": "memory-parking",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "latest": true,
@@ -9260,7 +10322,8 @@
       "officialCategory": "후방 모니터 안내선",
       "aliases": [
         "Rear Parking Guidelines",
-        "후방 가이드라인"
+        "후방 가이드라인",
+        "후진 가이드"
       ],
       "summary": "후방 모니터 화면에 차량의 예상 이동 경로와 차체 기준선을 표시합니다.",
       "preconditions": [
@@ -9286,7 +10349,16 @@
       "related": [
         "후방 모니터"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -9336,9 +10408,35 @@
           "rank": "1순위-4순위"
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "후진 가이드",
+        "matchedKeywords": [
+          "후진 가이드"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "후진 가이드",
+              "count": 4
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slug": "reverse-guide",
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
     },
     {
       "id": "climate-control",
@@ -9364,9 +10462,26 @@
       "limitations": [],
       "warnings": [],
       "related": [],
-      "applies": [],
-      "sources": [],
-      "sourceDetails": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ],
       "verify": {
         "catalog": false,
         "price": false,
@@ -9398,8 +10513,34 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "공조 시스템",
+        "matchedKeywords": [
+          "에어컨"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "에어컨",
+              "count": 114
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
     },
     {
       "id": "smart-key",
@@ -9409,7 +10550,8 @@
       "officialCategory": "키 / 도어",
       "aliases": [
         "스마트키",
-        "smart key"
+        "smart key",
+        "스마트 키"
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "latest": true,
@@ -9423,9 +10565,26 @@
       "limitations": [],
       "warnings": [],
       "related": [],
-      "applies": [],
-      "sources": [],
-      "sourceDetails": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ],
       "verify": {
         "catalog": false,
         "price": false,
@@ -9455,8 +10614,34 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "스마트 키",
+        "matchedKeywords": [
+          "스마트 키"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "스마트 키",
+              "count": 260
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
     },
     {
       "id": "emergency-key",
@@ -9467,7 +10652,8 @@
       "aliases": [
         "비상키",
         "기계식 키",
-        "mechanical key"
+        "mechanical key",
+        "비상 키"
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "latest": true,
@@ -9481,9 +10667,26 @@
       "limitations": [],
       "warnings": [],
       "related": [],
-      "applies": [],
-      "sources": [],
-      "sourceDetails": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ],
       "verify": {
         "catalog": false,
         "price": false,
@@ -9514,8 +10717,34 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "비상 키",
+        "matchedKeywords": [
+          "비상 키"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "비상 키",
+              "count": 17
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
     },
     {
       "id": "remote-engine-start",
@@ -9526,7 +10755,8 @@
       "aliases": [
         "리모트 스타트",
         "remote start",
-        "스마트키 원격 시동"
+        "스마트키 원격 시동",
+        "원격 시동"
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "latest": true,
@@ -9540,9 +10770,26 @@
       "limitations": [],
       "warnings": [],
       "related": [],
-      "applies": [],
-      "sources": [],
-      "sourceDetails": [],
+      "applies": [
+        {
+          "vehicleId": "hy-grandeur",
+          "brand": "현대",
+          "model": "그랜저",
+          "years": "2026",
+          "trim": "GN7 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ],
       "verify": {
         "catalog": false,
         "price": false,
@@ -9573,8 +10820,34 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
+      "manualEvidence": {
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "modelCode": "GN7",
+        "modelName": "그랜저",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "section": "원격 시동",
+        "matchedKeywords": [
+          "원격 시동"
+        ],
+        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+      },
+      "vehicleAudit": {
+        "hyGrandeur2026": {
+          "confirmed": true,
+          "manualFile": "GN7_2026_ko_KR.txt",
+          "matchedKeywords": [
+            {
+              "term": "원격 시동",
+              "count": 39
+            }
+          ],
+          "updatedAt": "2026-07-07"
+        }
+      },
       "slugAliases": [],
-      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
+      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
     }
   ],
   "vehicles": [

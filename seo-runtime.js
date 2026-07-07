@@ -322,6 +322,9 @@ const footerMeta = document.querySelector('.site-footer__meta');
     if (dataNode) dataNode.textContent = JSON.stringify(snapshot).replaceAll('<', '\\u003c');
   };
 
+  if (typeof window.applyGn7ManualAudit === 'function') {
+    window.applyGn7ManualAudit();
+  }
   syncSeoDataSnapshot();
   render();
 })();

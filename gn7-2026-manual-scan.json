@@ -1,0 +1,366 @@
+{
+  "manualFile": "GN7_2026_ko_KR.txt",
+  "matchedFeatures": [
+    {
+      "id": "fca-suite",
+      "found": [
+        {
+          "term": "전방 충돌방지 보조",
+          "count": 60
+        },
+        {
+          "term": "FCA",
+          "count": 56
+        }
+      ]
+    },
+    {
+      "id": "nscc-hda2",
+      "found": [
+        {
+          "term": "스마트 크루즈 컨트롤",
+          "count": 122
+        },
+        {
+          "term": "고속도로 주행 보조",
+          "count": 42
+        },
+        {
+          "term": "내비게이션 기반 스마트 크루즈 컨트롤",
+          "count": 28
+        },
+        {
+          "term": "HDA",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "id": "rspa2",
+      "found": [
+        {
+          "term": "원격 스마트 주차 보조",
+          "count": 41
+        },
+        {
+          "term": "RSPA",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "id": "dual-auto-ac",
+      "found": [
+        {
+          "term": "공조",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "id": "air-purification",
+      "found": [
+        {
+          "term": "공기청정",
+          "count": 5
+        },
+        {
+          "term": "공기 청정",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "heated-ventilated-seats",
+      "found": [
+        {
+          "term": "열선/통풍",
+          "count": 17
+        },
+        {
+          "term": "시트 열선",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ergo-motion-seat",
+      "found": [
+        {
+          "term": "에르고 모션 시트",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "relaxation-comfort-seat",
+      "found": [
+        {
+          "term": "릴렉션 컴포트 시트",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "smart-power-tailgate",
+      "found": [
+        {
+          "term": "파워 트렁크",
+          "count": 49
+        },
+        {
+          "term": "스마트 트렁크",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "id": "hud",
+      "found": [
+        {
+          "term": "헤드업 디스플레이",
+          "count": 8
+        },
+        {
+          "term": "HUD",
+          "count": 26
+        }
+      ]
+    },
+    {
+      "id": "panoramic-curved-display",
+      "found": [
+        {
+          "term": "인포테인먼트 시스템",
+          "count": 264
+        }
+      ]
+    },
+    {
+      "id": "apple-carplay-wired",
+      "found": [
+        {
+          "term": "Apple CarPlay",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "android-auto-wired",
+      "found": [
+        {
+          "term": "Android Auto",
+          "count": 3
+        },
+        {
+          "term": "안드로이드 오토",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ccnc-ota",
+      "found": [
+        {
+          "term": "무선 소프트웨어 업데이트",
+          "count": 4
+        },
+        {
+          "term": "소프트웨어 업데이트",
+          "count": 25
+        },
+        {
+          "term": "OTA",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "fingerprint-auth",
+      "found": [
+        {
+          "term": "지문 인증",
+          "count": 41
+        },
+        {
+          "term": "지문 등록",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hyundai-dk2",
+      "found": [
+        {
+          "term": "디지털 키",
+          "count": 143
+        }
+      ]
+    },
+    {
+      "id": "built-in-cam",
+      "found": [
+        {
+          "term": "빌트인 캠",
+          "count": 74
+        },
+        {
+          "term": "Built-in Cam",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "e-hi-pass",
+      "found": [
+        {
+          "term": "하이패스",
+          "count": 49
+        }
+      ]
+    },
+    {
+      "id": "side-pdw",
+      "found": [
+        {
+          "term": "측방 주차 거리 경고",
+          "count": 5
+        },
+        {
+          "term": "주차 거리 경고",
+          "count": 93
+        }
+      ]
+    },
+    {
+      "id": "pca-parking",
+      "found": [
+        {
+          "term": "주차 충돌방지 보조",
+          "count": 34
+        },
+        {
+          "term": "PCA",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "remote-smart-exit",
+      "found": [
+        {
+          "term": "원격 전/후진",
+          "count": 36
+        }
+      ]
+    },
+    {
+      "id": "rear-view-monitor",
+      "found": [
+        {
+          "term": "후방 모니터",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "id": "surround-view-monitor",
+      "found": [
+        {
+          "term": "서라운드 뷰 모니터",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "id": "blind-spot-view-monitor",
+      "found": [
+        {
+          "term": "후측방 모니터",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "id": "rear-cross-traffic-collision-avoidance",
+      "found": [
+        {
+          "term": "후방 교차 충돌방지 보조",
+          "count": 43
+        },
+        {
+          "term": "후방 교차 안전",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "parking-distance-warning",
+      "found": [
+        {
+          "term": "주차 거리 경고",
+          "count": 93
+        }
+      ]
+    },
+    {
+      "id": "reverse-guide",
+      "found": [
+        {
+          "term": "후진 가이드",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "smart-key",
+      "found": [
+        {
+          "term": "스마트 키",
+          "count": 260
+        }
+      ]
+    },
+    {
+      "id": "emergency-key",
+      "found": [
+        {
+          "term": "비상 키",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "id": "remote-engine-start",
+      "found": [
+        {
+          "term": "원격 시동",
+          "count": 39
+        }
+      ]
+    },
+    {
+      "id": "climate-control",
+      "found": [
+        {
+          "term": "에어컨",
+          "count": 114
+        }
+      ]
+    },
+    {
+      "id": "smart-posture-assist",
+      "found": [
+        {
+          "term": "스마트 자세",
+          "count": 5
+        },
+        {
+          "term": "자세 보조",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "missingFeatureIds": []
+}
