@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T07:17:56.705Z",
+  "generatedAt": "2026-07-07T07:41:35.130Z",
   "sourceScripts": [
     "app.js",
     "patch.js",
@@ -14,7 +14,8 @@
     "final-release-audit.js",
     "gn7-2026-vehicle-audit.js",
     "seo-runtime.js",
-    "palisade-2026-vehicle-audit.js"
+    "palisade-2026-vehicle-audit.js",
+    "santafe-2026-vehicle-audit.js"
   ],
   "features": [
     {
@@ -100,9 +101,9 @@
           "vehicleId": "hy-santafe",
           "brand": "현대",
           "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-palisade",
@@ -343,6 +344,14 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -402,13 +411,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -441,6 +450,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "전방 충돌방지 보조 (FCA)"
           ],
@@ -513,9 +538,9 @@
           "vehicleId": "hy-santafe",
           "brand": "현대",
           "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지 중심",
-          "option": "선택 또는 기본 사양"
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-palisade",
@@ -684,6 +709,14 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -747,13 +780,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 스마트 크루즈 컨트롤 (NSCC) / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
           "스마트 크루즈 컨트롤 (SCC)",
@@ -798,6 +831,26 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 크루즈 컨트롤 (SCC)",
             "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
@@ -866,14 +919,6 @@
           "years": "2026",
           "trim": "GN7 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
-        },
-        {
-          "vehicleId": "hy-santafe",
-          "brand": "현대",
-          "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지",
-          "option": "선택 또는 상위 사양"
         },
         {
           "vehicleId": "hy-ioniq9",
@@ -1205,6 +1250,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1266,13 +1327,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "공기 청정",
         "matchedKeywords": [
           "공기 청정"
@@ -1305,6 +1366,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "공기 청정"
           ],
@@ -1354,6 +1431,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -1416,13 +1509,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "애프터 블로우",
         "matchedKeywords": [
           "애프터 블로우"
@@ -1440,6 +1533,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "애프터 블로우"
           ],
@@ -1484,6 +1593,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -1549,13 +1674,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 공조",
         "matchedKeywords": [
           "원격 공조"
@@ -1573,6 +1698,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 공조"
           ],
@@ -1630,6 +1771,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -1693,13 +1850,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "열선/통풍 시트",
         "matchedKeywords": [
           "열선/통풍 시트"
@@ -1732,6 +1889,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "열선/통풍 시트"
           ],
@@ -1793,6 +1966,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1849,13 +2038,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "에르고 모션 시트",
         "matchedKeywords": [
           "에르고 모션 시트"
@@ -1884,6 +2073,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "에르고 모션 시트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "에르고 모션 시트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "에르고 모션 시트"
           ],
@@ -1940,6 +2145,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -1999,13 +2220,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "릴렉션 컴포트 시트",
         "matchedKeywords": [
           "릴렉션 컴포트 시트"
@@ -2034,6 +2255,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "릴렉션 컴포트 시트"
           ],
@@ -2079,6 +2316,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -2143,13 +2396,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "메모리 버튼",
         "matchedKeywords": [
           "메모리 버튼"
@@ -2167,6 +2420,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "메모리 버튼"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "메모리 버튼"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "메모리 버튼"
           ],
@@ -2223,9 +2492,9 @@
           "vehicleId": "hy-santafe",
           "brand": "현대",
           "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "파워/스마트 테일게이트 적용 트림",
-          "option": "차종/트림별 상이"
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-palisade",
@@ -2273,6 +2542,14 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -2332,14 +2609,14 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "파워 테일게이트 사용하기 / 스마트 테일게이트",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "section": "파워 테일게이트 / 스마트 테일게이트",
         "matchedKeywords": [
           "파워 테일게이트",
           "스마트 테일게이트"
@@ -2373,6 +2650,24 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "파워 테일게이트",
             "스마트 테일게이트"
@@ -2430,6 +2725,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -2491,13 +2802,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "헤드업 디스플레이",
         "matchedKeywords": [
           "헤드업 디스플레이"
@@ -2530,6 +2841,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "헤드업 디스플레이"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "헤드업 디스플레이"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "헤드업 디스플레이"
           ],
@@ -2581,14 +2908,6 @@
           "years": "2026",
           "trim": "GN7 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
-        },
-        {
-          "vehicleId": "hy-santafe",
-          "brand": "현대",
-          "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
         },
         {
           "vehicleId": "hy-ioniq5",
@@ -2788,6 +3107,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2852,13 +3187,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay",
@@ -2889,6 +3224,24 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "Apple CarPlay",
             "카플레이"
@@ -3043,6 +3396,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3106,13 +3475,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto",
@@ -3147,6 +3516,24 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "Android Auto",
             "안드로이드 오토"
@@ -3319,6 +3706,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3382,13 +3785,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트"
@@ -3425,6 +3828,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "무선 소프트웨어 업데이트"
           ],
@@ -3498,6 +3917,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3554,16 +3989,15 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "지문 인증 시스템",
         "matchedKeywords": [
-          "지문 인증",
           "지문 인증 시스템"
         ]
       },
@@ -3597,6 +4031,22 @@
           "manualFile": "LX3HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "지문 인증",
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
             "지문 인증 시스템"
           ],
           "updatedAt": "2026-07-07"
@@ -5513,9 +5963,9 @@
           "vehicleId": "hy-santafe",
           "brand": "현대",
           "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 패키지 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-palisade",
@@ -5604,6 +6054,14 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -5637,13 +6095,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방/측방/후방 주차 거리 경고",
         "matchedKeywords": [
           "전방/측방/후방 주차 거리 경고"
@@ -5680,6 +6138,22 @@
             "전방/측방/후방 주차 거리 경고"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-07"
         }
       },
       "slug": "side-pdw",
@@ -5696,7 +6170,8 @@
         "PCA",
         "후방 주차 충돌방지 보조",
         "주차 충돌방지 보조",
-        "후방 주차 충돌방지 보조 (PCA)"
+        "후방 주차 충돌방지 보조 (PCA)",
+        "주차 충돌방지 보조 (PCA)"
       ],
       "preconditions": [
         "주차 충돌방지 보조 사양이 적용되어야 합니다.",
@@ -5766,9 +6241,9 @@
           "vehicleId": "hy-santafe",
           "brand": "현대",
           "model": "싼타페",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 안전 사양 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-palisade",
@@ -5905,6 +6380,14 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -5918,7 +6401,8 @@
         "pca-parking",
         "Parking Collision Avoidance Assist",
         "PCA",
-        "후방 주차 충돌방지 보조 (PCA)"
+        "후방 주차 충돌방지 보조 (PCA)",
+        "주차 충돌방지 보조 (PCA)"
       ],
       "faq": [
         {
@@ -5939,16 +6423,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "후방 주차 충돌방지 보조 (PCA)",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
-          "후방 주차 충돌방지 보조 (PCA)"
+          "주차 충돌방지 보조 (PCA)"
         ]
       },
       "vehicleAudit": {
@@ -5980,6 +6464,22 @@
           "manualFile": "LX3HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
           ],
           "updatedAt": "2026-07-07"
         }
@@ -6653,6 +7153,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -6683,18 +7199,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "디지털 키 / 스마트폰 키 / 카드 키",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "section": "디지털 키",
         "matchedKeywords": [
-          "디지털 키",
-          "스마트폰 키",
-          "카드 키"
+          "디지털 키"
         ]
       },
       "vehicleAudit": {
@@ -6726,6 +7240,22 @@
             "디지털 키",
             "스마트폰 키",
             "카드 키"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
           ],
           "updatedAt": "2026-07-07"
         }
@@ -7010,13 +7540,13 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "빌트인 캠",
         "matchedKeywords": [
           "빌트인 캠"
@@ -7076,6 +7606,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "vehicleAudit": {
@@ -7105,6 +7651,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "빌트인 캠"
           ],
@@ -7213,14 +7775,6 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "지원 트림/옵션",
-          "option": "차종별 상이"
-        },
-        {
-          "vehicleId": "hy-santafe",
-          "brand": "현대",
-          "model": "싼타페",
           "years": "2026/2027 현재 판매 기준",
           "trim": "지원 트림/옵션",
           "option": "차종별 상이"
@@ -7752,6 +8306,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -7788,13 +8358,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 자세 보조",
         "matchedKeywords": [
           "스마트 자세 보조"
@@ -7827,6 +8397,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 자세 보조"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 자세 보조"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 자세 보조"
           ],
@@ -8505,14 +9091,6 @@
           "vehicleId": "hy-grandeur",
           "brand": "현대",
           "model": "그랜저",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "지원 차량/시장/서비스",
-          "option": "적용 범위 재확인"
-        },
-        {
-          "vehicleId": "hy-santafe",
-          "brand": "현대",
-          "model": "싼타페",
           "years": "2026/2027 현재 판매 기준",
           "trim": "지원 차량/시장/서비스",
           "option": "적용 범위 재확인"
@@ -9760,24 +10338,23 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "팰리세이드 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동할 때 모터의 운동 에너지를 전기 에너지로 변환해 배터리를 충전합니다.",
+      "overview": "싼타페 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 운동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
       "aliases": [
         "회생 제동",
-        "하이브리드 스마트 회생제동"
+        "하이브리드 회생 제동"
       ],
       "preconditions": [
-        "주행 중 가속 페달을 밟지 않거나 브레이크 페달을 밟는 감속 상황이어야 합니다."
+        "하이브리드 차량 주행 중 감속 또는 제동 상황이어야 합니다."
       ],
       "steps": [
-        "차량 속도 및 엔진 부하 상태에 따라 회생 제동이 적절히 작동합니다.",
-        "작동 시 배터리 충전을 위한 발전 과정으로 제동감이 느껴질 수 있습니다."
+        "가속 페달에서 발을 떼거나 브레이크 페달을 밟으면 차량 속도와 엔진 부하 상태에 따라 회생 제동이 작동합니다."
       ],
       "disable": [],
       "limitations": [
-        "주행 조건과 배터리 상태에 따라 작동 정도가 달라질 수 있습니다."
+        "배터리 상태와 주행 조건에 따라 회생 제동 작동량이 달라질 수 있습니다."
       ],
       "warnings": [
-        "회생 제동만으로 모든 감속 상황이 처리되는 것은 아니므로 운전자가 직접 제동해야 합니다."
+        "회생 제동 감속감이 느껴질 수 있으며 필요한 경우 브레이크 페달로 직접 감속하십시오."
       ],
       "related": [
         "하이브리드 회생제동 단계 조절",
@@ -9809,7 +10386,7 @@
       "id": "hybrid-smart-regen",
       "name": "하이브리드 스마트 회생제동",
       "subcategory": "회생제동",
-      "summary": "하이브리드 주행 중 감속 에너지를 회수해 배터리를 충전하는 회생 제동 기능입니다.",
+      "summary": "하이브리드 주행 중 감속 에너지를 전기 에너지로 회수해 배터리를 충전하는 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -9817,6 +10394,14 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -9827,7 +10412,8 @@
         "hybrid-smart-regen",
         "HEV 스마트 회생제동",
         "하이브리드 스마트 회생",
-        "회생 제동"
+        "회생 제동",
+        "하이브리드 회생 제동"
       ],
       "faq": [
         {
@@ -9857,17 +10443,17 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "LX3HEV_2026_ko_KR.txt",
-        "modelCode": "LX3HEV",
-        "modelName": "팰리세이드 하이브리드",
+        "manualFile": "MX5HEV_2026_ko_KR.txt",
+        "modelCode": "MX5HEV",
+        "modelName": "싼타페 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
-          "하이브리드 스마트 회생제동"
+          "하이브리드 회생 제동"
         ]
       },
       "vehicleAudit": {
@@ -9879,31 +10465,39 @@
             "하이브리드 스마트 회생제동"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "하이브리드 회생 제동"
+          ],
+          "updatedAt": "2026-07-07"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "팰리세이드 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 시 전기 모터의 운동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
+      "overview": "싼타페 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 시 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
       "aliases": [
         "회생 제동",
-        "회생 제동량",
-        "패들 쉬프트"
+        "회생 제동량"
       ],
       "preconditions": [
-        "하이브리드 차량 주행 중 감속 또는 제동 상황이어야 합니다."
+        "하이브리드 주행 중 감속 조건이어야 합니다."
       ],
       "steps": [
-        "가속 페달에서 발을 떼거나 브레이크 페달을 밟으면 차량 속도와 엔진 부하 상태에 따라 회생 제동이 작동합니다.",
-        "회생 제동 작동 시 다소 강한 제동이 느껴질 수 있습니다."
+        "가속 페달에서 발을 떼거나 브레이크 페달을 밟아 감속합니다.",
+        "차량 속도와 엔진 부하 상태에 따라 회생 제동이 작동합니다."
       ],
       "disable": [],
       "limitations": [
-        "배터리 상태와 주행 조건에 따라 회생 제동 작동량이 달라질 수 있습니다."
+        "주행 조건과 배터리 상태에 따라 작동 정도가 달라질 수 있습니다."
       ],
       "warnings": [
-        "회생 제동 감속감은 정상적인 현상일 수 있으나 필요한 경우 브레이크 페달로 직접 감속하십시오."
+        "회생 제동만으로 모든 감속이 보장되지 않으므로 운전자가 직접 제동해야 합니다."
       ],
       "related": [
         "하이브리드 스마트 회생제동",
@@ -9935,7 +10529,7 @@
       "id": "hybrid-regen-level",
       "name": "하이브리드 회생제동 단계 조절",
       "subcategory": "회생제동",
-      "summary": "감속 및 제동 에너지를 전기 에너지로 회수해 하이브리드 배터리를 충전하는 기능입니다.",
+      "summary": "감속 및 제동 시 에너지를 회수하는 하이브리드 회생 제동 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -9943,6 +10537,14 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -9985,18 +10587,17 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "LX3HEV_2026_ko_KR.txt",
-        "modelCode": "LX3HEV",
-        "modelName": "팰리세이드 하이브리드",
+        "manualFile": "MX5HEV_2026_ko_KR.txt",
+        "modelCode": "MX5HEV",
+        "modelName": "싼타페 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
-          "회생 제동량",
-          "패들 쉬프트"
+          "회생 제동량"
         ]
       },
       "vehicleAudit": {
@@ -10009,19 +10610,28 @@
             "패들 쉬프트"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "회생 제동량"
+          ],
+          "updatedAt": "2026-07-07"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "팰리세이드 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 엔진, 모터, 배터리, 휠 간 동력 전달 상태를 클러스터에 표시합니다.",
+      "overview": "싼타페 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
       "aliases": [
         "하이브리드 에너지 흐름도",
         "에너지 흐름도"
       ],
       "preconditions": [
-        "차량 전원이 켜져 있고 하이브리드 주행 정보가 표시 가능한 상태여야 합니다."
+        "차량 전원이 켜져 있고 클러스터 주행 정보 표시가 가능해야 합니다."
       ],
       "steps": [
         "클러스터 주행 정보에서 하이브리드 에너지 흐름도를 확인합니다.",
@@ -10065,7 +10675,7 @@
       "id": "hybrid-energy-flow",
       "name": "하이브리드 에너지 흐름도",
       "subcategory": "에너지 관리",
-      "summary": "하이브리드 시스템의 동력 전달 상태와 엔진 상태를 클러스터에서 확인하는 기능입니다.",
+      "summary": "엔진, 모터, 배터리, 휠 사이의 에너지 흐름을 클러스터에서 확인하는 하이브리드 전용 표시 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -10073,6 +10683,14 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -10113,13 +10731,13 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "하이브리드 에너지 흐름도 확인하기",
       "manualEvidence": {
-        "manualFile": "LX3HEV_2026_ko_KR.txt",
-        "modelCode": "LX3HEV",
-        "modelName": "팰리세이드 하이브리드",
+        "manualFile": "MX5HEV_2026_ko_KR.txt",
+        "modelCode": "MX5HEV",
+        "modelName": "싼타페 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 에너지 흐름도 확인하기",
         "matchedKeywords": [
           "하이브리드 에너지 흐름도",
@@ -10135,16 +10753,25 @@
             "에너지 흐름도"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이브리드 에너지 흐름도",
+            "에너지 흐름도"
+          ],
+          "updatedAt": "2026-07-07"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "팰리세이드 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
+      "overview": "싼타페 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
       "aliases": [
+        "고전압 배터리",
         "배터리 충전 상태",
-        "고전압 배터리 충전량",
         "SOC"
       ],
       "preconditions": [
@@ -10156,10 +10783,10 @@
       ],
       "disable": [],
       "limitations": [
-        "표시 상태는 차량 주행 및 충전 상태에 따라 변동됩니다."
+        "표시 상태는 주행 및 충전 상태에 따라 변동됩니다."
       ],
       "warnings": [
-        "배터리 부족 경고가 표시되면 안전한 곳에 정차 후 안내에 따라 조치하십시오."
+        "배터리 부족 관련 경고가 표시되면 안전한 곳에 정차 후 안내에 따라 조치하십시오."
       ],
       "related": [
         "하이브리드 에너지 흐름도",
@@ -10192,7 +10819,7 @@
       "id": "hybrid-battery-status",
       "name": "하이브리드 배터리 충전 상태",
       "subcategory": "에너지 관리",
-      "summary": "고전압 배터리의 충전 상태를 클러스터에서 확인하는 하이브리드 전용 표시 기능입니다.",
+      "summary": "고전압 배터리 충전 상태를 클러스터에서 확인하는 하이브리드 전용 표시 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -10200,6 +10827,14 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -10212,7 +10847,8 @@
         "하이브리드 SOC",
         "배터리 충전 상태",
         "고전압 배터리 충전량",
-        "SOC"
+        "SOC",
+        "고전압 배터리"
       ],
       "faq": [
         {
@@ -10242,17 +10878,17 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "고전압 배터리 충전량(SOC) 표시계",
       "manualEvidence": {
-        "manualFile": "LX3HEV_2026_ko_KR.txt",
-        "modelCode": "LX3HEV",
-        "modelName": "팰리세이드 하이브리드",
+        "manualFile": "MX5HEV_2026_ko_KR.txt",
+        "modelCode": "MX5HEV",
+        "modelName": "싼타페 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "고전압 배터리 충전량(SOC) 표시계",
         "matchedKeywords": [
+          "고전압 배터리",
           "배터리 충전 상태",
-          "고전압 배터리 충전량",
           "SOC"
         ]
       },
@@ -10266,24 +10902,33 @@
             "SOC"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "고전압 배터리",
+            "배터리 충전 상태",
+            "SOC"
+          ],
+          "updatedAt": "2026-07-07"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "팰리세이드 하이브리드 매뉴얼 기준 하이브리드 화면에서는 연비, 전기 모터 사용량, 하이브리드 특화 기능을 확인할 수 있습니다.",
+      "overview": "싼타페 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
       "aliases": [
-        "하이브리드 연비",
-        "전기 모터 사용량",
-        "EV 모드 표시등"
+        "EV 모드 표시등",
+        "하이브리드 주행 정보"
       ],
       "preconditions": [
-        "하이브리드 차량 전원이 켜져 있고 클러스터 또는 하이브리드 화면을 사용할 수 있어야 합니다."
+        "하이브리드 차량 전원이 켜져 있고 클러스터 표시가 가능해야 합니다."
       ],
       "steps": [
-        "하이브리드 화면에서 하이브리드 연비 및 전기 모터 사용량을 확인합니다.",
-        "EV 모드 표시등이 켜지면 모터를 이용해 주행 중인 상태를 확인합니다."
+        "클러스터에서 EV 모드 표시등 또는 하이브리드 주행 정보를 확인합니다.",
+        "정차 중 엔진 정지 또는 주행 중 모터 단독 구동 상태를 확인합니다."
       ],
       "disable": [],
       "limitations": [
@@ -10322,7 +10967,7 @@
       "id": "hybrid-driving-info",
       "name": "하이브리드 전용 주행 정보",
       "subcategory": "주행 정보",
-      "summary": "하이브리드 주행 정보와 전기 모터 사용량을 확인하는 HEV 전용 정보 기능입니다.",
+      "summary": "하이브리드 주행 중 모터 구동 상태와 주행 정보를 확인하는 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -10330,6 +10975,14 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -10342,7 +10995,8 @@
         "하이브리드 연비 정보",
         "하이브리드 연비",
         "전기 모터 사용량",
-        "EV 모드 표시등"
+        "EV 모드 표시등",
+        "하이브리드 주행 정보"
       ],
       "faq": [
         {
@@ -10370,20 +11024,19 @@
       "slug": "hybrid-driving-info",
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
-      "section": "하이브리드 모드 기능 사용하기",
+      "section": "하이브리드 자동차 주행하기",
       "manualEvidence": {
-        "manualFile": "LX3HEV_2026_ko_KR.txt",
-        "modelCode": "LX3HEV",
-        "modelName": "팰리세이드 하이브리드",
+        "manualFile": "MX5HEV_2026_ko_KR.txt",
+        "modelCode": "MX5HEV",
+        "modelName": "싼타페 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3HEV_2026_ko_KR.txt 본문 검색 확인",
-        "section": "하이브리드 모드 기능 사용하기",
+        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
+        "section": "하이브리드 자동차 주행하기",
         "matchedKeywords": [
-          "하이브리드 연비",
-          "전기 모터 사용량",
-          "EV 모드 표시등"
+          "EV 모드 표시등",
+          "하이브리드 주행 정보"
         ]
       },
       "vehicleAudit": {
@@ -10394,6 +11047,15 @@
             "하이브리드 연비",
             "전기 모터 사용량",
             "EV 모드 표시등"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "EV 모드 표시등",
+            "하이브리드 주행 정보"
           ],
           "updatedAt": "2026-07-07"
         }
@@ -10585,6 +11247,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -10642,13 +11320,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 스마트 주차 보조 (RSPA)",
         "matchedKeywords": [
           "원격 스마트 주차 보조 (RSPA)"
@@ -10666,6 +11344,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 스마트 주차 보조 (RSPA)"
           ],
@@ -10729,6 +11423,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -10786,13 +11496,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 주차 보조 (SPA)",
         "matchedKeywords": [
           "스마트 주차 보조 (SPA)"
@@ -10810,6 +11520,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 주차 보조 (SPA)"
           ],
@@ -10881,6 +11607,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -10935,13 +11677,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -10970,6 +11712,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 모니터 (RVM)"
           ],
@@ -11045,6 +11803,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11099,13 +11873,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -11134,6 +11908,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "서라운드 뷰 모니터 (SVM)"
           ],
@@ -11207,6 +11997,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11260,13 +12066,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -11295,6 +12101,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후측방 모니터 (BVM)"
           ],
@@ -11370,6 +12192,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11423,13 +12261,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -11462,6 +12300,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
@@ -11537,6 +12391,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11592,13 +12462,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 거리 경고 (PDW)",
         "matchedKeywords": [
           "주차 거리 경고 (PDW)"
@@ -11627,6 +12497,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "주차 거리 경고 (PDW)"
           ],
@@ -11878,6 +12764,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11930,13 +12832,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "후진 가이드",
         "matchedKeywords": [
           "후진 가이드"
@@ -11965,6 +12867,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후진 가이드"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후진 가이드"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후진 가이드"
           ],
@@ -12024,6 +12942,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12069,13 +13003,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "히터와 에어컨",
         "matchedKeywords": [
           "히터와 에어컨"
@@ -12104,6 +13038,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터와 에어컨"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터와 에어컨"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "히터와 에어컨"
           ],
@@ -12160,6 +13110,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12202,13 +13168,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 키",
         "matchedKeywords": [
           "스마트 키"
@@ -12237,6 +13203,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 키"
           ],
@@ -12294,6 +13276,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12337,13 +13335,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "비상 키",
         "matchedKeywords": [
           "비상 키"
@@ -12372,6 +13370,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "비상 키"
           ],
@@ -12429,6 +13443,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12472,13 +13502,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "MX5_2026_ko_KR.txt",
+        "modelCode": "MX5",
+        "modelName": "싼타페",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 시동",
         "matchedKeywords": [
           "원격 시동"
@@ -12507,6 +13537,22 @@
         "hyPalisadeHev2026": {
           "confirmed": true,
           "manualFile": "LX3HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafe2026": {
+          "confirmed": true,
+          "manualFile": "MX5_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-07"
+        },
+        "hySantafeHev2026": {
+          "confirmed": true,
+          "manualFile": "MX5HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 시동"
           ],
@@ -12576,6 +13622,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -12689,6 +13751,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12800,6 +13878,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -12914,6 +14008,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -13030,6 +14140,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13141,6 +14267,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -13255,6 +14397,22 @@
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe-hev",
+          "brand": "현대",
+          "model": "싼타페 하이브리드",
+          "years": "2026",
+          "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -13580,6 +14738,14 @@
       "group": "SUV · 하이브리드",
       "hybrid": true,
       "system": "TMED-2",
+      "performance": false
+    },
+    {
+      "id": "hy-santafe-hev",
+      "brand": "현대",
+      "name": "싼타페 하이브리드",
+      "group": "SUV · 하이브리드",
+      "hybrid": true,
       "performance": false
     }
   ]
