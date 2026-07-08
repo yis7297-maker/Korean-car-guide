@@ -1,23 +1,5 @@
 {
-  "generatedAt": "2026-07-08T06:14:05.958Z",
-  "sourceScripts": [
-    "app.js",
-    "patch.js",
-    "data-expansion.js",
-    "hero-enhancement.js",
-    "feature-improvements.js",
-    "hybrid-tmed2.js",
-    "parking-manual-audit.js",
-    "digital-feature-manual-audit.js",
-    "electrification-manual-audit.js",
-    "convenience-manual-audit.js",
-    "final-release-audit.js",
-    "gn7-2026-vehicle-audit.js",
-    "seo-runtime.js",
-    "palisade-2026-vehicle-audit.js",
-    "santafe-2026-vehicle-audit.js",
-    "sonata-2026-vehicle-audit.js"
-  ],
+  "generatedAt": "2026-07-08T06:51:12.353Z",
   "features": [
     {
       "latest": true,
@@ -94,9 +76,9 @@
           "vehicleId": "hy-tucson",
           "brand": "현대",
           "model": "투싼",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe",
@@ -361,6 +343,14 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -402,31 +392,15 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -495,11 +469,24 @@
             "전방 충돌방지 보조 (FCA)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "fca-suite",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\">\u003c/path>\u003cpath d=\"M8 12h8M12 8v8\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -611,9 +598,9 @@
           "vehicleId": "hy-tucson",
           "brand": "현대",
           "model": "투싼",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지 중심",
-          "option": "선택 또는 기본 사양"
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "kia-k8",
@@ -750,6 +737,14 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -795,31 +790,15 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 스마트 크루즈 컨트롤 (NSCC) / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
           "스마트 크루즈 컨트롤 (SCC)",
@@ -910,11 +889,28 @@
             "고속도로 주행 보조 (HDA)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "nscc-hda2",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"8\">\u003c/circle>\u003ccircle cx=\"12\" cy=\"12\" r=\"2\">\u003c/circle>\u003cpath d=\"M5 12h4M15 12h4M12 14l-3 5M12 14l3 5\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -931,11 +927,7 @@
         "자동 주차",
         "차 빼기",
         "원격 스마트 주차 보조",
-        "RSPA",
-        "rspa-2",
-        "remote-smart-parking-assist-2",
-        "remote-smart-parking-assist",
-        "원격 스마트 주차 보조 (RSPA)"
+        "RSPA"
       ],
       "summary": "차량 안 또는 차량 밖에서 주차 공간 탐색과 주차·출차 조작을 보조합니다.",
       "preconditions": [
@@ -1049,8 +1041,7 @@
         "차가 혼자 주차",
         "원격 주차",
         "자동 주차",
-        "차 빼기",
-        "원격 스마트 주차 보조 (RSPA)"
+        "차 빼기"
       ],
       "faq": [
         {
@@ -1058,28 +1049,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "GN7_2026_ko_KR.txt",
         "modelCode": "GN7",
@@ -1109,31 +1079,8 @@
             }
           ],
           "updatedAt": "2026-07-07"
-        },
-        "hyPalisade2026": {
-          "confirmed": true,
-          "manualFile": "LX3_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "원격 스마트 주차 보조 (RSPA)"
-          ],
-          "updatedAt": "2026-07-07"
-        },
-        "hyPalisadeHev2026": {
-          "confirmed": true,
-          "manualFile": "LX3HEV_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "원격 스마트 주차 보조 (RSPA)"
-          ],
-          "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "rspa2",
-      "slugAliases": [
-        "rspa-2",
-        "remote-smart-parking-assist-2",
-        "remote-smart-parking-assist"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -1208,23 +1155,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "GN7_2026_ko_KR.txt",
         "modelCode": "GN7",
@@ -1250,10 +1181,7 @@
           ],
           "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "dual-auto-ac",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -1335,6 +1263,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1378,31 +1322,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "공기 청정",
         "matchedKeywords": [
           "공기 청정"
@@ -1471,11 +1399,24 @@
             "공기 청정"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "air-purification",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -1549,6 +1490,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1589,34 +1546,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "after-blow",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "애프터 블로우",
         "matchedKeywords": [
           "애프터 블로우"
@@ -1666,6 +1604,22 @@
         "hySonataHev2026": {
           "confirmed": true,
           "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "애프터 블로우"
           ],
@@ -1743,6 +1697,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1786,34 +1756,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "remote-climate",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 공조",
         "matchedKeywords": [
           "원격 공조"
@@ -1863,6 +1814,22 @@
         "hySonataHev2026": {
           "confirmed": true,
           "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 공조"
           ],
@@ -1953,6 +1920,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1997,31 +1980,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "열선/통풍 시트",
         "matchedKeywords": [
           "열선/통풍 시트"
@@ -2090,11 +2057,24 @@
             "열선/통풍 시트"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "heated-ventilated-seats",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -2206,18 +2186,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "MX5_2026_ko_KR.txt",
         "modelCode": "MX5",
@@ -2275,10 +2244,7 @@
           ],
           "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "ergo-motion-seat",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -2399,23 +2365,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "DN8_2026_ko_KR.txt",
         "modelCode": "DN8",
@@ -2489,10 +2439,7 @@
           ],
           "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "relaxation-comfort-seat",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -2604,26 +2551,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "memory-seat",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "DN8_2026_ko_KR.txt",
         "modelCode": "DN8",
@@ -2690,21 +2618,20 @@
     },
     {
       "latest": true,
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-06-25",
       "overview": "쏘나타 매뉴얼 기준 파워 트렁크는 스마트 키 또는 차량 버튼으로 트렁크를 전동 개폐하고, 스마트 트렁크 설정 시 후방 접근 감지로 자동 열림을 지원합니다.",
       "id": "smart-power-tailgate",
       "name": "스마트 파워 테일게이트",
       "category": "도어/트렁크",
-      "officialCategory": "편의 / 파워 테일게이트·스마트 테일게이트",
+      "officialCategory": "편의 / 테일게이트",
       "aliases": [
-        "스마트 테일게이트",
-        "파워 테일게이트",
-        "전동식 테일게이트",
-        "Smart Power Tailgate",
-        "Power Tailgate",
-        "파워 트렁크",
         "스마트 트렁크",
-        "트렁크 열림/닫힘 버튼"
+        "자동 트렁크",
+        "파워 테일게이트",
+        "뒤에 서면 열림",
+        "파워 트렁크",
+        "트렁크 열림/닫힘 버튼",
+        "스마트 테일게이트"
       ],
       "summary": "스마트 키와 차량 버튼으로 트렁크를 전동 개폐하고 스마트 트렁크 자동 열림을 지원하는 기능입니다.",
       "preconditions": [
@@ -2731,11 +2658,11 @@
       "related": [],
       "applies": [
         {
-          "vehicleId": "hy-santafe",
+          "vehicleId": "hy-grandeur",
           "brand": "현대",
-          "model": "싼타페",
+          "model": "그랜저",
           "years": "2026",
-          "trim": "MX5 해당 사양/트림",
+          "trim": "GN7 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
         },
         {
@@ -2747,44 +2674,20 @@
           "option": "Owners Manual 수록 사양 기준"
         },
         {
-          "vehicleId": "hy-ioniq9",
-          "brand": "현대",
-          "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "파워/스마트 테일게이트 적용 트림",
-          "option": "차종/트림별 상이"
-        },
-        {
-          "vehicleId": "genesis-gv70",
-          "brand": "제네시스",
-          "model": "GV70",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "파워/스마트 테일게이트 적용 트림",
-          "option": "차종/트림별 상이"
-        },
-        {
-          "vehicleId": "genesis-gv80",
-          "brand": "제네시스",
-          "model": "GV80",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "파워/스마트 테일게이트 적용 트림",
-          "option": "차종/트림별 상이"
-        },
-        {
-          "vehicleId": "hy-grandeur",
-          "brand": "현대",
-          "model": "그랜저",
-          "years": "2026",
-          "trim": "GN7 해당 사양/트림",
-          "option": "Owners Manual 수록 사양 기준"
-        },
-        {
           "vehicleId": "hy-palisade-hev",
           "brand": "현대",
           "model": "팰리세이드 하이브리드",
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-santafe",
+          "brand": "현대",
+          "model": "싼타페",
+          "years": "2026",
+          "trim": "MX5 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-santafe-hev",
@@ -2809,11 +2712,29 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
-        "hyundaiManual",
-        "genesisCatalog"
+        "hyundaiCatalog",
+        "kiaCatalog",
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -2854,30 +2775,19 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
-        "section": "파워 트렁크 / 스마트 트렁크",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "파워 테일게이트 / 스마트 테일게이트",
         "matchedKeywords": [
-          "파워 트렁크",
-          "스마트 트렁크"
+          "파워 테일게이트",
+          "스마트 테일게이트"
         ]
       },
       "vehicleAudit": {
@@ -2949,13 +2859,26 @@
             "스마트 트렁크"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "smart-power-tailgate",
-      "slugAliases": [],
-      "parent": "편의",
-      "verificationLevel": "official_manual_verified",
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 20V5l10-2 4 3v14H5z\">\u003c/path>\u003cpath d=\"M15 3v17M9 12h1\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -3034,6 +2957,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3076,31 +3015,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "헤드업 디스플레이",
         "matchedKeywords": [
           "헤드업 디스플레이"
@@ -3169,11 +3092,24 @@
             "헤드업 디스플레이"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "헤드업 디스플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "헤드업 디스플레이"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "hud",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 16a8 8 0 0 1 16 0\">\u003c/path>\u003cpath d=\"M12 14l4-4M7 17h10\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -3295,8 +3231,7 @@
         "panoramic-curved-display",
         "커브드 디스플레이",
         "파노라믹 화면",
-        "ccNC 화면",
-        "인포테인먼트 시스템"
+        "ccNC 화면"
       ],
       "faq": [
         {
@@ -3304,23 +3239,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "GN7_2026_ko_KR.txt",
         "modelCode": "GN7",
@@ -3345,27 +3264,8 @@
             }
           ],
           "updatedAt": "2026-07-07"
-        },
-        "hyPalisade2026": {
-          "confirmed": true,
-          "manualFile": "LX3_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "인포테인먼트 시스템"
-          ],
-          "updatedAt": "2026-07-07"
-        },
-        "hyPalisadeHev2026": {
-          "confirmed": true,
-          "manualFile": "LX3HEV_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "인포테인먼트 시스템"
-          ],
-          "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "panoramic-curved-display",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 16a8 8 0 0 1 16 0\">\u003c/path>\u003cpath d=\"M12 14l4-4M7 17h10\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -3447,6 +3347,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3493,31 +3409,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay",
@@ -3589,11 +3489,26 @@
             "카플레이"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "apple-carplay-wired",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -3605,10 +3520,7 @@
       "officialCategory": "인포테인먼트 / 무선 폰 프로젝션",
       "aliases": [
         "무선 카플레이",
-        "아이폰 무선 연결",
-        "carplay",
-        "wireless-apple-carplay",
-        "apple-carplay-wireless"
+        "아이폰 무선 연결"
       ],
       "summary": "지원 차량에서 Wi-Fi와 Bluetooth로 iPhone CarPlay를 연결합니다.",
       "preconditions": [],
@@ -3665,30 +3577,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "apple-carplay",
-      "slugAliases": [
-        "carplay",
-        "wireless-apple-carplay",
-        "apple-carplay-wireless"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -3770,6 +3659,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3815,31 +3720,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto",
@@ -3915,11 +3804,26 @@
             "안드로이드 오토"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "android-auto-wired",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -3931,10 +3835,7 @@
       "officialCategory": "인포테인먼트 / 무선 폰 프로젝션",
       "aliases": [
         "무선 안드로이드 오토",
-        "갤럭시 무선 연결",
-        "androidauto",
-        "wireless-android-auto",
-        "android-auto-wireless"
+        "갤럭시 무선 연결"
       ],
       "summary": "지원 차량에서 Wi-Fi와 Bluetooth로 Android Auto를 연결합니다.",
       "preconditions": [],
@@ -3991,30 +3892,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "android-auto",
-      "slugAliases": [
-        "androidauto",
-        "wireless-android-auto",
-        "android-auto-wireless"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -4114,6 +3992,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -4159,31 +4053,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트"
@@ -4256,11 +4134,24 @@
             "무선 소프트웨어 업데이트"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "ccnc-ota",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -4357,6 +4248,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -4400,26 +4307,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "지문 인증 시스템",
         "matchedKeywords": [
           "지문 인증 시스템"
@@ -4490,11 +4386,24 @@
             "지문 인증 시스템"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "fingerprint-auth",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -4562,26 +4471,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-charge-v2l",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -4642,16 +4532,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "nexo-h2-refuel",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -4717,16 +4598,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "nexo-fcev-info",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -4794,16 +4666,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "nexo-smart-regen",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -4887,16 +4750,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "nexo-eco-coaching",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -4990,16 +4844,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "n-performance",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17l4-10 4 10 4-10 4 10\">\u003c/path>\u003cpath d=\"M8 17h8\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5013,9 +4858,7 @@
         "MRA",
         "Memory Reverse Assist",
         "메모리 후진",
-        "후진 경로 재생",
-        "memory-reverse-assist",
-        "memory-reverse-assist-mra"
+        "후진 경로 재생"
       ],
       "summary": "저속 전진으로 이동한 경로를 저장한 뒤 같은 경로를 따라 후진할 수 있도록 조향을 보조합니다.",
       "preconditions": [
@@ -5088,29 +4931,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "mra",
-      "slugAliases": [
-        "memory-reverse-assist",
-        "memory-reverse-assist-mra"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5166,26 +4987,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "plug-and-charge",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5241,26 +5043,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "iccu-energy-control",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5321,26 +5104,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-route-planner",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5399,26 +5163,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "battery-conditioning",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5474,26 +5219,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "scheduled-charging",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5548,36 +5274,13 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "charge-limit",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
       "overview": "고전압 배터리 전력을 외부 전기기기에 공급하는 기능군입니다.",
-      "aliases": [
-        "vehicle-to-load",
-        "vehicle-2-load",
-        "v2l-parent"
-      ],
+      "aliases": [],
       "preconditions": [],
       "steps": [],
       "disable": [],
@@ -5627,30 +5330,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "v2l",
-      "slugAliases": [
-        "vehicle-to-load",
-        "vehicle-2-load",
-        "v2l-parent"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5706,26 +5386,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "v2l-indoor",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5781,26 +5442,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "v2l-outdoor",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -5858,63 +5500,25 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "camping-mode",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
-      "updatedAt": "2026-07-06",
-      "overview": "고전압 배터리를 이용해 정차 중 차량 내부 전기 장치를 사용할 수 있도록 하는 EV 전용 모드입니다.",
+      "updatedAt": "2026-06-17",
+      "overview": "주행 불가 상태에서 고전압 배터리로 차량 전장과 공조를 사용할 수 있게 합니다.",
       "aliases": [],
-      "preconditions": [
-        "주행 가능 표시등 또는 POWER ON 상태를 확인합니다.",
-        "변속 위치가 P(주차)에 있어야 합니다.",
-        "차량이 주행하지 않는 정차 상태여야 합니다."
-      ],
-      "steps": [
-        "작동 조건을 확인한 뒤 유틸리티 모드를 활성화합니다.",
-        "UTIL 표시등이 켜지고 주차 브레이크가 체결되는지 확인합니다.",
-        "차량 내부 전기 장치를 필요한 범위에서 사용합니다.",
-        "실내 V2L을 함께 사용할 경우 차량 내부 전기 사용 안내를 따릅니다."
-      ],
-      "disable": [
-        "브레이크를 밟지 않고 시동 버튼을 눌러 OFF 상태로 전환합니다.",
-        "브레이크를 밟은 상태에서 시동 버튼을 눌러 DRIVE READY 상태로 전환합니다.",
-        "EV 설정의 유틸리티 모드 활성화 항목을 다시 선택해 해제합니다."
-      ],
-      "limitations": [
-        "유틸리티 모드 사용 중에는 주행할 수 없습니다.",
-        "P(주차) 이외의 변속 위치로 변경할 수 없습니다.",
-        "작동 조건을 만족해도 활성화되지 않으면 주차 브레이크 작동 상태를 점검해야 합니다."
-      ],
-      "warnings": [
-        "고전압 배터리 잔량과 차량 상태에 따라 사용 가능 시간이 달라질 수 있습니다.",
-        "차량 내부 전기 장치를 장시간 사용할 때는 배터리 잔량을 확인하십시오."
-      ],
+      "preconditions": [],
+      "steps": [],
+      "disable": [],
+      "limitations": [],
+      "warnings": [],
       "related": [
         "캠핑 모드",
         "실내 V2L"
       ],
       "sources": [
-        "hyundaiManual",
+        "hyundaiCatalog",
+        "kiaCatalog",
         "genesisCatalog"
       ],
       "verify": {
@@ -5936,7 +5540,7 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 정차 편의",
-      "summary": "정차 상태에서 12V 배터리 부담을 줄이고 고전압 배터리로 차량 전장품을 사용할 수 있게 합니다.",
+      "summary": "주행 불가 상태에서 고전압 배터리로 차량 전장과 공조를 사용할 수 있게 합니다.",
       "applies": [
         {
           "vehicleId": "hy-ioniq5",
@@ -6021,11 +5625,7 @@
       ],
       "subcategory": "EV 편의 기능",
       "future": false,
-      "settings": [
-        "인포테인먼트 시스템 홈 화면에서 EV(Electric Vehicle)를 선택합니다.",
-        "EV 설정 메뉴에서 유틸리티 모드를 선택합니다.",
-        "유틸리티 모드 활성화 하기를 선택합니다."
-      ],
+      "settings": [],
       "keywords": [
         "유틸리티 모드",
         "utility-mode"
@@ -6036,27 +5636,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "utility-mode",
-      "slugAliases": [],
-      "manualEvidence": {
-        "manualFile": "US4EV_2027_ko_KR.txt",
-        "section": "유틸리티 모드 설정하기",
-        "pageRange": "전기차 시작하기 31"
-      },
-      "verificationLevel": "official_manual_verified",
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -6111,26 +5691,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "v2h-roadmap",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -6185,70 +5746,37 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "v2g-roadmap",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
-      "updatedAt": "2026-07-06",
-      "overview": "저속 주차 상황에서 차량 측면 주행 경로 안의 물체를 감지해 경고음과 화면 표시로 알려주는 기능입니다.",
+      "updatedAt": "2026-06-25",
+      "overview": "주차 또는 저속 이동 중 차량 측면의 장애물 감지 정보를 화면과 경고음으로 알립니다.",
       "aliases": [
         "Side Parking Distance Warning",
-        "측방 PDW",
-        "전방/측방/후방 주차 거리 경고",
         "주차 거리 경고",
         "전방 주차 거리 경고",
         "후방 주차 거리 경고",
-        "측방 주차 거리 경고"
+        "측방 주차 거리 경고",
+        "전방/측방/후방 주차 거리 경고"
       ],
-      "preconditions": [
-        "측방 주차 거리 경고 사양이 적용된 차량이어야 합니다.",
-        "전방 또는 후방 주차 거리 경고 기능이 켜져 있어야 합니다.",
-        "차량 속도가 10 km/h 이하이어야 합니다."
-      ],
-      "steps": [
-        "전방 또는 후방 주차 거리 경고가 켜진 상태에서 저속으로 이동합니다.",
-        "차량 주행 경로 안의 측방 물체가 감지되면 경고음과 표시를 확인합니다.",
-        "후방 모니터 또는 서라운드 뷰 모니터 화면이 켜져 있으면 탑 뷰 영역의 거리 표시를 함께 확인합니다."
-      ],
-      "disable": [
-        "주차 안전 버튼으로 주차 거리 경고 기능을 끄면 측방 경고도 함께 중지됩니다.",
-        "차량 속도 또는 변속 조건이 작동 범위를 벗어나면 경고가 종료될 수 있습니다."
-      ],
-      "limitations": [
-        "측방 경고는 차량 주행 경로 안에 위치한 물체를 기준으로 작동합니다.",
-        "D(주행)에서 물체와의 거리가 일정 거리 이상이면 측방 단독 경고가 클러스터에 표시되지 않을 수 있습니다.",
-        "초음파 센서가 오염되거나 빗물, 눈, 요철길, 경사로 등으로 주변 상황을 인식하기 어려우면 오작동할 수 있습니다."
-      ],
+      "preconditions": [],
+      "steps": [],
+      "disable": [],
+      "limitations": [],
       "warnings": [
-        "주차 거리 경고가 있어도 운전자가 전방·후방·측방을 직접 확인해야 합니다.",
-        "초음파 센서가 감지할 수 없는 물체나 매우 가까운 물체가 있을 수 있습니다."
+        "카메라 영상과 경고는 주변 확인을 대신하지 않습니다. 운전자가 직접 차량 주변을 확인하고 제동과 조향을 수행해야 합니다."
       ],
       "related": [
         "주차 충돌방지 보조",
         "원격 스마트 주차 보조 2 / RSPA 2"
       ],
       "sources": [
+        "hyundaiCatalog",
+        "kiaCatalog",
+        "genesisCatalog",
         "hyundaiManual",
-        "genesisCatalog"
+        "kiaManual"
       ],
       "verify": {
         "catalog": true,
@@ -6268,8 +5796,8 @@
       "name": "측방 주차 거리 경고",
       "parent": "주차 보조",
       "category": "주차 편의",
-      "officialCategory": "주차 안전 / 주차 거리 경고",
-      "summary": "전방 또는 후방 주차 거리 경고가 켜진 상태에서 측면 물체 감지 정보를 함께 제공합니다.",
+      "officialCategory": "주차 안전",
+      "summary": "주차 또는 저속 이동 중 차량 측면의 장애물 감지 정보를 화면과 경고음으로 알립니다.",
       "applies": [
         {
           "vehicleId": "hy-ioniq5",
@@ -6518,13 +6046,25 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
-      "settings": [
-        "시동 ON 상태에서 설정 > 차량 > 운전자 보조 > 주차 안전으로 이동합니다.",
-        "주차 거리 경고 자동 켜짐을 선택하면 저속에서 주차 거리 경고가 켜진 상태로 유지됩니다.",
-        "경고 음량은 운전자 보조 경고 방식 메뉴에서 조정합니다."
-      ],
+      "settings": [],
       "subcategory": "주차 안전",
       "keywords": [
         "측방 주차 거리 경고",
@@ -6538,26 +6078,15 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방/측방/후방 주차 거리 경고",
         "matchedKeywords": [
           "전방/측방/후방 주차 거리 경고"
@@ -6626,59 +6155,53 @@
             "전방/측방/후방 주차 거리 경고"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "side-pdw",
-      "slugAliases": [],
-      "verificationLevel": "official_manual_verified",
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
-      "updatedAt": "2026-07-06",
-      "overview": "저속 주차 또는 후진 중 보행자나 물체와 충돌 위험이 감지되면 경고하고 조건에 따라 제동을 보조하는 기능입니다.",
+      "updatedAt": "2026-06-25",
+      "overview": "주차 또는 저속 이동 중 충돌 위험을 감지해 경고하고 기능 조건에 따라 긴급 제동을 보조합니다.",
       "aliases": [
-        "Parking Collision-Avoidance Assist",
+        "Parking Collision Avoidance Assist",
         "PCA",
-        "후방 주차 충돌방지 보조",
         "주차 충돌방지 보조",
         "후방 주차 충돌방지 보조 (PCA)",
         "주차 충돌방지 보조 (PCA)"
       ],
-      "preconditions": [
-        "주차 충돌방지 보조 사양이 적용되어야 합니다.",
-        "주차 안전 설정에서 해당 안전 기능이 선택되어 있어야 합니다.",
-        "도어와 테일게이트가 닫혀 있어야 합니다.",
-        "전자식 파킹 브레이크가 해제되어 있어야 합니다."
-      ],
-      "steps": [
-        "R(후진) 또는 기능 조건에 맞는 변속 상태에서 저속으로 이동합니다.",
-        "차량 주변 보행자나 물체와 충돌 위험이 감지되면 경고음과 클러스터 경고를 확인합니다.",
-        "서라운드 뷰 모니터가 작동 중이면 인포테인먼트 화면의 경고도 함께 확인합니다.",
-        "충돌이 임박한 경우 차량이 제동 제어를 수행할 수 있으므로 브레이크를 밟고 주변을 확인합니다."
-      ],
-      "disable": [
-        "주차 안전 버튼을 길게 눌러 기능을 끌 수 있습니다.",
-        "기어를 변속하거나 충분한 힘으로 브레이크 페달을 밟으면 제동 제어가 해제될 수 있습니다.",
-        "제동 제어 후 일정 시간이 지나면 제동 제어가 해제되고 전자식 파킹 브레이크가 체결될 수 있습니다."
-      ],
-      "limitations": [
-        "후방 카메라와 초음파 센서가 오염되거나 가려지면 기능이 제한될 수 있습니다.",
-        "차량 속도, 물체의 크기·형상·재질·거리, 범퍼 상태, 강한 전자파, 트레일러 연결 등에 따라 성능이 저하될 수 있습니다.",
-        "일부 조건에서는 보행자 대상 기능만 제공될 수 있습니다."
-      ],
+      "preconditions": [],
+      "steps": [],
+      "disable": [],
+      "limitations": [],
       "warnings": [
-        "주차 충돌방지 보조에만 의존하지 말고 항상 주변을 직접 확인하십시오.",
-        "브레이크 조작 책임은 운전자에게 있습니다.",
-        "센서와 카메라를 깨끗하게 유지하고 임의로 분리하거나 충격을 가하지 마십시오."
+        "카메라 영상과 경고는 주변 확인을 대신하지 않습니다. 운전자가 직접 차량 주변을 확인하고 제동과 조향을 수행해야 합니다."
       ],
       "related": [
         "측방 주차 거리 경고",
         "메모리 리버스 어시스트 / MRA"
       ],
       "sources": [
+        "hyundaiCatalog",
+        "kiaCatalog",
+        "genesisCatalog",
         "hyundaiManual",
-        "genesisCatalog"
+        "kiaManual"
       ],
       "verify": {
         "catalog": true,
@@ -6698,8 +6221,8 @@
       "name": "주차 충돌방지 보조",
       "parent": "주차 보조",
       "category": "주차 편의",
-      "officialCategory": "주차 안전 / 주차 충돌방지 보조",
-      "summary": "주차 안전 설정과 센서 상태가 정상일 때 후방 또는 전방/측방 충돌 위험을 경고하고 제동 제어를 지원합니다.",
+      "officialCategory": "주차 안전",
+      "summary": "주차 또는 저속 이동 중 충돌 위험을 감지해 경고하고 기능 조건에 따라 긴급 제동을 보조합니다.",
       "applies": [
         {
           "vehicleId": "hy-grandeur",
@@ -6876,13 +6399,25 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
-      "settings": [
-        "시동 ON 상태에서 설정 > 차량 > 운전자 보조 > 주차 안전으로 이동합니다.",
-        "후방 안전 또는 전방/측방 안전 항목을 선택합니다.",
-        "주차 안전 버튼을 길게 눌러 설정된 주차 충돌방지 보조를 켜거나 끌 수 있습니다."
-      ],
+      "settings": [],
       "subcategory": "주차 안전",
       "keywords": [
         "주차 충돌방지 보조",
@@ -6898,26 +6433,15 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
           "주차 충돌방지 보조 (PCA)"
@@ -6986,57 +6510,49 @@
             "주차 충돌방지 보조 (PCA)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "pca-parking",
-      "slugAliases": [],
-      "verificationLevel": "official_manual_verified",
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
-      "updatedAt": "2026-07-06",
-      "overview": "스마트 키 또는 지원 디지털 키 앱을 이용해 차량 밖에서 전진·후진 이동을 보조하는 원격 주차 보조 기능입니다.",
+      "updatedAt": "2026-06-25",
+      "overview": "차량 밖에서 스마트키 또는 앱으로 좁은 공간의 전진·후진 출차를 보조합니다.",
       "aliases": [
         "Remote Smart Exit Assist",
-        "원격 전후진",
         "원격 전/후진",
-        "RSPA 출차"
+        "원격 전후진"
       ],
-      "preconditions": [
-        "원격 스마트 주차 보조 사양이 적용된 차량이어야 합니다.",
-        "스마트 키 또는 지원되는 UWB 디지털 키를 휴대해야 합니다.",
-        "차량 주변에 사람, 동물, 물체가 없는지 확인해야 합니다.",
-        "차량과 키 또는 스마트폰이 작동 가능 거리 안에 있어야 합니다."
-      ],
-      "steps": [
-        "전진 또는 후진하려는 공간 앞에 차량을 정렬하고 P(주차)로 변속합니다.",
-        "주차/뷰 버튼을 길게 눌러 원격 스마트 주차 보조를 켭니다.",
-        "스마트 키를 휴대하고 차량 밖으로 나와 모든 도어와 테일게이트를 닫습니다.",
-        "스마트 키의 전진 또는 후진 버튼을 누른 상태로 유지합니다.",
-        "차량이 원하는 위치에 도달하면 버튼에서 손을 떼거나 종료 버튼을 눌러 기능을 마칩니다."
-      ],
-      "disable": [
-        "스마트 키 버튼에서 손을 떼면 차량이 멈추고 제어가 일시 중지됩니다.",
-        "원격 시동 버튼 또는 종료 버튼을 누르면 기능이 종료될 수 있습니다.",
-        "원격 전/후진 완료 후 차량은 P(주차) 변속 및 전자식 파킹 브레이크 체결 상태로 전환될 수 있습니다."
-      ],
-      "limitations": [
-        "차량으로부터 약 4 m 이상 벗어나거나 다른 스마트 키 버튼 조작, 도어 열림, 도난 경보, 충돌방지 보조 작동 등이 발생하면 기능이 중지될 수 있습니다.",
-        "경사로, 눈길, 좁은 공간, 사선 주차, 센서 사각지대, 스토퍼, 트레일러 연결 등에서는 성능이 저하되거나 작동하지 않을 수 있습니다."
-      ],
-      "warnings": [
-        "차량 외부에서 조작하는 동안에도 안전 책임은 운전자에게 있습니다.",
-        "차량 진행 방향 밖에서 조작하고 주변 사람·동물·물체를 계속 확인하십시오.",
-        "어린이가 스마트 키를 조작하지 않도록 주의하십시오."
-      ],
+      "preconditions": [],
+      "steps": [],
+      "disable": [],
+      "limitations": [],
+      "warnings": [],
       "related": [
         "원격 스마트 주차 보조 2 / RSPA 2",
         "메모리 리버스 어시스트 / MRA"
       ],
       "sources": [
+        "hyundaiCatalog",
+        "kiaCatalog",
+        "genesisCatalog",
         "hyundaiManual",
-        "genesisCatalog"
+        "kiaManual"
       ],
       "verify": {
         "catalog": true,
@@ -7056,8 +6572,8 @@
       "name": "원격 스마트 출차 보조",
       "parent": "원격 주차",
       "category": "주차 편의",
-      "officialCategory": "원격 스마트 주차 보조 / 원격 전·후진",
-      "summary": "좁은 공간에서 차량을 전진 또는 후진시켜 탑승·하차 공간 확보를 돕습니다.",
+      "officialCategory": "주차 편의",
+      "summary": "차량 밖에서 스마트키 또는 앱으로 좁은 공간의 전진·후진 출차를 보조합니다.",
       "applies": [
         {
           "vehicleId": "hy-grandeur",
@@ -7124,11 +6640,7 @@
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
-      "settings": [
-        "차량 실내에서는 주차/뷰 버튼을 길게 눌러 원격 스마트 주차 보조를 켭니다.",
-        "차량 밖에서는 스마트 키의 전진 또는 후진 버튼을 사용합니다.",
-        "디지털 키 사용 시 마이현대 앱의 원격 스마트 주차 보조 화면에서 원격 전/후진 화면으로 진입합니다."
-      ],
+      "settings": [],
       "subcategory": "주차 편의",
       "keywords": [
         "원격 스마트 출차 보조",
@@ -7142,18 +6654,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "LX3_2026_ko_KR.txt",
         "modelCode": "LX3",
@@ -7195,11 +6696,7 @@
           ],
           "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "remote-smart-exit",
-      "slugAliases": [],
-      "verificationLevel": "official_manual_verified",
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -7322,6 +6819,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -7337,31 +6850,15 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이패스",
         "matchedKeywords": [
           "하이패스"
@@ -7410,11 +6907,24 @@
             "하이패스"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "e-hi-pass",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -7467,16 +6977,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "face-connect",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -7529,16 +7030,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "genesis-dk2",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -7590,16 +7082,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "genesis-dk2-touch",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -7610,9 +7093,6 @@
         "디지털 키",
         "디지털 키 스마트폰",
         "UWB 디지털 키",
-        "hyundai-digital-key-2",
-        "digital-key2",
-        "hyundai-dk2",
         "스마트폰 키",
         "카드 키"
       ],
@@ -7721,6 +7201,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -7743,21 +7239,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "디지털 키",
         "matchedKeywords": [
           "디지털 키"
@@ -7826,15 +7316,24 @@
             "디지털 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "digital-key-2",
-      "slugAliases": [
-        "hyundai-digital-key-2",
-        "digital-key2",
-        "hyundai-dk2"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -7887,16 +7386,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "hyundai-dk2-touch",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\">\u003c/rect>\u003cpath d=\"M10 18h4M11 6h2\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -7974,26 +7464,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "digital-center-mirror",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>",
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "LX3_2026_ko_KR.txt",
         "modelCode": "LX3",
@@ -8108,13 +7579,13 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "빌트인 캠",
         "matchedKeywords": [
           "빌트인 캠"
@@ -8138,18 +7609,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "applies": [
         {
           "vehicleId": "hy-grandeur",
@@ -8205,6 +7665,22 @@
           "model": "쏘나타 하이브리드",
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -8271,11 +7747,24 @@
             "빌트인 캠"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "built-in-cam",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -8288,8 +7777,7 @@
         "주차 중 녹화",
         "이벤트 녹화",
         "타임랩스",
-        "SD 메모리",
-        "빌트인 캠"
+        "SD 메모리"
       ],
       "preconditions": [
         "빌트인 캠 사양이 적용된 차량이어야 합니다.",
@@ -8356,19 +7844,9 @@
         "휴대폰 앱 연결이 필요하면 빌트인 캠 화면의 휴대폰 연결 메뉴에서 Wi‑Fi 활성화를 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
-        "basis": "official_owner_manual",
-        "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "빌트인 캠 / SD 메모리 / 이벤트 녹화",
-        "matchedKeywords": [
-          "빌트인 캠",
-          "SD 메모리",
-          "이벤트 녹화"
-        ]
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "section": "빌트인 캠 (Built-in Cam) / 휴대폰 앱 연결 / 빌트인 캠 소프트웨어 업데이트",
+        "pageRange": "248-259"
       },
       "applies": [
         {
@@ -8414,8 +7892,7 @@
         "주차 중 녹화",
         "이벤트 녹화",
         "타임랩스",
-        "SD 메모리",
-        "빌트인 캠"
+        "SD 메모리"
       ],
       "faq": [
         {
@@ -8423,43 +7900,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "built-in-cam2",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>",
-      "vehicleAudit": {
-        "hyPalisade2026": {
-          "confirmed": true,
-          "manualFile": "LX3_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "빌트인 캠",
-            "SD 메모리",
-            "이벤트 녹화"
-          ],
-          "updatedAt": "2026-07-07"
-        },
-        "hyPalisadeHev2026": {
-          "confirmed": true,
-          "manualFile": "LX3HEV_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "빌트인 캠",
-            "SD 메모리",
-            "이벤트 녹화"
-          ],
-          "updatedAt": "2026-07-07"
-        }
-      }
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -8471,10 +7912,7 @@
         "주행 중 녹화",
         "주차 중 녹화",
         "이벤트 녹화",
-        "휴대폰 앱 연결",
-        "built-in-cam2-plus",
-        "builtincam-2-plus",
-        "빌트인 캠"
+        "휴대폰 앱 연결"
       ],
       "preconditions": [
         "빌트인 캠 계열 사양이 적용된 차량이어야 합니다.",
@@ -8539,19 +7977,9 @@
         "휴대폰 앱 연결이 필요한 경우 빌트인 캠 화면의 휴대폰 연결 메뉴에서 Wi‑Fi 활성화를 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
-        "basis": "official_owner_manual",
-        "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "빌트인 캠 / 주차 중 녹화 / 이벤트 녹화",
-        "matchedKeywords": [
-          "빌트인 캠",
-          "주차 중 녹화",
-          "이벤트 녹화"
-        ]
+        "manualFile": "GN7_2026_ko_KR.txt",
+        "section": "빌트인 캠 (Built-in Cam) 공통 절차",
+        "pageRange": "248-259"
       },
       "verified": false,
       "subcategory": "차량 녹화",
@@ -8563,8 +7991,7 @@
         "주행 중 녹화",
         "주차 중 녹화",
         "이벤트 녹화",
-        "휴대폰 앱 연결",
-        "빌트인 캠"
+        "휴대폰 앱 연결"
       ],
       "faq": [
         {
@@ -8572,47 +7999,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "built-in-cam-2-plus",
-      "slugAliases": [
-        "built-in-cam2-plus",
-        "builtincam-2-plus"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\">\u003c/path>\u003ccircle cx=\"12\" cy=\"13\" r=\"3\">\u003c/circle>\u003c/svg>",
-      "applies": [],
-      "vehicleAudit": {
-        "hyPalisade2026": {
-          "confirmed": true,
-          "manualFile": "LX3_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "빌트인 캠",
-            "주차 중 녹화",
-            "이벤트 녹화"
-          ],
-          "updatedAt": "2026-07-07"
-        },
-        "hyPalisadeHev2026": {
-          "confirmed": true,
-          "manualFile": "LX3HEV_2026_ko_KR.txt",
-          "matchedKeywords": [
-            "빌트인 캠",
-            "주차 중 녹화",
-            "이벤트 녹화"
-          ],
-          "updatedAt": "2026-07-07"
-        }
-      }
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -8670,16 +8057,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "dynamic-body-care-seat",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -8738,26 +8116,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "swiveling-seat",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -8816,26 +8175,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "walk-in-device",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -8940,23 +8280,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "MX5_2026_ko_KR.txt",
         "modelCode": "MX5",
@@ -9018,10 +8342,7 @@
           ],
           "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "smart-posture-assist",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -9081,26 +8402,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "passenger-talk",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9159,26 +8461,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "passenger-view",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9233,26 +8516,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "rear-voice-recognition",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9309,26 +8573,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "rear-climate-control",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9383,16 +8628,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "pleos-connect",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9446,26 +8682,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ccnc-system",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\">\u003c/rect>\u003cpath d=\"M8 21h8M12 17v4\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9519,16 +8736,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "hyundai-ai",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9582,21 +8790,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        }
-      ],
-      "slug": "kia-ai",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9782,26 +8976,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "feature-on-demand",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\">\u003c/path>\u003cpath d=\"M9 14h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9855,16 +9030,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "fcev-energy-flow",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9918,16 +9084,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "fcev-dedicated-system",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 18c2-6 5-10 7-10s5 4 7 10\">\u003c/path>\u003cpath d=\"M8 14h8M12 4v4M9 4h6\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -9984,31 +9141,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-charge-status",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10065,31 +9198,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-energy-usage",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10146,31 +9255,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-battery-health",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10227,31 +9312,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "i-pedal",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10308,31 +9369,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-smart-regeneration",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10389,31 +9426,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 카탈로그/가격표",
-          "url": "https://www.kia.com/kr/customer-service/download/catalog-price.html",
-          "rank": "1순위/2순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "ev-regen-level",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M5 4h10v16H5z\">\u003c/path>\u003cpath d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\">\u003c/path>\u003cpath d=\"M8 8h4M10 11l-2 3h4l-2 3\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10468,9 +9481,9 @@
           "vehicleId": "hy-palisade-hev",
           "brand": "현대",
           "model": "팰리세이드 하이브리드",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "TMED-2 하이브리드 적용 트림 · 세부 트림은 최신 가격표 확인",
-          "option": "차종/트림 및 소프트웨어 조건별 상이"
+          "years": "2026",
+          "trim": "LX3 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "keywords": [
@@ -10489,26 +9502,7 @@
         }
       ],
       "settings": [],
-      "sourceDetails": [
-        {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "tmed2-hybrid-system",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -10615,31 +9609,7 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "stay-mode",
-      "slugAliases": [
-        "staymode",
-        "tmed2-stay-mode",
-        "hev-stay-mode",
-        "hybrid-stay-mode"
-      ],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "section": "스테이 모드 설정하기",
       "manualEvidence": {
         "manualFile": "LX3HEV_2026_ko_KR.txt",
@@ -10751,26 +9721,7 @@
       "settings": [
         "하이브리드 설정 화면에서 목적지 도착 시 모드 사용 예약을 선택합니다."
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "hybrid-stay-reservation",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "section": "목적지 도착 시 모드 사용 예약",
       "manualEvidence": {
         "manualFile": "LX3HEV_2026_ko_KR.txt",
@@ -10886,26 +9837,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "hybrid-v2l",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "section": "전기 사용(V2L) 기능 활용하기",
       "manualEvidence": {
         "manualFile": "LX3HEV_2026_ko_KR.txt",
@@ -10938,7 +9870,7 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "쏘나타 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 운동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
+      "overview": "투싼 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 이동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
       "aliases": [
         "회생 제동",
         "하이브리드 회생 제동"
@@ -10949,12 +9881,14 @@
       "steps": [
         "가속 페달에서 발을 떼거나 브레이크 페달을 밟으면 차량 속도와 엔진 부하 상태에 따라 회생 제동이 작동합니다."
       ],
-      "disable": [],
+      "disable": [
+        "별도 해제 절차는 매뉴얼 본문에서 확인되지 않았으며, 주행 조건에 따라 시스템이 자동 제어합니다."
+      ],
       "limitations": [
         "배터리 상태와 주행 조건에 따라 회생 제동 작동량이 달라질 수 있습니다."
       ],
       "warnings": [
-        "회생 제동 감속감이 느껴질 수 있으며 필요한 경우 브레이크 페달로 직접 감속하십시오."
+        "회생 제동 감속감이 일정하지 않을 수 있으므로 필요한 경우 브레이크 페달로 직접 감속하십시오."
       ],
       "related": [
         "하이브리드 회생제동 단계 조절",
@@ -10986,7 +9920,7 @@
       "id": "hybrid-smart-regen",
       "name": "하이브리드 스마트 회생제동",
       "subcategory": "회생제동",
-      "summary": "하이브리드 주행 중 감속 에너지를 전기 에너지로 회수해 배터리를 충전하는 기능입니다.",
+      "summary": "하이브리드 주행 중 감속 에너지를 회수해 배터리를 충전하는 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -11011,10 +9945,20 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
-      "settings": [],
+      "settings": [
+        "매뉴얼 본문에서는 회생 제동을 하이브리드 시스템의 작동 설명 및 표시 항목으로 안내합니다."
+      ],
       "keywords": [
         "하이브리드 스마트 회생제동",
         "hybrid-smart-regen",
@@ -11031,23 +9975,20 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "label": "현대자동차 공식 오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "3순위/4순위"
         }
       ],
-      "slug": "hybrid-smart-regen",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "DN8HEV_2026_ko_KR.txt",
-        "modelCode": "DN8HEV",
-        "modelName": "쏘나타 하이브리드",
+        "manualFile": "NX4HEV_2026_ko_KR.txt",
+        "modelCode": "NX4HEV",
+        "modelName": "투싼 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -11081,13 +10022,22 @@
             "하이브리드 회생 제동"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "하이브리드 회생 제동"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "쏘나타 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 시 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
+      "overview": "투싼 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 때 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
       "aliases": [
         "회생 제동",
         "회생 제동량"
@@ -11099,7 +10049,9 @@
         "가속 페달에서 발을 떼거나 브레이크 페달을 밟아 감속합니다.",
         "차량 속도와 엔진 부하 상태에 따라 회생 제동이 작동합니다."
       ],
-      "disable": [],
+      "disable": [
+        "별도 해제 절차는 매뉴얼 본문에서 확인되지 않았으며 시스템이 자동 제어합니다."
+      ],
       "limitations": [
         "주행 조건과 배터리 상태에 따라 작동 정도가 달라질 수 있습니다."
       ],
@@ -11161,10 +10113,20 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
-      "settings": [],
+      "settings": [
+        "매뉴얼 본문에서는 회생 제동 관련 표시와 작동 설명을 하이브리드 주행 정보로 안내합니다."
+      ],
       "keywords": [
         "하이브리드 회생제동 단계 조절",
         "hybrid-regen-level",
@@ -11182,23 +10144,20 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "label": "현대자동차 공식 오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "3순위/4순위"
         }
       ],
-      "slug": "hybrid-regen-level",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "DN8HEV_2026_ko_KR.txt",
-        "modelCode": "DN8HEV",
-        "modelName": "쏘나타 하이브리드",
+        "manualFile": "NX4HEV_2026_ko_KR.txt",
+        "modelCode": "NX4HEV",
+        "modelName": "투싼 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -11233,25 +10192,37 @@
             "회생 제동량"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "회생 제동량"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "쏘나타 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
+      "overview": "투싼 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
       "aliases": [
-        "하이브리드 에너지 흐름도",
-        "에너지 흐름도"
+        "하이브리드 에너지 흐름",
+        "에너지 흐름도",
+        "에너지 흐름"
       ],
       "preconditions": [
         "차량 전원이 켜져 있고 클러스터 주행 정보 표시가 가능해야 합니다."
       ],
       "steps": [
         "클러스터 주행 정보에서 하이브리드 에너지 흐름도를 확인합니다.",
-        "정지, 모터 구동, 엔진/모터 구동, 엔진 구동 등 상태별 에너지 흐름을 확인합니다."
+        "정차, 모터 구동, 엔진/모터 구동, 엔진 구동 등 상태별 에너지 흐름을 확인합니다."
       ],
-      "disable": [],
+      "disable": [
+        "클러스터 표시 항목을 다른 주행 정보 화면으로 변경합니다."
+      ],
       "limitations": [
         "표시 내용은 실제 주행 상태와 시스템 제어 상태에 따라 달라집니다."
       ],
@@ -11288,7 +10259,7 @@
       "id": "hybrid-energy-flow",
       "name": "하이브리드 에너지 흐름도",
       "subcategory": "에너지 관리",
-      "summary": "엔진, 모터, 배터리, 휠 사이의 에너지 흐름을 클러스터에서 확인하는 하이브리드 전용 표시 기능입니다.",
+      "summary": "엔진, 모터, 배터리 사이의 에너지 흐름을 클러스터에서 확인하는 하이브리드 전용 표시 기능입니다.",
       "applies": [
         {
           "vehicleId": "hy-palisade-hev",
@@ -11313,16 +10284,28 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
-      "settings": [],
+      "settings": [
+        "클러스터 주행 정보 화면에서 하이브리드 에너지 흐름도 항목을 확인합니다."
+      ],
       "keywords": [
         "하이브리드 에너지 흐름도",
         "hybrid-energy-flow",
         "HEV 에너지 흐름",
         "하이브리드 에너지 모니터",
-        "에너지 흐름도"
+        "에너지 흐름도",
+        "하이브리드 에너지 흐름",
+        "에너지 흐름"
       ],
       "faq": [
         {
@@ -11332,27 +10315,25 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "label": "현대자동차 공식 오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "3순위/4순위"
         }
       ],
-      "slug": "hybrid-energy-flow",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
-      "section": "하이브리드 에너지 흐름도 확인하기",
+      "section": "하이브리드 에너지 흐름도",
       "manualEvidence": {
-        "manualFile": "DN8HEV_2026_ko_KR.txt",
-        "modelCode": "DN8HEV",
-        "modelName": "쏘나타 하이브리드",
+        "manualFile": "NX4HEV_2026_ko_KR.txt",
+        "modelCode": "NX4HEV",
+        "modelName": "투싼 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
-        "section": "하이브리드 에너지 흐름도 확인하기",
+        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
+        "section": "하이브리드 에너지 흐름도",
         "matchedKeywords": [
-          "하이브리드 에너지 흐름도",
-          "에너지 흐름도"
+          "하이브리드 에너지 흐름",
+          "에너지 흐름도",
+          "에너지 흐름"
         ]
       },
       "vehicleAudit": {
@@ -11382,13 +10363,23 @@
             "에너지 흐름도"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이브리드 에너지 흐름",
+            "에너지 흐름도",
+            "에너지 흐름"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "쏘나타 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
+      "overview": "투싼 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
       "aliases": [
         "고전압 배터리",
         "배터리 충전 상태",
@@ -11399,14 +10390,16 @@
       ],
       "steps": [
         "클러스터의 고전압 배터리 충전량 표시계를 확인합니다.",
-        "L 위치는 잔량 부족, H 위치는 완전 충전 상태를 의미합니다."
+        "L 위치는 용량 부족, H 위치는 완전 충전 상태를 의미합니다."
       ],
-      "disable": [],
+      "disable": [
+        "표시 항목을 다른 클러스터 화면으로 변경합니다."
+      ],
       "limitations": [
         "표시 상태는 주행 및 충전 상태에 따라 변동됩니다."
       ],
       "warnings": [
-        "배터리 부족 관련 경고가 표시되면 안전한 곳에 정차 후 안내에 따라 조치하십시오."
+        "배터리 관련 경고가 표시되면 안전한 곳에 정차 후 안내에 따라 조치하십시오."
       ],
       "related": [
         "하이브리드 에너지 흐름도"
@@ -11462,10 +10455,20 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
-      "settings": [],
+      "settings": [
+        "클러스터에서 고전압 배터리 충전량 표시계를 확인합니다."
+      ],
       "keywords": [
         "하이브리드 배터리 충전 상태",
         "hybrid-battery-status",
@@ -11484,23 +10487,20 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "label": "현대자동차 공식 오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "3순위/4순위"
         }
       ],
-      "slug": "hybrid-battery-status",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "고전압 배터리 충전량(SOC) 표시계",
       "manualEvidence": {
-        "manualFile": "DN8HEV_2026_ko_KR.txt",
-        "modelCode": "DN8HEV",
-        "modelName": "쏘나타 하이브리드",
+        "manualFile": "NX4HEV_2026_ko_KR.txt",
+        "modelCode": "NX4HEV",
+        "modelName": "투싼 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "고전압 배터리 충전량(SOC) 표시계",
         "matchedKeywords": [
           "고전압 배터리",
@@ -11538,13 +10538,23 @@
             "SOC"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "고전압 배터리",
+            "배터리 충전 상태",
+            "SOC"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "쏘나타 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
+      "overview": "투싼 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
       "aliases": [
         "EV 모드 표시등",
         "하이브리드 주행 정보"
@@ -11556,7 +10566,9 @@
         "클러스터에서 EV 모드 표시등 또는 하이브리드 주행 정보를 확인합니다.",
         "정차 중 엔진 정지 또는 주행 중 모터 단독 구동 상태를 확인합니다."
       ],
-      "disable": [],
+      "disable": [
+        "클러스터 표시 항목을 다른 화면으로 변경합니다."
+      ],
       "limitations": [
         "표시 정보는 주행 조건과 시스템 상태에 따라 달라집니다."
       ],
@@ -11618,10 +10630,20 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
-      "settings": [],
+      "settings": [
+        "클러스터 주행 정보 또는 하이브리드 관련 표시 항목을 확인합니다."
+      ],
       "keywords": [
         "하이브리드 전용 주행 정보",
         "hybrid-driving-info",
@@ -11640,23 +10662,20 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "label": "현대자동차 공식 오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
           "rank": "3순위/4순위"
         }
       ],
-      "slug": "hybrid-driving-info",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "하이브리드 자동차 주행하기",
       "manualEvidence": {
-        "manualFile": "DN8HEV_2026_ko_KR.txt",
-        "modelCode": "DN8HEV",
-        "modelName": "쏘나타 하이브리드",
+        "manualFile": "NX4HEV_2026_ko_KR.txt",
+        "modelCode": "NX4HEV",
+        "modelName": "투싼 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 자동차 주행하기",
         "matchedKeywords": [
           "EV 모드 표시등",
@@ -11686,6 +10705,15 @@
         "hySonataHev2026": {
           "confirmed": true,
           "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "EV 모드 표시등",
+            "하이브리드 주행 정보"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "EV 모드 표시등",
             "하이브리드 주행 정보"
@@ -11774,26 +10802,7 @@
         }
       ],
       "settings": [],
-      "sourceDetails": [
-        {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
-        }
-      ],
-      "slug": "hybrid-stationary-climate",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "section": "스테이 모드 설정하기",
       "manualEvidence": {
         "manualFile": "LX3HEV_2026_ko_KR.txt",
@@ -11912,6 +10921,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11948,34 +10973,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "rspa",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 스마트 주차 보조 (RSPA)",
         "matchedKeywords": [
           "원격 스마트 주차 보조 (RSPA)"
@@ -12025,6 +11031,22 @@
         "hySonataHev2026": {
           "confirmed": true,
           "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 스마트 주차 보조 (RSPA)"
           ],
@@ -12120,6 +11142,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12156,34 +11194,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "spa",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>",
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 주차 보조 (SPA)",
         "matchedKeywords": [
           "스마트 주차 보조 (SPA)"
@@ -12233,6 +11252,22 @@
         "hySonataHev2026": {
           "confirmed": true,
           "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 주차 보조 (SPA)"
           ],
@@ -12336,6 +11371,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12372,31 +11423,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -12461,11 +11496,24 @@
             "후방 모니터 (RVM)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "rear-view-monitor",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -12564,6 +11612,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12600,31 +11664,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -12689,11 +11737,24 @@
             "서라운드 뷰 모니터 (SVM)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "surround-view-monitor",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -12790,6 +11851,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12825,31 +11902,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -12914,11 +11975,24 @@
             "후측방 모니터 (BVM)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "blind-spot-view-monitor",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -13017,6 +12091,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13052,31 +12142,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -13145,11 +12219,24 @@
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "rear-cross-traffic-collision-avoidance",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -13248,6 +12335,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13285,31 +12388,15 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 거리 경고 (PDW)",
         "matchedKeywords": [
           "주차 거리 경고 (PDW)"
@@ -13374,11 +12461,24 @@
             "주차 거리 경고 (PDW)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slug": "parking-distance-warning",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -13449,26 +12549,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "reverse-tilt-mirror",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -13539,26 +12620,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
-      "slug": "memory-parking",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      "sourceDetails": []
     },
     {
       "latest": true,
@@ -13671,23 +12733,7 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "기아 공식 사용설명서",
-          "url": "https://www.kia.com/kr/customer-service/download/manual.html",
-          "rank": "3순위/4순위"
-        },
-        {
-          "label": "제네시스 공식 다운로드 센터",
-          "url": "https://www.genesis.com/kr/ko/support/download-center.html",
-          "rank": "1순위-4순위"
-        }
-      ],
+      "sourceDetails": [],
       "manualEvidence": {
         "manualFile": "MX5_2026_ko_KR.txt",
         "modelCode": "MX5",
@@ -13745,10 +12791,7 @@
           ],
           "updatedAt": "2026-07-07"
         }
-      },
-      "slug": "reverse-guide",
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "id": "climate-control",
@@ -13761,7 +12804,8 @@
         "히터",
         "냉난방",
         "climate control",
-        "히터와 에어컨"
+        "히터와 에어컨",
+        "히터 및 에어컨"
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "latest": true,
@@ -13831,18 +12875,28 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
         "hyundaiManual"
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        }
-      ],
+      "sourceDetails": [],
       "verify": {
         "catalog": false,
         "price": false,
@@ -13867,7 +12921,8 @@
         "히터",
         "냉난방",
         "climate control",
-        "히터와 에어컨"
+        "히터와 에어컨",
+        "히터 및 에어컨"
       ],
       "faq": [
         {
@@ -13876,16 +12931,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
-        "section": "히터와 에어컨",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "히터 및 에어컨",
         "matchedKeywords": [
-          "히터와 에어컨"
+          "히터 및 에어컨"
         ]
       },
       "vehicleAudit": {
@@ -13947,10 +13002,24 @@
             "히터와 에어컨"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "id": "smart-key",
@@ -14031,18 +13100,28 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
         "hyundaiManual"
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        }
-      ],
+      "sourceDetails": [],
       "verify": {
         "catalog": false,
         "price": false,
@@ -14073,13 +13152,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 키",
         "matchedKeywords": [
           "스마트 키"
@@ -14144,10 +13223,24 @@
             "스마트 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "id": "emergency-key",
@@ -14229,18 +13322,28 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
         "hyundaiManual"
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        }
-      ],
+      "sourceDetails": [],
       "verify": {
         "catalog": false,
         "price": false,
@@ -14272,13 +13375,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "비상 키",
         "matchedKeywords": [
           "비상 키"
@@ -14343,10 +13446,24 @@
             "비상 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "id": "remote-engine-start",
@@ -14428,18 +13545,28 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
         "hyundaiManual"
       ],
-      "sourceDetails": [
-        {
-          "label": "현대자동차 공식 웹/오너스 매뉴얼",
-          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "3순위/4순위"
-        }
-      ],
+      "sourceDetails": [],
       "verify": {
         "catalog": false,
         "price": false,
@@ -14471,13 +13598,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
+        "manualFile": "NX4_2026_ko_KR.txt",
+        "modelCode": "NX4",
+        "modelName": "투싼",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 시동",
         "matchedKeywords": [
           "원격 시동"
@@ -14542,10 +13669,24 @@
             "원격 시동"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyTucson2026": {
+          "confirmed": true,
+          "manualFile": "NX4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyTucsonHev2026": {
+          "confirmed": true,
+          "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
         }
-      },
-      "slugAliases": [],
-      "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003ccircle cx=\"12\" cy=\"12\" r=\"3\">\u003c/circle>\u003cpath d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\">\u003c/path>\u003c/svg>"
+      }
     },
     {
       "latest": true,
@@ -14639,6 +13780,22 @@
           "model": "쏘나타 하이브리드",
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -14784,6 +13941,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14927,6 +14100,22 @@
           "model": "쏘나타 하이브리드",
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -15073,6 +14262,22 @@
           "model": "쏘나타 하이브리드",
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -15221,6 +14426,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15364,6 +14585,22 @@
           "model": "쏘나타 하이브리드",
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -15510,6 +14747,22 @@
           "model": "쏘나타 하이브리드",
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson",
+          "brand": "현대",
+          "model": "투싼",
+          "years": "2026",
+          "trim": "NX4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-tucson-hev",
+          "brand": "현대",
+          "model": "투싼 하이브리드",
+          "years": "2026",
+          "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -15850,6 +15103,14 @@
       "brand": "현대",
       "name": "쏘나타 하이브리드",
       "group": "세단 · 하이브리드",
+      "hybrid": true,
+      "performance": false
+    },
+    {
+      "id": "hy-tucson-hev",
+      "brand": "현대",
+      "name": "투싼 하이브리드",
+      "group": "SUV · 하이브리드",
       "hybrid": true,
       "performance": false
     }
