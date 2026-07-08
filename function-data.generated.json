@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T07:41:35.130Z",
+  "generatedAt": "2026-07-08T06:14:05.958Z",
   "sourceScripts": [
     "app.js",
     "patch.js",
@@ -15,7 +15,8 @@
     "gn7-2026-vehicle-audit.js",
     "seo-runtime.js",
     "palisade-2026-vehicle-audit.js",
-    "santafe-2026-vehicle-audit.js"
+    "santafe-2026-vehicle-audit.js",
+    "sonata-2026-vehicle-audit.js"
   ],
   "features": [
     {
@@ -69,9 +70,9 @@
           "vehicleId": "hy-sonata",
           "brand": "현대",
           "model": "쏘나타",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-grandeur",
@@ -352,6 +353,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -411,13 +420,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -470,6 +479,22 @@
             "전방 충돌방지 보조 (FCA)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "fca-suite",
@@ -578,9 +603,9 @@
           "vehicleId": "hy-sonata",
           "brand": "현대",
           "model": "쏘나타",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지 중심",
-          "option": "선택 또는 기본 사양"
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-tucson",
@@ -717,6 +742,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -780,13 +813,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 스마트 크루즈 컨트롤 (NSCC) / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
           "스마트 크루즈 컨트롤 (SCC)",
@@ -857,6 +890,26 @@
             "고속도로 주행 보조 (HDA)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "nscc-hda2",
@@ -1266,6 +1319,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1327,13 +1396,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "공기 청정",
         "matchedKeywords": [
           "공기 청정"
@@ -1386,6 +1455,22 @@
             "공기 청정"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "air-purification",
@@ -1448,6 +1533,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1509,13 +1610,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "애프터 블로우",
         "matchedKeywords": [
           "애프터 블로우"
@@ -1553,6 +1654,22 @@
             "애프터 블로우"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -1609,6 +1726,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -1674,13 +1807,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\">\u003c/path>\u003cpath d=\"M7 4v16M17 4v16\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 공조",
         "matchedKeywords": [
           "원격 공조"
@@ -1718,6 +1851,22 @@
             "원격 공조"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -1788,6 +1937,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1850,13 +2015,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "열선/통풍 시트",
         "matchedKeywords": [
           "열선/통풍 시트"
@@ -1909,6 +2074,22 @@
             "열선/통풍 시트"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "heated-ventilated-seats",
@@ -2162,6 +2343,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2220,13 +2417,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "릴렉션 컴포트 시트",
         "matchedKeywords": [
           "릴렉션 컴포트 시트"
@@ -2275,6 +2472,22 @@
             "릴렉션 컴포트 시트"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "relaxation-comfort-seat",
@@ -2332,6 +2545,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -2396,13 +2625,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\">\u003c/path>\u003cpath d=\"M6 12v6h12M9 18v3M17 18v3\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "메모리 버튼",
         "matchedKeywords": [
           "메모리 버튼"
@@ -2440,13 +2669,29 @@
             "메모리 버튼"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "메모리 버튼"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "메모리 버튼"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-07-06",
-      "overview": "팰리세이드 매뉴얼 기준 파워 테일게이트는 스마트 키, 차량 버튼, 테일게이트 버튼으로 전동 개폐할 수 있으며 스마트 테일게이트 설정 시 후방 감지 영역 접근으로 자동 열림을 지원합니다.",
+      "overview": "쏘나타 매뉴얼 기준 파워 트렁크는 스마트 키 또는 차량 버튼으로 트렁크를 전동 개폐하고, 스마트 트렁크 설정 시 후방 접근 감지로 자동 열림을 지원합니다.",
       "id": "smart-power-tailgate",
       "name": "스마트 파워 테일게이트",
       "category": "도어/트렁크",
@@ -2461,30 +2706,27 @@
         "스마트 트렁크",
         "트렁크 열림/닫힘 버튼"
       ],
-      "summary": "스마트 키와 차량 버튼으로 테일게이트를 전동 개폐하고, 스마트 테일게이트 설정 시 후방 접근 감지로 자동 열림을 지원합니다.",
+      "summary": "스마트 키와 차량 버튼으로 트렁크를 전동 개폐하고 스마트 트렁크 자동 열림을 지원하는 기능입니다.",
       "preconditions": [
-        "테일게이트 주변에 사람이나 장애물이 없는지 확인해야 합니다.",
-        "스마트 테일게이트는 모든 도어가 닫히고 잠긴 상태에서 일정 시간이 지난 뒤 작동 조건을 만족해야 합니다.",
+        "트렁크 주변에 사람이나 장애물이 없는지 확인해야 합니다.",
+        "스마트 트렁크는 모든 도어가 닫히고 잠긴 상태에서 작동 조건을 만족해야 합니다.",
         "스마트 키를 휴대하고 차량 뒤쪽 감지 영역에 접근해야 합니다."
       ],
       "steps": [
-        "스마트 키의 테일게이트 열림/닫힘 버튼을 길게 누르면 테일게이트가 작동합니다.",
-        "차량 실내의 테일게이트 버튼 또는 테일게이트 외부 핸들 스위치를 눌러 열 수 있습니다.",
-        "열린 테일게이트는 스마트 키 버튼, 실내 버튼, 테일게이트 닫힘 버튼으로 닫습니다.",
-        "스마트 테일게이트 설정 후 스마트 키를 휴대하고 후방 감지 영역에 머물면 경고 후 테일게이트가 자동으로 열립니다."
+        "스마트 키의 트렁크 열림/닫힘 버튼을 길게 눌러 트렁크를 작동합니다.",
+        "차량의 트렁크 버튼 또는 외부 핸들 스위치로 트렁크를 열 수 있습니다.",
+        "스마트 트렁크 설정 후 스마트 키를 휴대하고 후방 감지 영역에 머물면 경고 후 트렁크가 자동으로 열립니다."
       ],
       "disable": [
-        "스마트 테일게이트 감지 또는 경보 중 스마트 키 버튼이나 테일게이트 작동 버튼을 누르면 작동이 중지됩니다.",
-        "설정 > 차량 > 도어 > 스마트 테일게이트에서 기능을 해제합니다."
+        "스마트 트렁크 감지 또는 경보 중 스마트 키 버튼이나 트렁크 작동 버튼을 누르면 작동이 중지됩니다.",
+        "설정 > 차량 > 도어 > 스마트 트렁크에서 기능을 해제합니다."
       ],
       "limitations": [
-        "영하의 기온, 주파수 혼선 환경, 차량 주변 장애물, 스마트 키 위치 조건에 따라 작동이 제한될 수 있습니다.",
-        "차량 안에 스마트 키가 있거나 조건이 맞지 않으면 스마트 테일게이트가 작동하지 않을 수 있습니다."
+        "영하의 기온, 주파수 혼선 환경, 차량 주변 장애물, 스마트 키 위치 조건에 따라 작동이 제한될 수 있습니다."
       ],
       "warnings": [
-        "테일게이트 작동 전 주변 사람과 물체를 확인하십시오.",
-        "차 안에 어린이나 애완동물만 남겨둔 상태로 차량을 떠나지 마십시오.",
-        "세차 시 스마트 테일게이트 기능을 중지하십시오."
+        "트렁크 작동 전 주변 사람과 물체를 확인하십시오.",
+        "차 안에 어린이나 애완동물만 남겨둔 상태로 차량을 떠나지 마십시오."
       ],
       "related": [],
       "applies": [
@@ -2551,6 +2793,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2574,8 +2832,7 @@
         "differences": "키 감지와 전동 개폐를 결합합니다."
       },
       "settings": [
-        "시동 ON 상태에서 인포테인먼트 시스템의 설정 > 차량 > 도어 > 스마트 테일게이트를 선택해 기능을 켜거나 끕니다.",
-        "파워 테일게이트 열림 높이와 열림 속도는 차량 설정의 도어/테일게이트 메뉴에서 설정합니다."
+        "시동 ON 상태에서 인포테인먼트 시스템의 설정 > 차량 > 도어 > 스마트 트렁크를 선택해 기능을 켜거나 끕니다."
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -2588,7 +2845,8 @@
         "자동 트렁크",
         "파워 테일게이트",
         "뒤에 서면 열림",
-        "스마트 테일게이트"
+        "스마트 테일게이트",
+        "파워 트렁크"
       ],
       "faq": [
         {
@@ -2609,17 +2867,17 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
-        "section": "파워 테일게이트 / 스마트 테일게이트",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "section": "파워 트렁크 / 스마트 트렁크",
         "matchedKeywords": [
-          "파워 테일게이트",
-          "스마트 테일게이트"
+          "파워 트렁크",
+          "스마트 트렁크"
         ]
       },
       "vehicleAudit": {
@@ -2673,6 +2931,24 @@
             "스마트 테일게이트"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 트렁크",
+            "스마트 트렁크"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 트렁크",
+            "스마트 트렁크"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "smart-power-tailgate",
@@ -2742,6 +3018,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2802,13 +3094,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "헤드업 디스플레이",
         "matchedKeywords": [
           "헤드업 디스플레이"
@@ -2861,6 +3153,22 @@
             "헤드업 디스플레이"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "헤드업 디스플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "헤드업 디스플레이"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "hud",
@@ -3123,6 +3431,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3187,13 +3511,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay",
@@ -3247,6 +3571,24 @@
             "카플레이"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "apple-carplay-wired",
@@ -3412,6 +3754,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3475,13 +3833,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto",
@@ -3539,6 +3897,24 @@
             "안드로이드 오토"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "android-auto-wired",
@@ -3722,6 +4098,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3785,13 +4177,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트"
@@ -3848,6 +4240,22 @@
             "무선 소프트웨어 업데이트"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "ccnc-ota",
@@ -3933,6 +4341,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3989,13 +4413,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "지문 인증 시스템",
         "matchedKeywords": [
           "지문 인증 시스템"
@@ -4050,6 +4474,22 @@
             "지문 인증 시스템"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "fingerprint-auth",
@@ -6062,6 +6502,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -6095,13 +6551,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방/측방/후방 주차 거리 경고",
         "matchedKeywords": [
           "전방/측방/후방 주차 거리 경고"
@@ -6154,6 +6610,22 @@
             "전방/측방/후방 주차 거리 경고"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "side-pdw",
@@ -6388,6 +6860,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -6423,13 +6911,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
           "주차 충돌방지 보조 (PCA)"
@@ -6482,6 +6970,22 @@
             "주차 충돌방지 보조 (PCA)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "pca-parking",
@@ -6802,6 +7306,22 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -6835,13 +7355,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이패스",
         "matchedKeywords": [
           "하이패스"
@@ -6874,6 +7394,22 @@
             "하이패스"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "e-hi-pass",
@@ -7169,6 +7705,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -7199,13 +7751,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "디지털 키",
         "matchedKeywords": [
           "디지털 키"
@@ -7258,6 +7810,22 @@
             "디지털 키"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "digital-key-2",
@@ -7540,13 +8108,13 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "빌트인 캠",
         "matchedKeywords": [
           "빌트인 캠"
@@ -7622,6 +8190,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "vehicleAudit": {
@@ -7671,6 +8255,22 @@
             "빌트인 캠"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "built-in-cam",
@@ -10338,7 +10938,7 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "싼타페 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 운동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
+      "overview": "쏘나타 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 운동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
       "aliases": [
         "회생 제동",
         "하이브리드 회생 제동"
@@ -10403,6 +11003,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10423,19 +11031,9 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
+          "rank": "3순위/4순위"
         }
       ],
       "slug": "hybrid-smart-regen",
@@ -10443,13 +11041,13 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "MX5HEV_2026_ko_KR.txt",
-        "modelCode": "MX5HEV",
-        "modelName": "싼타페 하이브리드",
+        "manualFile": "DN8HEV_2026_ko_KR.txt",
+        "modelCode": "DN8HEV",
+        "modelName": "쏘나타 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -10474,13 +11072,22 @@
             "하이브리드 회생 제동"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "하이브리드 회생 제동"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "싼타페 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 시 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
+      "overview": "쏘나타 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 시 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
       "aliases": [
         "회생 제동",
         "회생 제동량"
@@ -10546,6 +11153,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10567,19 +11182,9 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
+          "rank": "3순위/4순위"
         }
       ],
       "slug": "hybrid-regen-level",
@@ -10587,13 +11192,13 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "MX5HEV_2026_ko_KR.txt",
-        "modelCode": "MX5HEV",
-        "modelName": "싼타페 하이브리드",
+        "manualFile": "DN8HEV_2026_ko_KR.txt",
+        "modelCode": "DN8HEV",
+        "modelName": "쏘나타 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -10619,13 +11224,22 @@
             "회생 제동량"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "회생 제동량"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "싼타페 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
+      "overview": "쏘나타 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
       "aliases": [
         "하이브리드 에너지 흐름도",
         "에너지 흐름도"
@@ -10645,7 +11259,6 @@
         "표시는 운전자 정보 제공용이며 주행 판단은 운전자가 직접 해야 합니다."
       ],
       "related": [
-        "TMED-2 하이브리드 시스템",
         "하이브리드 배터리 충전 상태",
         "하이브리드 전용 주행 정보"
       ],
@@ -10692,6 +11305,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10711,19 +11332,9 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
+          "rank": "3순위/4순위"
         }
       ],
       "slug": "hybrid-energy-flow",
@@ -10731,13 +11342,13 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "하이브리드 에너지 흐름도 확인하기",
       "manualEvidence": {
-        "manualFile": "MX5HEV_2026_ko_KR.txt",
-        "modelCode": "MX5HEV",
-        "modelName": "싼타페 하이브리드",
+        "manualFile": "DN8HEV_2026_ko_KR.txt",
+        "modelCode": "DN8HEV",
+        "modelName": "쏘나타 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 에너지 흐름도 확인하기",
         "matchedKeywords": [
           "하이브리드 에너지 흐름도",
@@ -10762,13 +11373,22 @@
             "에너지 흐름도"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이브리드 에너지 흐름도",
+            "에너지 흐름도"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "싼타페 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
+      "overview": "쏘나타 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
       "aliases": [
         "고전압 배터리",
         "배터리 충전 상태",
@@ -10789,9 +11409,7 @@
         "배터리 부족 관련 경고가 표시되면 안전한 곳에 정차 후 안내에 따라 조치하십시오."
       ],
       "related": [
-        "하이브리드 에너지 흐름도",
-        "스테이 모드",
-        "스테이 모드 사용 예약"
+        "하이브리드 에너지 흐름도"
       ],
       "sources": [
         "tmed2Official",
@@ -10836,6 +11454,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10858,19 +11484,9 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
+          "rank": "3순위/4순위"
         }
       ],
       "slug": "hybrid-battery-status",
@@ -10878,13 +11494,13 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "고전압 배터리 충전량(SOC) 표시계",
       "manualEvidence": {
-        "manualFile": "MX5HEV_2026_ko_KR.txt",
-        "modelCode": "MX5HEV",
-        "modelName": "싼타페 하이브리드",
+        "manualFile": "DN8HEV_2026_ko_KR.txt",
+        "modelCode": "DN8HEV",
+        "modelName": "쏘나타 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "고전압 배터리 충전량(SOC) 표시계",
         "matchedKeywords": [
           "고전압 배터리",
@@ -10912,13 +11528,23 @@
             "SOC"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "고전압 배터리",
+            "배터리 충전 상태",
+            "SOC"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "싼타페 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
+      "overview": "쏘나타 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
       "aliases": [
         "EV 모드 표시등",
         "하이브리드 주행 정보"
@@ -10984,6 +11610,14 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -11006,19 +11640,9 @@
       ],
       "sourceDetails": [
         {
-          "label": "현대자동차그룹 차세대 하이브리드 시스템 공식 발표",
-          "url": "https://www.hyundai.com/worldwide/en/newsroom",
-          "rank": "공식 발표"
-        },
-        {
-          "label": "현대자동차 팰리세이드 공식 차량 페이지 및 다운로드 센터",
-          "url": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
-          "rank": "공식 차량 자료"
-        },
-        {
-          "label": "현대자동차 공식 카탈로그/가격표 다운로드 센터",
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
           "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
-          "rank": "1순위/2순위"
+          "rank": "3순위/4순위"
         }
       ],
       "slug": "hybrid-driving-info",
@@ -11026,13 +11650,13 @@
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003cpath d=\"M4 17c2-7 5-10 8-10s6 3 8 10\">\u003c/path>\u003cpath d=\"M7 14h10\">\u003c/path>\u003cpath d=\"M12 3v5\">\u003c/path>\u003cpath d=\"M9 5h6\">\u003c/path>\u003cpath d=\"M8 20h8\">\u003c/path>\u003c/svg>",
       "section": "하이브리드 자동차 주행하기",
       "manualEvidence": {
-        "manualFile": "MX5HEV_2026_ko_KR.txt",
-        "modelCode": "MX5HEV",
-        "modelName": "싼타페 하이브리드",
+        "manualFile": "DN8HEV_2026_ko_KR.txt",
+        "modelCode": "DN8HEV",
+        "modelName": "쏘나타 하이브리드",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 자동차 주행하기",
         "matchedKeywords": [
           "EV 모드 표시등",
@@ -11058,6 +11682,15 @@
             "하이브리드 주행 정보"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "EV 모드 표시등",
+            "하이브리드 주행 정보"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -11263,6 +11896,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11320,13 +11969,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 스마트 주차 보조 (RSPA)",
         "matchedKeywords": [
           "원격 스마트 주차 보조 (RSPA)"
@@ -11364,6 +12013,22 @@
             "원격 스마트 주차 보조 (RSPA)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -11439,6 +12104,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11496,13 +12177,13 @@
       "slugAliases": [],
       "icon": "\u003csvg viewBox=\"0 0 24 24\">\u003crect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\">\u003c/rect>\u003cpath d=\"M9 17V7h4a3 3 0 0 1 0 6H9\">\u003c/path>\u003c/svg>",
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 주차 보조 (SPA)",
         "matchedKeywords": [
           "스마트 주차 보조 (SPA)"
@@ -11540,6 +12221,22 @@
             "스마트 주차 보조 (SPA)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -11623,6 +12320,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11677,13 +12390,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -11732,6 +12445,22 @@
             "후방 모니터 (RVM)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "rear-view-monitor",
@@ -11819,6 +12548,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11873,13 +12618,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -11928,6 +12673,22 @@
             "서라운드 뷰 모니터 (SVM)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "surround-view-monitor",
@@ -12013,6 +12774,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12066,13 +12843,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -12121,6 +12898,22 @@
             "후측방 모니터 (BVM)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "blind-spot-view-monitor",
@@ -12208,6 +13001,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12261,13 +13070,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -12320,6 +13129,22 @@
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "rear-cross-traffic-collision-avoidance",
@@ -12407,6 +13232,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12462,13 +13303,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 거리 경고 (PDW)",
         "matchedKeywords": [
           "주차 거리 경고 (PDW)"
@@ -12517,6 +13358,22 @@
             "주차 거리 경고 (PDW)"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slug": "parking-distance-warning",
@@ -12958,6 +13815,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13003,13 +13876,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "히터와 에어컨",
         "matchedKeywords": [
           "히터와 에어컨"
@@ -13058,6 +13931,22 @@
             "히터와 에어컨"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터와 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터와 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slugAliases": [],
@@ -13126,6 +14015,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13168,13 +14073,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 키",
         "matchedKeywords": [
           "스마트 키"
@@ -13223,6 +14128,22 @@
             "스마트 키"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slugAliases": [],
@@ -13292,6 +14213,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13335,13 +14272,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "비상 키",
         "matchedKeywords": [
           "비상 키"
@@ -13390,6 +14327,22 @@
             "비상 키"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slugAliases": [],
@@ -13459,6 +14412,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13502,13 +14471,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "MX5_2026_ko_KR.txt",
-        "modelCode": "MX5",
-        "modelName": "싼타페",
+        "manualFile": "DN8_2026_ko_KR.txt",
+        "modelCode": "DN8",
+        "modelName": "쏘나타",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "MX5_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 시동",
         "matchedKeywords": [
           "원격 시동"
@@ -13557,6 +14526,22 @@
             "원격 시동"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hySonata2026": {
+          "confirmed": true,
+          "manualFile": "DN8_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hySonataHev2026": {
+          "confirmed": true,
+          "manualFile": "DN8HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
         }
       },
       "slugAliases": [],
@@ -13638,6 +14623,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -13767,6 +14768,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13894,6 +14911,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -14024,6 +15057,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -14156,6 +15205,22 @@
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14283,6 +15348,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -14413,6 +15494,22 @@
           "model": "싼타페 하이브리드",
           "years": "2026",
           "trim": "MX5 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata",
+          "brand": "현대",
+          "model": "쏘나타",
+          "years": "2026",
+          "trim": "DN8 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-sonata-hev",
+          "brand": "현대",
+          "model": "쏘나타 하이브리드",
+          "years": "2026",
+          "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -14745,6 +15842,14 @@
       "brand": "현대",
       "name": "싼타페 하이브리드",
       "group": "SUV · 하이브리드",
+      "hybrid": true,
+      "performance": false
+    },
+    {
+      "id": "hy-sonata-hev",
+      "brand": "현대",
+      "name": "쏘나타 하이브리드",
+      "group": "세단 · 하이브리드",
       "hybrid": true,
       "performance": false
     }
