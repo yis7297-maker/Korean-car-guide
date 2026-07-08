@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T07:45:31.624Z",
+  "generatedAt": "2026-07-08T08:01:59.206Z",
   "features": [
     {
       "latest": true,
@@ -108,9 +108,9 @@
           "vehicleId": "hy-ioniq5",
           "brand": "현대",
           "model": "아이오닉 5",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq6",
@@ -410,13 +410,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -533,6 +533,14 @@
             "전방 충돌방지 보조 (FCA)"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -614,9 +622,9 @@
           "vehicleId": "hy-ioniq5",
           "brand": "현대",
           "model": "아이오닉 5",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지 중심",
-          "option": "선택 또는 기본 사양"
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq6",
@@ -872,13 +880,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 크루즈 컨트롤 (SCC) / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
           "스마트 크루즈 컨트롤 (SCC)",
@@ -1021,6 +1029,15 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 크루즈 컨트롤 (SCC)",
             "고속도로 주행 보조 (HDA)"
@@ -1428,6 +1445,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -1473,13 +1498,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "공기 청정",
         "matchedKeywords": [
           "공기 청정"
@@ -1592,6 +1617,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "공기 청정"
           ],
@@ -1711,6 +1744,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -1759,13 +1800,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "애프터 블로우",
         "matchedKeywords": [
           "애프터 블로우"
@@ -1855,6 +1896,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "애프터 블로우"
           ],
@@ -1980,6 +2029,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -2025,13 +2082,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 공조",
         "matchedKeywords": [
           "원격 공조"
@@ -2129,6 +2186,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 공조"
           ],
@@ -2267,6 +2332,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -2313,13 +2386,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "열선/통풍 시트",
         "matchedKeywords": [
           "열선/통풍 시트"
@@ -2432,6 +2505,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "열선/통풍 시트"
           ],
@@ -2721,6 +2802,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -2764,16 +2853,16 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
-        "section": "릴렉션 좌석 원터치 조절",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "릴렉션 컴포트 시트",
         "matchedKeywords": [
-          "릴렉션 좌석 원터치 조절"
+          "릴렉션 컴포트 시트"
         ]
       },
       "vehicleAudit": {
@@ -2865,6 +2954,14 @@
           "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "릴렉션 좌석 원터치 조절"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
           ],
           "updatedAt": "2026-07-08"
         }
@@ -3223,6 +3320,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -3272,13 +3377,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "파워 테일게이트 / 스마트 테일게이트",
         "matchedKeywords": [
           "파워 테일게이트",
@@ -3403,6 +3508,15 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "파워 테일게이트",
             "스마트 테일게이트"
@@ -3926,6 +4040,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -3974,13 +4096,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay",
@@ -4101,6 +4223,15 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "Apple CarPlay",
             "카플레이"
@@ -4394,6 +4525,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -4441,13 +4580,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto",
@@ -4572,6 +4711,15 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "Android Auto",
             "안드로이드 오토"
@@ -4883,6 +5031,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -4930,13 +5086,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트"
@@ -5053,6 +5209,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "무선 소프트웨어 업데이트"
           ],
@@ -5843,13 +6007,22 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "지원 급속 충전기에서 차량 인증과 결제를 자동으로 연계합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 Plug n Charge는 Electric Vehicle의 EV 설정에서 제공되는 전기차 특화 기능입니다.",
+      "aliases": [
+        "Plug n Charge",
+        "플러그 앤 차지"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "EV 설정에서 Plug n Charge 항목을 확인하고 안내에 따라 기능을 사용합니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "지원 충전기, 서비스 가입 상태, 차량 설정 상태에 따라 사용 가능 여부가 달라질 수 있습니다."
+      ],
+      "warnings": [
+        "충전기 안내와 차량 화면 안내를 함께 확인하십시오."
+      ],
       "related": [
         "EV Route Planner",
         "충전 예약"
@@ -5857,7 +6030,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -5879,14 +6053,27 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 충전",
       "summary": "지원 급속 충전기에서 차량 인증과 결제를 자동으로 연계합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "충전",
       "future": false,
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 설정 > Plug n Charge를 선택합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "Plug & Charge",
-        "plug-and-charge"
+        "plug-and-charge",
+        "Plug n Charge",
+        "플러그 앤 차지"
       ],
       "faq": [
         {
@@ -5894,7 +6081,32 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "Plug n Charge",
+        "matchedKeywords": [
+          "Plug n Charge",
+          "플러그 앤 차지"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Plug n Charge",
+            "플러그 앤 차지"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -5955,16 +6167,26 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "목적지까지의 배터리 잔량과 충전소 경유를 고려해 경로를 안내합니다.",
+      "overview": "아이오닉 5 매뉴얼 기준 충전소 검색 기능과 배터리 컨디셔닝 내비게이션 연동은 충전소 위치 확인 및 급속/초급속 충전소 목적지 설정과 연계됩니다.",
       "aliases": [
         "EV 경로 플래너",
-        "전기차 경로 안내"
+        "전기차 경로 안내",
+        "충전소 검색 기능 사용하기",
+        "급속 충전소 목적지",
+        "목적지나 경유지"
       ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "충전소 검색 기능으로 주변 충전소를 확인합니다.",
+        "내비게이션에서 급속 또는 초급속 충전소를 목적지나 경유지로 설정하면 배터리 컨디셔닝 기능이 충전소 도착 시간에 맞춰 작동할 수 있습니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "배터리 충전량이 적거나 배터리 온도가 이미 적합한 경우 배터리 컨디셔닝 기능이 작동하지 않을 수 있습니다."
+      ],
+      "warnings": [
+        "충전소 도착 전 주행 가능 거리와 충전소 운영 상태를 확인하십시오."
+      ],
       "related": [
         "Battery Conditioning",
         "Plug & Charge"
@@ -5972,7 +6194,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -5994,16 +6217,31 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 내비게이션",
       "summary": "목적지까지의 배터리 잔량과 충전소 경유를 고려해 경로를 안내합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "에너지 관리",
       "future": false,
-      "settings": [],
+      "settings": [
+        "주변 충전소 위치는 충전소 검색 기능을 사용합니다.",
+        "배터리 컨디셔닝은 Electric Vehicle > EV 충전 설정 > 배터리 컨디셔닝 모드에서 설정합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "EV Route Planner",
         "ev-route-planner",
         "EV 경로 플래너",
-        "전기차 경로 안내"
+        "전기차 경로 안내",
+        "충전소 검색 기능 사용하기",
+        "급속 충전소 목적지",
+        "목적지나 경유지"
       ],
       "faq": [
         {
@@ -6011,20 +6249,58 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "충전소 검색 기능 / 배터리 컨디셔닝 내비게이션 연동",
+        "matchedKeywords": [
+          "충전소 검색 기능 사용하기",
+          "급속 충전소 목적지",
+          "목적지나 경유지"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "충전소 검색 기능 사용하기",
+            "급속 충전소 목적지",
+            "목적지나 경유지"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "급속 충전 또는 저온 주행에 적합하도록 고전압 배터리 온도를 조절합니다.",
+      "overview": "아이오닉 5 매뉴얼 기준 배터리 컨디셔닝은 고속 충전에 적합한 배터리 온도를 제공하기 위해 고전압 배터리 온도를 조절하는 기능입니다.",
       "aliases": [
-        "배터리 컨디셔닝"
+        "배터리 컨디셔닝",
+        "배터리 컨디셔닝 모드"
       ],
       "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "steps": [
+        "EV 충전 설정에서 배터리 컨디셔닝 모드를 켭니다.",
+        "내비게이션에서 급속 또는 초급속 충전소를 목적지나 경유지로 설정하면 충전소 도착 시간에 맞춰 기능이 작동할 수 있습니다."
+      ],
+      "disable": [
+        "인포테인먼트 시스템의 배터리 컨디셔닝 모드 화면에서 기능을 끕니다."
+      ],
+      "limitations": [
+        "배터리 히터가 장착된 차량에서만 사용할 수 있습니다.",
+        "배터리 충전량이 적거나 배터리 온도가 이미 주행 및 충전에 적합한 경우 작동하지 않을 수 있습니다."
+      ],
+      "warnings": [
+        "배터리 온도 조절에 고전압 배터리 에너지를 사용하므로 주행 가능 거리가 짧아질 수 있습니다."
+      ],
       "related": [
         "EV Route Planner",
         "충전 예약"
@@ -6032,7 +6308,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6054,15 +6331,27 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 배터리 관리",
       "summary": "급속 충전 또는 저온 주행에 적합하도록 고전압 배터리 온도를 조절합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "배터리",
       "future": false,
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 충전 설정 > 배터리 컨디셔닝 모드를 선택한 후 사용을 누릅니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "Battery Conditioning",
         "battery-conditioning",
-        "배터리 컨디셔닝"
+        "배터리 컨디셔닝",
+        "배터리 컨디셔닝 모드"
       ],
       "faq": [
         {
@@ -6070,18 +6359,58 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "배터리 컨디셔닝 기능",
+        "matchedKeywords": [
+          "배터리 컨디셔닝",
+          "배터리 컨디셔닝 모드"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "배터리 컨디셔닝",
+            "배터리 컨디셔닝 모드"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "원하는 시간대에 충전이 시작되도록 예약합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 예약 충전은 EV 충전 설정에서 완속 충전 조건과 출발 시간 연동을 설정해 충전 시간을 관리하는 기능입니다.",
+      "aliases": [
+        "예약 충전",
+        "충전 스케줄",
+        "출발 시간 연동",
+        "완속 충전 설정"
+      ],
       "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "steps": [
+        "완속 충전 설정에서 예약 충전 옵션과 충전 전류를 설정합니다.",
+        "필요한 경우 출발 시간 연동을 설정합니다.",
+        "예약 충전 설정 중이면 충전 연결 시 예약 충전 메시지가 표시됩니다."
+      ],
+      "disable": [
+        "EV 충전 설정의 완속 충전 설정에서 예약 충전 옵션을 해제합니다."
+      ],
+      "limitations": [
+        "예약 공조 작동 중에는 충전 예상 소요 시간이 다르게 표시될 수 있습니다."
+      ],
+      "warnings": [
+        "충전 케이블 연결 상태와 충전기 상태를 확인하십시오."
+      ],
       "related": [
         "충전 한도 설정",
         "Battery Conditioning"
@@ -6089,7 +6418,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6111,14 +6441,29 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 충전 설정",
       "summary": "원하는 시간대에 충전이 시작되도록 예약합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "충전",
       "future": false,
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 충전 설정 > 완속 충전 설정을 선택합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "충전 예약",
-        "scheduled-charging"
+        "scheduled-charging",
+        "예약 충전",
+        "충전 스케줄",
+        "출발 시간 연동",
+        "완속 충전 설정"
       ],
       "faq": [
         {
@@ -6126,25 +6471,68 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "예약 충전 / 완속 충전 설정",
+        "matchedKeywords": [
+          "예약 충전",
+          "충전 스케줄",
+          "출발 시간 연동",
+          "완속 충전 설정"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "예약 충전",
+            "충전 스케줄",
+            "출발 시간 연동",
+            "완속 충전 설정"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "AC/DC 충전 시 목표 배터리 충전량을 설정합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 충전 목표 배터리량 설정은 급속 충전 및 완속 충전 시 목표 배터리량을 설정하는 기능입니다.",
+      "aliases": [
+        "충전 목표 배터리량",
+        "목표 배터리량",
+        "충전 한도"
+      ],
       "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "steps": [
+        "급속 충전과 완속 충전에 사용할 목표 배터리량을 설정합니다.",
+        "설정한 목표량에 따라 충전이 관리됩니다."
+      ],
+      "disable": [
+        "EV 충전 설정에서 목표 배터리량을 변경합니다."
+      ],
+      "limitations": [
+        "충전기 상태, 외기 온도, 배터리 온도에 따라 실제 충전 전력과 시간이 달라질 수 있습니다."
+      ],
+      "warnings": [
+        "장기간 보관 전에는 배터리 충전량을 확인하십시오."
+      ],
       "related": [
         "충전 예약"
       ],
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6166,14 +6554,28 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 충전 설정",
       "summary": "AC/DC 충전 시 목표 배터리 충전량을 설정합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "충전",
       "future": false,
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 충전 설정 > 충전 목표 배터리량 설정을 선택합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "충전 한도 설정",
-        "charge-limit"
+        "charge-limit",
+        "충전 목표 배터리량",
+        "목표 배터리량",
+        "충전 한도"
       ],
       "faq": [
         {
@@ -6181,18 +6583,58 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "충전 목표 배터리량 설정",
+        "matchedKeywords": [
+          "충전 목표 배터리량",
+          "목표 배터리량",
+          "충전 한도"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 목표 배터리량",
+            "목표 배터리량",
+            "충전 한도"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "고전압 배터리 전력을 외부 전기기기에 공급하는 기능군입니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 전기 사용(V2L)은 구동용 고전압 배터리의 전력을 외부 전기기기에 공급하는 기능입니다.",
+      "aliases": [
+        "전기 사용(V2L)",
+        "V2L",
+        "방전 제한량"
+      ],
       "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "steps": [
+        "V2L 커넥터 또는 차량 내 전원 공급 장치를 연결합니다.",
+        "전기 사용 후 V2L 커넥터의 스위치를 눌러 전원을 끕니다."
+      ],
+      "disable": [
+        "V2L 커넥터의 스위치를 눌러 전원을 끄고 차량 도어 잠금을 해제하면 커넥터 잠금이 해제됩니다."
+      ],
+      "limitations": [
+        "전기 사용(V2L)은 고전압 배터리 에너지를 사용하므로 주행 가능 거리가 감소합니다."
+      ],
+      "warnings": [
+        "전기 사용 기능을 빈번하게 사용하면 고전압 배터리 수명이 짧아질 수 있습니다."
+      ],
       "related": [
         "실내 V2L",
         "실외 V2L"
@@ -6200,7 +6642,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6222,14 +6665,28 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 전력 공급",
       "summary": "고전압 배터리 전력을 외부 전기기기에 공급하는 기능군입니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "전력 공급",
       "future": false,
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 설정 > 전기 사용(V2L) 설정을 선택합니다.",
+        "전기 사용(V2L) 기능 사용 시 구동용 배터리의 방전 제한량을 설정합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "V2L",
-        "v2l-parent"
+        "v2l-parent",
+        "전기 사용(V2L)",
+        "방전 제한량"
       ],
       "faq": [
         {
@@ -6237,13 +6694,43 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "전기 사용(V2L) 기능 활용하기",
+        "matchedKeywords": [
+          "전기 사용(V2L)",
+          "V2L",
+          "방전 제한량"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전기 사용(V2L)",
+            "V2L",
+            "방전 제한량"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
       "overview": "차량 실내 콘센트로 전기기기에 전력을 공급합니다.",
-      "aliases": [],
+      "aliases": [
+        "전기 사용(V2L)",
+        "실내 V2L"
+      ],
       "preconditions": [],
       "steps": [],
       "disable": [],
@@ -6256,7 +6743,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6278,14 +6766,24 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 실내 전력 공급",
       "summary": "차량 실내 콘센트로 전기기기에 전력을 공급합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "전력 공급",
       "future": false,
       "settings": [],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "실내 V2L",
-        "v2l-indoor"
+        "v2l-indoor",
+        "전기 사용(V2L)"
       ],
       "faq": [
         {
@@ -6293,13 +6791,42 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "전기 사용(V2L) 기능 활용하기",
+        "matchedKeywords": [
+          "전기 사용(V2L)",
+          "실내 V2L"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전기 사용(V2L)",
+            "실내 V2L"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
       "overview": "충전구와 V2L 커넥터를 이용해 외부 전기기기에 전력을 공급합니다.",
-      "aliases": [],
+      "aliases": [
+        "전기 사용(V2L)",
+        "실외 V2L",
+        "V2L 커넥터"
+      ],
       "preconditions": [],
       "steps": [],
       "disable": [],
@@ -6312,7 +6839,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -6334,14 +6862,25 @@
       "category": "EV 전용 기능",
       "officialCategory": "EV / 외부 전력 공급",
       "summary": "충전구와 V2L 커넥터를 이용해 외부 전기기기에 전력을 공급합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "subcategory": "전력 공급",
       "future": false,
       "settings": [],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "실외 V2L",
-        "v2l-outdoor"
+        "v2l-outdoor",
+        "전기 사용(V2L)",
+        "V2L 커넥터"
       ],
       "faq": [
         {
@@ -6349,7 +6888,34 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "전기 사용(V2L) 기능 활용하기",
+        "matchedKeywords": [
+          "전기 사용(V2L)",
+          "실외 V2L",
+          "V2L 커넥터"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전기 사용(V2L)",
+            "실외 V2L",
+            "V2L 커넥터"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -6412,13 +6978,21 @@
     {
       "latest": true,
       "updatedAt": "2026-06-17",
-      "overview": "주행 불가 상태에서 고전압 배터리로 차량 전장과 공조를 사용할 수 있게 합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 유틸리티 모드는 EV 설정에서 제공되는 전기차 특화 기능입니다.",
+      "aliases": [
+        "유틸리티 모드"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "EV 설정에서 유틸리티 모드를 선택하고 화면 안내에 따라 사용합니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "배터리 충전량과 차량 상태에 따라 사용 가능 여부가 달라질 수 있습니다."
+      ],
+      "warnings": [
+        "고전압 배터리 잔량과 주행 가능 거리를 확인하십시오."
+      ],
       "related": [
         "캠핑 모드",
         "실내 V2L"
@@ -6426,7 +7000,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": true,
@@ -6453,9 +7028,9 @@
           "vehicleId": "hy-ioniq5",
           "brand": "현대",
           "model": "아이오닉 5",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "전동화 전용",
-          "option": "기본 사양"
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq6",
@@ -6532,7 +7107,9 @@
       ],
       "subcategory": "EV 편의 기능",
       "future": false,
-      "settings": [],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 설정 > 유틸리티 모드를 선택합니다."
+      ],
       "keywords": [
         "유틸리티 모드",
         "utility-mode"
@@ -6543,7 +7120,30 @@
           "answer": "차량 연식, 트림, 옵션과 소프트웨어 버전에 따라 다를 수 있으므로 해당 차량의 공식 매뉴얼과 제조사 안내를 최종 기준으로 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "유틸리티 모드",
+        "matchedKeywords": [
+          "유틸리티 모드"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "유틸리티 모드"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -6710,9 +7310,9 @@
           "vehicleId": "hy-ioniq5",
           "brand": "현대",
           "model": "아이오닉 5",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 패키지 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq6",
@@ -7019,13 +7619,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방/측방/후방 주차 거리 경고",
         "matchedKeywords": [
           "전방/측방/후방 주차 거리 경고"
@@ -7142,6 +7742,14 @@
             "전방/측방/후방 주차 거리 경고"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -7223,9 +7831,9 @@
           "vehicleId": "hy-ioniq5",
           "brand": "현대",
           "model": "아이오닉 5",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 안전 사양 적용 차종",
-          "option": "차종별 상이"
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq6",
@@ -7438,13 +8046,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
           "주차 충돌방지 보조 (PCA)"
@@ -7557,6 +8165,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "주차 충돌방지 보조 (PCA)"
           ],
@@ -7902,6 +8518,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -7919,13 +8543,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이패스",
         "matchedKeywords": [
           "하이패스"
@@ -8018,6 +8642,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "하이패스"
           ],
@@ -8348,6 +8980,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -8372,13 +9012,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "현대 디지털 키",
         "matchedKeywords": [
           "현대 디지털 키"
@@ -8495,6 +9135,14 @@
             "현대 디지털 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -8570,6 +9218,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -8589,13 +9245,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "현대 디지털 키 Touch / NFC",
         "matchedKeywords": [
           "현대 디지털 키 Touch",
@@ -8633,6 +9289,15 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키 Touch",
+            "NFC"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "현대 디지털 키 Touch",
             "NFC"
@@ -8832,13 +9497,13 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "빌트인 캠",
         "matchedKeywords": [
           "빌트인 캠"
@@ -8967,6 +9632,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "vehicleAudit": {
@@ -9076,6 +9749,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "빌트인 캠"
           ],
@@ -9510,6 +10191,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -9532,17 +10221,16 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
-        "section": "동승석 측면 워크인 스위치 / 2열 좌석 워크인 스위치",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "동승석 측면 워크인 스위치",
         "matchedKeywords": [
-          "동승석 측면 워크인 스위치",
-          "2열 좌석 워크인 스위치"
+          "동승석 측면 워크인 스위치"
         ]
       },
       "vehicleAudit": {
@@ -9577,6 +10265,14 @@
           "matchedKeywords": [
             "동승석 측면 워크인 스위치",
             "2열 좌석 워크인 스위치"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "동승석 측면 워크인 스위치"
           ],
           "updatedAt": "2026-07-08"
         }
@@ -10546,13 +11242,25 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "차량 화면이나 커넥티드 앱에서 충전 진행률, 예상 완료 시간과 충전 상태를 확인합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 충전 상태는 충전 도어 내부 또는 전면 범퍼 중앙의 충전 상태 표시등으로 확인합니다.",
+      "aliases": [
+        "충전 상태 확인",
+        "충전 표시등",
+        "충전 상태"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "충전 도어 내부의 충전 표시등을 확인합니다.",
+        "전면 범퍼 중앙의 충전 표시등을 참고해 충전 상태를 확인합니다.",
+        "0~100%까지 충전 상태가 4단계로 표시됩니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "표시 정보는 충전 상태와 차량 상태에 따라 달라질 수 있습니다."
+      ],
+      "warnings": [
+        "충전 중에는 충전 커넥터를 강제로 분리하지 마십시오."
+      ],
       "related": [
         "충전 예약",
         "충전 한도 설정"
@@ -10585,12 +11293,25 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 충전",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "차량 도어가 잠금 해제된 상태에서 충전 도어의 열림 표시부를 눌러 충전 도어를 엽니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "충전 상태 확인",
-        "ev-charge-status"
+        "ev-charge-status",
+        "충전 표시등",
+        "충전 상태"
       ],
       "faq": [
         {
@@ -10598,18 +11319,57 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "충전 상태 확인하기",
+        "matchedKeywords": [
+          "충전 상태 확인",
+          "충전 표시등",
+          "충전 상태"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 상태 확인",
+            "충전 표시등",
+            "충전 상태"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "주행, 공조, 전장 장치가 사용한 고전압 배터리 에너지 비율과 효율 정보를 표시합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 에너지 정보 화면에서는 전력 소비량과 연비 이력을 확인할 수 있습니다.",
+      "aliases": [
+        "에너지 정보",
+        "전력 소비량",
+        "연비 이력",
+        "에너지 사용량"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "에너지 정보 화면에서 전력 소비량을 선택합니다.",
+        "구동계, 전자 장치, 공조 등 차량 내부 시스템별 현재 전력 소비량을 확인합니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "표시 정보는 주행 상태와 차량 시스템 사용 상태에 따라 달라집니다."
+      ],
+      "warnings": [
+        "에너지 정보는 참고용이며 주행 가능 거리와 충전 계획을 함께 확인하십시오."
+      ],
       "related": [
         "EV Route Planner",
         "배터리 상태 확인"
@@ -10642,12 +11402,26 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 에너지 관리",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > 에너지 정보를 선택합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "에너지 사용량",
-        "ev-energy-usage"
+        "ev-energy-usage",
+        "에너지 정보",
+        "전력 소비량",
+        "연비 이력"
       ],
       "faq": [
         {
@@ -10655,18 +11429,59 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "에너지 정보 확인하기 / 전력 소비량 확인하기",
+        "matchedKeywords": [
+          "에너지 정보",
+          "전력 소비량",
+          "연비 이력",
+          "에너지 사용량"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "에너지 정보",
+            "전력 소비량",
+            "연비 이력",
+            "에너지 사용량"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "고전압 배터리 잔량, 주행 가능 거리와 배터리 관련 상태 정보를 확인합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 고전압 배터리 상태와 주행 가능 거리는 충전량, 외기 온도, 주행 조건, 공조 사용에 따라 달라집니다.",
+      "aliases": [
+        "배터리 상태",
+        "고전압 배터리",
+        "주행 가능 거리"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "고전압 배터리 충전량과 주행 가능 거리를 확인합니다.",
+        "장기간 차량을 사용하지 않는 경우 약 3개월에 한 번씩 차량을 충전합니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "고속 주행, 오르막길, 냉난방 사용, 외기 온도에 따라 주행 가능 거리가 짧아질 수 있습니다."
+      ],
+      "warnings": [
+        "고전압 배터리 충전계 게이지가 10% 이하로 내려가지 않도록 유지하십시오.",
+        "충돌 및 사고가 발생해 차량이 큰 충격을 받은 경우 점검을 받으십시오."
+      ],
       "related": [
         "Battery Conditioning",
         "에너지 사용량"
@@ -10699,12 +11514,26 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 배터리",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "클러스터와 Electric Vehicle 화면에서 배터리 충전량과 주행 가능 거리를 확인합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "배터리 상태 확인",
-        "ev-battery-health"
+        "ev-battery-health",
+        "배터리 상태",
+        "고전압 배터리",
+        "주행 가능 거리"
       ],
       "faq": [
         {
@@ -10712,18 +11541,60 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "배터리 사용 시 주의사항 / 배터리 상태",
+        "matchedKeywords": [
+          "배터리 상태",
+          "고전압 배터리",
+          "주행 가능 거리"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "배터리 상태",
+            "고전압 배터리",
+            "주행 가능 거리"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "가속 페달 조작만으로 가속, 감속과 정차를 폭넓게 제어하도록 회생제동을 강화합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 아이 페달(i-PEDAL)은 가속 페달만으로 차량을 가속하거나 감속 또는 정차할 수 있도록 돕는 기능입니다.",
+      "aliases": [
+        "i-PEDAL",
+        "i-Pedal",
+        "아이 페달",
+        "원 페달 드라이빙"
+      ],
       "preconditions": [],
-      "steps": [],
-      "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "steps": [
+        "회생 제동량을 3단계로 설정합니다.",
+        "회생 제동 증가 레버를 한 번 당겨 아이 페달 기능을 켭니다.",
+        "가속 페달로 가속, 감속 또는 정차를 조절합니다."
+      ],
+      "disable": [
+        "아이 페달 기능을 끄려면 회생 제동 감소 레버를 조작합니다."
+      ],
+      "limitations": [
+        "경사로, 미끄러운 도로, 적재 중량이 높은 경우 등에서는 차량 정지 기능이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "원 페달 드라이빙 기능으로 차량을 멈출 수 없을 수 있으므로 필요할 경우 직접 브레이크 페달을 밟아 감속하십시오."
+      ],
       "related": [
         "회생제동 단계 조절",
         "EV 스마트 회생제동"
@@ -10756,12 +11627,26 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 회생제동",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "회생 제동량이 3단계일 때 회생 제동 증가 레버를 한 번 당깁니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "i-Pedal",
-        "i-pedal"
+        "i-pedal",
+        "i-PEDAL",
+        "아이 페달",
+        "원 페달 드라이빙"
       ],
       "faq": [
         {
@@ -10769,18 +11654,57 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "아이 페달(i-PEDAL) 사용하기",
+        "matchedKeywords": [
+          "i-PEDAL",
+          "i-Pedal",
+          "아이 페달",
+          "원 페달 드라이빙"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "i-PEDAL",
+            "i-Pedal",
+            "아이 페달",
+            "원 페달 드라이빙"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "앞차 거리와 도로 상황을 고려해 회생제동 수준을 자동으로 조절합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 스마트 회생 제동은 주행 상황에 따라 회생 제동을 보조하는 기능입니다.",
+      "aliases": [
+        "스마트 회생 제동",
+        "스마트 회생제동"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "스마트 회생 제동 기능을 켠 뒤 주행합니다.",
+        "차량이 주행 상황에 따라 회생 제동을 조절합니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "센서 인식 상태, 주행 환경, 도로 조건에 따라 작동이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "회생 제동 보조 기능이며 운전자가 직접 감속과 제동을 책임져야 합니다."
+      ],
       "related": [
         "i-Pedal",
         "회생제동 단계 조절"
@@ -10813,12 +11737,25 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 회생제동",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "차량 설정 또는 회생 제동 관련 설정에서 스마트 회생 제동 기능을 확인합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "EV 스마트 회생제동",
-        "ev-smart-regeneration"
+        "ev-smart-regeneration",
+        "스마트 회생 제동",
+        "스마트 회생제동"
       ],
       "faq": [
         {
@@ -10826,18 +11763,55 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "스마트 회생 제동 기능 사용하기",
+        "matchedKeywords": [
+          "스마트 회생 제동",
+          "스마트 회생제동"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 회생 제동",
+            "스마트 회생제동"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "스티어링 휠 패들로 회생제동 단계를 변경해 감속감과 에너지 회수 수준을 조절합니다.",
-      "aliases": [],
+      "overview": "아이오닉 5 매뉴얼 기준 회생 제동은 스티어링 휠 레버로 제동량을 조절해 감속 에너지를 회수하는 기능입니다.",
+      "aliases": [
+        "회생 제동",
+        "회생 제동 단계",
+        "회생 제동량"
+      ],
       "preconditions": [],
-      "steps": [],
+      "steps": [
+        "회생 제동 증가 레버를 당겨 제동량을 높입니다.",
+        "회생 제동 감소 레버를 당겨 제동량을 낮춥니다.",
+        "차량 속도가 낮을 때 레버 조작 상태에 따라 정차까지 제동량이 증가할 수 있습니다."
+      ],
       "disable": [],
-      "limitations": [],
-      "warnings": [],
+      "limitations": [
+        "차량 또는 도로 상태에 따라 원 페달 드라이빙과 회생 제동 정지 기능이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "회생 제동만으로 정차가 보장되지 않으므로 필요 시 브레이크 페달을 밟으십시오."
+      ],
       "related": [
         "i-Pedal",
         "EV 스마트 회생제동"
@@ -10870,12 +11844,26 @@
       "parent": "EV 전용 기능",
       "category": "EV 전용 기능",
       "officialCategory": "EV / 회생제동",
-      "applies": [],
-      "settings": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "settings": [
+        "스티어링 휠의 회생 제동 증가/감소 레버를 사용합니다."
+      ],
       "status": "공식 세부 절차 검증 필요",
       "keywords": [
         "회생제동 단계 조절",
-        "ev-regen-level"
+        "ev-regen-level",
+        "회생 제동",
+        "회생 제동 단계",
+        "회생 제동량"
       ],
       "faq": [
         {
@@ -10883,7 +11871,34 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "회생 제동 기능 사용하기",
+        "matchedKeywords": [
+          "회생 제동",
+          "회생 제동 단계",
+          "회생 제동량"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "회생 제동 단계",
+            "회생 제동량"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -12584,6 +13599,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -12622,13 +13645,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 스마트 주차 보조 (RSPA)",
         "matchedKeywords": [
           "원격 스마트 주차 보조 (RSPA)"
@@ -12710,6 +13733,14 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 스마트 주차 보조 (RSPA)"
           ],
@@ -12837,6 +13868,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -12875,13 +13914,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 주차 보조 (SPA)",
         "matchedKeywords": [
           "스마트 주차 보조 (SPA)"
@@ -12963,6 +14002,14 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 주차 보조 (SPA)"
           ],
@@ -13114,6 +14161,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -13152,13 +14207,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -13267,6 +14322,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 모니터 (RVM)"
           ],
@@ -13419,6 +14482,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -13457,13 +14528,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -13572,6 +14643,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "서라운드 뷰 모니터 (SVM)"
           ],
@@ -13722,6 +14801,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -13759,13 +14846,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -13874,6 +14961,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "후측방 모니터 (BVM)"
           ],
@@ -14026,6 +15121,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -14063,13 +15166,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -14182,6 +15285,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
@@ -14334,6 +15445,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -14373,13 +15492,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 거리 경고 (PDW)",
         "matchedKeywords": [
           "주차 거리 경고 (PDW)"
@@ -14488,6 +15607,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "주차 거리 경고 (PDW)"
           ],
@@ -14938,6 +16065,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -14978,13 +16113,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "히터 및 에어컨",
         "matchedKeywords": [
           "히터 및 에어컨"
@@ -15093,6 +16228,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "히터 및 에어컨"
           ],
@@ -15227,6 +16370,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -15263,13 +16414,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 키",
         "matchedKeywords": [
           "스마트 키"
@@ -15378,6 +16529,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 키"
           ],
@@ -15513,6 +16672,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -15550,13 +16717,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "비상 키",
         "matchedKeywords": [
           "비상 키"
@@ -15665,6 +16832,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "비상 키"
           ],
@@ -15800,6 +16975,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -15837,13 +17020,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 시동",
         "matchedKeywords": [
           "원격 시동"
@@ -15952,6 +17135,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 시동"
           ],
@@ -16102,6 +17293,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16116,13 +17315,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "차로 이탈방지 보조 (LKA)",
         "matchedKeywords": [
           "차로 이탈방지 보조 (LKA)"
@@ -16160,6 +17359,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 이탈방지 보조 (LKA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "차로 이탈방지 보조 (LKA)"
           ],
@@ -16310,6 +17517,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16324,13 +17539,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "차로 유지 보조 (LFA)",
         "matchedKeywords": [
           "차로 유지 보조 (LFA)"
@@ -16368,6 +17583,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 유지 보조 (LFA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "차로 유지 보조 (LFA)"
           ],
@@ -16518,6 +17741,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16532,13 +17763,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "지능형 속도 제한 보조 (ISLA)",
         "matchedKeywords": [
           "지능형 속도 제한 보조 (ISLA)"
@@ -16576,6 +17807,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지능형 속도 제한 보조 (ISLA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "지능형 속도 제한 보조 (ISLA)"
           ],
@@ -16728,6 +17967,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16742,13 +17989,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "운전자 주의 경고 (DAW)",
         "matchedKeywords": [
           "운전자 주의 경고 (DAW)"
@@ -16788,6 +18035,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "운전자 주의 경고 (DAW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "운전자 주의 경고 (DAW)"
           ],
@@ -16938,6 +18193,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16952,13 +18215,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이빔 보조 (HBA)",
         "matchedKeywords": [
           "하이빔 보조 (HBA)"
@@ -16996,6 +18259,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이빔 보조 (HBA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "하이빔 보조 (HBA)"
           ],
@@ -17146,6 +18417,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17160,13 +18439,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 충돌방지 보조 (BCA)",
         "matchedKeywords": [
           "후측방 충돌방지 보조 (BCA)"
@@ -17204,6 +18483,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 충돌방지 보조 (BCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "후측방 충돌방지 보조 (BCA)"
           ],
@@ -17356,6 +18643,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17370,13 +18665,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "안전 하차 보조 (SEA)",
         "matchedKeywords": [
           "안전 하차 보조 (SEA)"
@@ -17416,6 +18711,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "안전 하차 보조 (SEA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "안전 하차 보조 (SEA)"
           ],
@@ -17500,6 +18803,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17514,13 +18825,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "디지털 키 (카드 키) / NFC 카드 키",
         "matchedKeywords": [
           "디지털 키 (카드 키)",
@@ -17540,6 +18851,15 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키 (카드 키)",
+            "NFC 카드 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "디지털 키 (카드 키)",
             "NFC 카드 키"
@@ -17626,6 +18946,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17640,13 +18968,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트폰 무선 충전 시스템",
         "matchedKeywords": [
           "스마트폰 무선 충전 시스템"
@@ -17664,6 +18992,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트폰 무선 충전 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트폰 무선 충전 시스템"
           ],
@@ -17748,6 +19084,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17762,13 +19106,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "음성인식 시스템",
         "matchedKeywords": [
           "음성인식 시스템"
@@ -17786,6 +19130,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "음성인식 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "음성인식 시스템"
           ],
@@ -17870,6 +19222,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17884,13 +19244,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
         "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
         "section": "블루링크 (Bluelink)",
         "matchedKeywords": [
           "블루링크 (Bluelink)"
@@ -17908,6 +19268,14 @@
         "hyStariaHev2026": {
           "confirmed": true,
           "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "블루링크 (Bluelink)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
           "matchedKeywords": [
             "블루링크 (Bluelink)"
           ],
@@ -18005,6 +19373,474 @@
         ]
       },
       "vehicleAudit": {}
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "ev-driving-range",
+      "slug": "ev-driving-range",
+      "name": "EV 주행 가능 거리",
+      "category": "EV 전용 기능",
+      "officialCategory": "전기차 / 주행 가능 거리",
+      "aliases": [
+        "주행 가능 거리",
+        "EV 주행 가능 거리",
+        "고전압 배터리 주행 가능 거리"
+      ],
+      "keywords": [
+        "EV 주행 가능 거리",
+        "주행 가능 거리",
+        "고전압 배터리 주행 가능 거리"
+      ],
+      "summary": "고전압 배터리 충전량과 주행 조건을 바탕으로 차량의 주행 가능 거리를 표시합니다.",
+      "overview": "고전압 배터리 충전량과 주행 조건을 바탕으로 차량의 주행 가능 거리를 표시합니다.",
+      "preconditions": [
+        "차량 전원이 켜져 있고 클러스터 또는 EV 화면 표시가 가능해야 합니다."
+      ],
+      "settings": [
+        "클러스터와 Electric Vehicle 화면에서 주행 가능 거리와 배터리 충전량을 확인합니다."
+      ],
+      "steps": [
+        "고전압 배터리 충전량과 주행 가능 거리를 확인합니다.",
+        "히터, 에어컨, 고속 주행, 오르막길 등 주행 가능 거리에 영향을 주는 조건을 함께 확인합니다."
+      ],
+      "disable": [],
+      "limitations": [
+        "외기 온도, 주행 조건, 공조 사용, 고속 주행, 오르막길 주행에 따라 주행 가능 거리가 달라집니다."
+      ],
+      "warnings": [
+        "주행 가능 거리에 여유를 두고 충전 계획을 세우십시오."
+      ],
+      "related": [
+        "충전 상태 확인",
+        "에너지 사용량"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "배터리 사용 시 주의사항 / 주행 가능 거리",
+        "matchedKeywords": [
+          "주행 가능 거리",
+          "고전압 배터리"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주행 가능 거리",
+            "EV 주행 가능 거리",
+            "고전압 배터리 주행 가능 거리"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "ev-charging-current-setting",
+      "slug": "ev-charging-current-setting",
+      "name": "충전 전류 설정",
+      "category": "EV 전용 기능",
+      "officialCategory": "전기차 / 완속 충전 설정",
+      "aliases": [
+        "충전 전류",
+        "충전 전류 설정",
+        "완속 충전 설정"
+      ],
+      "keywords": [
+        "충전 전류 설정",
+        "충전 전류",
+        "완속 충전 설정"
+      ],
+      "summary": "완속 충전 또는 휴대용 충전 시 충전 전류를 설정하는 기능입니다.",
+      "overview": "완속 충전 또는 휴대용 충전 시 충전 전류를 설정하는 기능입니다.",
+      "preconditions": [
+        "완속 충전 또는 휴대용 충전 조건이어야 합니다."
+      ],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 충전 설정 > 완속 충전 설정을 선택합니다."
+      ],
+      "steps": [
+        "완속 충전 설정에서 충전 전류를 설정합니다.",
+        "휴대용 충전기 사용 시 제어 박스의 버튼을 2초 이상 길게 눌러 충전 전류를 설정합니다."
+      ],
+      "disable": [
+        "충전 설정에서 충전 전류를 변경하거나 충전을 종료합니다."
+      ],
+      "limitations": [
+        "공급 전원의 정격 전류와 충전기 사양에 따라 설정 가능한 전류가 제한됩니다."
+      ],
+      "warnings": [
+        "가정용 전력의 충전 전압, 전류 및 부하 조건을 확인한 후 사용하십시오."
+      ],
+      "related": [
+        "충전 예약",
+        "충전 상태 확인"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "완속 충전 설정 / 충전 전류 설정",
+        "matchedKeywords": [
+          "충전 전류",
+          "완속 충전 설정"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 전류",
+            "충전 전류 설정",
+            "완속 충전 설정"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "charging-connector-lock",
+      "slug": "charging-connector-lock",
+      "name": "충전 커넥터 잠금 모드",
+      "category": "EV 전용 기능",
+      "officialCategory": "전기차 / 충전 커넥터 잠금",
+      "aliases": [
+        "충전 커넥터 잠금",
+        "충전 중 잠금",
+        "상시 잠금"
+      ],
+      "keywords": [
+        "충전 커넥터 잠금 모드",
+        "충전 커넥터 잠금",
+        "충전 중 잠금",
+        "상시 잠금"
+      ],
+      "summary": "완속 충전 중 충전 커넥터가 의도치 않게 분리되는 것을 방지하기 위해 잠금 방식을 설정합니다.",
+      "overview": "완속 충전 중 충전 커넥터가 의도치 않게 분리되는 것을 방지하기 위해 잠금 방식을 설정합니다.",
+      "preconditions": [
+        "충전 커넥터가 차량에 연결되어 있거나 완속 충전 설정을 변경할 수 있어야 합니다."
+      ],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 충전 설정 > 완속 충전 설정을 선택합니다."
+      ],
+      "steps": [
+        "완속 충전 설정의 상세 기능에서 상시 잠금, 충전 중 잠금, 사용 안 함 중 하나를 선택합니다.",
+        "급속 충전 및 전기 사용(V2L) 기능 사용 중에는 설정과 관계없이 커넥터가 자동으로 잠깁니다."
+      ],
+      "disable": [
+        "사용 안 함을 선택하거나 충전 종료 후 도어 잠금을 해제해 커넥터 잠금을 해제합니다."
+      ],
+      "limitations": [
+        "급속 충전 및 V2L 사용 중에는 설정과 관계없이 커넥터가 자동으로 잠깁니다."
+      ],
+      "warnings": [
+        "충전 커넥터 잠금 해제 버튼을 누르지 않은 상태로 강제로 분리하지 마십시오."
+      ],
+      "related": [
+        "충전 예약",
+        "V2L"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "충전 커넥터 잠금 모드 설정하기",
+        "matchedKeywords": [
+          "충전 커넥터 잠금 모드",
+          "상시 잠금",
+          "충전 중 잠금"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 커넥터 잠금",
+            "충전 중 잠금",
+            "상시 잠금"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "ev-charging-information",
+      "slug": "ev-charging-information",
+      "name": "전기차 충전 정보",
+      "category": "EV 전용 기능",
+      "officialCategory": "전기차 / 충전 정보",
+      "aliases": [
+        "전기차 충전 정보",
+        "완속 충전",
+        "급속 충전",
+        "휴대용 충전"
+      ],
+      "keywords": [
+        "전기차 충전 정보",
+        "완속 충전",
+        "급속 충전",
+        "휴대용 충전"
+      ],
+      "summary": "완속 충전, 급속 충전, 휴대용 충전 방식과 충전 전 안전 정보를 확인하는 기능입니다.",
+      "overview": "완속 충전, 급속 충전, 휴대용 충전 방식과 충전 전 안전 정보를 확인하는 기능입니다.",
+      "preconditions": [
+        "차량 충전 전 충전 방식과 충전기 상태를 확인해야 합니다."
+      ],
+      "settings": [
+        "전기차 충전 정보 화면과 매뉴얼의 충전 방식 안내를 확인합니다."
+      ],
+      "steps": [
+        "완속 충전, 급속 충전, 휴대용 충전 중 사용할 충전 방식을 확인합니다.",
+        "충전 케이블과 충전기 상태를 확인한 뒤 차량 충전을 시작합니다."
+      ],
+      "disable": [
+        "충전 완료 후 충전 커넥터를 정상 절차에 따라 분리하고 충전 도어를 닫습니다."
+      ],
+      "limitations": [
+        "배터리 상태, 사용 기간, 충전기 사양, 주변 온도에 따라 충전 시간이 달라질 수 있습니다."
+      ],
+      "warnings": [
+        "의료용 전기 기기 사용자는 충전 전 의료진 및 기기 제조 업체에 문의하십시오.",
+        "급속 충전을 지속적으로 반복하면 배터리 성능과 수명이 감소할 수 있습니다."
+      ],
+      "related": [
+        "충전 상태 확인",
+        "충전 커넥터 잠금 모드"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "전기차 충전 정보 확인하기",
+        "matchedKeywords": [
+          "전기차 충전 정보",
+          "완속 충전",
+          "급속 충전",
+          "휴대용 충전"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전기차 충전 정보",
+            "완속 충전",
+            "급속 충전",
+            "휴대용 충전"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "ev-menu-settings",
+      "slug": "ev-menu-settings",
+      "name": "EV 메뉴 / EV 설정",
+      "category": "EV 전용 기능",
+      "officialCategory": "전기차 / Electric Vehicle 메뉴",
+      "aliases": [
+        "EV 메뉴",
+        "EV 설정",
+        "Electric Vehicle",
+        "EV 충전 설정"
+      ],
+      "keywords": [
+        "EV 메뉴 / EV 설정",
+        "EV 메뉴",
+        "EV 설정",
+        "Electric Vehicle",
+        "EV 충전 설정"
+      ],
+      "summary": "Electric Vehicle 화면에서 에너지 정보, EV 충전 설정, EV 설정 등 전기차 전용 기능을 관리합니다.",
+      "overview": "Electric Vehicle 화면에서 에너지 정보, EV 충전 설정, EV 설정 등 전기차 전용 기능을 관리합니다.",
+      "preconditions": [
+        "인포테인먼트 시스템에서 Electric Vehicle 메뉴 접근이 가능해야 합니다."
+      ],
+      "settings": [
+        "인포테인먼트 시스템 홈 화면에서 Electric Vehicle을 선택합니다."
+      ],
+      "steps": [
+        "Electric Vehicle 화면에서 에너지 정보를 선택해 전력 소비량과 연비 이력을 확인합니다.",
+        "EV 충전 설정에서 완속 충전 설정, 충전 목표 배터리량, V2L 설정을 조정합니다.",
+        "EV 설정에서 배터리 컨디셔닝, 유틸리티 모드, Plug n Charge를 확인합니다."
+      ],
+      "disable": [
+        "다른 인포테인먼트 화면으로 이동합니다."
+      ],
+      "limitations": [
+        "인포테인먼트 시스템 소프트웨어 버전에 따라 화면 구성이 달라질 수 있습니다."
+      ],
+      "warnings": [
+        "주행 중 화면 조작은 안전한 상태에서 최소화하십시오."
+      ],
+      "related": [
+        "충전 예약",
+        "Battery Conditioning",
+        "V2L"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq5",
+          "brand": "현대",
+          "model": "아이오닉 5",
+          "years": "2026",
+          "trim": "NE1 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "NE1_2026_ko_KR.txt",
+        "modelCode": "NE1",
+        "modelName": "아이오닉 5",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "NE1_2026_ko_KR.txt 본문 검색 확인",
+        "section": "EV 모드 기능 사용하기 / Electric Vehicle",
+        "matchedKeywords": [
+          "Electric Vehicle",
+          "EV 충전 설정",
+          "EV 설정"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq5Ne12026": {
+          "confirmed": true,
+          "manualFile": "NE1_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "EV 메뉴",
+            "EV 설정",
+            "Electric Vehicle",
+            "EV 충전 설정"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     }
   ],
   "vehicles": [
