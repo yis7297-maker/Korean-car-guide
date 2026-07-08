@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T07:04:29.703Z",
+  "generatedAt": "2026-07-08T07:45:31.624Z",
   "features": [
     {
       "latest": true,
@@ -100,9 +100,9 @@
           "vehicleId": "hy-staria",
           "brand": "현대",
           "model": "스타리아",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-ioniq5",
@@ -359,6 +359,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -402,13 +410,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -505,6 +513,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "전방 충돌방지 보조 (FCA)"
           ],
@@ -785,6 +809,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -832,17 +872,16 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
-        "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 스마트 크루즈 컨트롤 (NSCC) / 고속도로 주행 보조 (HDA)",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "스마트 크루즈 컨트롤 (SCC) / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
           "스마트 크루즈 컨트롤 (SCC)",
-          "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
           "고속도로 주행 보조 (HDA)"
         ]
       },
@@ -966,6 +1005,24 @@
           "matchedKeywords": [
             "스마트 크루즈 컨트롤 (SCC)",
             "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
             "고속도로 주행 보조 (HDA)"
           ],
           "updatedAt": "2026-07-08"
@@ -1355,6 +1412,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1400,13 +1473,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "공기 청정",
         "matchedKeywords": [
           "공기 청정"
@@ -1503,6 +1576,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "공기 청정"
           ],
@@ -1606,6 +1695,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1654,13 +1759,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "SX2HEV_2027_ko_KR.txt",
-        "modelCode": "SX2HEV",
-        "modelName": "코나 하이브리드",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "애프터 블로우",
         "matchedKeywords": [
           "애프터 블로우"
@@ -1734,6 +1839,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "애프터 블로우"
           ],
@@ -1843,6 +1964,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1888,13 +2025,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 공조",
         "matchedKeywords": [
           "원격 공조"
@@ -1976,6 +2113,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "원격 공조"
           ],
@@ -2098,6 +2251,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2144,13 +2313,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "열선/통풍 시트",
         "matchedKeywords": [
           "열선/통풍 시트"
@@ -2247,6 +2416,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "열선/통풍 시트"
           ],
@@ -2436,7 +2621,8 @@
         "릴렉션 시트",
         "무중력 시트",
         "휴식 자세",
-        "릴렉션 컴포트 시트"
+        "릴렉션 컴포트 시트",
+        "릴렉션 좌석 원터치 조절"
       ],
       "summary": "정차 중 휴식에 적합하도록 시트와 레그레스트를 자동 조절합니다.",
       "preconditions": [],
@@ -2519,6 +2705,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2551,7 +2753,8 @@
         "relaxation-comfort-seat",
         "릴렉션 시트",
         "무중력 시트",
-        "휴식 자세"
+        "휴식 자세",
+        "릴렉션 좌석 원터치 조절"
       ],
       "faq": [
         {
@@ -2561,16 +2764,16 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
-        "section": "릴렉션 컴포트 시트",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "릴렉션 좌석 원터치 조절",
         "matchedKeywords": [
-          "릴렉션 컴포트 시트"
+          "릴렉션 좌석 원터치 조절"
         ]
       },
       "vehicleAudit": {
@@ -2646,6 +2849,22 @@
           "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 좌석 원터치 조절"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 좌석 원터치 조절"
           ],
           "updatedAt": "2026-07-08"
         }
@@ -2988,6 +3207,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3037,13 +3272,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "파워 테일게이트 / 스마트 테일게이트",
         "matchedKeywords": [
           "파워 테일게이트",
@@ -3150,6 +3385,24 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "파워 테일게이트",
             "스마트 테일게이트"
@@ -3657,6 +3910,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3705,13 +3974,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay",
@@ -3819,6 +4088,24 @@
             "카플레이"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -3861,6 +4148,22 @@
           "model": "코나 하이브리드",
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -3911,13 +4214,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay 무선 연결 / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay 무선 연결",
@@ -3937,6 +4240,24 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay 무선 연결",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay 무선 연결",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "Apple CarPlay 무선 연결",
             "카플레이"
@@ -4057,6 +4378,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -4104,13 +4441,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto",
@@ -4222,6 +4559,24 @@
             "안드로이드 오토"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -4264,6 +4619,22 @@
           "model": "코나 하이브리드",
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
@@ -4314,13 +4685,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto 무선 연결 / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto 무선 연결",
@@ -4340,6 +4711,24 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto 무선 연결",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto 무선 연결",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "Android Auto 무선 연결",
             "안드로이드 오토"
@@ -4478,6 +4867,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -4525,13 +4930,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트"
@@ -4632,6 +5037,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "무선 소프트웨어 업데이트"
           ],
@@ -6564,6 +6985,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -6582,13 +7019,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "전방/측방/후방 주차 거리 경고",
         "matchedKeywords": [
           "전방/측방/후방 주차 거리 경고"
@@ -6685,6 +7122,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "전방/측방/후방 주차 거리 경고"
           ],
@@ -6949,6 +7402,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -6969,13 +7438,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
           "주차 충돌방지 보조 (PCA)"
@@ -7072,6 +7541,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "주차 충돌방지 보조 (PCA)"
           ],
@@ -7401,6 +7886,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -7418,13 +7919,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이패스",
         "matchedKeywords": [
           "하이패스"
@@ -7501,6 +8002,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "하이패스"
           ],
@@ -7815,6 +8332,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -7839,13 +8372,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "현대 디지털 키",
         "matchedKeywords": [
           "현대 디지털 키"
@@ -7946,6 +8479,22 @@
             "현대 디지털 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -8005,6 +8554,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -8024,13 +8589,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "현대 디지털 키 Touch / NFC",
         "matchedKeywords": [
           "현대 디지털 키 Touch",
@@ -8050,6 +8615,24 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키 Touch",
+            "NFC"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키 Touch",
+            "NFC"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "현대 디지털 키 Touch",
             "NFC"
@@ -8249,13 +8832,13 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "빌트인 캠",
         "matchedKeywords": [
           "빌트인 캠"
@@ -8368,6 +8951,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "vehicleAudit": {
@@ -8461,6 +9060,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "빌트인 캠"
           ],
@@ -8826,7 +9441,8 @@
       "overview": "2열 좌석을 이동하거나 접어 3열 승하차 공간을 확보합니다.",
       "aliases": [
         "Walk-in Device",
-        "동승석 측면 워크인 스위치"
+        "동승석 측면 워크인 스위치",
+        "2열 좌석 워크인 스위치"
       ],
       "preconditions": [],
       "steps": [],
@@ -8878,6 +9494,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -8889,7 +9521,8 @@
         "워크인 디바이스",
         "walk-in-device",
         "Walk-in Device",
-        "동승석 측면 워크인 스위치"
+        "동승석 측면 워크인 스위치",
+        "2열 좌석 워크인 스위치"
       ],
       "faq": [
         {
@@ -8899,16 +9532,17 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
-        "section": "동승석 측면 워크인 스위치",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "동승석 측면 워크인 스위치 / 2열 좌석 워크인 스위치",
         "matchedKeywords": [
-          "동승석 측면 워크인 스위치"
+          "동승석 측면 워크인 스위치",
+          "2열 좌석 워크인 스위치"
         ]
       },
       "vehicleAudit": {
@@ -8925,6 +9559,24 @@
           "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "동승석 측면 워크인 스위치"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "동승석 측면 워크인 스위치",
+            "2열 좌석 워크인 스위치"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "동승석 측면 워크인 스위치",
+            "2열 좌석 워크인 스위치"
           ],
           "updatedAt": "2026-07-08"
         }
@@ -9275,7 +9927,9 @@
       "latest": true,
       "updatedAt": "2026-06-25",
       "overview": "후석에서 온도, 풍량과 송풍 모드를 독립적으로 조절합니다.",
-      "aliases": [],
+      "aliases": [
+        "후석 공조"
+      ],
       "preconditions": [],
       "steps": [],
       "disable": [],
@@ -9288,7 +9942,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -9310,7 +9965,24 @@
       "category": "공조",
       "officialCategory": "후석 공조",
       "summary": "후석에서 온도, 풍량과 송풍 모드를 독립적으로 조절합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
       "settings": [],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -9318,7 +9990,8 @@
       "subcategory": "후석 공조",
       "keywords": [
         "후석 공조 제어",
-        "rear-climate-control"
+        "rear-climate-control",
+        "후석 공조"
       ],
       "faq": [
         {
@@ -9326,7 +9999,38 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "후석 공조",
+        "matchedKeywords": [
+          "후석 공조"
+        ]
+      },
+      "vehicleAudit": {
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후석 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후석 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -10623,7 +11327,7 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "코나 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 이동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
+      "overview": "스타리아 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 이동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
       "aliases": [
         "회생 제동",
         "하이브리드 회생 제동"
@@ -10714,6 +11418,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10743,13 +11455,13 @@
       ],
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "SX2HEV_2027_ko_KR.txt",
-        "modelCode": "SX2HEV",
-        "modelName": "코나 하이브리드",
-        "modelYear": "2027",
+        "manualFile": "US4HEV_2026_ko_KR.txt",
+        "modelCode": "US4HEV",
+        "modelName": "스타리아 하이브리드",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -10801,13 +11513,22 @@
             "하이브리드 회생 제동"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "하이브리드 회생 제동"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "코나 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 때 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
+      "overview": "스타리아 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 때 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
       "aliases": [
         "회생 제동",
         "회생 제동량"
@@ -10899,6 +11620,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10929,13 +11658,13 @@
       ],
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "SX2HEV_2027_ko_KR.txt",
-        "modelCode": "SX2HEV",
-        "modelName": "코나 하이브리드",
-        "modelYear": "2027",
+        "manualFile": "US4HEV_2026_ko_KR.txt",
+        "modelCode": "US4HEV",
+        "modelName": "스타리아 하이브리드",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -10988,13 +11717,22 @@
             "회생 제동량"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "회생 제동량"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "코나 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
+      "overview": "스타리아 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
       "aliases": [
         "하이브리드 에너지 흐름",
         "에너지 흐름도",
@@ -11087,6 +11825,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -11117,13 +11863,13 @@
       ],
       "section": "하이브리드 에너지 흐름도",
       "manualEvidence": {
-        "manualFile": "SX2HEV_2027_ko_KR.txt",
-        "modelCode": "SX2HEV",
-        "modelName": "코나 하이브리드",
-        "modelYear": "2027",
+        "manualFile": "US4HEV_2026_ko_KR.txt",
+        "modelCode": "US4HEV",
+        "modelName": "스타리아 하이브리드",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 에너지 흐름도",
         "matchedKeywords": [
           "하이브리드 에너지 흐름",
@@ -11178,13 +11924,23 @@
             "에너지 흐름"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이브리드 에너지 흐름",
+            "에너지 흐름도",
+            "에너지 흐름"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "코나 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
+      "overview": "스타리아 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
       "aliases": [
         "고전압 배터리",
         "배터리 충전 상태",
@@ -11276,6 +12032,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -11307,13 +12071,13 @@
       ],
       "section": "고전압 배터리 충전량(SOC) 표시계",
       "manualEvidence": {
-        "manualFile": "SX2HEV_2027_ko_KR.txt",
-        "modelCode": "SX2HEV",
-        "modelName": "코나 하이브리드",
-        "modelYear": "2027",
+        "manualFile": "US4HEV_2026_ko_KR.txt",
+        "modelCode": "US4HEV",
+        "modelName": "스타리아 하이브리드",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "고전압 배터리 충전량(SOC) 표시계",
         "matchedKeywords": [
           "고전압 배터리",
@@ -11371,13 +12135,23 @@
             "SOC"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "고전압 배터리",
+            "배터리 충전 상태",
+            "SOC"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "코나 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
+      "overview": "스타리아 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
       "aliases": [
         "EV 모드 표시등",
         "하이브리드 주행 정보"
@@ -11469,6 +12243,14 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -11500,13 +12282,13 @@
       ],
       "section": "하이브리드 자동차 주행하기",
       "manualEvidence": {
-        "manualFile": "SX2HEV_2027_ko_KR.txt",
-        "modelCode": "SX2HEV",
-        "modelName": "코나 하이브리드",
-        "modelYear": "2027",
+        "manualFile": "US4HEV_2026_ko_KR.txt",
+        "modelCode": "US4HEV",
+        "modelName": "스타리아 하이브리드",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4HEV_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 자동차 주행하기",
         "matchedKeywords": [
           "EV 모드 표시등",
@@ -11554,6 +12336,15 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "EV 모드 표시등",
+            "하이브리드 주행 정보"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "EV 모드 표시등",
             "하이브리드 주행 정보"
@@ -12307,6 +13098,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12345,13 +13152,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -12444,6 +13251,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 모니터 (RVM)"
           ],
@@ -12580,6 +13403,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12618,13 +13457,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -12717,6 +13556,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "서라운드 뷰 모니터 (SVM)"
           ],
@@ -12851,6 +13706,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12888,13 +13759,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -12987,6 +13858,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후측방 모니터 (BVM)"
           ],
@@ -13123,6 +14010,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13160,13 +14063,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -13263,6 +14166,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
@@ -13399,6 +14318,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13438,13 +14373,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "주차 거리 경고 (PDW)",
         "matchedKeywords": [
           "주차 거리 경고 (PDW)"
@@ -13537,6 +14472,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "주차 거리 경고 (PDW)"
           ],
@@ -13971,6 +14922,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14011,13 +14978,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "히터 및 에어컨",
         "matchedKeywords": [
           "히터 및 에어컨"
@@ -14110,6 +15077,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "히터 및 에어컨"
           ],
@@ -14228,6 +15211,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14264,13 +15263,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트 키",
         "matchedKeywords": [
           "스마트 키"
@@ -14363,6 +15362,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "스마트 키"
           ],
@@ -14482,6 +15497,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14519,13 +15550,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "비상 키",
         "matchedKeywords": [
           "비상 키"
@@ -14618,6 +15649,22 @@
         "hyKonaHev2027": {
           "confirmed": true,
           "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "비상 키"
           ],
@@ -14737,6 +15784,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14774,13 +15837,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "원격 시동",
         "matchedKeywords": [
           "원격 시동"
@@ -14877,6 +15940,22 @@
             "원격 시동"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -14891,13 +15970,15 @@
       "aliases": [
         "Lane Keeping Assist",
         "LKA",
-        "차로 이탈방지 보조"
+        "차로 이탈방지 보조",
+        "차로 이탈방지 보조 (LKA)"
       ],
       "keywords": [
         "차로 이탈방지 보조 / LKA",
         "Lane Keeping Assist",
         "LKA",
-        "차로 이탈방지 보조"
+        "차로 이탈방지 보조",
+        "차로 이탈방지 보조 (LKA)"
       ],
       "summary": "전방 카메라로 차선을 인식해 차로 이탈 위험이 있을 때 경고하고 조향을 보조하는 기능입니다.",
       "overview": "전방 카메라로 차선을 인식해 차로 이탈 위험이 있을 때 경고하고 조향을 보조하는 기능입니다.",
@@ -15005,6 +16086,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15019,18 +16116,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "차로 이탈방지 보조 (LKA)",
         "matchedKeywords": [
-          "Lane Keeping Assist",
-          "LKA",
-          "차로 이탈방지 보조"
+          "차로 이탈방지 보조 (LKA)"
         ]
       },
       "vehicleAudit": {
@@ -15053,6 +16148,22 @@
             "차로 이탈방지 보조"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 이탈방지 보조 (LKA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 이탈방지 보조 (LKA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -15067,13 +16178,15 @@
       "aliases": [
         "Lane Following Assist",
         "LFA",
-        "차로 유지 보조"
+        "차로 유지 보조",
+        "차로 유지 보조 (LFA)"
       ],
       "keywords": [
         "차로 유지 보조 / LFA",
         "Lane Following Assist",
         "LFA",
-        "차로 유지 보조"
+        "차로 유지 보조",
+        "차로 유지 보조 (LFA)"
       ],
       "summary": "차로 중앙을 유지하도록 조향을 보조하는 주행 보조 기능입니다.",
       "overview": "차로 중앙을 유지하도록 조향을 보조하는 주행 보조 기능입니다.",
@@ -15181,6 +16294,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15195,18 +16324,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "차로 유지 보조 (LFA)",
         "matchedKeywords": [
-          "Lane Following Assist",
-          "LFA",
-          "차로 유지 보조"
+          "차로 유지 보조 (LFA)"
         ]
       },
       "vehicleAudit": {
@@ -15229,6 +16356,22 @@
             "차로 유지 보조"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 유지 보조 (LFA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 유지 보조 (LFA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -15243,13 +16386,15 @@
       "aliases": [
         "Intelligent Speed Limit Assist",
         "ISLA",
-        "지능형 속도 제한 보조"
+        "지능형 속도 제한 보조",
+        "지능형 속도 제한 보조 (ISLA)"
       ],
       "keywords": [
         "지능형 속도 제한 보조 / ISLA",
         "Intelligent Speed Limit Assist",
         "ISLA",
-        "지능형 속도 제한 보조"
+        "지능형 속도 제한 보조",
+        "지능형 속도 제한 보조 (ISLA)"
       ],
       "summary": "전방 카메라와 내비게이션 정보를 이용해 제한속도 정보를 표시하고 속도 제한 준수를 보조하는 기능입니다.",
       "overview": "전방 카메라와 내비게이션 정보를 이용해 제한속도 정보를 표시하고 속도 제한 준수를 보조하는 기능입니다.",
@@ -15357,6 +16502,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15371,18 +16532,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "지능형 속도 제한 보조 (ISLA)",
         "matchedKeywords": [
-          "Intelligent Speed Limit Assist",
-          "ISLA",
-          "지능형 속도 제한 보조"
+          "지능형 속도 제한 보조 (ISLA)"
         ]
       },
       "vehicleAudit": {
@@ -15405,6 +16564,22 @@
             "지능형 속도 제한 보조"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지능형 속도 제한 보조 (ISLA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "지능형 속도 제한 보조 (ISLA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -15420,14 +16595,16 @@
         "Driver Attention Warning",
         "DAW",
         "운전자 주의 경고",
-        "전방 차량 출발 알림"
+        "전방 차량 출발 알림",
+        "운전자 주의 경고 (DAW)"
       ],
       "keywords": [
         "운전자 주의 경고 / DAW",
         "Driver Attention Warning",
         "DAW",
         "운전자 주의 경고",
-        "전방 차량 출발 알림"
+        "전방 차량 출발 알림",
+        "운전자 주의 경고 (DAW)"
       ],
       "summary": "주행 중 운전 패턴을 판단해 주의 수준이 낮아지면 휴식을 권유하고, 정차 중 앞 차량 출발 알림을 제공합니다.",
       "overview": "주행 중 운전 패턴을 판단해 주의 수준이 낮아지면 휴식을 권유하고, 정차 중 앞 차량 출발 알림을 제공합니다.",
@@ -15535,6 +16712,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15549,19 +16742,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "운전자 주의 경고 (DAW)",
         "matchedKeywords": [
-          "Driver Attention Warning",
-          "DAW",
-          "운전자 주의 경고",
-          "전방 차량 출발 알림"
+          "운전자 주의 경고 (DAW)"
         ]
       },
       "vehicleAudit": {
@@ -15586,6 +16776,22 @@
             "전방 차량 출발 알림"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "운전자 주의 경고 (DAW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "운전자 주의 경고 (DAW)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -15600,13 +16806,15 @@
       "aliases": [
         "High Beam Assist",
         "HBA",
-        "하이빔 보조"
+        "하이빔 보조",
+        "하이빔 보조 (HBA)"
       ],
       "keywords": [
         "하이빔 보조 / HBA",
         "High Beam Assist",
         "HBA",
-        "하이빔 보조"
+        "하이빔 보조",
+        "하이빔 보조 (HBA)"
       ],
       "summary": "마주 오는 차량이나 선행 차량을 감지해 상향등과 하향등 전환을 보조하는 기능입니다.",
       "overview": "마주 오는 차량이나 선행 차량을 감지해 상향등과 하향등 전환을 보조하는 기능입니다.",
@@ -15714,6 +16922,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15728,18 +16952,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "하이빔 보조 (HBA)",
         "matchedKeywords": [
-          "High Beam Assist",
-          "HBA",
-          "하이빔 보조"
+          "하이빔 보조 (HBA)"
         ]
       },
       "vehicleAudit": {
@@ -15762,6 +16984,22 @@
             "하이빔 보조"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이빔 보조 (HBA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이빔 보조 (HBA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -15776,13 +17014,15 @@
       "aliases": [
         "Blind-Spot Collision-Avoidance Assist",
         "BCA",
-        "후측방 충돌방지 보조"
+        "후측방 충돌방지 보조",
+        "후측방 충돌방지 보조 (BCA)"
       ],
       "keywords": [
         "후측방 충돌방지 보조 / BCA",
         "Blind-Spot Collision-Avoidance Assist",
         "BCA",
-        "후측방 충돌방지 보조"
+        "후측방 충돌방지 보조",
+        "후측방 충돌방지 보조 (BCA)"
       ],
       "summary": "차로 변경 또는 출차 상황에서 후측방 접근 차량과의 충돌 위험을 경고하고 일부 상황에서 제동을 보조하는 기능입니다.",
       "overview": "차로 변경 또는 출차 상황에서 후측방 접근 차량과의 충돌 위험을 경고하고 일부 상황에서 제동을 보조하는 기능입니다.",
@@ -15890,6 +17130,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -15904,18 +17160,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "후측방 충돌방지 보조 (BCA)",
         "matchedKeywords": [
-          "Blind-Spot Collision-Avoidance Assist",
-          "BCA",
-          "후측방 충돌방지 보조"
+          "후측방 충돌방지 보조 (BCA)"
         ]
       },
       "vehicleAudit": {
@@ -15938,6 +17192,22 @@
             "후측방 충돌방지 보조"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 충돌방지 보조 (BCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 충돌방지 보조 (BCA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -15953,14 +17223,16 @@
         "Safe Exit Assist",
         "SEA",
         "안전 하차 보조",
-        "전자식 차일드 락 연동"
+        "전자식 차일드 락 연동",
+        "안전 하차 보조 (SEA)"
       ],
       "keywords": [
         "안전 하차 보조 / SEA",
         "Safe Exit Assist",
         "SEA",
         "안전 하차 보조",
-        "전자식 차일드 락 연동"
+        "전자식 차일드 락 연동",
+        "안전 하차 보조 (SEA)"
       ],
       "summary": "정차 후 후측방에서 접근하는 차량이 감지되면 뒷좌석 탑승자가 도어를 여는 것을 방지하도록 보조하는 기능입니다.",
       "overview": "정차 후 후측방에서 접근하는 차량이 감지되면 뒷좌석 탑승자가 도어를 여는 것을 방지하도록 보조하는 기능입니다.",
@@ -16068,6 +17340,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -16082,18 +17370,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "안전 하차 보조 (SEA)",
         "matchedKeywords": [
-          "Safe Exit Assist",
-          "SEA",
-          "안전 하차 보조"
+          "안전 하차 보조 (SEA)"
         ]
       },
       "vehicleAudit": {
@@ -16118,6 +17404,22 @@
             "전자식 차일드 락 연동"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "안전 하차 보조 (SEA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "안전 하차 보조 (SEA)"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -16182,6 +17484,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -16196,21 +17514,39 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
-        "section": "현대 디지털 키 / 디지털 키 (카드 키)",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "디지털 키 (카드 키) / NFC 카드 키",
         "matchedKeywords": [
-          "NFC 카드 키",
           "디지털 키 (카드 키)",
-          "카드 키"
+          "NFC 카드 키"
         ]
       },
-      "vehicleAudit": {}
+      "vehicleAudit": {
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키 (카드 키)",
+            "NFC 카드 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키 (카드 키)",
+            "NFC 카드 키"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -16223,7 +17559,8 @@
       "aliases": [
         "무선 충전",
         "휴대폰 무선 충전",
-        "스마트폰 무선 충전"
+        "스마트폰 무선 충전",
+        "스마트폰 무선 충전 시스템"
       ],
       "keywords": [
         "스마트폰 무선 충전 시스템",
@@ -16273,6 +17610,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -16287,20 +17640,36 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "스마트폰 무선 충전 시스템",
         "matchedKeywords": [
-          "스마트폰 무선 충전 시스템",
-          "무선 충전"
+          "스마트폰 무선 충전 시스템"
         ]
       },
-      "vehicleAudit": {}
+      "vehicleAudit": {
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트폰 무선 충전 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트폰 무선 충전 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -16313,7 +17682,8 @@
       "aliases": [
         "음성 인식",
         "음성 인식 버튼",
-        "음성 명령"
+        "음성 명령",
+        "음성인식 시스템"
       ],
       "keywords": [
         "음성인식 시스템",
@@ -16362,6 +17732,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -16376,20 +17762,36 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "음성인식 시스템",
         "matchedKeywords": [
-          "음성인식 시스템",
-          "음성 인식 버튼"
+          "음성인식 시스템"
         ]
       },
-      "vehicleAudit": {}
+      "vehicleAudit": {
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "음성인식 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "음성인식 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -16402,12 +17804,14 @@
       "aliases": [
         "블루링크",
         "Bluelink",
-        "Connected Services"
+        "Connected Services",
+        "블루링크 (Bluelink)"
       ],
       "keywords": [
         "Bluelink",
         "블루링크",
-        "Connected Services"
+        "Connected Services",
+        "블루링크 (Bluelink)"
       ],
       "summary": "차량 통신 기반으로 원격 제어, 상태 조회, 안전/편의 서비스를 제공하는 현대 커넥티드 서비스입니다.",
       "overview": "차량 통신 기반으로 원격 제어, 상태 조회, 안전/편의 서비스를 제공하는 현대 커넥티드 서비스입니다.",
@@ -16450,6 +17854,22 @@
           "years": "2027",
           "trim": "SX2 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -16464,17 +17884,124 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "SX2_2027_ko_KR.txt",
-        "modelCode": "SX2",
-        "modelName": "코나",
-        "modelYear": "2027",
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
         "section": "블루링크 (Bluelink)",
         "matchedKeywords": [
-          "블루링크",
-          "Bluelink"
+          "블루링크 (Bluelink)"
+        ]
+      },
+      "vehicleAudit": {
+        "hyStaria2026": {
+          "confirmed": true,
+          "manualFile": "US4_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "블루링크 (Bluelink)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyStariaHev2026": {
+          "confirmed": true,
+          "manualFile": "US4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "블루링크 (Bluelink)"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "power-sliding-door",
+      "slug": "power-sliding-door",
+      "name": "파워 슬라이딩 도어",
+      "category": "도어/트렁크",
+      "officialCategory": "도어 / 슬라이딩 도어",
+      "aliases": [
+        "파워 슬라이딩 도어",
+        "슬라이딩 도어",
+        "스마트 키 슬라이딩 도어"
+      ],
+      "keywords": [
+        "파워 슬라이딩 도어",
+        "슬라이딩 도어",
+        "스마트 키 슬라이딩 도어"
+      ],
+      "summary": "스마트 키 또는 차량 버튼으로 스타리아의 슬라이딩 도어 열림/닫힘을 보조하는 기능입니다.",
+      "overview": "스타리아 매뉴얼 기준 파워 슬라이딩 도어는 스마트 키의 파워 슬라이딩 도어 열림/닫힘 버튼 또는 차량의 도어 조작부로 슬라이딩 도어를 전동으로 여닫는 기능입니다.",
+      "preconditions": [
+        "파워 슬라이딩 도어 사양이 적용된 차량이어야 합니다.",
+        "작동 전 도어 주변 사람과 장애물을 확인해야 합니다."
+      ],
+      "settings": [
+        "스마트 키의 파워 슬라이딩 도어 열림/닫힘 버튼 또는 차량 도어 조작부를 사용합니다."
+      ],
+      "steps": [
+        "스마트 키의 파워 슬라이딩 도어 열림/닫힘 버튼을 누릅니다.",
+        "도어가 열리거나 닫히는 동안 주변 안전을 확인합니다.",
+        "차량 버튼 또는 도어 핸들 조작으로도 슬라이딩 도어를 열고 닫을 수 있습니다."
+      ],
+      "disable": [
+        "도어 작동 중 다시 버튼을 누르거나 차량 도어 조작부를 조작해 작동을 중지합니다."
+      ],
+      "limitations": [
+        "작동 가능 거리, 스마트 키 배터리 상태, 전파 간섭, 도어 주변 장애물에 따라 작동이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "도어가 움직이는 동안 사람이나 물체가 끼이지 않도록 확인하십시오.",
+        "차량을 떠나기 전 도어 잠금 상태를 확인하십시오."
+      ],
+      "related": [
+        "스마트 키",
+        "스마트 파워 테일게이트"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-staria",
+          "brand": "현대",
+          "model": "스타리아",
+          "years": "2026",
+          "trim": "US4 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-staria-hev",
+          "brand": "현대",
+          "model": "스타리아 하이브리드",
+          "years": "2026",
+          "trim": "US4 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "US4_2026_ko_KR.txt",
+        "modelCode": "US4",
+        "modelName": "스타리아",
+        "modelYear": "2026",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
+        "section": "스마트 키 사용하기 / 파워 슬라이딩 도어 열림/닫힘",
+        "matchedKeywords": [
+          "파워 슬라이딩 도어",
+          "슬라이딩 도어"
         ]
       },
       "vehicleAudit": {}
@@ -16780,6 +18307,14 @@
       "brand": "현대",
       "name": "코나 하이브리드",
       "group": "SUV · 하이브리드",
+      "hybrid": true,
+      "performance": false
+    },
+    {
+      "id": "hy-staria-hev",
+      "brand": "현대",
+      "name": "스타리아 하이브리드",
+      "group": "MPV · 하이브리드",
       "hybrid": true,
       "performance": false
     }
