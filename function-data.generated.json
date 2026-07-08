@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T06:51:12.353Z",
+  "generatedAt": "2026-07-08T07:04:29.703Z",
   "features": [
     {
       "latest": true,
@@ -68,9 +68,9 @@
           "vehicleId": "hy-kona",
           "brand": "현대",
           "model": "코나",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-tucson",
@@ -351,6 +351,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -394,13 +402,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -481,6 +489,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "전방 충돌방지 보조 (FCA)"
           ],
@@ -745,6 +769,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -792,13 +832,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 스마트 크루즈 컨트롤 (NSCC) / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
           "스마트 크루즈 컨트롤 (SCC)",
@@ -903,6 +943,26 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC)",
+            "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
+            "고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "스마트 크루즈 컨트롤 (SCC)",
             "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
@@ -1279,6 +1339,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1324,13 +1400,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "공기 청정",
         "matchedKeywords": [
           "공기 청정"
@@ -1411,6 +1487,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "공기 청정"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "공기 청정"
           ],
@@ -1506,6 +1598,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1546,15 +1646,21 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": [],
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2HEV_2027_ko_KR.txt",
+        "modelCode": "SX2HEV",
+        "modelName": "코나 하이브리드",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
         "section": "애프터 블로우",
         "matchedKeywords": [
           "애프터 블로우"
@@ -1620,6 +1726,14 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "애프터 블로우"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "애프터 블로우"
           ],
@@ -1713,6 +1827,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1758,13 +1888,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "원격 공조",
         "matchedKeywords": [
           "원격 공조"
@@ -1830,6 +1960,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 공조"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "원격 공조"
           ],
@@ -1936,6 +2082,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -1982,13 +2144,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "열선/통풍 시트",
         "matchedKeywords": [
           "열선/통풍 시트"
@@ -2069,6 +2231,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "열선/통풍 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "열선/통풍 시트"
           ],
@@ -2325,6 +2503,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2367,13 +2561,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "릴렉션 컴포트 시트",
         "matchedKeywords": [
           "릴렉션 컴포트 시트"
@@ -2438,6 +2632,22 @@
             "릴렉션 컴포트 시트"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -2452,7 +2662,8 @@
       "aliases": [
         "시트 위치 저장",
         "메모리 버튼",
-        "운전자 설정"
+        "운전자 설정",
+        "운전석 자세 메모리 시스템"
       ],
       "summary": "시트, 미러, HUD 등 일부 설정을 저장하고 버튼이나 프로필로 불러옵니다.",
       "preconditions": [],
@@ -2509,6 +2720,22 @@
           "years": "2026",
           "trim": "DN8 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2543,7 +2770,8 @@
         "memory-seat",
         "시트 위치 저장",
         "메모리 버튼",
-        "운전자 설정"
+        "운전자 설정",
+        "운전석 자세 메모리 시스템"
       ],
       "faq": [
         {
@@ -2553,16 +2781,16 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "DN8_2026_ko_KR.txt",
-        "modelCode": "DN8",
-        "modelName": "쏘나타",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "DN8_2026_ko_KR.txt 본문 검색 확인",
-        "section": "메모리 버튼",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "운전석 자세 메모리 시스템",
         "matchedKeywords": [
-          "메모리 버튼"
+          "운전석 자세 메모리 시스템"
         ]
       },
       "vehicleAudit": {
@@ -2611,6 +2839,22 @@
           "manualFile": "DN8HEV_2026_ko_KR.txt",
           "matchedKeywords": [
             "메모리 버튼"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "운전석 자세 메모리 시스템"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "운전석 자세 메모리 시스템"
           ],
           "updatedAt": "2026-07-08"
         }
@@ -2728,6 +2972,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -2777,13 +3037,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "파워 테일게이트 / 스마트 테일게이트",
         "matchedKeywords": [
           "파워 테일게이트",
@@ -2872,6 +3132,24 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "파워 테일게이트",
+            "스마트 테일게이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "파워 테일게이트",
             "스마트 테일게이트"
@@ -3363,6 +3641,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3411,13 +3705,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "Apple CarPlay / 카플레이",
         "matchedKeywords": [
           "Apple CarPlay",
@@ -3507,6 +3801,24 @@
             "카플레이"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -3520,7 +3832,9 @@
       "officialCategory": "인포테인먼트 / 무선 폰 프로젝션",
       "aliases": [
         "무선 카플레이",
-        "아이폰 무선 연결"
+        "아이폰 무선 연결",
+        "Apple CarPlay 무선 연결",
+        "카플레이"
       ],
       "summary": "지원 차량에서 Wi-Fi와 Bluetooth로 iPhone CarPlay를 연결합니다.",
       "preconditions": [],
@@ -3532,7 +3846,24 @@
         "Apple CarPlay",
         "Android Auto 무선 연결"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -3569,7 +3900,8 @@
         "Apple CarPlay 무선 연결",
         "apple-carplay-wireless",
         "무선 카플레이",
-        "아이폰 무선 연결"
+        "아이폰 무선 연결",
+        "카플레이"
       ],
       "faq": [
         {
@@ -3577,7 +3909,41 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "Apple CarPlay 무선 연결 / 카플레이",
+        "matchedKeywords": [
+          "Apple CarPlay 무선 연결",
+          "카플레이"
+        ]
+      },
+      "vehicleAudit": {
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay 무선 연결",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Apple CarPlay 무선 연결",
+            "카플레이"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -3675,6 +4041,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -3722,13 +4104,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "Android Auto / 안드로이드 오토",
         "matchedKeywords": [
           "Android Auto",
@@ -3822,6 +4204,24 @@
             "안드로이드 오토"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -3835,7 +4235,9 @@
       "officialCategory": "인포테인먼트 / 무선 폰 프로젝션",
       "aliases": [
         "무선 안드로이드 오토",
-        "갤럭시 무선 연결"
+        "갤럭시 무선 연결",
+        "Android Auto 무선 연결",
+        "안드로이드 오토"
       ],
       "summary": "지원 차량에서 Wi-Fi와 Bluetooth로 Android Auto를 연결합니다.",
       "preconditions": [],
@@ -3847,7 +4249,24 @@
         "Android Auto",
         "Apple CarPlay 무선 연결"
       ],
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
       "sources": [
         "hyundaiManual",
         "kiaManual",
@@ -3884,7 +4303,8 @@
         "Android Auto 무선 연결",
         "android-auto-wireless",
         "무선 안드로이드 오토",
-        "갤럭시 무선 연결"
+        "갤럭시 무선 연결",
+        "안드로이드 오토"
       ],
       "faq": [
         {
@@ -3892,7 +4312,41 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "Android Auto 무선 연결 / 안드로이드 오토",
+        "matchedKeywords": [
+          "Android Auto 무선 연결",
+          "안드로이드 오토"
+        ]
+      },
+      "vehicleAudit": {
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto 무선 연결",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto 무선 연결",
+            "안드로이드 오토"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -4008,6 +4462,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -4055,13 +4525,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트"
@@ -4146,6 +4616,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "무선 소프트웨어 업데이트"
           ],
@@ -6062,6 +6548,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -6080,13 +6582,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "전방/측방/후방 주차 거리 경고",
         "matchedKeywords": [
           "전방/측방/후방 주차 거리 경고"
@@ -6167,6 +6669,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "전방/측방/후방 주차 거리 경고"
           ],
@@ -6415,6 +6933,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -6435,13 +6969,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
           "주차 충돌방지 보조 (PCA)"
@@ -6522,6 +7056,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "주차 충돌방지 보조 (PCA)"
           ],
@@ -6835,6 +7385,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [],
@@ -6852,13 +7418,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "하이패스",
         "matchedKeywords": [
           "하이패스"
@@ -6919,6 +7485,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "하이패스"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "하이패스"
           ],
@@ -7217,6 +7799,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "settings": [
@@ -7241,16 +7839,16 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
-        "section": "디지털 키",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "현대 디지털 키",
         "matchedKeywords": [
-          "디지털 키"
+          "현대 디지털 키"
         ]
       },
       "vehicleAudit": {
@@ -7332,6 +7930,22 @@
             "디지털 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
@@ -7339,7 +7953,10 @@
       "latest": true,
       "updatedAt": "2026-06-25",
       "overview": "스마트폰 접촉 방식으로 도어 잠금 해제와 차량 시동 인증을 지원합니다.",
-      "aliases": [],
+      "aliases": [
+        "현대 디지털 키 Touch",
+        "NFC"
+      ],
       "preconditions": [],
       "steps": [],
       "disable": [],
@@ -7372,13 +7989,32 @@
       "category": "디지털 키/인증",
       "officialCategory": "현대 디지털 키",
       "summary": "스마트폰 접촉 방식으로 도어 잠금 해제와 차량 시동 인증을 지원합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
       "settings": [],
       "status": "",
       "subcategory": "현대 디지털 키",
       "keywords": [
         "Hyundai Digital Key 2 Touch",
-        "hyundai-dk2-touch"
+        "hyundai-dk2-touch",
+        "현대 디지털 키 Touch",
+        "NFC"
       ],
       "faq": [
         {
@@ -7386,7 +8022,41 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "현대 디지털 키 Touch / NFC",
+        "matchedKeywords": [
+          "현대 디지털 키 Touch",
+          "NFC"
+        ]
+      },
+      "vehicleAudit": {
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키 Touch",
+            "NFC"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "현대 디지털 키 Touch",
+            "NFC"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -7579,13 +8249,13 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "빌트인 캠",
         "matchedKeywords": [
           "빌트인 캠"
@@ -7682,6 +8352,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "vehicleAudit": {
@@ -7759,6 +8445,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "빌트인 캠"
           ],
@@ -8123,7 +8825,8 @@
       "updatedAt": "2026-06-25",
       "overview": "2열 좌석을 이동하거나 접어 3열 승하차 공간을 확보합니다.",
       "aliases": [
-        "Walk-in Device"
+        "Walk-in Device",
+        "동승석 측면 워크인 스위치"
       ],
       "preconditions": [],
       "steps": [],
@@ -8136,7 +8839,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -8158,7 +8862,24 @@
       "category": "시트",
       "officialCategory": "시트 / 승하차 편의",
       "summary": "2열 좌석을 이동하거나 접어 3열 승하차 공간을 확보합니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
       "settings": [],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -8167,7 +8888,8 @@
       "keywords": [
         "워크인 디바이스",
         "walk-in-device",
-        "Walk-in Device"
+        "Walk-in Device",
+        "동승석 측면 워크인 스위치"
       ],
       "faq": [
         {
@@ -8175,7 +8897,38 @@
           "answer": "현재 차종별 적용 정보가 공식 원문 기준으로 확정되지 않았습니다. 해당 차량의 공식 매뉴얼과 제조사 안내를 확인하세요."
         }
       ],
-      "sourceDetails": []
+      "sourceDetails": [],
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "동승석 측면 워크인 스위치",
+        "matchedKeywords": [
+          "동승석 측면 워크인 스위치"
+        ]
+      },
+      "vehicleAudit": {
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "동승석 측면 워크인 스위치"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "동승석 측면 워크인 스위치"
+          ],
+          "updatedAt": "2026-07-08"
+        }
+      }
     },
     {
       "latest": true,
@@ -9870,7 +10623,7 @@
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "투싼 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 이동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
+      "overview": "코나 하이브리드 매뉴얼 기준 회생 제동은 차량 감속 및 제동 시 전기 모터의 이동 에너지를 전기 에너지로 변환해 배터리를 충전하는 기능입니다.",
       "aliases": [
         "회생 제동",
         "하이브리드 회생 제동"
@@ -9953,6 +10706,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -9982,13 +10743,13 @@
       ],
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "NX4HEV_2026_ko_KR.txt",
-        "modelCode": "NX4HEV",
-        "modelName": "투싼 하이브리드",
-        "modelYear": "2026",
+        "manualFile": "SX2HEV_2027_ko_KR.txt",
+        "modelCode": "SX2HEV",
+        "modelName": "코나 하이브리드",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -10031,13 +10792,22 @@
             "하이브리드 회생 제동"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "하이브리드 회생 제동"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "투싼 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 때 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
+      "overview": "코나 하이브리드 매뉴얼 기준 회생 제동은 감속 및 제동 때 배터리 충전을 위해 작동하며 주행 조건에 따라 제동감이 달라질 수 있습니다.",
       "aliases": [
         "회생 제동",
         "회생 제동량"
@@ -10121,6 +10891,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10151,13 +10929,13 @@
       ],
       "section": "회생 제동",
       "manualEvidence": {
-        "manualFile": "NX4HEV_2026_ko_KR.txt",
-        "modelCode": "NX4HEV",
-        "modelName": "투싼 하이브리드",
-        "modelYear": "2026",
+        "manualFile": "SX2HEV_2027_ko_KR.txt",
+        "modelCode": "SX2HEV",
+        "modelName": "코나 하이브리드",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동",
         "matchedKeywords": [
           "회생 제동",
@@ -10201,13 +10979,22 @@
             "회생 제동량"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동",
+            "회생 제동량"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "투싼 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
+      "overview": "코나 하이브리드 매뉴얼 기준 하이브리드 에너지 흐름도는 주행 상태에 따른 시스템 동력 전달 상태와 엔진 상태를 클러스터에 표시합니다.",
       "aliases": [
         "하이브리드 에너지 흐름",
         "에너지 흐름도",
@@ -10292,6 +11079,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10322,13 +11117,13 @@
       ],
       "section": "하이브리드 에너지 흐름도",
       "manualEvidence": {
-        "manualFile": "NX4HEV_2026_ko_KR.txt",
-        "modelCode": "NX4HEV",
-        "modelName": "투싼 하이브리드",
-        "modelYear": "2026",
+        "manualFile": "SX2HEV_2027_ko_KR.txt",
+        "modelCode": "SX2HEV",
+        "modelName": "코나 하이브리드",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 에너지 흐름도",
         "matchedKeywords": [
           "하이브리드 에너지 흐름",
@@ -10373,13 +11168,23 @@
             "에너지 흐름"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "하이브리드 에너지 흐름",
+            "에너지 흐름도",
+            "에너지 흐름"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "투싼 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
+      "overview": "코나 하이브리드 매뉴얼 기준 고전압 배터리 충전량 표시계는 시동 ON 상태에서 고전압 배터리 충전 상태를 표시합니다.",
       "aliases": [
         "고전압 배터리",
         "배터리 충전 상태",
@@ -10463,6 +11268,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10494,13 +11307,13 @@
       ],
       "section": "고전압 배터리 충전량(SOC) 표시계",
       "manualEvidence": {
-        "manualFile": "NX4HEV_2026_ko_KR.txt",
-        "modelCode": "NX4HEV",
-        "modelName": "투싼 하이브리드",
-        "modelYear": "2026",
+        "manualFile": "SX2HEV_2027_ko_KR.txt",
+        "modelCode": "SX2HEV",
+        "modelName": "코나 하이브리드",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
         "section": "고전압 배터리 충전량(SOC) 표시계",
         "matchedKeywords": [
           "고전압 배터리",
@@ -10548,13 +11361,23 @@
             "SOC"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "고전압 배터리",
+            "배터리 충전 상태",
+            "SOC"
+          ],
+          "updatedAt": "2026-07-08"
         }
       }
     },
     {
       "latest": true,
       "updatedAt": "2026-06-25",
-      "overview": "투싼 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
+      "overview": "코나 하이브리드 매뉴얼 기준 EV 모드 표시등은 모터를 이용해 주행하는 상태를 표시합니다.",
       "aliases": [
         "EV 모드 표시등",
         "하이브리드 주행 정보"
@@ -10638,6 +11461,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "status": "공식 세부 절차 검증 필요",
@@ -10669,13 +11500,13 @@
       ],
       "section": "하이브리드 자동차 주행하기",
       "manualEvidence": {
-        "manualFile": "NX4HEV_2026_ko_KR.txt",
-        "modelCode": "NX4HEV",
-        "modelName": "투싼 하이브리드",
-        "modelYear": "2026",
+        "manualFile": "SX2HEV_2027_ko_KR.txt",
+        "modelCode": "SX2HEV",
+        "modelName": "코나 하이브리드",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4HEV_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2HEV_2027_ko_KR.txt 본문 검색 확인",
         "section": "하이브리드 자동차 주행하기",
         "matchedKeywords": [
           "EV 모드 표시등",
@@ -10714,6 +11545,15 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "EV 모드 표시등",
+            "하이브리드 주행 정보"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "EV 모드 표시등",
             "하이브리드 주행 정보"
@@ -10937,6 +11777,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -10975,13 +11831,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "원격 스마트 주차 보조 (RSPA)",
         "matchedKeywords": [
           "원격 스마트 주차 보조 (RSPA)"
@@ -11047,6 +11903,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 (RSPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "원격 스마트 주차 보조 (RSPA)"
           ],
@@ -11158,6 +12030,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11196,13 +12084,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "스마트 주차 보조 (SPA)",
         "matchedKeywords": [
           "스마트 주차 보조 (SPA)"
@@ -11268,6 +12156,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 주차 보조 (SPA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "스마트 주차 보조 (SPA)"
           ],
@@ -11387,6 +12291,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11425,13 +12345,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -11508,6 +12428,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "후방 모니터 (RVM)"
           ],
@@ -11628,6 +12564,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11666,13 +12618,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -11749,6 +12701,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "서라운드 뷰 모니터 (SVM)"
           ],
@@ -11867,6 +12835,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -11904,13 +12888,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -11987,6 +12971,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "후측방 모니터 (BVM)"
           ],
@@ -12107,6 +13107,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12144,13 +13160,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -12231,6 +13247,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
@@ -12351,6 +13383,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12390,13 +13438,13 @@
       ],
       "sourceDetails": [],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "주차 거리 경고 (PDW)",
         "matchedKeywords": [
           "주차 거리 경고 (PDW)"
@@ -12473,6 +13521,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "주차 거리 경고 (PDW)"
           ],
@@ -12891,6 +13955,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -12931,13 +14011,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "히터 및 에어컨",
         "matchedKeywords": [
           "히터 및 에어컨"
@@ -13014,6 +14094,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "히터 및 에어컨"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "히터 및 에어컨"
           ],
@@ -13116,6 +14212,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13152,13 +14264,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "스마트 키",
         "matchedKeywords": [
           "스마트 키"
@@ -13235,6 +14347,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "스마트 키"
           ],
@@ -13338,6 +14466,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13375,13 +14519,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "비상 키",
         "matchedKeywords": [
           "비상 키"
@@ -13458,6 +14602,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "비상 키"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "비상 키"
           ],
@@ -13561,6 +14721,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13598,13 +14774,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "원격 시동",
         "matchedKeywords": [
           "원격 시동"
@@ -13681,6 +14857,22 @@
         "hyTucsonHev2026": {
           "confirmed": true,
           "manualFile": "NX4HEV_2026_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKona2027": {
+          "confirmed": true,
+          "manualFile": "SX2_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 시동"
+          ],
+          "updatedAt": "2026-07-08"
+        },
+        "hyKonaHev2027": {
+          "confirmed": true,
+          "manualFile": "SX2HEV_2027_ko_KR.txt",
           "matchedKeywords": [
             "원격 시동"
           ],
@@ -13797,6 +14989,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13811,13 +15019,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "차로 이탈방지 보조 (LKA)",
         "matchedKeywords": [
           "Lane Keeping Assist",
@@ -13957,6 +15165,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -13971,13 +15195,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "차로 유지 보조 (LFA)",
         "matchedKeywords": [
           "Lane Following Assist",
@@ -14117,6 +15341,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14131,13 +15371,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "지능형 속도 제한 보조 (ISLA)",
         "matchedKeywords": [
           "Intelligent Speed Limit Assist",
@@ -14279,6 +15519,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14293,13 +15549,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "운전자 주의 경고 (DAW)",
         "matchedKeywords": [
           "Driver Attention Warning",
@@ -14442,6 +15698,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14456,13 +15728,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "하이빔 보조 (HBA)",
         "matchedKeywords": [
           "High Beam Assist",
@@ -14602,6 +15874,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14616,13 +15904,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "후측방 충돌방지 보조 (BCA)",
         "matchedKeywords": [
           "Blind-Spot Collision-Avoidance Assist",
@@ -14764,6 +16052,22 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
         }
       ],
       "sources": [
@@ -14778,19 +16082,18 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
         "section": "안전 하차 보조 (SEA)",
         "matchedKeywords": [
           "Safe Exit Assist",
           "SEA",
-          "안전 하차 보조",
-          "전자식 차일드 락 연동"
+          "안전 하차 보조"
         ]
       },
       "vehicleAudit": {
@@ -14817,6 +16120,364 @@
           "updatedAt": "2026-07-07"
         }
       }
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "nfc-card-key",
+      "slug": "nfc-card-key",
+      "name": "NFC 카드 키",
+      "category": "디지털 키/인증",
+      "officialCategory": "현대 디지털 키 / 카드 키",
+      "aliases": [
+        "디지털 키 (카드 키)",
+        "NFC 카드 키",
+        "카드 키"
+      ],
+      "keywords": [
+        "NFC 카드 키",
+        "디지털 키 (카드 키)",
+        "카드 키"
+      ],
+      "summary": "NFC 카드 키를 이용해 도어 잠금/잠금 해제와 차량 인증을 지원하는 디지털 키 기능입니다.",
+      "overview": "NFC 카드 키를 이용해 도어 잠금/잠금 해제와 차량 인증을 지원하는 디지털 키 기능입니다.",
+      "preconditions": [
+        "디지털 키 사양이 적용된 차량이어야 합니다.",
+        "차량에 NFC 카드 키가 등록되어 있어야 합니다."
+      ],
+      "settings": [
+        "인포테인먼트 시스템의 디지털 키 또는 사용자 프로필 관련 메뉴에서 등록 및 연동 상태를 확인합니다."
+      ],
+      "steps": [
+        "등록된 NFC 카드 키를 도어 핸들 또는 차량에서 안내하는 인증 위치에 접촉해 사용합니다.",
+        "프로필 개인화는 스마트폰 키와 다르게 작동하며, 카드 키는 최근 작동한 프로필 기준으로 안내됩니다."
+      ],
+      "disable": [
+        "디지털 키 관련 메뉴에서 등록된 키를 삭제하거나 연동을 해제합니다."
+      ],
+      "limitations": [
+        "NFC 카드 키로는 프로필 연동을 할 수 없습니다.",
+        "카드 키 등록 여부와 차량 사양에 따라 사용 가능 범위가 달라집니다."
+      ],
+      "warnings": [
+        "카드 키 분실 시 차량의 디지털 키 등록 상태를 확인하고 필요한 조치를 하십시오."
+      ],
+      "related": [
+        "Hyundai Digital Key 2",
+        "스마트 키"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "현대 디지털 키 / 디지털 키 (카드 키)",
+        "matchedKeywords": [
+          "NFC 카드 키",
+          "디지털 키 (카드 키)",
+          "카드 키"
+        ]
+      },
+      "vehicleAudit": {}
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "wireless-phone-charging",
+      "slug": "wireless-phone-charging",
+      "name": "스마트폰 무선 충전 시스템",
+      "category": "편의",
+      "officialCategory": "편의 장치 / 무선 충전",
+      "aliases": [
+        "무선 충전",
+        "휴대폰 무선 충전",
+        "스마트폰 무선 충전"
+      ],
+      "keywords": [
+        "스마트폰 무선 충전 시스템",
+        "무선 충전",
+        "휴대폰 무선 충전",
+        "스마트폰 무선 충전"
+      ],
+      "summary": "무선 충전을 지원하는 스마트폰을 차량의 무선 충전 패드에 올려 충전하는 기능입니다.",
+      "overview": "무선 충전을 지원하는 스마트폰을 차량의 무선 충전 패드에 올려 충전하는 기능입니다.",
+      "preconditions": [
+        "무선 충전 사양이 적용된 차량이어야 합니다.",
+        "무선 충전을 지원하는 스마트폰이어야 합니다."
+      ],
+      "settings": [
+        "차량의 스마트폰 무선 충전 시스템 위치와 표시등을 확인합니다."
+      ],
+      "steps": [
+        "스마트폰을 무선 충전 패드 중앙에 올려놓습니다.",
+        "충전 단자/휴대폰 무선 충전 시스템 표시등을 확인합니다."
+      ],
+      "disable": [
+        "스마트폰을 무선 충전 패드에서 분리합니다."
+      ],
+      "limitations": [
+        "휴대폰 기종, 케이스, 금속 물체, 위치에 따라 충전이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "충전 패드 위에 금속 물체나 카드류를 함께 올려놓지 마십시오."
+      ],
+      "related": [
+        "USB-C 충전",
+        "스마트 키"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "스마트폰 무선 충전 시스템",
+        "matchedKeywords": [
+          "스마트폰 무선 충전 시스템",
+          "무선 충전"
+        ]
+      },
+      "vehicleAudit": {}
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "voice-recognition-system",
+      "slug": "voice-recognition-system",
+      "name": "음성인식 시스템",
+      "category": "인포테인먼트",
+      "officialCategory": "인포테인먼트 / 음성인식",
+      "aliases": [
+        "음성 인식",
+        "음성 인식 버튼",
+        "음성 명령"
+      ],
+      "keywords": [
+        "음성인식 시스템",
+        "음성 인식",
+        "음성 인식 버튼",
+        "음성 명령"
+      ],
+      "summary": "스티어링 휠의 음성 인식 버튼을 이용해 차량 인포테인먼트 기능을 음성으로 조작하는 기능입니다.",
+      "overview": "스티어링 휠의 음성 인식 버튼을 이용해 차량 인포테인먼트 기능을 음성으로 조작하는 기능입니다.",
+      "preconditions": [
+        "인포테인먼트 시스템과 음성 인식 기능이 사용 가능한 상태여야 합니다."
+      ],
+      "settings": [
+        "스티어링 휠의 음성 인식 버튼 위치를 확인합니다."
+      ],
+      "steps": [
+        "스티어링 휠의 음성 인식 버튼을 누릅니다.",
+        "안내음 후 원하는 명령어를 말합니다."
+      ],
+      "disable": [
+        "음성 인식 종료 안내를 따르거나 다른 인포테인먼트 조작으로 종료합니다."
+      ],
+      "limitations": [
+        "주변 소음, 발음, 시스템 상태에 따라 인식이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "주행 중에는 화면 조작보다 안전 운전에 우선하십시오."
+      ],
+      "related": [
+        "Bluelink",
+        "Android Auto"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "음성인식 시스템",
+        "matchedKeywords": [
+          "음성인식 시스템",
+          "음성 인식 버튼"
+        ]
+      },
+      "vehicleAudit": {}
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-08",
+      "id": "bluelink-connected-services",
+      "slug": "bluelink-connected-services",
+      "name": "Bluelink",
+      "category": "커넥티드 서비스",
+      "officialCategory": "블루링크 (Bluelink)",
+      "aliases": [
+        "블루링크",
+        "Bluelink",
+        "Connected Services"
+      ],
+      "keywords": [
+        "Bluelink",
+        "블루링크",
+        "Connected Services"
+      ],
+      "summary": "차량 통신 기반으로 원격 제어, 상태 조회, 안전/편의 서비스를 제공하는 현대 커넥티드 서비스입니다.",
+      "overview": "차량 통신 기반으로 원격 제어, 상태 조회, 안전/편의 서비스를 제공하는 현대 커넥티드 서비스입니다.",
+      "preconditions": [
+        "Bluelink 지원 차량이어야 하며 서비스 가입과 앱 로그인이 필요합니다."
+      ],
+      "settings": [
+        "인포테인먼트 시스템과 Bluelink 앱에서 서비스 가입 및 차량 등록 상태를 확인합니다."
+      ],
+      "steps": [
+        "Bluelink 앱 또는 차량 인포테인먼트의 Bluelink 메뉴를 이용합니다.",
+        "원격 시동, 원격 공조, 차량 상태 조회 등 제공되는 메뉴를 선택합니다."
+      ],
+      "disable": [
+        "앱 또는 차량 메뉴에서 실행 중인 원격 기능을 중지하거나 서비스 설정을 변경합니다."
+      ],
+      "limitations": [
+        "통신 음영 지역, 차량 상태, 서비스 가입 상태에 따라 일부 기능이 제한될 수 있습니다."
+      ],
+      "warnings": [
+        "원격 기능 사용 전 차량 주변 안전과 실내/실외 환경을 확인하십시오."
+      ],
+      "related": [
+        "원격 시동",
+        "원격 공조"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-kona",
+          "brand": "현대",
+          "model": "코나",
+          "years": "2027",
+          "trim": "SX2 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-kona-hev",
+          "brand": "현대",
+          "model": "코나 하이브리드",
+          "years": "2027",
+          "trim": "SX2 HEV 해당 사양/트림",
+          "option": "Owners Manual 수록 HEV 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "manualEvidence": {
+        "manualFile": "SX2_2027_ko_KR.txt",
+        "modelCode": "SX2",
+        "modelName": "코나",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "SX2_2027_ko_KR.txt 본문 검색 확인",
+        "section": "블루링크 (Bluelink)",
+        "matchedKeywords": [
+          "블루링크",
+          "Bluelink"
+        ]
+      },
+      "vehicleAudit": {}
     }
   ],
   "vehicles": [
@@ -15110,6 +16771,14 @@
       "id": "hy-tucson-hev",
       "brand": "현대",
       "name": "투싼 하이브리드",
+      "group": "SUV · 하이브리드",
+      "hybrid": true,
+      "performance": false
+    },
+    {
+      "id": "hy-kona-hev",
+      "brand": "현대",
+      "name": "코나 하이브리드",
       "group": "SUV · 하이브리드",
       "hybrid": true,
       "performance": false
