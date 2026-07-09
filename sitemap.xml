@@ -127,6 +127,11 @@
   <url><loc>https://korean-car-guide.vercel.app/function/v2l-discharge-limit/</loc></url>
   <url><loc>https://korean-car-guide.vercel.app/function/one-pedal-driving/</loc></url>
   <url><loc>https://korean-car-guide.vercel.app/function/ev-efficiency-history/</loc></url>
+  <url><loc>https://korean-car-guide.vercel.app/function/ac-slow-charging/</loc></url>
+  <url><loc>https://korean-car-guide.vercel.app/function/dc-fast-charging/</loc></url>
+  <url><loc>https://korean-car-guide.vercel.app/function/portable-charger-iccb/</loc></url>
+  <url><loc>https://korean-car-guide.vercel.app/function/stop-charging-immediately/</loc></url>
+  <url><loc>https://korean-car-guide.vercel.app/function/digital-key/</loc></url>
   <url><loc>https://korean-car-guide.vercel.app/function/uv-c-sterilization-system/</loc></url>
   <url><loc>https://korean-car-guide.vercel.app/function/sliding-console/</loc></url>
 </urlset>

@@ -340,6 +340,9 @@ const footerMeta = document.querySelector('.site-footer__meta');
   if (typeof window.applyKonaManualAudit === 'function') {
     window.applyKonaManualAudit();
   }
+  if (typeof window.applyKonaElectricManualAudit === 'function') {
+    window.applyKonaElectricManualAudit();
+  }
   if (typeof window.applyStariaManualAudit === 'function') {
     window.applyStariaManualAudit();
   }
