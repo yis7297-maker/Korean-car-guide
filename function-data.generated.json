@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-07-09",
-  "count": 119,
+  "count": 121,
   "features": [
     {
       "latest": true,
@@ -125,9 +125,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "차종/트림별 상이",
-          "option": "기본/선택 상이"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-nexo",
@@ -427,13 +427,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "전방 충돌방지 보조 (FCA)",
         "matchedKeywords": [
           "전방 충돌방지 보조 (FCA)"
@@ -566,10 +566,45 @@
             "전방 충돌방지 보조 (FCA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방 충돌방지 보조 (FCA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "fca-suite",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전방 충돌방지 보조 (FCA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>"
     },
     {
@@ -593,7 +628,8 @@
         "HDA",
         "스마트 크루즈 컨트롤 (SCC)",
         "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
-        "고속도로 주행 보조 (HDA)"
+        "고속도로 주행 보조 (HDA)",
+        "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 SCC / 고속도로 주행 보조 (HDA)"
       ],
       "summary": "고속도로에서 속도, 차간 거리, 차로 중앙 주행을 보조합니다.",
       "preconditions": [
@@ -666,9 +702,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지 중심",
-          "option": "선택 또는 기본 사양"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-sonata",
@@ -898,7 +934,8 @@
         "크루즈",
         "스마트 크루즈 컨트롤 (SCC)",
         "내비게이션 기반 스마트 크루즈 컨트롤 (NSCC)",
-        "고속도로 주행 보조 (HDA)"
+        "고속도로 주행 보조 (HDA)",
+        "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 SCC / 고속도로 주행 보조 (HDA)"
       ],
       "faq": [
         {
@@ -924,17 +961,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "스마트 크루즈 컨트롤 (SCC) / 고속도로 주행 보조 (HDA)",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 SCC / 고속도로 주행 보조 (HDA)",
         "matchedKeywords": [
-          "스마트 크루즈 컨트롤 (SCC)",
-          "고속도로 주행 보조 (HDA)"
+          "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 SCC / 고속도로 주행 보조 (HDA)"
         ]
       },
       "vehicleAudit": {
@@ -1096,10 +1132,45 @@
             "고속도로 주행 보조 (HDA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 SCC / 고속도로 주행 보조 (HDA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "nscc-hda2",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "스마트 크루즈 컨트롤 (SCC) / 내비게이션 기반 SCC / 고속도로 주행 보조 (HDA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8\"></circle><circle cx=\"12\" cy=\"12\" r=\"2\"></circle><path d=\"M5 12h4M15 12h4M12 14l-3 5M12 14l3 5\"></path></svg>"
     },
     {
@@ -1120,7 +1191,8 @@
         "RSPA",
         "rspa-2",
         "remote-smart-parking-assist-2",
-        "remote-smart-parking-assist"
+        "remote-smart-parking-assist",
+        "원격 스마트 주차 보조 2 (RSPA 2)"
       ],
       "summary": "차량 안 또는 차량 밖에서 주차 공간 탐색과 주차·출차 조작을 보조합니다.",
       "preconditions": [
@@ -1162,9 +1234,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "상위 트림/패키지",
-          "option": "선택 또는 상위 사양"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "kia-k9",
@@ -1234,7 +1306,8 @@
         "차가 혼자 주차",
         "원격 주차",
         "자동 주차",
-        "차 빼기"
+        "차 빼기",
+        "원격 스마트 주차 보조 2 (RSPA 2)"
       ],
       "faq": [
         {
@@ -1265,18 +1338,17 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "GN7_2026_ko_KR.txt",
-        "modelCode": "GN7",
-        "modelName": "그랜저",
-        "modelYear": "2026",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "section": "원격 스마트 주차 보조(RSPA)",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "원격 스마트 주차 보조 2 (RSPA 2)",
         "matchedKeywords": [
-          "원격 스마트 주차 보조",
-          "RSPA"
-        ],
-        "pageRange": "GN7_2026_ko_KR.txt 본문 검색 확인"
+          "원격 스마트 주차 보조 2 (RSPA 2)"
+        ]
       },
       "vehicleAudit": {
         "hyGrandeur2026": {
@@ -1293,6 +1365,14 @@
             }
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 2 (RSPA 2)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "rspa2",
@@ -1300,6 +1380,33 @@
         "rspa-2",
         "remote-smart-parking-assist-2",
         "remote-smart-parking-assist"
+      ],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "원격 스마트 주차 보조 2 (RSPA 2)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
       ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
@@ -2421,7 +2528,9 @@
         "시트 바람",
         "열선/통풍",
         "시트 열선",
-        "열선/통풍 시트"
+        "열선/통풍 시트",
+        "열선 시트",
+        "통풍 시트"
       ],
       "summary": "시트 온열 또는 통풍을 단계별로 조절합니다.",
       "preconditions": [],
@@ -2553,6 +2662,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -2589,7 +2706,9 @@
         "통풍",
         "엉뜨",
         "시트 바람",
-        "열선/통풍 시트"
+        "열선/통풍 시트",
+        "열선 시트",
+        "통풍 시트"
       ],
       "faq": [
         {
@@ -2615,16 +2734,17 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "열선/통풍 시트",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "열선 시트 및 통풍 시트 사용하기",
         "matchedKeywords": [
-          "열선/통풍 시트"
+          "열선 시트",
+          "통풍 시트"
         ]
       },
       "vehicleAudit": {
@@ -2754,10 +2874,42 @@
             "열선/통풍 시트"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "열선 시트",
+            "통풍 시트"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "heated-ventilated-seats",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "열선 시트 및 통풍 시트 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "해당 좌석에 열선/통풍 사양이 적용되어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "시트 열선 또는 통풍 버튼을 눌러 단계별로 조절합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "열선 사용 시 저온 화상에 주의합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
     },
     {
@@ -2957,7 +3109,8 @@
         "무중력 시트",
         "휴식 자세",
         "릴렉션 컴포트 시트",
-        "릴렉션 좌석 원터치 조절"
+        "릴렉션 좌석 원터치 조절",
+        "아이오닉 9 시트"
       ],
       "summary": "정차 중 휴식에 적합하도록 시트와 레그레스트를 자동 조절합니다.",
       "preconditions": [],
@@ -3072,6 +3225,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -3105,7 +3266,8 @@
         "릴렉션 시트",
         "무중력 시트",
         "휴식 자세",
-        "릴렉션 좌석 원터치 조절"
+        "릴렉션 좌석 원터치 조절",
+        "아이오닉 9 시트"
       ],
       "faq": [
         {
@@ -3131,13 +3293,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "릴렉션 컴포트 시트",
         "matchedKeywords": [
           "릴렉션 컴포트 시트"
@@ -3250,10 +3412,46 @@
             "릴렉션 컴포트 시트"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "릴렉션 컴포트 시트"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "relaxation-comfort-seat",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "릴렉션 컴포트 시트",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "사양 적용 차량이어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템에서 설정 > 차량 > 시트를 선택해 좌석 관련 편의 기능을 설정할 수 있습니다."
+          ],
+          "steps": [
+            "시트 조작부 명칭과 각 좌석 조절 스위치 위치를 확인한 뒤 해당 기능을 조작합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "6인승/7인승 및 수동식/전동식 좌석 사양에 따라 제공 기능이 다릅니다."
+          ],
+          "warnings": [
+            "주행 중에는 좌석을 조절하지 마십시오.",
+            "좌석 조절 시 좌석 아래나 작동 부위에 손을 넣지 마십시오."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
     },
     {
@@ -4309,7 +4507,8 @@
         "카플레이",
         "유선 카플레이",
         "아이폰 연결",
-        "Apple CarPlay"
+        "Apple CarPlay",
+        "CarPlay"
       ],
       "summary": "iPhone을 USB로 연결해 지도, 통화, 음악, 메시지 앱을 차량 화면에서 사용합니다.",
       "preconditions": [],
@@ -4441,6 +4640,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -4479,7 +4686,8 @@
         "apple-carplay-wired",
         "카플레이",
         "유선 카플레이",
-        "아이폰 연결"
+        "아이폰 연결",
+        "CarPlay"
       ],
       "faq": [
         {
@@ -4505,17 +4713,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "Apple CarPlay / 카플레이",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "USB 단자 / 스마트폰 연동",
         "matchedKeywords": [
-          "Apple CarPlay",
-          "카플레이"
+          "CarPlay"
         ]
       },
       "vehicleAudit": {
@@ -4655,10 +4862,39 @@
             "카플레이"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "CarPlay"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "apple-carplay-wired",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "USB 단자 / 스마트폰 연동",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "CarPlay 지원 스마트폰과 USB 연결 또는 지원 연결 조건이 필요합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "스마트폰을 차량에 연결한 뒤 인포테인먼트 시스템에서 CarPlay를 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
     },
     {
@@ -4988,6 +5224,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -5051,17 +5295,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "Android Auto / 안드로이드 오토",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "USB 단자 / 스마트폰 연동",
         "matchedKeywords": [
-          "Android Auto",
-          "안드로이드 오토"
+          "Android Auto"
         ]
       },
       "vehicleAudit": {
@@ -5205,10 +5448,39 @@
             "안드로이드 오토"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Android Auto"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "android-auto-wired",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "USB 단자 / 스마트폰 연동",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "Android Auto 지원 스마트폰과 USB 연결 또는 지원 연결 조건이 필요합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "스마트폰을 차량에 연결한 뒤 인포테인먼트 시스템에서 Android Auto를 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>"
     },
     {
@@ -5410,7 +5682,8 @@
         "OTA Update",
         "무선 소프트웨어 업데이트",
         "소프트웨어 자동 다운로드",
-        "소프트웨어 업데이트 승인"
+        "소프트웨어 업데이트 승인",
+        "Software Update"
       ],
       "summary": "차량 소프트웨어와 인포테인먼트 기능을 무선으로 업데이트합니다.",
       "preconditions": [
@@ -5556,6 +5829,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -5593,7 +5874,8 @@
         "소프트웨어 업데이트",
         "ccNC",
         "OTA Update",
-        "무선 소프트웨어 업데이트"
+        "무선 소프트웨어 업데이트",
+        "Software Update"
       ],
       "faq": [
         {
@@ -5619,14 +5901,14 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "무선 소프트웨어 업데이트 / OTA",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "무선 소프트웨어 업데이트",
         "matchedKeywords": [
           "무선 소프트웨어 업데이트",
           "OTA"
@@ -5764,10 +6046,42 @@
             "OTA"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "무선 소프트웨어 업데이트",
+            "OTA"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ccnc-ota",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "무선 소프트웨어 업데이트",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "차량 통신 및 업데이트 조건을 만족해야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "인포테인먼트 시스템 안내에 따라 소프트웨어 업데이트를 진행합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "업데이트로 인해 일부 상세 설정이 변경될 수 있습니다."
+          ],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11-2A5 5 0 0 0 7 18z\"></path><path d=\"M9 14h6\"></path></svg>"
     },
     {
@@ -5785,7 +6099,8 @@
         "지문 인증 시스템",
         "지문 등록",
         "지문 인식 시동",
-        "지문 인증"
+        "지문 인증",
+        "Fingerprint Authentication"
       ],
       "summary": "차량 지문 인증 센서에 지문을 등록해 일부 차량 기능 인증에 사용하는 기능입니다.",
       "preconditions": [
@@ -5881,6 +6196,14 @@
           "years": "2026",
           "trim": "NX4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -5916,7 +6239,8 @@
         "지문 시동",
         "생체 인증",
         "지문 인증 시스템",
-        "지문 등록"
+        "지문 등록",
+        "Fingerprint Authentication"
       ],
       "faq": [
         {
@@ -5937,14 +6261,14 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "NX4_2026_ko_KR.txt",
-        "modelCode": "NX4",
-        "modelName": "투싼",
-        "modelYear": "2026",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "NX4_2026_ko_KR.txt 본문 검색 확인",
-        "section": "지문 인증 시스템",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "지문 인증 시스템 사용하기",
         "matchedKeywords": [
           "지문 인증 시스템"
         ]
@@ -6030,10 +6354,49 @@
             "지문 인증 시스템"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "지문 인증 시스템"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "fingerprint-auth",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "지문 인증 시스템 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "인포테인먼트 시스템에 지문이 등록되어 있어야 합니다.",
+            "지문 등록 시 스마트 키 2개를 모두 차량 안에 두어야 합니다."
+          ],
+          "settings": [
+            "DRIVE READY 상태에서 설정 > 사용자 프로필 > 운전자 1 또는 운전자 2 > 보안 > 지문인식을 선택합니다."
+          ],
+          "steps": [
+            "프로필 비밀번호를 입력합니다.",
+            "지문등록/삭제 > 등록을 선택합니다.",
+            "안내에 따라 지문 인식 센서에 손가락을 올려 진행률이 100%가 될 때까지 등록합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "운전자 1, 운전자 2 각각 1개씩 등록할 수 있습니다."
+          ],
+          "warnings": [
+            "지문 인식 센서 위 필름 및 이물질을 제거한 뒤 등록합니다.",
+            "일부 기능은 블루링크 서비스 가입이 필요합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
     },
     {
@@ -6718,6 +7081,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "충전",
@@ -6756,17 +7127,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "Plug & Charge",
         "matchedKeywords": [
-          "Plug & Charge",
-          "플러그 앤 차지"
+          "Plug & Charge"
         ]
       },
       "vehicleAudit": {
@@ -6787,10 +7157,46 @@
             "플러그 앤 차지"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "Plug & Charge"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "plug-and-charge",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "Plug & Charge",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템 홈 화면에서 Electric Vehicle 메뉴를 선택합니다."
+          ],
+          "steps": [
+            "EV 설정 화면에서 Plug & Charge 항목을 확인합니다.",
+            "충전기 및 서비스 가입 조건을 만족하는 경우 케이블 연결 후 인증/결제 과정을 간소화해 충전합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "지원 충전기, 서비스 가입, 차량/계정 상태에 따라 사용할 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -6877,7 +7283,10 @@
         "전기차 경로 안내",
         "충전소 검색 기능 사용하기",
         "급속 충전소 목적지",
-        "목적지나 경유지"
+        "목적지나 경유지",
+        "충전소 검색",
+        "급속 충전소 검색",
+        "EV Route Planner"
       ],
       "preconditions": [],
       "steps": [
@@ -6937,6 +7346,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "에너지 관리",
@@ -6953,7 +7370,9 @@
         "전기차 경로 안내",
         "충전소 검색 기능 사용하기",
         "급속 충전소 목적지",
-        "목적지나 경유지"
+        "목적지나 경유지",
+        "충전소 검색",
+        "급속 충전소 검색"
       ],
       "faq": [
         {
@@ -6979,18 +7398,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "충전소 검색 기능 / 배터리 컨디셔닝 내비게이션 연동",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "충전소 검색",
         "matchedKeywords": [
-          "충전소 검색 기능 사용하기",
-          "급속 충전소 목적지",
-          "목적지나 경유지"
+          "충전소 검색"
         ]
       },
       "vehicleAudit": {
@@ -7013,10 +7430,45 @@
             "목적지나 경유지"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "충전소 검색"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ev-route-planner",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "충전소 검색",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle 화면에서 충전소 검색 기능을 사용합니다."
+          ],
+          "steps": [
+            "충전소 검색 메뉴에서 주변 또는 경로상 충전소 정보를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "인포테인먼트 시스템 및 내비게이션 정보 상태에 따라 검색 결과가 달라질 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -7025,7 +7477,8 @@
       "overview": "아이오닉 6 매뉴얼 기준 배터리 컨디셔닝은 고속 충전에 적합한 배터리 온도를 제공하기 위해 고전압 배터리 온도를 조절하는 기능입니다.",
       "aliases": [
         "배터리 컨디셔닝",
-        "배터리 컨디셔닝 모드"
+        "배터리 컨디셔닝 모드",
+        "Battery Conditioning"
       ],
       "preconditions": [],
       "steps": [
@@ -7087,6 +7540,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "배터리",
@@ -7125,17 +7586,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "배터리 컨디셔닝 기능",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "배터리 컨디셔닝 사용하기",
         "matchedKeywords": [
-          "배터리 컨디셔닝",
-          "배터리 컨디셔닝 모드"
+          "배터리 컨디셔닝"
         ]
       },
       "vehicleAudit": {
@@ -7156,10 +7616,46 @@
             "배터리 컨디셔닝 모드"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "배터리 컨디셔닝"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "battery-conditioning",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "배터리 컨디셔닝 사용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템 홈 화면에서 Electric Vehicle > EV 설정 > 배터리 컨디셔닝 모드를 선택한 후 사용을 누릅니다."
+          ],
+          "steps": [
+            "배터리 온도가 급속 충전 성능에 적합하지 않을 때 수동 작동하거나 내비게이션 연동 기능을 활용합니다.",
+            "작동 상태는 인포테인먼트 시스템 화면에서 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "고전압 배터리 온도, 목적지/충전소 설정, 차량 상태에 따라 작동 조건이 달라집니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -7170,7 +7666,9 @@
         "예약 충전",
         "충전 스케줄",
         "출발 시간 연동",
-        "완속 충전 설정"
+        "완속 충전 설정",
+        "충전 예약",
+        "Scheduled Charging"
       ],
       "preconditions": [],
       "steps": [
@@ -7233,6 +7731,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "충전",
@@ -7247,7 +7753,8 @@
         "예약 충전",
         "충전 스케줄",
         "출발 시간 연동",
-        "완속 충전 설정"
+        "완속 충전 설정",
+        "Scheduled Charging"
       ],
       "faq": [
         {
@@ -7273,19 +7780,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "예약 충전 / 완속 충전 설정",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "예약 충전",
         "matchedKeywords": [
-          "예약 충전",
-          "충전 스케줄",
-          "출발 시간 연동",
-          "완속 충전 설정"
+          "예약 충전"
         ]
       },
       "vehicleAudit": {
@@ -7310,10 +7814,45 @@
             "완속 충전 설정"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "예약 충전"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "scheduled-charging",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "예약 충전",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정에서 예약 충전 관련 항목을 설정합니다."
+          ],
+          "steps": [
+            "예약 충전을 설정하면 충전 상태 표시 영역에 예약 충전 메시지가 표시됩니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "예약 공조가 작동하는 경우 충전 예상 소요 시간이 제한적으로 표시될 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -7323,7 +7862,8 @@
       "aliases": [
         "충전 목표 배터리량",
         "목표 배터리량",
-        "충전 한도"
+        "충전 한도",
+        "충전 한도 설정"
       ],
       "preconditions": [],
       "steps": [
@@ -7384,6 +7924,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "충전",
@@ -7423,18 +7971,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "충전 목표 배터리량 설정",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "충전 목표 배터리량",
         "matchedKeywords": [
-          "충전 목표 배터리량",
-          "목표 배터리량",
-          "충전 한도"
+          "충전 목표 배터리량"
         ]
       },
       "vehicleAudit": {
@@ -7457,10 +8003,45 @@
             "충전 한도"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 목표 배터리량"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "charge-limit",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "충전 목표 배터리량",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정에서 충전 목표 배터리량을 설정합니다."
+          ],
+          "steps": [
+            "급속/완속 충전 목표 배터리량을 원하는 수준으로 설정합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "충전기 상태와 배터리 상태에 따라 실제 충전 종료 시점이 달라질 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -7473,7 +8054,8 @@
         "방전 제한량",
         "vehicle-to-load",
         "vehicle-2-load",
-        "v2l-parent"
+        "v2l-parent",
+        "Vehicle to Load"
       ],
       "preconditions": [],
       "steps": [
@@ -7535,6 +8117,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "전력 공급",
@@ -7548,7 +8138,8 @@
         "V2L",
         "v2l-parent",
         "전기 사용(V2L)",
-        "방전 제한량"
+        "방전 제한량",
+        "Vehicle to Load"
       ],
       "faq": [
         {
@@ -7574,18 +8165,17 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "전기 사용(V2L) 기능 활용하기",
         "matchedKeywords": [
           "전기 사용(V2L)",
-          "V2L",
-          "방전 제한량"
+          "V2L"
         ]
       },
       "vehicleAudit": {
@@ -7608,6 +8198,15 @@
             "방전 제한량"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전기 사용(V2L)",
+            "V2L"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "v2l",
@@ -7615,6 +8214,34 @@
         "vehicle-to-load",
         "vehicle-2-load",
         "v2l-parent"
+      ],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전기 사용(V2L) 기능 활용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정 > 전기 사용(V2L) 설정을 선택합니다."
+          ],
+          "steps": [
+            "차량 배터리에 충전된 전기를 이용해 전기 제품 또는 전자 기기를 작동합니다.",
+            "비상 시 다른 전기차 충전에 활용할 수 있습니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "설정한 방전 제한량에 도달하면 V2L 기능이 자동 차단됩니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
       ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
@@ -7677,6 +8304,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "전력 공급",
@@ -7712,17 +8347,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "전기 사용(V2L) 기능 활용하기",
         "matchedKeywords": [
-          "전기 사용(V2L)",
-          "실내 V2L"
+          "전기 사용(V2L)"
         ]
       },
       "vehicleAudit": {
@@ -7743,10 +8377,45 @@
             "실내 V2L"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전기 사용(V2L)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "v2l-indoor",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전기 사용(V2L) 기능 활용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정 > 전기 사용(V2L) 설정에서 방전 제한량을 확인합니다."
+          ],
+          "steps": [
+            "차량 실내 전원 공급 장치에 전기 제품을 연결해 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "사용 가능한 전력과 방전 제한량 조건을 확인해야 합니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -7756,7 +8425,8 @@
       "aliases": [
         "전기 사용(V2L)",
         "실외 V2L",
-        "V2L 커넥터"
+        "V2L 커넥터",
+        "외부 V2L"
       ],
       "preconditions": [],
       "steps": [],
@@ -7809,6 +8479,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "subcategory": "전력 공급",
@@ -7819,7 +8497,8 @@
         "실외 V2L",
         "v2l-outdoor",
         "전기 사용(V2L)",
-        "V2L 커넥터"
+        "V2L 커넥터",
+        "외부 V2L"
       ],
       "faq": [
         {
@@ -7845,18 +8524,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "전기 사용(V2L) 기능 활용하기",
         "matchedKeywords": [
-          "전기 사용(V2L)",
-          "실외 V2L",
-          "V2L 커넥터"
+          "전기 사용(V2L)"
         ]
       },
       "vehicleAudit": {
@@ -7879,10 +8556,45 @@
             "V2L 커넥터"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전기 사용(V2L)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "v2l-outdoor",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전기 사용(V2L) 기능 활용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정 > 전기 사용(V2L) 설정에서 방전 제한량을 확인합니다."
+          ],
+          "steps": [
+            "외부 V2L 커넥터를 차량 충전구에 연결해 전원을 공급합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "외부 커넥터 상태, 방전 제한량, 고전압 배터리 잔량에 따라 제한됩니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -8037,9 +8749,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "전동화 전용",
-          "option": "기본 사양"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-casper-ev",
@@ -8126,13 +8838,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "유틸리티 모드",
         "matchedKeywords": [
           "유틸리티 모드"
@@ -8154,11 +8866,44 @@
             "유틸리티 모드"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "유틸리티 모드"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "utility-mode",
       "slugAliases": [],
       "verificationLevel": "official_manual_verified",
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "유틸리티 모드",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 설정 화면에서 유틸리티 모드를 선택합니다."
+          ],
+          "steps": [],
+          "exitSteps": [],
+          "limitations": [
+            "차량 상태와 고전압 배터리 잔량 조건에 따라 사용할 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -8320,7 +9065,8 @@
         "주차 거리 경고",
         "전방 주차 거리 경고",
         "후방 주차 거리 경고",
-        "측방 주차 거리 경고"
+        "측방 주차 거리 경고",
+        "전방/측방/후방 주차 거리 경고 (PDW)"
       ],
       "preconditions": [
         "측방 주차 거리 경고 사양이 적용된 차량이어야 합니다.",
@@ -8394,9 +9140,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 패키지 적용 차종",
-          "option": "차종별 상이"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "hy-casper-ev",
@@ -8681,7 +9427,8 @@
         "측방 주차 거리 경고",
         "side-pdw",
         "Side Parking Distance Warning",
-        "전방/측방/후방 주차 거리 경고"
+        "전방/측방/후방 주차 거리 경고",
+        "전방/측방/후방 주차 거리 경고 (PDW)"
       ],
       "faq": [
         {
@@ -8702,16 +9449,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "전방/측방/후방 주차 거리 경고",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "전방/측방/후방 주차 거리 경고 (PDW)",
         "matchedKeywords": [
-          "전방/측방/후방 주차 거리 경고"
+          "전방/측방/후방 주차 거리 경고 (PDW)"
         ]
       },
       "vehicleAudit": {
@@ -8841,11 +9588,46 @@
             "전방/측방/후방 주차 거리 경고"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "side-pdw",
       "slugAliases": [],
       "verificationLevel": "official_manual_verified",
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전방/측방/후방 주차 거리 경고 (PDW)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -8960,9 +9742,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "주차 안전 사양 적용 차종",
-          "option": "차종별 상이"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "kia-k8",
@@ -9174,13 +9956,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "주차 충돌방지 보조 (PCA)",
         "matchedKeywords": [
           "주차 충돌방지 보조 (PCA)"
@@ -9313,11 +10095,46 @@
             "주차 충돌방지 보조 (PCA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "주차 충돌방지 보조 (PCA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "pca-parking",
       "slugAliases": [],
       "verificationLevel": "official_manual_verified",
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "주차 충돌방지 보조 (PCA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -9328,7 +10145,8 @@
         "Remote Smart Exit Assist",
         "원격 전후진",
         "원격 전/후진",
-        "RSPA 출차"
+        "RSPA 출차",
+        "원격 스마트 주차 보조 2 (RSPA 2)"
       ],
       "preconditions": [
         "원격 스마트 주차 보조 사양이 적용된 차량이어야 합니다.",
@@ -9406,9 +10224,9 @@
           "vehicleId": "hy-ioniq9",
           "brand": "현대",
           "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "지원 주차 패키지",
-          "option": "차종별 상이"
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         },
         {
           "vehicleId": "kia-k9",
@@ -9461,7 +10279,8 @@
         "원격 스마트 출차 보조",
         "remote-smart-exit",
         "Remote Smart Exit Assist",
-        "원격 전후진"
+        "원격 전후진",
+        "원격 스마트 주차 보조 2 (RSPA 2)"
       ],
       "faq": [
         {
@@ -9482,16 +10301,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "원격 전후진",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "원격 스마트 주차 보조 2 (RSPA 2)",
         "matchedKeywords": [
-          "원격 전후진"
+          "원격 스마트 주차 보조 2 (RSPA 2)"
         ]
       },
       "vehicleAudit": {
@@ -9521,11 +10340,46 @@
             "원격 전후진"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원격 스마트 주차 보조 2 (RSPA 2)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "remote-smart-exit",
       "slugAliases": [],
       "verificationLevel": "official_manual_verified",
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "원격 스마트 주차 보조 2 (RSPA 2)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -10069,7 +10923,11 @@
         "카드 키",
         "hyundai-digital-key-2",
         "digital-key2",
-        "hyundai-dk2"
+        "hyundai-dk2",
+        "스마트폰 디지털 키",
+        "디지털 카드 키",
+        "UWB",
+        "NFC"
       ],
       "preconditions": [
         "디지털 키 기능을 지원하는 스마트폰 또는 카드 키가 필요합니다.",
@@ -10240,6 +11098,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -10254,7 +11120,11 @@
         "디지털 키",
         "스마트폰 키",
         "카드 키",
-        "현대 디지털 키"
+        "현대 디지털 키",
+        "스마트폰 디지털 키",
+        "디지털 카드 키",
+        "UWB",
+        "NFC"
       ],
       "faq": [
         {
@@ -10270,16 +11140,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "현대 디지털 키",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "디지털 키 사용하기",
         "matchedKeywords": [
-          "현대 디지털 키"
+          "디지털 키"
         ]
       },
       "vehicleAudit": {
@@ -10409,6 +11279,14 @@
             "현대 디지털 키"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "digital-key-2",
@@ -10416,6 +11294,33 @@
         "hyundai-digital-key-2",
         "digital-key2",
         "hyundai-dk2"
+      ],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "디지털 키 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "스마트폰 디지털 키는 블루링크 서비스 가입 후 사용할 수 있습니다.",
+            "디지털 키 또는 카드 키 등록이 필요합니다."
+          ],
+          "settings": [
+            "스마트폰 디지털 키 등록 또는 디지털 카드 키 등록 메뉴를 사용합니다."
+          ],
+          "steps": [
+            "스마트폰 또는 카드 키를 도어 핸들 중앙 인증 센서에 2초 이상 태그해 도어를 잠그거나 잠금 해제합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "차량을 떠날 때 디지털 키를 휴대합니다.",
+            "디지털 키가 차량 안에 있으면 중앙 도어 잠금/잠금 해제 버튼 조작 시 도어가 잠길 수 있습니다."
+          ]
+        }
       ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
     },
@@ -10425,7 +11330,11 @@
       "overview": "스마트폰 접촉 방식으로 도어 잠금 해제와 차량 시동 인증을 지원합니다.",
       "aliases": [
         "현대 디지털 키 Touch",
-        "NFC"
+        "NFC",
+        "디지털 키",
+        "스마트폰 디지털 키",
+        "디지털 카드 키",
+        "UWB"
       ],
       "preconditions": [],
       "steps": [],
@@ -10507,6 +11416,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -10516,7 +11433,11 @@
         "Hyundai Digital Key 2 Touch",
         "hyundai-dk2-touch",
         "현대 디지털 키 Touch",
-        "NFC"
+        "NFC",
+        "디지털 키",
+        "스마트폰 디지털 키",
+        "디지털 카드 키",
+        "UWB"
       ],
       "faq": [
         {
@@ -10532,17 +11453,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "현대 디지털 키 Touch / NFC",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "디지털 키 사용하기",
         "matchedKeywords": [
-          "현대 디지털 키 Touch",
-          "NFC"
+          "디지털 키"
         ]
       },
       "vehicleAudit": {
@@ -10599,10 +11519,45 @@
             "NFC"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "hyundai-dk2-touch",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "디지털 키 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "스마트폰 디지털 키는 블루링크 서비스 가입 후 사용할 수 있습니다.",
+            "디지털 키 또는 카드 키 등록이 필요합니다."
+          ],
+          "settings": [
+            "스마트폰 디지털 키 등록 또는 디지털 카드 키 등록 메뉴를 사용합니다."
+          ],
+          "steps": [
+            "스마트폰 또는 카드 키를 도어 핸들 중앙 인증 센서에 2초 이상 태그해 도어를 잠그거나 잠금 해제합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "차량을 떠날 때 디지털 키를 휴대합니다.",
+            "디지털 키가 차량 안에 있으면 중앙 도어 잠금/잠금 해제 버튼 조작 시 도어가 잠길 수 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>"
     },
     {
@@ -10611,7 +11566,8 @@
       "overview": "후방 카메라 영상을 룸미러 디스플레이에 표시해 후방 시야를 보조합니다.",
       "aliases": [
         "Digital Center Mirror",
-        "디지털 센터 미러"
+        "디지털 센터 미러",
+        "DCM"
       ],
       "preconditions": [],
       "steps": [],
@@ -10663,6 +11619,14 @@
           "years": "2026",
           "trim": "LX3 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -10673,7 +11637,8 @@
       "keywords": [
         "디지털 센터 미러",
         "digital-center-mirror",
-        "Digital Center Mirror"
+        "Digital Center Mirror",
+        "DCM"
       ],
       "faq": [
         {
@@ -10699,16 +11664,17 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "LX3_2026_ko_KR.txt",
-        "modelCode": "LX3",
-        "modelName": "팰리세이드",
-        "modelYear": "2026",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "LX3_2026_ko_KR.txt 본문 검색 확인",
-        "section": "디지털 센터 미러",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "디지털 센터 미러(DCM)",
         "matchedKeywords": [
-          "디지털 센터 미러"
+          "디지털 센터 미러",
+          "DCM"
         ]
       },
       "vehicleAudit": {
@@ -10727,10 +11693,42 @@
             "디지털 센터 미러"
           ],
           "updatedAt": "2026-07-07"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 센터 미러",
+            "DCM"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "digital-center-mirror",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "디지털 센터 미러(DCM)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "디지털 센터 미러 적용 사양이어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "디지털 센터 미러 카메라와 미러 표시 상태를 확인해 후방 시야를 보조합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라 오염, 눈비, 후방 시야 조건에 따라 표시 품질이 달라질 수 있습니다."
+          ],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
     },
     {
@@ -10815,16 +11813,16 @@
         "주행 정보 표시 메뉴에서 시간, 속도, 기어, 방향지시등, 충격 감지 정도, GPS 위치 등 기록 항목을 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "빌트인 캠",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "빌트인 캠 (Built-in Cam)",
         "matchedKeywords": [
-          "빌트인 캠"
+          "빌트인 캠 (Built-in Cam)"
         ]
       },
       "subcategory": "차량 녹화",
@@ -10977,6 +11975,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "vehicleAudit": {
@@ -11106,10 +12112,46 @@
             "빌트인 캠"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠 (Built-in Cam)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "built-in-cam",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "빌트인 캠 (Built-in Cam)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "사양 적용 차량이어야 하며, 차량 출고 시 녹화 기능은 해제되어 있습니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 빌트인 캠을 선택합니다."
+          ],
+          "steps": [
+            "녹화 조건을 선택해 기능을 사용합니다.",
+            "주행 또는 주차 시 녹화, 음성 녹음, 주행 정보 표시, 녹화 시간, 충격 감지 민감도 등을 설정합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "SD 메모리 용량이 가득 차면 오래된 녹화 파일부터 삭제됩니다."
+          ],
+          "warnings": [
+            "음성 녹음 및 영상 저장은 법적 규정과 사생활 보호 책임을 사용자가 확인해야 합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
     },
     {
@@ -11204,14 +12246,6 @@
           "option": "차종별 상이"
         },
         {
-          "vehicleId": "hy-ioniq9",
-          "brand": "현대",
-          "model": "아이오닉 9",
-          "years": "2026/2027 현재 판매 기준",
-          "trim": "지원 트림/옵션",
-          "option": "차종별 상이"
-        },
-        {
           "vehicleId": "genesis-g80",
           "brand": "제네시스",
           "model": "G80",
@@ -11274,7 +12308,10 @@
         "이벤트 녹화",
         "휴대폰 앱 연결",
         "built-in-cam2-plus",
-        "builtincam-2-plus"
+        "builtincam-2-plus",
+        "빌트인 캠",
+        "Built-in Cam",
+        "빌트인 캠 2 Plus"
       ],
       "preconditions": [
         "빌트인 캠 계열 사양이 적용된 차량이어야 합니다.",
@@ -11332,16 +12369,26 @@
       "parent": "카메라 / 모니터링",
       "category": "빌트인 캠/녹화",
       "officialCategory": "차량 녹화",
-      "summary": "상위 사양 차량에서 제공되는 빌트인 캠 계열 기능입니다. 공식 매뉴얼에서 확인된 공통 빌트인 캠 절차를 기준으로 안내합니다.",
+      "summary": "아이오닉 9 매뉴얼의 빌트인 캠 섹션 기준으로 전방/후방 영상과 음성을 저장하고 녹화 조건을 설정하는 기능입니다.",
       "settings": [
         "인포테인먼트 시스템 홈 화면에서 빌트인 캠을 선택합니다.",
         "빌트인 캠 설정 메뉴에서 녹화 조건과 주행 정보 표시 항목을 설정합니다.",
         "휴대폰 앱 연결이 필요한 경우 빌트인 캠 화면의 휴대폰 연결 메뉴에서 Wi‑Fi 활성화를 선택합니다."
       ],
       "manualEvidence": {
-        "manualFile": "GN7_2026_ko_KR.txt",
-        "section": "빌트인 캠 (Built-in Cam) 공통 절차",
-        "pageRange": "248-259"
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "빌트인 캠 (Built-in Cam)",
+        "matchedKeywords": [
+          "빌트인 캠 (Built-in Cam)",
+          "주차 중 녹화",
+          "이벤트 녹화"
+        ]
       },
       "verified": false,
       "subcategory": "차량 녹화",
@@ -11353,7 +12400,9 @@
         "주행 중 녹화",
         "주차 중 녹화",
         "이벤트 녹화",
-        "휴대폰 앱 연결"
+        "휴대폰 앱 연결",
+        "빌트인 캠",
+        "Built-in Cam"
       ],
       "faq": [
         {
@@ -11378,6 +12427,55 @@
         "built-in-cam2-plus",
         "builtincam-2-plus"
       ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "vehicleAudit": {
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "빌트인 캠 (Built-in Cam)",
+            "주차 중 녹화",
+            "이벤트 녹화"
+          ],
+          "updatedAt": "2026-07-09"
+        }
+      },
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "빌트인 캠 (Built-in Cam)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "사양 적용 차량이어야 하며, 차량 출고 시 녹화 기능은 해제되어 있습니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 빌트인 캠을 선택합니다."
+          ],
+          "steps": [
+            "녹화, 녹화 시간, 충격 감지 민감도, 디스플레이 설정, 앱 연결, SD 메모리 항목을 설정합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "SD 메모리 상태와 용량, 설정한 녹화 조건에 따라 저장 방식이 달라집니다."
+          ],
+          "warnings": [
+            "녹화물 사용에 따른 사생활 및 법적 책임은 사용자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8h4l2-3h4l2 3h4v11H4V8z\"></path><circle cx=\"12\" cy=\"13\" r=\"3\"></circle></svg>"
     },
     {
@@ -11385,7 +12483,9 @@
       "updatedAt": "2026-06-25",
       "overview": "주행 상태와 선택 모드에 따라 시트 지지부를 움직여 승객의 피로 완화를 돕습니다.",
       "aliases": [
-        "Dynamic Body Care Seat"
+        "Dynamic Body Care Seat",
+        "다이내믹 바디 케어",
+        "아이오닉 9 시트"
       ],
       "preconditions": [],
       "steps": [],
@@ -11397,7 +12497,8 @@
         "릴렉션 컴포트 시트"
       ],
       "sources": [
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -11419,7 +12520,16 @@
       "category": "시트",
       "officialCategory": "시트 / 바디 케어",
       "summary": "주행 상태와 선택 모드에 따라 시트 지지부를 움직여 승객의 피로 완화를 돕습니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "settings": [],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -11428,7 +12538,9 @@
       "keywords": [
         "다이내믹 바디 케어 시트",
         "dynamic-body-care-seat",
-        "Dynamic Body Care Seat"
+        "Dynamic Body Care Seat",
+        "다이내믹 바디 케어",
+        "아이오닉 9 시트"
       ],
       "faq": [
         {
@@ -11441,10 +12553,66 @@
           "label": "제네시스 공식 다운로드 센터",
           "url": "https://www.genesis.com/kr/ko/support/download-center.html",
           "rank": "1순위-4순위"
+        },
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
         }
       ],
       "slug": "dynamic-body-care-seat",
       "slugAliases": [],
+      "manualEvidence": {
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "다이내믹 바디 케어",
+        "matchedKeywords": [
+          "다이내믹 바디 케어"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "다이내믹 바디 케어"
+          ],
+          "updatedAt": "2026-07-09"
+        }
+      },
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "다이내믹 바디 케어",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "사양 적용 차량이어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템에서 설정 > 차량 > 시트를 선택해 좌석 관련 편의 기능을 설정할 수 있습니다."
+          ],
+          "steps": [
+            "시트 조작부 명칭과 각 좌석 조절 스위치 위치를 확인한 뒤 해당 기능을 조작합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "6인승/7인승 및 수동식/전동식 좌석 사양에 따라 제공 기능이 다릅니다."
+          ],
+          "warnings": [
+            "주행 중에는 좌석을 조절하지 마십시오.",
+            "좌석 조절 시 좌석 아래나 작동 부위에 손을 넣지 마십시오."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
     },
     {
@@ -11452,7 +12620,9 @@
       "updatedAt": "2026-06-25",
       "overview": "정차 시 좌석 방향을 회전해 승하차와 실내 활용을 돕습니다.",
       "aliases": [
-        "Swiveling Seat"
+        "Swiveling Seat",
+        "스위블 조절(6인승)",
+        "아이오닉 9 시트"
       ],
       "preconditions": [],
       "steps": [],
@@ -11465,7 +12635,8 @@
       "sources": [
         "hyundaiCatalog",
         "kiaCatalog",
-        "genesisCatalog"
+        "genesisCatalog",
+        "hyundaiManual"
       ],
       "verify": {
         "catalog": false,
@@ -11487,7 +12658,16 @@
       "category": "시트",
       "officialCategory": "후석 / 회전 시트",
       "summary": "정차 시 좌석 방향을 회전해 승하차와 실내 활용을 돕습니다.",
-      "applies": [],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
       "settings": [],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "modelVariants": [],
@@ -11496,7 +12676,9 @@
       "keywords": [
         "스위블링 시트",
         "swiveling-seat",
-        "Swiveling Seat"
+        "Swiveling Seat",
+        "스위블 조절(6인승)",
+        "아이오닉 9 시트"
       ],
       "faq": [
         {
@@ -11523,6 +12705,57 @@
       ],
       "slug": "swiveling-seat",
       "slugAliases": [],
+      "manualEvidence": {
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "스위블 조절(6인승)",
+        "matchedKeywords": [
+          "스위블 조절(6인승)"
+        ]
+      },
+      "vehicleAudit": {
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스위블 조절(6인승)"
+          ],
+          "updatedAt": "2026-07-09"
+        }
+      },
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "스위블 조절(6인승)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "사양 적용 차량이어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템에서 설정 > 차량 > 시트를 선택해 좌석 관련 편의 기능을 설정할 수 있습니다."
+          ],
+          "steps": [
+            "시트 조작부 명칭과 각 좌석 조절 스위치 위치를 확인한 뒤 해당 기능을 조작합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "6인승/7인승 및 수동식/전동식 좌석 사양에 따라 제공 기능이 다릅니다."
+          ],
+          "warnings": [
+            "주행 중에는 좌석을 조절하지 마십시오.",
+            "좌석 조절 시 좌석 아래나 작동 부위에 손을 넣지 마십시오."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
     },
     {
@@ -11532,7 +12765,9 @@
       "aliases": [
         "Walk-in Device",
         "동승석 측면 워크인 스위치",
-        "2열 좌석 워크인 스위치"
+        "2열 좌석 워크인 스위치",
+        "워크인 스위치",
+        "워크인 디바이스"
       ],
       "preconditions": [],
       "steps": [],
@@ -11616,6 +12851,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -11628,7 +12871,8 @@
         "walk-in-device",
         "Walk-in Device",
         "동승석 측면 워크인 스위치",
-        "2열 좌석 워크인 스위치"
+        "2열 좌석 워크인 스위치",
+        "워크인 스위치"
       ],
       "faq": [
         {
@@ -11654,16 +12898,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "동승석 측면 워크인 스위치",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "워크인 스위치",
         "matchedKeywords": [
-          "동승석 측면 워크인 스위치"
+          "워크인 스위치"
         ]
       },
       "vehicleAudit": {
@@ -11716,10 +12960,39 @@
             "동승석 측면 워크인 스위치"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "워크인 스위치"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "walk-in-device",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "워크인 스위치",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "워크인 스위치 적용 좌석이어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "좌석 조작부의 워크인 스위치를 사용해 승하차 편의를 보조합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M8 4h5a3 3 0 0 1 3 3v5H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2z\"></path><path d=\"M6 12v6h12M9 18v3M17 18v3\"></path></svg>"
     },
     {
@@ -12144,7 +13417,8 @@
       "updatedAt": "2026-06-25",
       "overview": "후석에서 온도, 풍량과 송풍 모드를 독립적으로 조절합니다.",
       "aliases": [
-        "후석 공조"
+        "후석 공조",
+        "뒷좌석 히터와 에어컨"
       ],
       "preconditions": [],
       "steps": [],
@@ -12197,6 +13471,14 @@
           "years": "2026",
           "trim": "US4 HEV 해당 사양/트림",
           "option": "Owners Manual 수록 HEV 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [],
@@ -12207,7 +13489,8 @@
       "keywords": [
         "후석 공조 제어",
         "rear-climate-control",
-        "후석 공조"
+        "후석 공조",
+        "뒷좌석 히터와 에어컨"
       ],
       "faq": [
         {
@@ -12233,16 +13516,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "US4_2026_ko_KR.txt",
-        "modelCode": "US4",
-        "modelName": "스타리아",
-        "modelYear": "2026",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "US4_2026_ko_KR.txt 본문 검색 확인",
-        "section": "후석 공조",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "뒷좌석 히터와 에어컨",
         "matchedKeywords": [
-          "후석 공조"
+          "뒷좌석 히터와 에어컨"
         ]
       },
       "vehicleAudit": {
@@ -12261,10 +13544,39 @@
             "후석 공조"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "뒷좌석 히터와 에어컨"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "rear-climate-control",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "뒷좌석 히터와 에어컨",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "후석 공조 조작부가 적용된 사양이어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "뒷좌석 히터와 에어컨 조작부에서 온도와 송풍을 조절합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
     },
     {
@@ -12935,6 +14247,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -12976,17 +14296,15 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "충전 상태 확인하기",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "충전 상태 표시",
         "matchedKeywords": [
-          "충전 상태 확인",
-          "충전 표시등",
           "충전 상태"
         ]
       },
@@ -13010,10 +14328,45 @@
             "충전 상태"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 상태"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ev-charge-status",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "충전 상태 표시",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템 홈 화면에서 Electric Vehicle 메뉴를 선택합니다."
+          ],
+          "steps": [
+            "핸들 중앙의 충전 표시등 또는 인포테인먼트 시스템 화면에서 충전 상태를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "OFF 상태에서는 충전 상태 표시가 제한 시간 동안 표시될 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -13086,6 +14439,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -13128,19 +14489,17 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "에너지 정보 확인하기 / 전력 소비량 확인하기",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "에너지 정보 확인하기",
         "matchedKeywords": [
-          "에너지 정보",
           "전력 소비량",
-          "연비 이력",
-          "에너지 사용량"
+          "에너지 정보"
         ]
       },
       "vehicleAudit": {
@@ -13165,10 +14524,44 @@
             "에너지 사용량"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전력 소비량",
+            "에너지 정보"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ev-energy-usage",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "에너지 정보 확인하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > 에너지 정보를 선택합니다."
+          ],
+          "steps": [
+            "전력 소비량 화면에서 구동계와 전자 장치 등 시스템별 전력 사용 정보를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -13241,6 +14634,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -13283,18 +14684,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "배터리 사용 시 주의사항 / 배터리 상태",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "배터리 상태",
         "matchedKeywords": [
-          "배터리 상태",
-          "고전압 배터리",
-          "주행 가능 거리"
+          "배터리 상태"
         ]
       },
       "vehicleAudit": {
@@ -13317,10 +14716,43 @@
             "주행 가능 거리"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "배터리 상태"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ev-battery-health",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "배터리 상태",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템 홈 화면에서 Electric Vehicle 메뉴를 선택합니다."
+          ],
+          "steps": [
+            "클러스터 또는 인포테인먼트 시스템의 배터리 관련 표시를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -13396,6 +14828,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -13438,19 +14878,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "아이 페달(i-PEDAL) 사용하기",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "원 페달 드라이빙 / i-PEDAL",
         "matchedKeywords": [
-          "i-PEDAL",
-          "i-Pedal",
-          "아이 페달",
-          "원 페달 드라이빙"
+          "i-PEDAL"
         ]
       },
       "vehicleAudit": {
@@ -13475,10 +14912,43 @@
             "원 페달 드라이빙"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "i-PEDAL"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "i-pedal",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "원 페달 드라이빙 / i-PEDAL",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "회생 제동 레버 조작이 가능한 주행 상태여야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "원 페달 드라이빙 사용 중 조건에 따라 i-PEDAL 기능처럼 작동할 수 있음을 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "차량 또는 도로 상태에 따라 원 페달 드라이빙만으로 완전 정지하지 못할 수 있습니다."
+          ],
+          "warnings": [
+            "필요할 경우 직접 브레이크 페달을 밟아 감속합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -13549,6 +15019,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -13590,17 +15068,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "스마트 회생 제동 기능 사용하기",
         "matchedKeywords": [
-          "스마트 회생 제동",
-          "스마트 회생제동"
+          "스마트 회생 제동"
         ]
       },
       "vehicleAudit": {
@@ -13621,10 +15098,45 @@
             "스마트 회생제동"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 회생 제동"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ev-smart-regeneration",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "스마트 회생 제동 기능 사용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "회생 제동을 사용할 수 있는 주행 상태여야 합니다."
+          ],
+          "settings": [
+            "스마트 회생 시스템 관련 설정을 확인합니다."
+          ],
+          "steps": [
+            "스마트 회생 제동 기능 안내에 따라 앞차 및 도로 조건 기반 감속 보조 상태를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "도로 상태, 전방 차량 인식, 배터리 상태에 따라 회생 제동 감속감이 달라질 수 있습니다."
+          ],
+          "warnings": [
+            "회생 제동만으로 정차가 보장되지 않으므로 필요 시 브레이크 페달을 직접 밟습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -13634,7 +15146,8 @@
       "aliases": [
         "회생 제동",
         "회생 제동 단계",
-        "회생 제동량"
+        "회생 제동량",
+        "회생제동 단계 조절"
       ],
       "preconditions": [],
       "steps": [
@@ -13697,6 +15210,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "settings": [
@@ -13739,18 +15260,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "회생 제동 기능 사용하기",
         "matchedKeywords": [
-          "회생 제동",
-          "회생 제동 단계",
-          "회생 제동량"
+          "회생 제동"
         ]
       },
       "vehicleAudit": {
@@ -13773,10 +15292,45 @@
             "회생 제동량"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "회생 제동"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "ev-regen-level",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "회생 제동 기능 사용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량이 주행 가능한 상태여야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "회생 제동 증가 레버를 당겨 회생 제동량을 올립니다.",
+            "회생 제동 감소 레버를 당겨 회생 제동량을 내립니다.",
+            "클러스터에서 회생 제동량을 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "노면, 속도, 배터리 충전 상태에 따라 제동감이 달라질 수 있습니다."
+          ],
+          "warnings": [
+            "회생 제동 조작 중에도 주변 상황을 확인하고 필요 시 브레이크 페달을 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>"
     },
     {
@@ -16291,6 +17845,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16345,13 +17907,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "후방 모니터 (RVM)",
         "matchedKeywords": [
           "후방 모니터 (RVM)"
@@ -16480,10 +18042,45 @@
             "후방 모니터 (RVM)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 모니터 (RVM)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "rear-view-monitor",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "후방 모니터 (RVM)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -16647,6 +18244,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -16701,13 +18306,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "서라운드 뷰 모니터 (SVM)",
         "matchedKeywords": [
           "서라운드 뷰 모니터 (SVM)"
@@ -16836,10 +18441,45 @@
             "서라운드 뷰 모니터 (SVM)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "서라운드 뷰 모니터 (SVM)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "surround-view-monitor",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "서라운드 뷰 모니터 (SVM)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -17001,6 +18641,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17054,13 +18702,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "후측방 모니터 (BVM)",
         "matchedKeywords": [
           "후측방 모니터 (BVM)"
@@ -17189,10 +18837,45 @@
             "후측방 모니터 (BVM)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 모니터 (BVM)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "blind-spot-view-monitor",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "후측방 모니터 (BVM)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -17356,6 +19039,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17409,13 +19100,13 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "후방 교차 충돌방지 보조 (RCCA)",
         "matchedKeywords": [
           "후방 교차 충돌방지 보조 (RCCA)"
@@ -17548,10 +19239,45 @@
             "후방 교차 충돌방지 보조 (RCCA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후방 교차 충돌방지 보조 (RCCA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "rear-cross-traffic-collision-avoidance",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "후방 교차 충돌방지 보조 (RCCA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -17568,7 +19294,8 @@
         "전방 주차 거리 경고",
         "후방 주차 거리 경고",
         "주차 거리 경고",
-        "주차 거리 경고 (PDW)"
+        "주차 거리 경고 (PDW)",
+        "전방/측방/후방 주차 거리 경고 (PDW)"
       ],
       "summary": "주차 또는 저속 이동 중 센서가 감지한 장애물과의 거리를 단계별 경고음과 화면으로 알립니다.",
       "preconditions": [
@@ -17715,6 +19442,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -17744,7 +19479,8 @@
         "PDW",
         "전방 주차 거리 경고",
         "후방 주차 거리 경고",
-        "주차 거리 경고 (PDW)"
+        "주차 거리 경고 (PDW)",
+        "전방/측방/후방 주차 거리 경고 (PDW)"
       ],
       "faq": [
         {
@@ -17770,16 +19506,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "주차 거리 경고 (PDW)",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "전방/측방/후방 주차 거리 경고 (PDW)",
         "matchedKeywords": [
-          "주차 거리 경고 (PDW)"
+          "전방/측방/후방 주차 거리 경고 (PDW)"
         ]
       },
       "vehicleAudit": {
@@ -17905,10 +19641,45 @@
             "주차 거리 경고 (PDW)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "전방/측방/후방 주차 거리 경고 (PDW)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slug": "parking-distance-warning",
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전방/측방/후방 주차 거리 경고 (PDW)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"></rect><path d=\"M9 17V7h4a3 3 0 0 1 0 6H9\"></path></svg>"
     },
     {
@@ -18293,7 +20064,8 @@
         "냉난방",
         "climate control",
         "히터와 에어컨",
-        "히터 및 에어컨"
+        "히터 및 에어컨",
+        "공조"
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "latest": true,
@@ -18427,6 +20199,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -18473,16 +20253,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "히터 및 에어컨",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "히터와 에어컨",
         "matchedKeywords": [
-          "히터 및 에어컨"
+          "히터와 에어컨"
         ]
       },
       "vehicleAudit": {
@@ -18608,9 +20388,38 @@
             "히터 및 에어컨"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "히터와 에어컨"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "히터와 에어컨",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "공조 조작부 또는 인포테인먼트 시스템 공조 화면에서 온도, 풍량, 송풍 방향을 조절합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M4 8c5-3 11 3 16 0M4 14c5-3 11 3 16 0\"></path><path d=\"M7 4v16M17 4v16\"></path></svg>"
     },
     {
@@ -18756,6 +20565,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -18798,14 +20615,14 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "스마트 키",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "스마트 키 사용하기",
         "matchedKeywords": [
           "스마트 키"
         ]
@@ -18933,9 +20750,40 @@
             "스마트 키"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "스마트 키"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "스마트 키 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "스마트 키를 휴대해야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "스마트 키 버튼 또는 도어 핸들 조작으로 도어/테일게이트/후드/시동 기능을 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "스마트 키 배터리와 보관 안전 주의사항을 확인합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
     },
     {
@@ -19275,7 +21123,8 @@
         "리모트 스타트",
         "remote start",
         "스마트키 원격 시동",
-        "원격 시동"
+        "원격 시동",
+        "시동 켜기"
       ],
       "status": "차종별 공식 매뉴얼 검증 필요",
       "latest": true,
@@ -19409,6 +21258,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -19443,7 +21300,8 @@
         "remote-engine-start",
         "리모트 스타트",
         "remote start",
-        "스마트키 원격 시동"
+        "스마트키 원격 시동",
+        "시동 켜기"
       ],
       "faq": [
         {
@@ -19452,16 +21310,16 @@
         }
       ],
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "원격 시동",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "스마트 키 사용하기",
         "matchedKeywords": [
-          "원격 시동"
+          "시동 켜기"
         ]
       },
       "vehicleAudit": {
@@ -19587,9 +21445,38 @@
             "원격 시동"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "시동 켜기"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "스마트 키 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "스마트 키를 소지한 상태에서 차량 조건을 만족해야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "스마트 키 또는 차량 안내에 따라 시동 기능을 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>"
     },
     {
@@ -19751,6 +21638,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -19765,13 +21660,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "차로 이탈방지 보조 (LKA)",
         "matchedKeywords": [
           "차로 이탈방지 보조 (LKA)"
@@ -19829,9 +21724,44 @@
             "차로 이탈방지 보조 (LKA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 이탈방지 보조 (LKA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "차로 이탈방지 보조 (LKA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>",
       "sourceDetails": [
         {
@@ -20000,6 +21930,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -20014,13 +21952,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "차로 유지 보조 (LFA)",
         "matchedKeywords": [
           "차로 유지 보조 (LFA)"
@@ -20078,9 +22016,44 @@
             "차로 유지 보조 (LFA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "차로 유지 보조 (LFA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "차로 유지 보조 (LFA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>",
       "sourceDetails": [
         {
@@ -20249,6 +22222,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -20263,13 +22244,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "지능형 속도 제한 보조 (ISLA)",
         "matchedKeywords": [
           "지능형 속도 제한 보조 (ISLA)"
@@ -20327,9 +22308,44 @@
             "지능형 속도 제한 보조 (ISLA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "지능형 속도 제한 보조 (ISLA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "지능형 속도 제한 보조 (ISLA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>",
       "sourceDetails": [
         {
@@ -20500,6 +22516,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -20514,13 +22538,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "운전자 주의 경고 (DAW)",
         "matchedKeywords": [
           "운전자 주의 경고 (DAW)"
@@ -20580,9 +22604,44 @@
             "운전자 주의 경고 (DAW)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "운전자 주의 경고 (DAW)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "운전자 주의 경고 (DAW)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>",
       "sourceDetails": [
         {
@@ -21000,6 +23059,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -21014,13 +23081,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "후측방 충돌방지 보조 (BCA)",
         "matchedKeywords": [
           "후측방 충돌방지 보조 (BCA)"
@@ -21078,9 +23145,44 @@
             "후측방 충돌방지 보조 (BCA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "후측방 충돌방지 보조 (BCA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "후측방 충돌방지 보조 (BCA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>",
       "sourceDetails": [
         {
@@ -21251,6 +23353,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -21265,13 +23375,13 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "안전 하차 보조 (SEA)",
         "matchedKeywords": [
           "안전 하차 보조 (SEA)"
@@ -21331,9 +23441,44 @@
             "안전 하차 보조 (SEA)"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "안전 하차 보조 (SEA)"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "안전 하차 보조 (SEA)",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "DRIVE READY 상태와 각 운전자 보조 기능의 인식 조건을 만족해야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템의 설정 > 차량 > 운전자 보조 메뉴에서 관련 기능을 설정합니다."
+          ],
+          "steps": [
+            "각 기능의 표시등, 경고 문구, 카메라/센서 인식 상태를 확인하며 매뉴얼 안내 순서에 따라 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "카메라/레이더/초음파 센서 오염, 악천후, 차선 훼손, 주변 장애물 조건에서는 작동이 제한될 수 있습니다."
+          ],
+          "warnings": [
+            "운전자 보조 기능은 운전자를 보조하는 기능이며 운전 책임은 운전자에게 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"></path><path d=\"M8 12h8M12 8v8\"></path></svg>",
       "sourceDetails": [
         {
@@ -21354,12 +23499,22 @@
       "aliases": [
         "디지털 키 (카드 키)",
         "NFC 카드 키",
-        "카드 키"
+        "카드 키",
+        "디지털 키",
+        "스마트폰 디지털 키",
+        "디지털 카드 키",
+        "UWB",
+        "NFC"
       ],
       "keywords": [
         "NFC 카드 키",
         "디지털 키 (카드 키)",
-        "카드 키"
+        "카드 키",
+        "디지털 키",
+        "스마트폰 디지털 키",
+        "디지털 카드 키",
+        "UWB",
+        "NFC"
       ],
       "summary": "NFC 카드 키를 이용해 도어 잠금/잠금 해제와 차량 인증을 지원하는 디지털 키 기능입니다.",
       "overview": "NFC 카드 키를 이용해 도어 잠금/잠금 해제와 차량 인증을 지원하는 디지털 키 기능입니다.",
@@ -21436,6 +23591,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -21450,17 +23613,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "디지털 키 (카드 키) / NFC 카드 키",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "디지털 키 사용하기",
         "matchedKeywords": [
-          "디지털 키 (카드 키)",
-          "NFC 카드 키"
+          "디지털 키"
         ]
       },
       "vehicleAudit": {
@@ -21517,9 +23679,44 @@
             "NFC 카드 키"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "디지털 키"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "디지털 키 사용하기",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "스마트폰 디지털 키는 블루링크 서비스 가입 후 사용할 수 있습니다.",
+            "디지털 키 또는 카드 키 등록이 필요합니다."
+          ],
+          "settings": [
+            "스마트폰 디지털 키 등록 또는 디지털 카드 키 등록 메뉴를 사용합니다."
+          ],
+          "steps": [
+            "스마트폰 또는 카드 키를 도어 핸들 중앙 인증 센서에 2초 이상 태그해 도어를 잠그거나 잠금 해제합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "차량을 떠날 때 디지털 키를 휴대합니다.",
+            "디지털 키가 차량 안에 있으면 중앙 도어 잠금/잠금 해제 버튼 조작 시 도어가 잠길 수 있습니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"7\" y=\"2\" width=\"10\" height=\"20\" rx=\"2\"></rect><path d=\"M10 18h4M11 6h2\"></path></svg>",
       "sourceDetails": [
         {
@@ -21802,6 +23999,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -21816,16 +24021,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "음성인식 시스템",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "음성 인식",
         "matchedKeywords": [
-          "음성인식 시스템"
+          "음성 인식"
         ]
       },
       "vehicleAudit": {
@@ -21876,9 +24081,38 @@
             "음성인식 시스템"
           ],
           "updatedAt": "2026-07-08"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "음성 인식"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "음성 인식",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "preconditions": [
+            "인포테인먼트 시스템 음성 인식 기능을 사용할 수 있어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "음성 인식 버튼 또는 화면 안내에 따라 음성 명령을 사용합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": []
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M8 21h8M12 17v4\"></path></svg>",
       "sourceDetails": [
         {
@@ -22241,6 +24475,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -22255,17 +24497,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "배터리 사용 시 주의사항 / 주행 가능 거리",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "에너지 정보 확인하기",
         "matchedKeywords": [
-          "주행 가능 거리",
-          "고전압 배터리"
+          "주행 가능 거리"
         ]
       },
       "vehicleAudit": {
@@ -22288,9 +24529,42 @@
             "고전압 배터리 주행 가능 거리"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "주행 가능 거리"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "에너지 정보 확인하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > 에너지 정보를 선택합니다."
+          ],
+          "steps": [
+            "에너지 정보 화면에서 주행 가능 거리 이력과 관련 정보를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
       "sourceDetails": [
         {
@@ -22311,12 +24585,14 @@
       "aliases": [
         "충전 전류",
         "충전 전류 설정",
-        "완속 충전 설정"
+        "완속 충전 설정",
+        "완속 충전 전류"
       ],
       "keywords": [
         "충전 전류 설정",
         "충전 전류",
-        "완속 충전 설정"
+        "완속 충전 설정",
+        "완속 충전 전류"
       ],
       "summary": "완속 충전 또는 휴대용 충전 시 충전 전류를 설정하는 기능입니다.",
       "overview": "완속 충전 또는 휴대용 충전 시 충전 전류를 설정하는 기능입니다.",
@@ -22359,6 +24635,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -22373,17 +24657,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "완속 충전 설정 / 충전 전류 설정",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "충전 전류 설정",
         "matchedKeywords": [
-          "충전 전류",
-          "완속 충전 설정"
+          "충전 전류"
         ]
       },
       "vehicleAudit": {
@@ -22406,9 +24689,44 @@
             "완속 충전 설정"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 전류"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "충전 전류 설정",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정 > 완속 충전 설정에서 충전 전류 관련 항목을 선택합니다."
+          ],
+          "steps": [
+            "충전 환경에 맞춰 완속 충전 전류를 설정합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "충전 설비와 케이블 정격에 맞는 범위에서 설정해야 합니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
       "sourceDetails": [
         {
@@ -22429,13 +24747,15 @@
       "aliases": [
         "충전 커넥터 잠금",
         "충전 중 잠금",
-        "상시 잠금"
+        "상시 잠금",
+        "충전구 잠금"
       ],
       "keywords": [
         "충전 커넥터 잠금 모드",
         "충전 커넥터 잠금",
         "충전 중 잠금",
-        "상시 잠금"
+        "상시 잠금",
+        "충전구 잠금"
       ],
       "summary": "완속 충전 중 충전 커넥터가 의도치 않게 분리되는 것을 방지하기 위해 잠금 방식을 설정합니다.",
       "overview": "완속 충전 중 충전 커넥터가 의도치 않게 분리되는 것을 방지하기 위해 잠금 방식을 설정합니다.",
@@ -22478,6 +24798,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -22492,18 +24820,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "충전 커넥터 잠금 모드 설정하기",
         "matchedKeywords": [
-          "충전 커넥터 잠금 모드",
-          "상시 잠금",
-          "충전 중 잠금"
+          "충전 커넥터 잠금"
         ]
       },
       "vehicleAudit": {
@@ -22526,9 +24852,44 @@
             "상시 잠금"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 커넥터 잠금"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "충전 커넥터 잠금 모드 설정하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정 > 완속 충전 설정에서 충전 커넥터 잠금 모드를 선택합니다."
+          ],
+          "steps": [
+            "상시 잠금, 충전 중 잠금, 사용 안 함 중 원하는 잠금 방식을 선택합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "급속 충전 및 V2L 사용 중에는 설정과 관계없이 커넥터가 자동으로 잠길 수 있습니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
       "sourceDetails": [
         {
@@ -22550,13 +24911,15 @@
         "전기차 충전 정보",
         "완속 충전",
         "급속 충전",
-        "휴대용 충전"
+        "휴대용 충전",
+        "충전 정보"
       ],
       "keywords": [
         "전기차 충전 정보",
         "완속 충전",
         "급속 충전",
-        "휴대용 충전"
+        "휴대용 충전",
+        "충전 정보"
       ],
       "summary": "완속 충전, 급속 충전, 휴대용 충전 방식과 충전 전 안전 정보를 확인하는 기능입니다.",
       "overview": "완속 충전, 급속 충전, 휴대용 충전 방식과 충전 전 안전 정보를 확인하는 기능입니다.",
@@ -22600,6 +24963,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -22614,19 +24985,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "전기차 충전 정보 확인하기",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "전기차 충전하기",
         "matchedKeywords": [
-          "전기차 충전 정보",
-          "완속 충전",
-          "급속 충전",
-          "휴대용 충전"
+          "충전 정보"
         ]
       },
       "vehicleAudit": {
@@ -22651,9 +25019,42 @@
             "휴대용 충전"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "충전 정보"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전기차 충전하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "인포테인먼트 시스템 홈 화면에서 Electric Vehicle 메뉴를 선택합니다."
+          ],
+          "steps": [
+            "충전 화면에서 충전량, 충전 상태, 예상 소요 시간 등 표시 정보를 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
       "sourceDetails": [
         {
@@ -22972,6 +25373,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -22986,17 +25395,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "전기 사용(V2L) 시 방전 제한량 설정하기",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "전기 사용(V2L)시 방전 제한량 설정하기",
         "matchedKeywords": [
-          "방전 제한량",
-          "전기 사용(V2L) 설정"
+          "방전 제한량"
         ]
       },
       "vehicleAudit": {
@@ -23019,9 +25427,45 @@
             "V2L 방전 제한량"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "방전 제한량"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "전기 사용(V2L)시 방전 제한량 설정하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > EV 충전 설정 > 전기 사용(V2L) 설정을 선택합니다."
+          ],
+          "steps": [
+            "원하는 방전 제한량을 설정합니다.",
+            "방전 제한량은 20% 이상 80% 이하로 설정할 수 있습니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "배터리 충전량이 설정된 방전 제한량에 도달하면 전기 사용(V2L) 기능이 자동 차단됩니다."
+          ],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
       "sourceDetails": [
         {
@@ -23091,6 +25535,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -23105,17 +25557,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
         "section": "원 페달 드라이빙 사용하기",
         "matchedKeywords": [
-          "원 페달 드라이빙",
-          "회생 제동 증가 레버"
+          "원 페달 드라이빙"
         ]
       },
       "vehicleAudit": {
@@ -23138,9 +25589,43 @@
             "원 페달"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "원 페달 드라이빙"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "원 페달 드라이빙 사용하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "타력 주행 중 회생 제동 증가 레버를 사용할 수 있어야 합니다."
+          ],
+          "settings": [],
+          "steps": [
+            "회생 제동 증가 레버를 0.5초 이상 당긴 채 유지합니다.",
+            "차량 속도에 따라 레버를 놓았을 때 기존 회생 제동 단계 또는 정지까지의 제동량 증가가 적용됩니다."
+          ],
+          "exitSteps": [],
+          "limitations": [
+            "차량 또는 도로 상태에 따라 완전 정지하지 못할 수 있습니다."
+          ],
+          "warnings": [
+            "주변 상황을 살핀 후 필요할 경우 직접 브레이크 페달을 밟아 감속합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
       "sourceDetails": [
         {
@@ -23161,12 +25646,14 @@
       "aliases": [
         "연비 이력",
         "EV 연비 이력",
-        "에너지 정보"
+        "에너지 정보",
+        "전비 이력"
       ],
       "keywords": [
         "EV 연비 이력",
         "연비 이력",
-        "에너지 정보"
+        "에너지 정보",
+        "전비 이력"
       ],
       "summary": "Electric Vehicle의 에너지 정보 화면에서 전력 소비량과 함께 연비 이력을 확인하는 기능입니다.",
       "overview": "Electric Vehicle의 에너지 정보 화면에서 전력 소비량과 함께 연비 이력을 확인하는 기능입니다.",
@@ -23209,6 +25696,14 @@
           "years": "2025",
           "trim": "CE1 해당 사양/트림",
           "option": "Owners Manual 수록 사양 기준"
+        },
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
         }
       ],
       "sources": [
@@ -23223,17 +25718,16 @@
         "complete": true
       },
       "manualEvidence": {
-        "manualFile": "CE1_2025_ko_KR.txt",
-        "modelCode": "CE1",
-        "modelName": "아이오닉 6",
-        "modelYear": "2025",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
         "basis": "official_owner_manual",
         "verifiedBy": "vehicle-manual-audit",
-        "pageRange": "CE1_2025_ko_KR.txt 본문 검색 확인",
-        "section": "에너지 정보 확인하기 / 연비 이력",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "에너지 정보 확인하기",
         "matchedKeywords": [
-          "연비 이력",
-          "에너지 정보"
+          "연비 이력"
         ]
       },
       "vehicleAudit": {
@@ -23256,10 +25750,317 @@
             "에너지 정보"
           ],
           "updatedAt": "2026-07-09"
+        },
+        "hyIoniq9Me2027": {
+          "confirmed": true,
+          "manualFile": "ME_2027_ko_KR.txt",
+          "matchedKeywords": [
+            "연비 이력"
+          ],
+          "updatedAt": "2026-07-09"
         }
       },
       "slugAliases": [],
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "section": "에너지 정보 확인하기",
+          "pageRange": "본문 검색 확인",
+          "preconditions": [
+            "차량 전원이 켜져 있고 Electric Vehicle 메뉴를 사용할 수 있어야 합니다."
+          ],
+          "settings": [
+            "Electric Vehicle > 에너지 정보를 선택합니다."
+          ],
+          "steps": [
+            "에너지 정보 화면에서 연비 이력을 확인합니다."
+          ],
+          "exitSteps": [],
+          "limitations": [],
+          "warnings": [
+            "전기차 충전, V2L, 배터리 관련 기능은 매뉴얼의 안전 정보를 확인한 뒤 사용합니다."
+          ]
+        }
+      ],
       "icon": "<svg viewBox=\"0 0 24 24\"><path d=\"M5 4h10v16H5z\"></path><path d=\"M15 8h3l2 3v6a2 2 0 0 1-4 0v-3\"></path><path d=\"M8 8h4M10 11l-2 3h4l-2 3\"></path></svg>",
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ]
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-09",
+      "id": "uv-c-sterilization-system",
+      "slug": "uv-c-sterilization-system",
+      "name": "UV-C 살균 시스템",
+      "category": "편의",
+      "officialCategory": "편의 장치 / UV-C 살균 시스템",
+      "aliases": [
+        "UV-C",
+        "UV-C 살균",
+        "살균 트레이",
+        "살균 시스템"
+      ],
+      "keywords": [
+        "UV-C 살균 시스템",
+        "UV-C",
+        "UV-C 살균",
+        "살균 트레이",
+        "살균 시스템"
+      ],
+      "summary": "아이오닉 9의 보관함 내부 UV-C LED를 이용해 보관한 물건을 일정 시간 살균하는 편의 기능입니다.",
+      "overview": "아이오닉 9의 보관함 내부 UV-C LED를 이용해 보관한 물건을 일정 시간 살균하는 편의 기능입니다.",
+      "preconditions": [
+        "시동이 켜져 있어야 합니다.",
+        "UV-C 살균 시스템 적용 사양이어야 합니다."
+      ],
+      "settings": [
+        "보관함 내부의 UV-C 살균 시스템 작동 버튼을 사용합니다."
+      ],
+      "steps": [
+        "보관함 커버를 엽니다.",
+        "보관함 내부의 UV-C 살균 시스템 작동 버튼을 누릅니다.",
+        "살균할 물건을 보관함 내부 중앙에 놓고 커버를 닫습니다.",
+        "살균 작동 표시등이 켜지고 UV-C LED가 켜지며 살균이 시작됩니다.",
+        "살균 시작 10분 후 살균 작동 표시등이 자동으로 꺼지며 살균이 종료됩니다."
+      ],
+      "disable": [
+        "10분 이내에 직접 종료할 경우 UV-C 살균 시스템 작동 버튼을 눌러 기능을 끕니다."
+      ],
+      "limitations": [
+        "살균 트레이가 작동 가능한 상태여야 합니다."
+      ],
+      "warnings": [
+        "UV-C 살균 시스템 사용 중에는 매뉴얼의 안전 주의사항을 준수합니다."
+      ],
+      "related": [
+        "스마트폰 무선 충전 시스템",
+        "슬라이딩 콘솔"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "verified": {
+        "complete": true,
+        "date": "2026-07-09",
+        "basis": "official_owner_manual",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "brand": "Hyundai",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "UV-C 살균 시스템",
+        "verifiedBy": "vehicle-manual-audit"
+      },
+      "verificationLevel": "official_manual_verified",
+      "manualEvidence": {
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "UV-C 살균 시스템",
+        "matchedKeywords": [
+          "UV-C 살균 시스템",
+          "살균 트레이"
+        ]
+      },
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "section": "UV-C 살균 시스템",
+          "preconditions": [
+            "시동이 켜져 있어야 합니다.",
+            "UV-C 살균 시스템 적용 사양이어야 합니다."
+          ],
+          "settings": [
+            "보관함 내부의 UV-C 살균 시스템 작동 버튼을 사용합니다."
+          ],
+          "steps": [
+            "보관함 커버를 엽니다.",
+            "보관함 내부의 UV-C 살균 시스템 작동 버튼을 누릅니다.",
+            "살균할 물건을 보관함 내부 중앙에 놓고 커버를 닫습니다.",
+            "살균 작동 표시등이 켜지고 UV-C LED가 켜지며 살균이 시작됩니다.",
+            "살균 시작 10분 후 살균 작동 표시등이 자동으로 꺼지며 살균이 종료됩니다."
+          ],
+          "exitSteps": [
+            "10분 이내에 직접 종료할 경우 UV-C 살균 시스템 작동 버튼을 눌러 기능을 끕니다."
+          ],
+          "limitations": [
+            "살균 트레이가 작동 가능한 상태여야 합니다."
+          ],
+          "warnings": [
+            "UV-C 살균 시스템 사용 중에는 매뉴얼의 안전 주의사항을 준수합니다."
+          ]
+        }
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>",
+      "sourceDetails": [
+        {
+          "label": "현대자동차 공식 웹/오너스 매뉴얼",
+          "url": "https://www.hyundai.com/kr/ko/e/customer/center/download-center",
+          "rank": "3순위/4순위"
+        }
+      ]
+    },
+    {
+      "latest": true,
+      "updatedAt": "2026-07-09",
+      "id": "sliding-console",
+      "slug": "sliding-console",
+      "name": "슬라이딩 콘솔",
+      "category": "편의",
+      "officialCategory": "편의 장치 / 슬라이딩 콘솔",
+      "aliases": [
+        "슬라이딩 콘솔",
+        "슬라이딩 타입 중앙 콘솔박스",
+        "콘솔박스"
+      ],
+      "keywords": [
+        "슬라이딩 콘솔",
+        "슬라이딩 타입 중앙 콘솔박스",
+        "콘솔박스"
+      ],
+      "summary": "아이오닉 9의 슬라이딩 타입 중앙 콘솔박스를 앞뒤로 이동해 실내 공간 활용을 돕는 기능입니다.",
+      "overview": "아이오닉 9의 슬라이딩 타입 중앙 콘솔박스를 앞뒤로 이동해 실내 공간 활용을 돕는 기능입니다.",
+      "preconditions": [
+        "슬라이딩 콘솔 적용 사양이어야 합니다."
+      ],
+      "settings": [
+        "별도 설정 메뉴가 아니라 콘솔의 레버를 사용합니다."
+      ],
+      "steps": [
+        "레버를 당깁니다.",
+        "콘솔박스를 앞 또는 뒤로 힘을 주어 밀거나 당깁니다.",
+        "콘솔박스가 “딸깍” 하며 고정되는 소리가 나는지 확인합니다."
+      ],
+      "disable": [
+        "원하는 위치에 고정되면 레버 조작을 멈춥니다."
+      ],
+      "limitations": [
+        "과도한 힘으로 이동시키면 콘솔박스 레일 또는 레버가 손상될 수 있습니다."
+      ],
+      "warnings": [
+        "차가 움직이는 동안에는 슬라이딩 콘솔을 움직이지 마십시오. 급정차나 충돌 시 위험할 수 있습니다."
+      ],
+      "related": [
+        "UV-C 살균 시스템",
+        "100W USB 충전 단자"
+      ],
+      "applies": [
+        {
+          "vehicleId": "hy-ioniq9",
+          "brand": "현대",
+          "model": "아이오닉 9",
+          "years": "2027",
+          "trim": "ME 해당 사양/트림",
+          "option": "Owners Manual 수록 사양 기준"
+        }
+      ],
+      "sources": [
+        "hyundaiManual"
+      ],
+      "verify": {
+        "catalog": false,
+        "price": false,
+        "webManual": false,
+        "ownerManual": true,
+        "homepage": false,
+        "complete": true
+      },
+      "verified": {
+        "complete": true,
+        "date": "2026-07-09",
+        "basis": "official_owner_manual",
+        "manualFile": "ME_2027_ko_KR.txt",
+        "brand": "Hyundai",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "슬라이딩 콘솔",
+        "verifiedBy": "vehicle-manual-audit"
+      },
+      "verificationLevel": "official_manual_verified",
+      "manualEvidence": {
+        "manualFile": "ME_2027_ko_KR.txt",
+        "modelCode": "ME",
+        "modelName": "아이오닉 9",
+        "modelYear": "2027",
+        "basis": "official_owner_manual",
+        "verifiedBy": "vehicle-manual-audit",
+        "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+        "section": "슬라이딩 콘솔",
+        "matchedKeywords": [
+          "슬라이딩 콘솔"
+        ]
+      },
+      "modelSpecificGuides": [
+        {
+          "brand": "Hyundai",
+          "modelCode": "ME",
+          "modelName": "아이오닉 9",
+          "modelYear": "2027",
+          "manualFile": "ME_2027_ko_KR.txt",
+          "pageRange": "ME_2027_ko_KR.txt 본문 검색 확인",
+          "section": "슬라이딩 콘솔",
+          "preconditions": [
+            "슬라이딩 콘솔 적용 사양이어야 합니다."
+          ],
+          "settings": [
+            "별도 설정 메뉴가 아니라 콘솔의 레버를 사용합니다."
+          ],
+          "steps": [
+            "레버를 당깁니다.",
+            "콘솔박스를 앞 또는 뒤로 힘을 주어 밀거나 당깁니다.",
+            "콘솔박스가 “딸깍” 하며 고정되는 소리가 나는지 확인합니다."
+          ],
+          "exitSteps": [
+            "원하는 위치에 고정되면 레버 조작을 멈춥니다."
+          ],
+          "limitations": [
+            "과도한 힘으로 이동시키면 콘솔박스 레일 또는 레버가 손상될 수 있습니다."
+          ],
+          "warnings": [
+            "차가 움직이는 동안에는 슬라이딩 콘솔을 움직이지 마십시오. 급정차나 충돌 시 위험할 수 있습니다."
+          ]
+        }
+      ],
+      "icon": "<svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><path d=\"M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1L7 17M17 7l2.1-2.1\"></path></svg>",
       "sourceDetails": [
         {
           "label": "현대자동차 공식 웹/오너스 매뉴얼",

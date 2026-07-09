@@ -349,6 +349,9 @@ const footerMeta = document.querySelector('.site-footer__meta');
   if (typeof window.applyIoniq6ManualAudit === 'function') {
     window.applyIoniq6ManualAudit();
   }
+  if (typeof window.applyIoniq9ManualAudit === 'function') {
+    window.applyIoniq9ManualAudit();
+  }
   syncSeoDataSnapshot();
   render();
 })();
