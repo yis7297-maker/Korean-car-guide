@@ -346,6 +346,9 @@ const footerMeta = document.querySelector('.site-footer__meta');
   if (typeof window.applyAllNewNexoManualAudit === 'function') {
     window.applyAllNewNexoManualAudit();
   }
+  if (typeof window.applyGenesisG70ManualAudit === 'function') {
+    window.applyGenesisG70ManualAudit();
+  }
   if (typeof window.applyStariaManualAudit === 'function') {
     window.applyStariaManualAudit();
   }
@@ -361,3 +364,5 @@ const footerMeta = document.querySelector('.site-footer__meta');
   syncSeoDataSnapshot();
   render();
 })();
+
+
